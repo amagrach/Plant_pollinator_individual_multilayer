@@ -1,297 +1,295 @@
-﻿Bosque,Codigo,Tanda,Dia,Tiempo,Polinizador,Order,Pollinator_genus,Pollinator_subgenus,Pollinator_species,subespecie,Pollinator_sex,morphoespecie,Det,Comments,numero visitas 1,Planta 1,numero visitas2,Planta 2,numero visitas,Planta,capturado?,Código,observaciones
-Pinar Puebla,PP,1,19.2.2020,,,,,,,,,,,,,,,,,,,,"OJO, cuadrante cambiado PPCS10.1, PPCS6.1 y PPCL1..1 no sirven"
-Pinares de Hinojos,PH,1,20.2.2020,,,,,,,,,,,,,,,,,,,,"OJO, cuadrante cambiado PHc1, PHc2 y PHc3 no sirven"
-Villamanrique Chaparral,VC,1,21.2.2020,nuboso,apis mellifera,,,,,,,,,,2,RO3,0,0,0,0,no,,
-Villamanrique Chaparral,VC,1,21.2.2020,nuboso,apis mellifera,,,,,,,,,,1,RO1,0,0,0,0,no,,
-Villamanrique Chaparral,VC,1,21.2.2020,nuboso,apis mellifera,,,,,,,,,,1,RO1,0,0,0,0,no,,
-Villamanrique Chaparral,VC,1,21.2.2020,nuboso,apis mellifera,,,,,,,,,,5,RO2,0,0,0,0,no,,
-Villamanrique Chaparral,VC,1,21.2.2020,nuboso,apis mellifera,,,,,,,,,,21,RO2,0,0,0,0,no,,
-Villamanrique Chaparral,VC,1,21.2.2020,nuboso,apis mellifera,,,,,,,,,,2,RO3,3,RO2,0,0,no,,
-Villamanrique Chaparral,VC,1,21.2.2020,nuboso,apis mellifera,,,,,,,,,,20,RO2,0,0,0,0,no,,
-Villamanrique Chaparral,VC,1,21.2.2020,nuboso,apis mellifera,,,,,,,,,,8,RO2,0,0,0,0,no,,
-Villamanrique Chaparral,VC,1,21.2.2020,nuboso,apis mellifera,,,,,,,,,,7,RO2,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",apis mellifera,,,,,,,,,,2,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",apis mellifera,,,,,,,,,,3,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",abeja,Hymenoptera,Anthophora,,dispar,,male,,CMF,,1,asphodelus racemosus,0,0,0,0,si,VSAR1,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",apis mellifera,,,,,,,,,,3,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",sirfido oscuro,Diptera,,,,,,sirfido oscuro,,,1,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",apis mellifera,,,,,,,,,,8,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",apis mellifera,,,,,,,,,,1,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",abeja =VSAR1,Hymenoptera,Anthophora,,dispar,,male,,,,1,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",sirfido oscuro,Diptera,,,,,,sirfido oscuro,,,1,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",mosca,Diptera,Empis,,sp,,,,CMF,,2,asphodelus racemosus,0,0,0,0,si,VSAR2,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",sirfido oscuro,Diptera,,,,,,sirfido oscuro,,,2,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",apis mellifera,,,,,,,,,,1,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",mosca=VSAR2,Diptera,,,,,,,,,1,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",apis mellifera,,,,,,,,,,2,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",apis mellifera,,,,,,,,,,3,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",escarabajo peludo marron,Coleoptera,,,,,,,,,1,asphodelus racemosus,0,0,0,0,no,,
-Villamanrique Sur,VS,1,25.2.2020,"despejado, fresco",apis mellifera,,,,,,,,,,3,asphodelus racemosus,0,0,0,0,no,,
-Pinar aznalcazar,PA,1,26.2.2020,nublado,apis mellifera,,,,,,,,,,3,RO1,0,0,0,0,no,,
-Pinar aznalcazar,PA,1,26.2.2020,nublado,apis mellifera,,,,,,,,,,2,RO1,0,0,0,0,no,,
-Pinar aznalcazar,PA,1,26.2.2020,nublado,mosca,Diptera,Empis,,sp,,,,CMF,,3,RO1,0,0,0,0,si,PACRO1,
-Pinar aznalcazar,PA,1,26.2.2020,nublado,apis mellifera,,,,,,,,,,9,RO1,0,0,0,0,no,,
-Pinar aznalcazar,PA,1,26.2.2020,nublado,apis mellifera,,,,,,,,,,11,RO2,0,0,0,0,no,,
-Pinar aznalcazar,PA,1,26.2.2020,nublado,mosca=PACRO1,Diptera,Empis,,sp,,,,,,3,RO3,0,0,0,0,no,,
-Pinar aznalcazar,PA,1,26.2.2020,nublado,apis mellifera,,,,,,,,,,6,RO1,0,0,0,0,no,,
-Pinar aznalcazar,PA,1,26.2.2020,nublado,mosca=PACRO1,Diptera,Empis,,sp,,,,,,2,RO1,0,0,0,0,no,,
-Villamanrique Chaparral,VC,2,3.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,3,RO3,0,,0,0,no,,
-Villamanrique Chaparral,VC,2,3.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,10,RO3,2,RO7,0,0,no,,
-Villamanrique Chaparral,VC,2,3.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,12,RO3,0,0,0,0,no,,
-Villamanrique Chaparral,VC,2,3.3.2020,"despejado, fresco",mariposa arlequin,,,,,,,,,,1,RO3,0,0,0,0,no,,
-Villamanrique Chaparral,VC,2,3.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,10,RO4,0,0,0,0,no,,
-Villamanrique Chaparral,VC,2,3.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,6,RO1,0,0,0,0,no,,
-Villamanrique Chaparral,VC,2,3.3.2020,"despejado, fresco",eucera,,,,,,,,,,1,RO5,0,0,0,0,no,,
-Villamanrique Chaparral,VC,2,3.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,5,RO2,0,0,0,0,no,,
-Villamanrique Chaparral,VC,2,3.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,10,RO3,0,0,0,0,no,,
-Villamanrique Chaparral,VC,2,3.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,27,RO6,0,0,0,0,no,,
-Villamanrique Chaparral,VC,2,3.3.2020,"despejado, fresco",mariposa naranja pequeña,,,,,,,,,,1,RO3,0,0,0,0,no,,
-Villamanrique Chaparral,VC,2,3.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,12,RO2,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,2,Asphodelus fistulosus,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",xylocopa cantabrita,,,,,,,,,,2,Asphodelus fistulosus,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,1,Asphodelus fistulosus,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,1,LS1,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,2,LS1,1,Asphodelus fistulosus,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",coleoptero peludo,,,,,,,,,,1,Asphodelus fistulosus,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",macroglsum,,,,,,,,,,5,Asphodelus fistulosus,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",xylocopa cantabrita,,,,,,,,,,1,Asphodelus fistulosus,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",xylocopa cantabrita,,,,,,,,,,2,Asphodelus fistulosus,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,1,Asphodelus fistulosus,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,2,Asphodelus fistulosus,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,1,LS1,1,Asphodelus fistulosus,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,2,Asphodelus fistulosus,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",xylocopa cantabrita,,,,,,,,,,1,Asphodelus fistulosus,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",apis mellifera,,,,,,,,,,2,LS1,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",eucera,,,,,,,,,,1,Asphodelus fistulosus,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",xylocopa cantabrita,,,,,,,,,,3,Asphodelus fistulosus,0,0,0,0,no,,
-Villamanrique Sur,VS,2,4.3.2020,"despejado, fresco",episyrphus balteatus,,,,,,,,,,1,Asphodelus fistulosus,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",apis mellifera,,,,,,,,,,3,rhamnus lycioides,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",episyrphus balteatus,,,,,,,,,,1,rhamnus lycioides,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",sirfido grande,,,,,,,,,,2,rhamnus lycioides,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",apis mellifera,,,,,,,,,,4,rhamnus lycioides,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",antophora,,,,,,,,,,2,rhamnus lycioides,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",apis mellifera,,,,,,,,,,3,rhamnus lycioides,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",apis mellifera,,,,,,,,,,2,rhamnus lycioides,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",episyrphus balteatus,,,,,,,,,,1,rhamnus lycioides,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",mariposa blanca,,,,,,,,,,1,RO3,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",apis mellifera,,,,,,,,,,4,RO3,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",mosca2,Diptera,Syritta,,pipiens,,,,CMF,,1,rhamnus lycioides,0,0,0,0,si,PAC1,Sin cabeza
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",apis mellifera,,,,,,,,,,4,rhamnus lycioides,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",abeja2,Hymenoptera,Andrena,Hoplandrena,sp,,female,,CMF,,1,rhamnus lycioides,0,0,0,0,si,PAC2,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",abeja3,Hymenoptera,Nomada,,fucata,,female,,CMF,,1,rhamnus lycioides,0,0,0,0,si,PAC3,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",mosca3,Diptera,Myathropa,,florea,,male,,CMF,,2,rhamnus lycioides,0,0,0,0,si,PAC4,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",apis mellifera,,,,,,,,,,5,rhamnus lycioides,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",mosca,,,,,,,,,,1,LS6,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",mariposa arlequin,,,,,,,,,,1,LS6,0,0,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",xylocopa cantabrita,,,,,,,,,,1,LS4,1,LS6,0,0,no,,
-Pinar Aznalcazar,PA,2,10.3.2020,"despejado, viento",apis mellifera,,,,,,,,,,3,rhamnus lycioides,0,0,0,0,no,,
-Pinar Puebla,PP,3,12.3.2020,"nubes, frio",antofora,,,,,,,,,,1,CS38,1,Cs40,0,0,no,,tanda a medias por el confinamiento
-Pinar Puebla,PP,3,12.3.2020,"nubes, frio",apis mellifera,,,,,,,,,,1,CL3,0,0,0,0,no,,
-Pinar Puebla,PP,3,12.3.2020,"nubes, frio",xylocopa cantabrita,,,,,,,,,,2,LS1,0,0,0,0,no,,
-Pinar Puebla,PP,3,12.3.2020,"nubes, frio",apis mellifera,,,,,,,,,,2,CS22,0,0,0,0,no,,
-Pinar Puebla,PP,3,12.3.2020,"nubes, frio",abeja,,,,,,,,,,1,CS22,0,0,0,0,si,PPCS22,
-Pinar Puebla,PP,3,12.3.2020,"nubes, frio",sirfido grande,,,,,,,,,,1,CS22,1,CS26,0,0,no,,
-Pinar Puebla,PP,3,19.4.2020,"sol, frio",episyrphus balteatus,,,,,,,,,,1,Leontodon hispidus,0,0,0,0,no,,
-Pinar Puebla,PP,3,19.4.2020,"sol, frio",apis mellifera,,,,,,,,,,2,CC1,0,0,0,0,no,,
-Pinar Puebla,PP,3,19.4.2020,"sol, frio",escarabajo peludo,,,,,,,,,,2,Leontodon hispidus,0,0,0,0,no,,
-Pinar Puebla,PP,3,19.4.2020,"sol, frio",escarabajo verdoso,,,,,,,,,,2,CC1,0,0,0,0,no,,
-Pinar Puebla,PP,3,19.4.2020,"sol, frio",apis mellifera,,,,,,,,,,3,CC1,0,0,0,0,no,,
-Pinar Puebla,PP,3,19.4.2020,"sol, frio",apis mellifera,,,,,,,,,,2,Leontodon hispidus,0,0,0,0,no,,
-Pinar Puebla,PP,3,19.4.2020,"sol, frio",episyrphus balteatus,,,,,,,,,,1,Leontodon hispidus,0,0,0,0,no,,
-Pinar Puebla,PP,3,19.4.2020,"sol, frio",abeja4,Diptera,Merodon,,sp,,female,,CMF,,1,Leontodon hispidus,0,0,0,0,si,PPC1.1,
-Pinares de Hinojos,PH,3,22.4.2020,despejado,abeja=PHt2.1,,,,,,,,,,1,Leontodon hispidus,0,0,0,0,no,,
-Pinares de Hinojos,PH,3,22.4.2020,despejado,abeja=PHt2.2,,,,,,,,,,2,Leontodon hispidus,0,0,0,0,no,,
-Pinares de Hinojos,PH,3,22.4.2020,despejado,abeja=PHt2.3,,,,,,,,,,3,Leontodon hispidus,0,0,0,0,no,,
-Pinares de Hinojos,PH,3,22.4.2020,despejado,abeja=PHt2.4,,,,,,,,,,4,Leontodon hispidus,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,apis mellifera,,,,,,,,,,1,CS7,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,episyrphus balteatus,,,,,,,,,,1,CS12,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,episyrphus balteatus,,,,,,,,,,1,HH13,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,apis mellifera,,,,,,,,,,1,CC1,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,apis mellifera,,,,,,,,,,3,CC1,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,apis mellifera,,,,,,,,,,2,CC1,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,mosca5,Diptera,Usia,Micrusia,sp,,female,,CMF,,1,hh17,0,0,0,0,si,VSC1,
-Villamanrique Sur,VS,3,23.4.2020,despejado,apis mellifera,,,,,,,,,,2,cs7,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,coleoptero verdoso,,,,,,,,,,1,cs7,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,Pieris brassicae,,,,,,,,,,3,cc1,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,mosca = VCs1,,,,,,,,,,1,cc2,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,mosca = VCs1,,,,,,,,,,1,cc2,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,apis mellifera,,,,,,,,,,2,cc1,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,mariquita,,,,,,,,,,1,tuberaria guttata,0,0,0,0,no,,
-Villamanrique Sur,VS,3,23.4.2020,despejado,apis mellifera,,,,,,,,,,1,cc1,0,0,0,0,no,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,coleoptero4,Coleoptera,Chasmatopterus,,illigeri,,,,CMF,,1,cc1,0,0,0,0,si,VCC1,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,abeja7,Hymenoptera,Eucera,,codinai,,male,,CMF,,1,cc9,0,0,0,0,si,VCCC9,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,apis mellifera,,,,,,,,,,1,cc1,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,apis mellifera,,,,,,,,,,2,cc6,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,apis mellifera,,,,,,,,,,1,cc7,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,abeja=VCCC9,,,,,,,,,,1,cs11,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,apis mellifera,,,,,,,,,,3,cs14,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,apis mellifera,,,,,,,,,,2,cs14,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,coleoptero verdoso,,,,,,,,,,1,cs6,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,bombilido=VCT2.1,,,,,,,,,,1,cc10,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,apis mellifera,,,,,,,,,,1,cc8,1,cc11,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,apis mellifera,,,,,,,,,,3,cc14,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,mosca8,Diptera,Usia,Micrusia,sp,,female,,CMF,,1,cc8,0,0,0,0,si,VCCC8,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,mosca=VCCC8,Diptera,Usia,Micrusia,sp,,,,,,1,cc8,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,bombilido=VCT2.1,Diptera,Bombylella,,atra,,male,,,,2,cc11,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,bombilido=VCT2.1,Diptera,Bombylella,,atra,,male,,,,1,cc14,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,sirfido grande,,,,,,,,,,1,cc14,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,apis mellifera,,,,,,,,,,1,cc11,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,mosca=VCCC8,Diptera,Usia,Micrusia,sp,,,,,,1,cc5,0,0,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,apis mellifera,,,,,,,,,,2,cc1,1,cc2,0,0,,,
-Villamanrique Chaparrral,VC,3,24.4.2020,nuboso,abeja9,Hymenoptera,Nomada,,sp,,,,CMF,,2,cc9,0,0,0,0,si,VCCC9.2,
-Pinar Aznalcazar,PA,3,28.4.2020,muy nublado,coleoptero verdoso,,,,,,,,,,1,CS12,0,0,0,0,,,
-Pinar Aznalcazar,PA,3,28.4.2020,muy nublado,apis mellifera,,,,,,,,,,1,CS5,0,0,0,0,,,
-Pinar Aznalcazar,PA,3,28.4.2020,muy nublado,apis mellifera,,,,,,,,,,3,reseda phyteuma,0,0,0,0,,,
-Pinar Aznalcazar,PA,3,28.4.2020,muy nublado,apis mellifera,,,,,,,,,,2,reseda phyteuma,0,0,0,0,,,
-Pinar Aznalcazar,PA,3,28.4.2020,muy nublado,episyrphus balteatus,,,,,,,,,,1,reseda phyteuma,0,0,0,0,,,
-Pinar Aznalcazar,PA,3,28.4.2020,muy nublado,apis mellifera,,,,,,,,,,3,reseda phyteuma,0,0,0,0,,,
-Pinar Aznalcazar,PA,3,28.4.2020,muy nublado,apis mellifera,,,,,,,,,,1,reseda phyteuma,0,0,0,0,,,
-Pinar Aznalcazar,PA,3,28.4.2020,muy nublado,apis mellifera,,,,,,,,,,2,reseda phyteuma,0,0,0,0,,,
-Pinar Aznalcazar,PA,3,28.4.2020,muy nublado,coleoptero verdoso,,,,,,,,,,1,CS1,0,0,0,0,,,
-Pinar Aznalcazar,PA,3,28.4.2020,muy nublado,apis mellifera,,,,,,,,,,8,LS12,0,0,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,apis mellifera,,,,,,,,,,1,LS1,0,0,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,coleoptero peludo,,,,,,,,,,1,Leontodon hispidus,0,0,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,coleoptero peludo,,,,,,,,,,2,Leontodon hispidus,0,0,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,coleoptero,Coleoptera,Chasmatopterus,,illigeri,,,,CMF,,1,Leontodon hispidus,0,0,0,0,si,PPc1,
-Pinar Puebla,PP,4,29.4.2020,soleado,coleoptero=PPC1,Coleoptera,Chasmatopterus,,illigeri,,,,,,1,Leontodon hispidus,0,0,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,coleoptero=PPC1,Coleoptera,Chasmatopterus,,illigeri,,,,,,2,Leontodon hispidus,0,0,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,coleoptero,Coleoptera,Chasmatopterus,,illigeri,,,,,,1,Leontodon hispidus,0,0,0,0,si,PPC2,
-Pinar Puebla,PP,4,29.4.2020,soleado,coleoptero=PPC2,Coleoptera,Chasmatopterus,,illigeri,,,,,,2,Leontodon hispidus,0,0,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,abeja,Hymenoptera,Andrena,,rhyssonota,flava,male,,CMF,,1,Leontodon hispidus,0,0,0,0,si,PPC3,
-Pinar Puebla,PP,4,29.4.2020,soleado,coleoptero=PPC2,Coleoptera,Chasmatopterus,,illigeri,,,,,,1,Leontodon hispidus,0,0,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,abejorro=PPT2.1,,,,,,,,,,1,tolpis barbata,1,silene colorata,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,apis mellifera,,,,,,,,,,6,CC1,0,0,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,apis mellifera,,,,,,,,,,3,CC1,0,0,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,abeja=PPC3,Hymenoptera,Andrena,,rhyssonota,flava,male,,,,1,Leontodon hispidus,0,0,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,Leptotes pirithous,,,,,,,,,,1,LS1,0,0,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,apis mellifera,,,,,,,,,,4,CC1,0,0,0,0,,,
-Pinar Puebla,PP,4,29.4.2020,soleado,apis mellifera,,,,,,,,,,1,CC1,0,0,0,0,,,
-Pinar Hinojos,PH,4,1.5.2020,soleado,episyrphus balteatus,,,,,,,,,,1,Leontodon hispidus,0,0,0,0,,,
-Pinar Hinojos,PH,4,1.5.2020,soleado,abeja=PHT1.1,,,,,,,,,,1,Leontodon hispidus,0,0,0,0,,,
-Pinar Hinojos,PH,4,1.5.2020,soleado,coleoptero,Coleoptera,Attagenus,,trifasciatus,,,,CMF,,1,Leontodon hispidus,0,0,0,0,si,PHc1,
-Pinar Hinojos,PH,4,1.5.2020,soleado,coleoptero,,,,,,,,,,2,Leontodon hispidus,0,0,0,0,,,
-Pinar Hinojos,PH,4,1.5.2020,soleado,coleoptero,,,,,,,,,,3,Leontodon hispidus,0,0,0,0,,,
-Villamanrique Sur,VS,4,4.5.2020,soleado,abeja,Hymenoptera,Andrena,,cinerea,,female,,CMF,,1,Leontodon hispidus,0,0,0,0,si,VSC1,
-Villamanrique Sur,VS,4,4.5.2020,soleado,coleoptero naranja,Coleoptera,Exoxoma,,lusitanicum,,,,CMF,,1,Leontodon hispidus,0,0,0,0,si,VSC2,
-Villamanrique Sur,VS,4,4.5.2020,soleado,bombilido,,,,,,,,,,1,HH13,0,0,0,0,si,VSc3,
-Villamanrique Sur,VS,4,4.5.2020,soleado,abeja=VSC1,Hymenoptera,Andrena,,cinerea,,female,,,,2,Leontodon hispidus,0,0,0,0,,,
-Villamanrique Sur,VS,4,4.5.2020,soleado,apis mellifera,,,,,,,,,,3,cc1,0,0,0,0,,,
-Villamanrique Sur,VS,4,4.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc1,0,0,0,0,,,
-Villamanrique Sur,VS,4,4.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc1,0,0,0,0,,,
-Villamanrique Sur,VS,4,4.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc11,0,0,0,0,,,
-Villamanrique Sur,VS,4,4.5.2020,soleado,bombilido negro,,,,,,,,,,1,Leontodon hispidus,0,0,0,0,,,
-Villamanrique Sur,VS,4,4.5.2020,soleado,abejs=VSC1,Hymenoptera,Andrena,,cinerea,,female,,,,1,anthemis arvensis,0,0,0,0,,,
-Villamanrique Sur,VS,4,4.5.2020,soleado,coleoptero verde antenas ramificadas,,,,,,,,,,1,CS14,0,0,0,0,,,
-Villamanrique Sur,VS,4,4.5.2020,soleado,bombilido negro,Diptera,Bombylella,,atra,,female,,CMF,,1,Leontodon hispidus,0,0,0,0,,¿VCCC1.3?,
-Villamanrique Sur,VS,4,4.5.2020,soleado,apis mellifera,,,,,,,,,,2,CC1,0,0,0,0,,,
-Villamanrique Sur,VS,4,4.5.2020,soleado,apis mellifera,,,,,,,,,,7,cc1,0,0,0,0,,,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,apis mellifera,,,,,,,,,,2,cc11,1,cc16,0,0,,,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,apis mellifera,,,,,,,,,,2,cc23,0,0,0,0,,,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,apis mellifera,,,,,,,,,,6,cc15,0,0,0,0,,,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,apis mellifera,,,,,,,,,,1,cc11,1+I199,cc10,1,cc12,,,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,Leptotes pirithous,,,,,,,,,,1,cc1,0,0,0,0,,,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,abeja,Hymenoptera,Flavipanurgus,,venustus,,male,,CMF,,1,cc1,0,0,0,0,si,vccc1,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,bombilido negro,,,,,,,,,,1,cc4,0,0,0,0,,,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,abeja= VCCC1,,,,,,,,,,1,andryala integrifolia,0,0,0,0,,,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,abeja= VCCC1,,,,,,,,,,1,cc2,0,0,0,0,,,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,apis mellifera,,,,,,,,,,3,cc3,2,cc19,0,0,,,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,apis mellifera,,,,,,,,,,3,cc23,1,cc22,0,0,,,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,apis mellifera,,,,,,,,,,1,cc7,1,cc6,0,0,,,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,abeja,Hymenoptera,Flavipanurgus,,venustus,,male,,CMF,,1,cc1,0,0,0,0,si,vccc1.2,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,abeja,Hymenoptera,Eucera,,elongatula,,female,,CMF,,2,cc14,0,0,0,0,si,vccc14,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,mosquito?,,,,,,,,,,2,cc6,0,0,0,0,si,vccc6,
-Villamanrique Chaparral,VC,4,5.5.2046,soleado,bombilido,,,,,,,,,,2,cc1,0,0,0,0,si,vccc13,
-Pinar Aznalcazar,PA,4,6.5.2020,soleado,abeja,Hymenoptera,Andrena,,cinerea,,female,,CMF,,1,Leontodon hispidus,0,0,0,0,si,PAC1,
-Pinar Aznalcazar,PA,4,6.5.2020,soleado,Pieris rapae,,,,,,,,,,1,ls12,0,0,0,0,,,
-Pinar Aznalcazar,PA,4,6.5.2020,soleado,apis mellifera,,,,,,,,,,2,reseda phyteuma,0,0,0,0,,,
-Pinar Aznalcazar,PA,4,6.5.2020,soleado,apis mellifera,,,,,,,,,,2,reseda phyteuma,0,0,0,0,,,
-Pinar Aznalcazar,PA,4,6.5.2020,soleado,apis mellifera,,,,,,,,,,1,reseda phyteuma,0,0,0,0,,,
-Pinar Aznalcazar,PA,4,6.5.2020,soleado,abeja=PAC1,Hymenoptera,Andrena,,cinerea,,female,,,,1,CC2,0,0,0,0,,,
-Pinar Puebla,PP,5,7.5.2020,nublado,xylocopa cantabrita,,,,,,,,,,2,cc1,0,0,0,0,,,
-Pinar Puebla,PP,5,7.5.2020,nublado,abeja,Hymenoptera,Panurgus,,calcaratus,,female,,CMF,,3,tolpis barbata,0,0,0,0,si,PPc1,
-Pinar Puebla,PP,5,7.5.2020,nublado,abeja=PPc1,,,,,,,,,,1,andryala integrifolia,0,0,0,0,,,
-Pinar Puebla,PP,5,7.5.2020,nublado,bombilido,Diptera,Systoechus,,sp,,female,,CMF,,3,Leontodon hispidus,0,0,0,0,si,PPc2,
-Pinar Puebla,PP,5,7.5.2020,nublado,apis mellifera,,,,,,,,,,3,cc1,0,0,0,0,,,
-Pinar Puebla,PP,5,7.5.2020,nublado,xylocopa cantabrita,,,,,,,,,,1,cc1,0,0,0,0,,,
-Pinar Puebla,PP,5,7.5.2020,nublado,abeja,Hymenoptera,Panurgus,,dentipes,,male,,CMF,,1,Leontodon hispidus,0,0,0,0,si,PPC4.1,
-Pinar Puebla,PP,5,7.5.2020,nublado,,Diptera,Merodon,,trochantericus,,male,,CMF,,1,Leontodon hispidus,0,0,0,0,si,PPC4.2,
-Pinar Puebla,PP,5,7.5.2020,nublado,xylocopa cantabrita,,,,,,,,,,1,cc1,0,0,0,0,,,
-Pinar Puebla,PP,5,7.5.2020,nublado,xylocopa cantabrita,,,,,,,,,,2,silene colorata,0,0,0,0,,,
-Pinar Puebla,PP,5,7.5.2020,nublado,apis mellifera,,,,,,,,,,1,Leontodon hispidus,0,0,0,0,,,
-Pinar Puebla,PP,5,7.5.2020,nublado,xylocopa cantabrita,,,,,,,,,,1,silene colorata,0,0,0,0,,,
-Pinar Puebla,PP,5,7.5.2020,nublado,bombilido,,,,,,,,,,1,Leontodon hispidus,0,0,0,0,si,PPC3,
-Pinar Puebla,PP,5,7.5.2020,nublado,xylocopa cantabrita,,,,,,,,,,1,silene colorata,1,galactite tomentosa,0,0,,,
-Pinar Puebla,PP,5,7.5.2020,nublado,apis mellifera,,,,,,,,,,3,Leontodon hispidus,0,0,0,0,,,
-Pinar Hinojos,PH,5,8.5.2020,"sol, mucho viento",coleoptero verdoso,,,,,,,,,,1,HC5,0,0,0,0,,,
-Pinar Hinojos,PH,5,8.5.2020,"sol, mucho viento",mosca,Diptera,Melanostoma,,sp,,female,,CMF,,1,HC5,0,0,0,0,si,PHC1,
-Pinar Hinojos,PH,5,8.5.2020,"sol, mucho viento",abeja pequeña alargada,,,,,,,,,,1,Leontodon hispidus,0,0,0,0,,,
-Pinar Hinojos,PH,5,8.5.2020,"sol, mucho viento",abeja,Hymenoptera,Andrena,,cinerea,,female,,CMF,,1,Leontodon hispidus,0,0,0,0,si,PHC2,
-Pinar Hinojos,PH,5,8.5.2020,"sol, mucho viento",abeja=PHC2,Hymenoptera,Andrena,,cinerea,,female,,,,1,Leontodon hispidus,0,0,0,0,,,
-Pinar Hinojos,PH,5,8.5.2020,"sol, mucho viento",abeja=PHC3,,,,,,,,,,2,Leontodon hispidus,0,0,0,0,,,
-Pinar Hinojos,PH,5,8.5.2020,"sol, mucho viento",abeja=PHC4,,,,,,,,,,3,Leontodon hispidus,0,0,0,0,,,
-Villamanrique Sur,VS,5,19.5.2020,soleado,bombus terrestris,,,,,,,,,,1,cs14,0,0,0,0,,,
-Villamanrique Sur,VS,5,19.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc1,0,0,0,0,,,
-Villamanrique Sur,VS,5,19.5.2020,soleado,apis mellifera,,,,,,,,,,2,cc1,0,0,0,0,,,
-Villamanrique Sur,VS,5,19.5.2020,soleado,megascolia maculata,,,,,,,,,,1,cynara humilis,0,0,0,0,,,
-Villamanrique Sur,VS,5,19.5.2020,soleado,coleoptero verdoso,,,,,,,,,,1,cs14,0,0,0,0,,,
-Villamanrique Sur,VS,5,19.5.2020,soleado,dasypoda dusmeti,,,,,,,,,,1,cs14,0,0,0,0,,,
-Villamanrique Sur,VS,5,19.5.2020,soleado,panurgus,,,,,,,,,,1,Leontodon hispidus,0,0,0,0,,,
-Villamanrique Sur,VS,5,19.5.2020,soleado,bombus terrestris,,,,,,,,,,1,cc1,0,0,0,0,,,
-Villamanrique Sur,VS,5,19.5.2020,soleado,dasypoda dusmeti,,,,,,,,,,1,Leontodon hispidus,0,0,0,0,,,
-Villamanrique Sur,VS,5,19.5.2020,soleado,sirfido grande,,,,,,,,,,1,hh20,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc7,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc6,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc3,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,abeja pequeña,Hymenoptera,Flavipanurgus,,venustus,,male,,CMF,,1,cc3,0,0,0,0,si,VCCC3,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,abeja=VCcC3,Hymenoptera,Flavipanurgus,,venustus,,male,,,,1,cc2,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc7,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc1,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,abeja=VCcC3,Hymenoptera,Flavipanurgus,,venustus,,male,,,,1,cc24,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,abeja,Hymenoptera,Eucera,,elongatula,,female,,CMF,,1,cc2,0,0,0,0,si,vccc2,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,bobilido mediano marron,,,,,,,,,,1,cc8,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc7,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc10,1,c22,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,Coenonympha pamphilus,,,,,,,,,,1,cc6,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc24,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,abegra negra brillante pequeña,,,,,,,,,,1,cc24,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc2,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc1,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,bombilidio pequeño marron,,,,,,,,,,1,cc10,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc10,0,0,0,0,,,
-Villamanrique chaparral,VC,5,20.5.2020,soleado,bombilidio pequeño marron,,,,,,,,,,1,cc8,0,0,0,0,,,
-Pinares aznalcazar,PA,5,21.5.2020,soleado,episyrphus balteatus,,,,,,,,,,1,andryala integrifolia,0,0,0,0,,,
-Pinares aznalcazar,PA,5,21.5.2020,soleado,apis mellifera,,,,,,,,,,1,galactite tomentosa,0,0,0,0,,,
-Pinares aznalcazar,PA,5,21.5.2020,soleado,coleoptero negro pequeño,,,,,,,,,,1,galactite tomentosa,0,0,0,0,,,
-Pinares aznalcazar,PA,5,21.5.2020,soleado,apis mellifera,,,,,,,,,,1,galactite tomentosa,0,0,0,0,,,
-Pinares aznalcazar,PA,5,21.5.2020,soleado,abeja,Hymenoptera,Andrena,,flavipes,,female,,CMF,,1,Leontodon hispidus,0,0,0,0,si,PAC1,
-Pinares aznalcazar,PA,5,21.5.2020,soleado,abeja=PAC1,Hymenoptera,Andrena,,flavipes,,female,,,,1,Leontodon hispidus,0,0,0,0,,,
-Pinares aznalcazar,PA,5,21.5.2020,soleado,Pieris rapae,,,,,,,,,,1,galactite tomentosa,0,0,0,0,,,
-Pinares aznalcazar,PA,5,21.5.2020,soleado,abeja=PAC1,Hymenoptera,Andrena,,flavipes,,female,,,,1,galactite tomentosa,0,0,0,0,,,
-Pinar Hinojos,PH,6,25.5.2020,soleado,abeja,Hymenoptera,Andrena,,cinerea,,female,,CMF,,3,Leontodon hispidus,0,0,0,0,si,PHC1,
-Pinar Hinojos,PH,6,25.5.2020,soleado,abeja=PHC1,Hymenoptera,Andrena,,cinerea,,female,,,,1,andryala integrifolia,0,0,0,0,,,
-Pinar Hinojos,PH,6,25.5.2020,soleado,abeja=PHC1,Hymenoptera,Andrena,,cinerea,,female,,,,2,Leontodon hispidus,0,0,0,0,,,
-Pinar Hinojos,PH,6,25.5.2020,soleado,abeja=PHC1,Hymenoptera,Andrena,,cinerea,,female,,,,2,Leontodon hispidus,0,0,0,0,,,
-Pinar Hinojos,PH,6,25.5.2020,soleado,coleoptero negro pequeño,,,,,,,,,,a,Leontodon hispidus,0,0,0,0,,,
-Pinar Puebla,PP,6,26.5.2020,soleado,xylocopa cantabrita,,,,,,,,,,1,cs7,0,0,0,0,,,
-Pinar Puebla,PP,6,26.5.2020,soleado,xylocopa cantabrita,,,,,,,,,,2,cs7,0,0,0,0,,,
-Pinar Puebla,PP,6,26.5.2020,soleado,abeja,Hymenoptera,Panurgus,,calcaratus,,male,,CMF,,1,Leontodon hispidus,0,0,0,0,si,PPC1,
-Pinar Puebla,PP,6,26.5.2020,soleado,abeja=PPC1,Hymenoptera,Panurgus,,calcaratus,,male,,,,1,andryala integrifolia,0,0,0,0,,,
-Pinar Puebla,PP,6,26.5.2020,soleado,abeja=PPC1,Hymenoptera,Panurgus,,calcaratus,,male,,,,1,tolpis barbata,0,0,0,0,,,
-Pinar Puebla,PP,6,26.5.2020,soleado,abeja=PPC1,Hymenoptera,Panurgus,,calcaratus,,male,,,,1,Leontodon hispidus,0,0,0,0,,,
-Pinar Puebla,PP,6,26.5.2020,soleado,abeja=PPC1,Hymenoptera,Panurgus,,calcaratus,,male,,,,2,silene colorata,0,0,0,0,,,
-Villamanrique Sur,VS,6,27.5.2020,soleado,episyrphus balteatus,,,,,,,,,,1,cs1,0,0,0,0,,,
-Villamanrique Sur,VS,6,27.5.2020,soleado,episyrphus balteatus,,,,,,,,,,1,cs9,0,0,0,0,,,
-Villamanrique Sur,VS,6,27.5.2020,soleado,abeja,Hymenoptera,Lasioglossum,,immunitum,,female,,CMF,,1,andryala integrifolia,0,0,0,0,si,VSC1,
-Villamanrique Sur,VS,6,27.5.2020,soleado,apis mellifera,,,,,,,,,,1,cc1,0,0,0,0,,,
-Villamanrique Sur,VS,6,27.5.2020,soleado,abeja=VSC1,,,,,,,,,,1,cs14,0,0,0,0,,,
-Villamanrique Sur,VS,6,27.5.2020,soleado,abeja=VSC1,,,,,,,,,,2,Leontodon hispidus,0,0,0,0,,,
-Villamanrique Sur,VS,6,27.5.2020,soleado,abeja=VSC1,,,,,,,,,,1,andryala integrifolia,0,0,0,0,,,
-Villamanrique Sur,VS,6,27.5.2020,soleado,abeja=VSC1,,,,,,,,,,10,andryala integrifolia,0,0,0,0,,,
-Villamanrique Sur,VS,6,27.5.2020,soleado,dischistus biroi,,,,,,,,,,1,cs14,0,0,0,0,,,
-Villamanrique chaparral,VC,6,28.5.2020,soleado,bombilido nuevo puntos,,,,,,,,,,1,CS8,0,0,0,0,,,
-Villamanrique chaparral,VC,6,28.5.2020,soleado,apis mellifera,,,,,,,,,,2,CC1,0,0,0,0,,,
-Villamanrique chaparral,VC,6,28.5.2020,soleado,abeja,Hymenoptera,Andrena,,limata,,female,,CMF,,1,cs13,0,0,0,0,si,VCC1,
-Villamanrique chaparral,VC,6,28.5.2020,soleado,abeja=VCT1.1,,,,,,,,,,1,cs24,0,0,0,0,,,
-Villamanrique chaparral,VC,6,28.5.2020,soleado,abeja,Hymenoptera,Flavipanurgus,,venustus,,male,,CMF,,1,cc24,0,0,0,0,si,vcc2,
-Villamanrique chaparral,VC,6,28.5.2020,soleado,bombilido pequeño marron,,,,,,,,,,1,cs7,0,0,0,0,,,
-Pinar Aznalcazar,PA,6,29.5.2020,soleado,mosca,,,,,,,,,,1,andryala integrifolia,0,0,0,0,si,PSC1,han cortado todo el pasto
+"Bosque","Codigo","Tanda","Dia","Tiempo","Polinizador","Order","Pollinator_genus","Pollinator_subgenus","Pollinator_species","subespecie","Pollinator_sex","morphoespecie","Det","Comments","numero.visitas.1","Planta.1","numero.visitas2","Planta.2","numero.visitas","Planta","capturado.","Código","observaciones","Pollinator","Pollinator_id","Plant_id","Plant","quad","quad2","year"
+"Villamanrique Chaparral","VC",1,"21.2.2020","nuboso","apis mellifera","","","","","","","","",NA,"2","RO3","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO3","Rosmarinus officinalis","10,4","10,4","2020"
+"Villamanrique Chaparral","VC",1,"21.2.2020","nuboso","apis mellifera","","","","","","","","",NA,"1","RO1","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO1","Rosmarinus officinalis","18,7","18,7","2020"
+"Villamanrique Chaparral","VC",1,"21.2.2020","nuboso","apis mellifera","","","","","","","","",NA,"1","RO1","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO1","Rosmarinus officinalis","18,7","18,7","2020"
+"Villamanrique Chaparral","VC",1,"21.2.2020","nuboso","apis mellifera","","","","","","","","",NA,"5","RO2","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO2","Rosmarinus officinalis","4,2","4,2","2020"
+"Villamanrique Chaparral","VC",1,"21.2.2020","nuboso","apis mellifera","","","","","","","","",NA,"21","RO2","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO2","Rosmarinus officinalis","4,2","4,2","2020"
+"Villamanrique Chaparral","VC",1,"21.2.2020","nuboso","apis mellifera","","","","","","","","",NA,"2","RO3","3","RO2",0,"0","no","","",NA,"Apis mellifera","VCRO3","Rosmarinus officinalis","10,4","10,4","2020"
+"Villamanrique Chaparral","VC",1,"21.2.2020","nuboso","apis mellifera","","","","","","","","",NA,"20","RO2","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO2","Rosmarinus officinalis","4,2","4,2","2020"
+"Villamanrique Chaparral","VC",1,"21.2.2020","nuboso","apis mellifera","","","","","","","","",NA,"8","RO2","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO2","Rosmarinus officinalis","4,2","4,2","2020"
+"Villamanrique Chaparral","VC",1,"21.2.2020","nuboso","apis mellifera","","","","","","","","",NA,"7","RO2","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO2","Rosmarinus officinalis","4,2","4,2","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"2","asphodelus racemosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"3","asphodelus racemosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","abeja","Hymenoptera","Anthophora","","dispar","","male","","CMF",NA,"1","asphodelus racemosus","0","0",0,"0","si","VSAR1","","Anthophora dispar","Anthophora dispar","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"3","asphodelus racemosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","sirfido oscuro","Diptera","","","","","","sirfido oscuro","",NA,"1","asphodelus racemosus","0","0",0,"0","no","","",NA,"Syrphidae 3","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"8","asphodelus racemosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"1","asphodelus racemosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","abeja =VSAR1","Hymenoptera","Anthophora","","dispar","","male","","",NA,"1","asphodelus racemosus","0","0",0,"0","no","","","Anthophora dispar","Anthophora dispar","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","sirfido oscuro","Diptera","","","","","","sirfido oscuro","",NA,"1","asphodelus racemosus","0","0",0,"0","no","","",NA,"Syrphidae 3","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","mosca","Diptera","Empis","","sp","","","","CMF",NA,"2","asphodelus racemosus","0","0",0,"0","si","VSAR2","","Empis sp","Empis sp","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","sirfido oscuro","Diptera","","","","","","sirfido oscuro","",NA,"2","asphodelus racemosus","0","0",0,"0","no","","",NA,"Syrphidae 3","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"1","asphodelus racemosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","mosca=VSAR2","Diptera","","","","","","","",NA,"1","asphodelus racemosus","0","0",0,"0","no","","",NA,"Empis sp","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"2","asphodelus racemosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"3","asphodelus racemosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","escarabajo peludo marron","Coleoptera","","","","","","","",NA,"1","asphodelus racemosus","0","0",0,"0","no","","",NA,"Tropinota squalida","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",1,"25.2.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"3","asphodelus racemosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSasphodelus racemosus","Asphodelus racemosus",NA,"14,21","2020"
+"Pinar Aznalcazar","PA",1,"26.2.2020","nublado","apis mellifera","","","","","","","","",NA,"3","RO1","0","0",0,"0","no","","",NA,"Apis mellifera","PARO1","Rosmarinus officinalis","4,23","4,23","2020"
+"Pinar Aznalcazar","PA",1,"26.2.2020","nublado","apis mellifera","","","","","","","","",NA,"2","RO1","0","0",0,"0","no","","",NA,"Apis mellifera","PARO1","Rosmarinus officinalis","4,23","4,23","2020"
+"Pinar Aznalcazar","PA",1,"26.2.2020","nublado","mosca","Diptera","Empis","","sp","","","","CMF",NA,"3","RO1","0","0",0,"0","si","PACRO1","","Empis sp","Empis sp","PARO1","Rosmarinus officinalis","4,23","4,23","2020"
+"Pinar Aznalcazar","PA",1,"26.2.2020","nublado","apis mellifera","","","","","","","","",NA,"9","RO1","0","0",0,"0","no","","",NA,"Apis mellifera","PARO1","Rosmarinus officinalis","4,23","4,23","2020"
+"Pinar Aznalcazar","PA",1,"26.2.2020","nublado","apis mellifera","","","","","","","","",NA,"11","RO2","0","0",0,"0","no","","",NA,"Apis mellifera","PARO2","Rosmarinus officinalis","7,9","7,9","2020"
+"Pinar Aznalcazar","PA",1,"26.2.2020","nublado","mosca=PACRO1","Diptera","Empis","","sp","","","","",NA,"3","RO3","0","0",0,"0","no","","","Empis sp","Empis sp","PARO3","Rosmarinus officinalis","7,9","7,9","2020"
+"Pinar Aznalcazar","PA",1,"26.2.2020","nublado","apis mellifera","","","","","","","","",NA,"6","RO1","0","0",0,"0","no","","",NA,"Apis mellifera","PARO1","Rosmarinus officinalis","4,23","4,23","2020"
+"Pinar Aznalcazar","PA",1,"26.2.2020","nublado","mosca=PACRO1","Diptera","Empis","","sp","","","","",NA,"2","RO1","0","0",0,"0","no","","","Empis sp","Empis sp","PARO1","Rosmarinus officinalis","4,23","4,23","2020"
+"Villamanrique Chaparral","VC",2,"3.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"3","RO3","0","",0,"0","no","","",NA,"Apis mellifera","VCRO3","Rosmarinus officinalis","10,4","10,4","2020"
+"Villamanrique Chaparral","VC",2,"3.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"10","RO3","2","RO7",0,"0","no","","",NA,"Apis mellifera","VCRO3","Rosmarinus officinalis","10,4","10,4","2020"
+"Villamanrique Chaparral","VC",2,"3.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"12","RO3","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO3","Rosmarinus officinalis","10,4","10,4","2020"
+"Villamanrique Chaparral","VC",2,"3.3.2020","despejado, fresco","mariposa arlequin","","","","","","","","",NA,"1","RO3","0","0",0,"0","no","","",NA,"Zerynthia rumina","VCRO3","Rosmarinus officinalis","10,4","10,4","2020"
+"Villamanrique Chaparral","VC",2,"3.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"10","RO4","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO4","Rosmarinus officinalis","24,7","24,7","2020"
+"Villamanrique Chaparral","VC",2,"3.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"6","RO1","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO1","Rosmarinus officinalis","18,7","18,7","2020"
+"Villamanrique Chaparral","VC",2,"3.3.2020","despejado, fresco","eucera","","","","","","","","",NA,"1","RO5","0","0",0,"0","no","","",NA,"Eucera sp","VCRO5","Rosmarinus officinalis","6,20","6,20","2020"
+"Villamanrique Chaparral","VC",2,"3.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"5","RO2","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO2","Rosmarinus officinalis","4,2","4,2","2020"
+"Villamanrique Chaparral","VC",2,"3.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"10","RO3","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO3","Rosmarinus officinalis","10,4","10,4","2020"
+"Villamanrique Chaparral","VC",2,"3.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"27","RO6","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO6","Rosmarinus officinalis","16,14","16,14","2020"
+"Villamanrique Chaparral","VC",2,"3.3.2020","despejado, fresco","mariposa naranja pequeña","","","","","","","","",NA,"1","RO3","0","0",0,"0","no","","",NA,"Lepidoptera","VCRO3","Rosmarinus officinalis","10,4","10,4","2020"
+"Villamanrique Chaparral","VC",2,"3.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"12","RO2","0","0",0,"0","no","","",NA,"Apis mellifera","VCRO2","Rosmarinus officinalis","4,2","4,2","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"2","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","xylocopa cantabrita","","","","","","","","",NA,"2","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Xylocopa cantabrita","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"1","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"1","LS1","0","0",0,"0","no","","",NA,"Apis mellifera","VSLS1","Lavandula stoechas","14,21","14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"2","LS1","1","Asphodelus fistulosus",0,"0","no","","",NA,"Apis mellifera","VSLS1","Lavandula stoechas","14,21","14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","coleoptero peludo","","","","","","","","",NA,"1","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Tropinota squalida","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","macroglsum","","","","","","","","",NA,"5","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Macroglossum stellatarum","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","xylocopa cantabrita","","","","","","","","",NA,"1","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Xylocopa cantabrita","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","xylocopa cantabrita","","","","","","","","",NA,"2","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Xylocopa cantabrita","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"1","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"2","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"1","LS1","1","Asphodelus fistulosus",0,"0","no","","",NA,"Apis mellifera","VSLS1","Lavandula stoechas","14,21","14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"2","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Apis mellifera","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","xylocopa cantabrita","","","","","","","","",NA,"1","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Xylocopa cantabrita","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","apis mellifera","","","","","","","","",NA,"2","LS1","0","0",0,"0","no","","",NA,"Apis mellifera","VSLS1","Lavandula stoechas","14,21","14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","eucera","","","","","","","","",NA,"1","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Eucera sp","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","xylocopa cantabrita","","","","","","","","",NA,"3","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Xylocopa cantabrita","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Villamanrique Sur","VS",2,"4.3.2020","despejado, fresco","episyrphus balteatus","","","","","","","","",NA,"1","Asphodelus fistulosus","0","0",0,"0","no","","",NA,"Episyrphus balteatus","VSAsphodelus fistulosus","Asphodelus fistulosus",NA,"14,21","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","apis mellifera","","","","","","","","",NA,"3","rhamnus lycioides","0","0",0,"0","no","","",NA,"Apis mellifera","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","episyrphus balteatus","","","","","","","","",NA,"1","rhamnus lycioides","0","0",0,"0","no","","",NA,"Episyrphus balteatus","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","sirfido grande","","","","","","","","",NA,"2","rhamnus lycioides","0","0",0,"0","no","","",NA,"Syrphidae 3","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","apis mellifera","","","","","","","","",NA,"4","rhamnus lycioides","0","0",0,"0","no","","",NA,"Apis mellifera","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","antophora","","","","","","","","",NA,"2","rhamnus lycioides","0","0",0,"0","no","","",NA,"Anthophora dispar","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","apis mellifera","","","","","","","","",NA,"3","rhamnus lycioides","0","0",0,"0","no","","",NA,"Apis mellifera","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","apis mellifera","","","","","","","","",NA,"2","rhamnus lycioides","0","0",0,"0","no","","",NA,"Apis mellifera","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","episyrphus balteatus","","","","","","","","",NA,"1","rhamnus lycioides","0","0",0,"0","no","","",NA,"Episyrphus balteatus","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","mariposa blanca","","","","","","","","",NA,"1","RO3","0","0",0,"0","no","","",NA,"Pieris rapae","PARO3","Rosmarinus officinalis","7,9","7,9","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","apis mellifera","","","","","","","","",NA,"4","RO3","0","0",0,"0","no","","",NA,"Apis mellifera","PARO3","Rosmarinus officinalis","7,9","7,9","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","mosca2","Diptera","Syritta","","pipiens","","","","CMF",NA,"1","rhamnus lycioides","0","0",0,"0","si","PAC1","Sin cabeza","Syritta pipiens","Syritta pipiens","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","apis mellifera","","","","","","","","",NA,"4","rhamnus lycioides","0","0",0,"0","no","","",NA,"Apis mellifera","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","abeja2","Hymenoptera","Andrena","Hoplandrena","sp","","female","","CMF",NA,"1","rhamnus lycioides","0","0",0,"0","si","PAC2","","Andrena sp","Andrena sp","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","abeja3","Hymenoptera","Nomada","","fucata","","female","","CMF",NA,"1","rhamnus lycioides","0","0",0,"0","si","PAC3","","Nomada fucata","Nomada fucata","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","mosca3","Diptera","Myathropa","","florea","","male","","CMF",NA,"2","rhamnus lycioides","0","0",0,"0","si","PAC4","","Myathropa florea","Myathropa florea","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","apis mellifera","","","","","","","","",NA,"5","rhamnus lycioides","0","0",0,"0","no","","",NA,"Apis mellifera","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","mosca","","","","","","","","",NA,"1","LS6","0","0",0,"0","no","","",NA,"Empis sp","PALS6","Lavandula stoechas","10,14","10,14","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","mariposa arlequin","","","","","","","","",NA,"1","LS6","0","0",0,"0","no","","",NA,"Zerynthia rumina","PALS6","Lavandula stoechas","10,14","10,14","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","xylocopa cantabrita","","","","","","","","",NA,"1","LS4","1","LS6",0,"0","no","","",NA,"Xylocopa cantabrita","PALS4","Lavandula stoechas","4,6","4,6","2020"
+"Pinar Aznalcazar","PA",2,"10.3.2020","despejado, viento","apis mellifera","","","","","","","","",NA,"3","rhamnus lycioides","0","0",0,"0","no","","",NA,"Apis mellifera","PArhamnus lycioides","Rhamnus lycioides",NA,"7,5","2020"
+"Pinar Puebla","PP",3,"12.3.2020","nubes, frio","antofora","","","","","","","","",NA,"1","CS38","1","Cs40",0,"0","no","","tanda a medias por el confinamiento",NA,"Anthophora dispar","PPCS38","Cistus salviifolius","22,6","22,6","2020"
+"Pinar Puebla","PP",3,"12.3.2020","nubes, frio","apis mellifera","","","","","","","","",NA,"1","CL3","0","0",0,"0","no","","",NA,"Apis mellifera","PPCL3","Cistus ladanifer","17,4","17,4","2020"
+"Pinar Puebla","PP",3,"12.3.2020","nubes, frio","xylocopa cantabrita","","","","","","","","",NA,"2","LS1","0","0",0,"0","no","","",NA,"Xylocopa cantabrita","PPLS1","Lavandula stoechas","9,19","9,19","2020"
+"Pinar Puebla","PP",3,"12.3.2020","nubes, frio","apis mellifera","","","","","","","","",NA,"2","CS22","0","0",0,"0","no","","",NA,"Apis mellifera","PPCS22","Cistus salviifolius","6,11","6,11","2020"
+"Pinar Puebla","PP",3,"12.3.2020","nubes, frio","abeja","","","","","","","","",NA,"1","CS22","0","0",0,"0","si","PPCS22","",NA,"abeja","PPCS22","Cistus salviifolius","6,11","6,11","2020"
+"Pinar Puebla","PP",3,"12.3.2020","nubes, frio","sirfido grande","","","","","","","","",NA,"1","CS22","1","CS26",0,"0","no","","",NA,"Syrphidae 3","PPCS22","Cistus salviifolius","6,11","6,11","2020"
+"Pinar Puebla","PP",3,"19.4.2020","sol, frio","episyrphus balteatus","","","","","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","no","","",NA,"Episyrphus balteatus","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",3,"19.4.2020","sol, frio","apis mellifera","","","","","","","","",NA,"2","CC1","0","0",0,"0","no","","",NA,"Apis mellifera","PPCC1","Cistus crispus",NA,"20,6","2020"
+"Pinar Puebla","PP",3,"19.4.2020","sol, frio","escarabajo peludo","","","","","","","","",NA,"2","Leontodon hispidus","0","0",0,"0","no","","",NA,"Tropinota squalida","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",3,"19.4.2020","sol, frio","escarabajo verdoso","","","","","","","","",NA,"2","CC1","0","0",0,"0","no","","",NA,"Psilothrix viridicoerulea","PPCC1","Cistus crispus",NA,"20,6","2020"
+"Pinar Puebla","PP",3,"19.4.2020","sol, frio","apis mellifera","","","","","","","","",NA,"3","CC1","0","0",0,"0","no","","",NA,"Apis mellifera","PPCC1","Cistus crispus",NA,"20,6","2020"
+"Pinar Puebla","PP",3,"19.4.2020","sol, frio","apis mellifera","","","","","","","","",NA,"2","Leontodon hispidus","0","0",0,"0","no","","",NA,"Apis mellifera","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",3,"19.4.2020","sol, frio","episyrphus balteatus","","","","","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","no","","",NA,"Episyrphus balteatus","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",3,"19.4.2020","sol, frio","abeja4","Diptera","Merodon","","sp","","female","","CMF",NA,"1","Leontodon hispidus","0","0",0,"0","si","PPC1.1","","Merodon sp","Merodon sp","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Hinojos","PH",3,"22.4.2020","despejado","abeja=PHt2.1","","","","","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","no","","",NA,"Andrena cinerea","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",3,"22.4.2020","despejado","abeja=PHt2.2","","","","","","","","",NA,"2","Leontodon hispidus","0","0",0,"0","no","","",NA,"Episyrphus balteatus","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",3,"22.4.2020","despejado","abeja=PHt2.3","","","","","","","","",NA,"3","Leontodon hispidus","0","0",0,"0","no","","",NA,"Episyrphus balteatus","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",3,"22.4.2020","despejado","abeja=PHt2.4","","","","","","","","",NA,"4","Leontodon hispidus","0","0",0,"0","no","","",NA,"Dilophus sp","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","apis mellifera","","","","","","","","",NA,"1","CS7","0","0",0,"0","no","","",NA,"Apis mellifera","VSCS7","Cistus salviifolius",NA,"9,14","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","episyrphus balteatus","","","","","","","","",NA,"1","CS12","0","0",0,"0","no","","",NA,"Episyrphus balteatus","VSCS12","Cistus salviifolius",NA,"4,24","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","episyrphus balteatus","","","","","","","","",NA,"1","HH13","0","0",0,"0","no","","",NA,"Episyrphus balteatus","VSHH13","Halimium halimifolium","5,4","5,4","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","apis mellifera","","","","","","","","",NA,"1","CC1","0","0",0,"0","no","","",NA,"Apis mellifera","VSCC1","Leontodon hispidus","20,16","20,16","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","apis mellifera","","","","","","","","",NA,"3","CC1","0","0",0,"0","no","","",NA,"Apis mellifera","VSCC1","Leontodon hispidus","20,16","20,16","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","apis mellifera","","","","","","","","",NA,"2","CC1","0","0",0,"0","no","","",NA,"Apis mellifera","VSCC1","Leontodon hispidus","20,16","20,16","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","mosca5","Diptera","Usia","Micrusia","sp","","female","","CMF",NA,"1","hh17","0","0",0,"0","si","VSC1","","Usia sp","Usia sp","VShh17","Halimium halimifolium",NA,"7,2","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","apis mellifera","","","","","","","","",NA,"2","cs7","0","0",0,"0","no","","",NA,"Apis mellifera","VScs7","Cistus salviifolius",NA,"9,14","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","coleoptero verdoso","","","","","","","","",NA,"1","cs7","0","0",0,"0","no","","",NA,"Psilothrix viridicoerulea","VScs7","Cistus salviifolius",NA,"9,14","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","Pieris brassicae","","","","","","","","",NA,"3","cc1","0","0",0,"0","no","","",NA,"Pieris brassicae","VScc1","Cistus crispus",NA,"20,16","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","mosca = VCs1","","","","","","","","",NA,"1","cc2","0","0",0,"0","no","","",NA,"Usia sp","VScc2","Cistus crispus",NA,"18,14","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","mosca = VCs1","","","","","","","","",NA,"1","cc2","0","0",0,"0","no","","",NA,"Usia sp","VScc2","Cistus crispus",NA,"18,14","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","apis mellifera","","","","","","","","",NA,"2","cc1","0","0",0,"0","no","","",NA,"Apis mellifera","VScc1","Cistus crispus",NA,"20,16","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","mariquita","","","","","","","","",NA,"1","tuberaria guttata","0","0",0,"0","no","","",NA,"mariquita","VStuberaria guttata","Tuberaria guttata",NA,"18,14","2020"
+"Villamanrique Sur","VS",3,"23.4.2020","despejado","apis mellifera","","","","","","","","",NA,"1","cc1","0","0",0,"0","no","","",NA,"Apis mellifera","VScc1","Cistus crispus",NA,"20,16","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","coleoptero4","Coleoptera","Chasmatopterus","","illigeri","","","","CMF",NA,"1","cc1","0","0",0,"0","si","VCC1","","Chasmatopterus illigeri","Chasmatopterus illigeri","VCcc1","Cistus crispus",NA,"7,2","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","abeja7","Hymenoptera","Eucera","","codinai","","male","","CMF",NA,"1","cc9","0","0",0,"0","si","VCCC9","","Eucera codinai","Eucera codinai","VCcc9","Cistus crispus",NA,"17,11","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","apis mellifera","","","","","","","","",NA,"1","cc1","0","0",0,"0","","","",NA,"Apis mellifera","VCcc1","Cistus crispus",NA,"7,2","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","apis mellifera","","","","","","","","",NA,"2","cc6","0","0",0,"0","","","",NA,"Apis mellifera","VCcc6","Cistus crispus",NA,"9,3","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","apis mellifera","","","","","","","","",NA,"1","cc7","0","0",0,"0","","","",NA,"Apis mellifera","VCcc7","Cistus crispus",NA,"11,6","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","abeja=VCCC9","","","","","","","","",NA,"1","cs11","0","0",0,"0","","","",NA,"Eucera codinai","VCcs11","Cistus salviifolius",NA,"10,12","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","apis mellifera","","","","","","","","",NA,"3","cs14","0","0",0,"0","","","",NA,"Apis mellifera","VCcs14","Cistus salviifolius",NA,"24,11","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","apis mellifera","","","","","","","","",NA,"2","cs14","0","0",0,"0","","","",NA,"Apis mellifera","VCcs14","Cistus salviifolius",NA,"24,11","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","coleoptero verdoso","","","","","","","","",NA,"1","cs6","0","0",0,"0","","","",NA,"Psilothrix viridicoerulea","VCcs6","Cistus salviifolius",NA,"10,9","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","bombilido=VCT2.1","","","","","","","","",NA,"1","cc10","0","0",0,"0","","","",NA,"Bombylis sp","VCcc10","Cistus crispus",NA,"17,11","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","apis mellifera","","","","","","","","",NA,"1","cc8","1","cc11",0,"0","","","",NA,"Apis mellifera","VCcc8","Cistus crispus",NA,"17,11","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","apis mellifera","","","","","","","","",NA,"3","cc14","0","0",0,"0","","","",NA,"Apis mellifera","VCcc14","Cistus crispus",NA,"2,9","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","mosca8","Diptera","Usia","Micrusia","sp","","female","","CMF",NA,"1","cc8","0","0",0,"0","si","VCCC8","","Usia sp","Usia sp","VCcc8","Cistus crispus",NA,"17,11","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","mosca=VCCC8","Diptera","Usia","Micrusia","sp","","","","",NA,"1","cc8","0","0",0,"0","","","","Usia sp","Usia sp","VCcc8","Cistus crispus",NA,"17,11","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","bombilido=VCT2.1","Diptera","Bombylella","","atra","","male","","",NA,"2","cc11","0","0",0,"0","","","","Bombylella atra","Bombylella atra","VCcc11","Cistus crispus",NA,"19,10","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","bombilido=VCT2.1","Diptera","Bombylella","","atra","","male","","",NA,"1","cc14","0","0",0,"0","","","","Bombylella atra","Bombylella atra","VCcc14","Cistus crispus",NA,"2,9","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","sirfido grande","","","","","","","","",NA,"1","cc14","0","0",0,"0","","","",NA,"Syrphidae 3","VCcc14","Cistus crispus",NA,"2,9","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","apis mellifera","","","","","","","","",NA,"1","cc11","0","0",0,"0","","","",NA,"Apis mellifera","VCcc11","Cistus crispus",NA,"19,10","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","mosca=VCCC8","Diptera","Usia","Micrusia","sp","","","","",NA,"1","cc5","0","0",0,"0","","","","Usia sp","Usia sp","VCcc5","Cistus crispus",NA,"9,3","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","apis mellifera","","","","","","","","",NA,"2","cc1","1","cc2",0,"0","","","",NA,"Apis mellifera","VCcc1","Cistus crispus",NA,"7,2","2020"
+"Villamanrique Chaparral","VC",3,"24.4.2020","nuboso","abeja9","Hymenoptera","Nomada","","sp","","","","CMF",NA,"2","cc9","0","0",0,"0","si","VCCC9.2","","Nomada sp","Nomada sp","VCcc9","Cistus crispus",NA,"17,11","2020"
+"Pinar Aznalcazar","PA",3,"28.4.2020","muy nublado","coleoptero verdoso","","","","","","","","",NA,"1","CS12","0","0",0,"0","","","",NA,"Psilothrix viridicoerulea","PACS12","Cistus salviifolius","10,10","10,10","2020"
+"Pinar Aznalcazar","PA",3,"28.4.2020","muy nublado","apis mellifera","","","","","","","","",NA,"1","CS5","0","0",0,"0","","","",NA,"Apis mellifera","PACS5","Lysimachia arvensis","10,10","10,10","2020"
+"Pinar Aznalcazar","PA",3,"28.4.2020","muy nublado","apis mellifera","","","","","","","","",NA,"3","reseda phyteuma","0","0",0,"0","","","",NA,"Apis mellifera","PAreseda phyteuma","Reseda phyteuma",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",3,"28.4.2020","muy nublado","apis mellifera","","","","","","","","",NA,"2","reseda phyteuma","0","0",0,"0","","","",NA,"Apis mellifera","PAreseda phyteuma","Reseda phyteuma",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",3,"28.4.2020","muy nublado","episyrphus balteatus","","","","","","","","",NA,"1","reseda phyteuma","0","0",0,"0","","","",NA,"Episyrphus balteatus","PAreseda phyteuma","Reseda phyteuma",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",3,"28.4.2020","muy nublado","apis mellifera","","","","","","","","",NA,"3","reseda phyteuma","0","0",0,"0","","","",NA,"Apis mellifera","PAreseda phyteuma","Reseda phyteuma",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",3,"28.4.2020","muy nublado","apis mellifera","","","","","","","","",NA,"1","reseda phyteuma","0","0",0,"0","","","",NA,"Apis mellifera","PAreseda phyteuma","Reseda phyteuma",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",3,"28.4.2020","muy nublado","apis mellifera","","","","","","","","",NA,"2","reseda phyteuma","0","0",0,"0","","","",NA,"Apis mellifera","PAreseda phyteuma","Reseda phyteuma",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",3,"28.4.2020","muy nublado","coleoptero verdoso","","","","","","","","",NA,"1","CS1","0","0",0,"0","","","",NA,"Psilothrix viridicoerulea","PACS1","Cistus salviifolius","2,4","2,4","2020"
+"Pinar Aznalcazar","PA",3,"28.4.2020","muy nublado","apis mellifera","","","","","","","","",NA,"8","LS12","0","0",0,"0","","","",NA,"Apis mellifera","PALS12","Lavandula stoechas","10,10","10,10","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","apis mellifera","","","","","","","","",NA,"1","LS1","0","0",0,"0","","","",NA,"Apis mellifera","PPLS1","Lavandula stoechas","9,19","9,19","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","coleoptero peludo","","","","","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","",NA,"Tropinota squalida","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","coleoptero peludo","","","","","","","","",NA,"2","Leontodon hispidus","0","0",0,"0","","","",NA,"Tropinota squalida","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","coleoptero","Coleoptera","Chasmatopterus","","illigeri","","","","CMF",NA,"1","Leontodon hispidus","0","0",0,"0","si","PPc1","","Chasmatopterus illigeri","Chasmatopterus illigeri","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","coleoptero=PPC1","Coleoptera","Chasmatopterus","","illigeri","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","","Chasmatopterus illigeri","Chasmatopterus illigeri","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","coleoptero=PPC1","Coleoptera","Chasmatopterus","","illigeri","","","","",NA,"2","Leontodon hispidus","0","0",0,"0","","","","Chasmatopterus illigeri","Chasmatopterus illigeri","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","coleoptero","Coleoptera","Chasmatopterus","","illigeri","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","si","PPC2","","Chasmatopterus illigeri","Chasmatopterus illigeri","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","coleoptero=PPC2","Coleoptera","Chasmatopterus","","illigeri","","","","",NA,"2","Leontodon hispidus","0","0",0,"0","","","","Chasmatopterus illigeri","Chasmatopterus illigeri","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","abeja","Hymenoptera","Andrena","","rhyssonota","flava","male","","CMF",NA,"1","Leontodon hispidus","0","0",0,"0","si","PPC3","","Andrena rhyssonota","Andrena rhyssonota","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","coleoptero=PPC2","Coleoptera","Chasmatopterus","","illigeri","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","","Chasmatopterus illigeri","Chasmatopterus illigeri","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","abejorro=PPT2.1","","","","","","","","",NA,"1","tolpis barbata","1","silene colorata",0,"0","","","",NA,"Xylocopa cantabrita","PPtolpis barbata","Tolpis barbata",NA,"16,10","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","apis mellifera","","","","","","","","",NA,"6","CC1","0","0",0,"0","","","",NA,"Apis mellifera","PPCC1","Cistus crispus",NA,"20,6","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","apis mellifera","","","","","","","","",NA,"3","CC1","0","0",0,"0","","","",NA,"Apis mellifera","PPCC1","Cistus crispus",NA,"20,6","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","abeja=PPC3","Hymenoptera","Andrena","","rhyssonota","flava","male","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","","Andrena rhyssonota","Andrena rhyssonota","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","Leptotes pirithous","","","","","","","","",NA,"1","LS1","0","0",0,"0","","","",NA,"Leptotes pirithous","PPLS1","Lavandula stoechas","9,19","9,19","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","apis mellifera","","","","","","","","",NA,"4","CC1","0","0",0,"0","","","",NA,"Apis mellifera","PPCC1","Cistus crispus",NA,"20,6","2020"
+"Pinar Puebla","PP",4,"29.4.2020","soleado","apis mellifera","","","","","","","","",NA,"1","CC1","0","0",0,"0","","","",NA,"Apis mellifera","PPCC1","Cistus crispus",NA,"20,6","2020"
+"Pinar Hinojos","PH",4,"1.5.2020","soleado","episyrphus balteatus","","","","","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","",NA,"Episyrphus balteatus","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",4,"1.5.2020","soleado","abeja=PHT1.1","","","","","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","",NA,"Andrena flavipes","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",4,"1.5.2020","soleado","coleoptero","Coleoptera","Attagenus","","trifasciatus","","","","CMF",NA,"1","Leontodon hispidus","0","0",0,"0","si","PHc1","","Attagenus trifasciatus","Attagenus trifasciatus","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",4,"1.5.2020","soleado","coleoptero","","","","","","","","",NA,"2","Leontodon hispidus","0","0",0,"0","","","",NA,"Tropinota squalida","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",4,"1.5.2020","soleado","coleoptero","","","","","","","","",NA,"3","Leontodon hispidus","0","0",0,"0","","","",NA,"Tropinota squalida","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","abeja","Hymenoptera","Andrena","","cinerea","","female","","CMF",NA,"1","Leontodon hispidus","0","0",0,"0","si","VSC1","","Andrena cinerea","Andrena cinerea","VSLeontodon hispidus","Leontodon hispidus",NA,"18,14","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","coleoptero naranja","Coleoptera","Exoxoma","","lusitanicum","","","","CMF",NA,"1","Leontodon hispidus","0","0",0,"0","si","VSC2","","Exoxoma lusitanicum","Exoxoma lusitanicum","VSLeontodon hispidus","Leontodon hispidus",NA,"18,14","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","bombilido","","","","","","","","",NA,"1","HH13","0","0",0,"0","si","VSc3","",NA,"Bombylella atra","VSHH13","Halimium halimifolium","5,4","5,4","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","abeja=VSC1","Hymenoptera","Andrena","","cinerea","","female","","",NA,"2","Leontodon hispidus","0","0",0,"0","","","","Andrena cinerea","Andrena cinerea","VSLeontodon hispidus","Leontodon hispidus",NA,"18,14","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","apis mellifera","","","","","","","","",NA,"3","cc1","0","0",0,"0","","","",NA,"Apis mellifera","VScc1","Cistus crispus",NA,"20,16","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc1","0","0",0,"0","","","",NA,"Apis mellifera","VScc1","Cistus crispus",NA,"20,16","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc1","0","0",0,"0","","","",NA,"Apis mellifera","VScc1","Cistus crispus",NA,"20,16","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc11","0","0",0,"0","","","",NA,"Apis mellifera","VScc11","Cistus crispus",NA,"13,22","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","bombilido negro","","","","","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","",NA,"Bombylella atra","VSLeontodon hispidus","Leontodon hispidus",NA,"18,14","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","abejs=VSC1","Hymenoptera","Andrena","","cinerea","","female","","",NA,"1","anthemis arvensis","0","0",0,"0","","","","Andrena cinerea","Andrena cinerea","VSanthemis arvensis","Anthemis arvensis",NA,"20,16","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","coleoptero verde antenas ramificadas","","","","","","","","",NA,"1","CS14","0","0",0,"0","","","",NA,"Psilothrix viridicoerulea","VSCS14","Cistus salviifolius","10,21","10,21","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","bombilido negro","Diptera","Bombylella","","atra","","female","","CMF",NA,"1","Leontodon hispidus","0","0",0,"0","","¿VCCC1.3?","","Bombylella atra","Bombylella atra","VSLeontodon hispidus","Leontodon hispidus",NA,"18,14","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","apis mellifera","","","","","","","","",NA,"2","CC1","0","0",0,"0","","","",NA,"Apis mellifera","VSCC1","Leontodon hispidus","20,16","20,16","2020"
+"Villamanrique Sur","VS",4,"4.5.2020","soleado","apis mellifera","","","","","","","","",NA,"7","cc1","0","0",0,"0","","","",NA,"Apis mellifera","VScc1","Cistus crispus",NA,"20,16","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","apis mellifera","","","","","","","","",NA,"2","cc11","1","cc16",0,"0","","","",NA,"Apis mellifera","VCcc11","Cistus crispus",NA,"19,10","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","apis mellifera","","","","","","","","",NA,"2","cc23","0","0",0,"0","","","",NA,"Apis mellifera","VCcc23","Cistus crispus","9,11","9,11","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","apis mellifera","","","","","","","","",NA,"6","cc15","0","0",0,"0","","","",NA,"Apis mellifera","VCcc15","Cistus crispus",NA,"2,9","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","apis mellifera","","","","","","","","",NA,"1","cc11","1+I199","cc10",1,"cc12","","","",NA,"Apis mellifera","VCcc11","Cistus crispus",NA,"19,10","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","Leptotes pirithous","","","","","","","","",NA,"1","cc1","0","0",0,"0","","","",NA,"Leptotes pirithous","VCcc1","Cistus crispus",NA,"7,2","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","abeja","Hymenoptera","Flavipanurgus","","venustus","","male","","CMF",NA,"1","cc1","0","0",0,"0","si","vccc1","","Flavipanurgus venustus","Flavipanurgus venustus","VCcc1","Cistus crispus",NA,"7,2","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","bombilido negro","","","","","","","","",NA,"1","cc4","0","0",0,"0","","","",NA,"Bombylella atra","VCcc4","Cistus crispus",NA,"9,3","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","abeja= VCCC1","","","","","","","","",NA,"1","andryala integrifolia","0","0",0,"0","","","",NA,"Andrena limata","VCandryala integrifolia","Andryala integrifolia",NA,"17,11","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","abeja= VCCC1","","","","","","","","",NA,"1","cc2","0","0",0,"0","","","",NA,"Andrena limata","VCcc2","Cistus crispus",NA,"7,2","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","apis mellifera","","","","","","","","",NA,"3","cc3","2","cc19",0,"0","","","",NA,"Apis mellifera","VCcc3","Cistus crispus",NA,"6,5","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","apis mellifera","","","","","","","","",NA,"3","cc23","1","cc22",0,"0","","","",NA,"Apis mellifera","VCcc23","Cistus crispus","9,11","9,11","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","apis mellifera","","","","","","","","",NA,"1","cc7","1","cc6",0,"0","","","",NA,"Apis mellifera","VCcc7","Cistus crispus",NA,"11,6","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","abeja","Hymenoptera","Flavipanurgus","","venustus","","male","","CMF",NA,"1","cc1","0","0",0,"0","si","vccc1.2","","Flavipanurgus venustus","Flavipanurgus venustus","VCcc1","Cistus crispus",NA,"7,2","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","abeja","Hymenoptera","Eucera","","elongatula","","female","","CMF",NA,"2","cc14","0","0",0,"0","si","vccc14","","Eucera elongatula","Eucera elongatula","VCcc14","Cistus crispus",NA,"2,9","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","mosquito?","","","","","","","","",NA,"2","cc6","0","0",0,"0","si","vccc6","",NA,"Usia sp","VCcc6","Cistus crispus",NA,"9,3","2020"
+"Villamanrique Chaparral","VC",4,"5.5.2046","soleado","bombilido","","","","","","","","",NA,"2","cc1","0","0",0,"0","si","vccc13","",NA,"Bombylella atra","VCcc1","Cistus crispus",NA,"7,2","2020"
+"Pinar Aznalcazar","PA",4,"6.5.2020","soleado","abeja","Hymenoptera","Andrena","","cinerea","","female","","CMF",NA,"1","Leontodon hispidus","0","0",0,"0","si","PAC1","","Andrena cinerea","Andrena cinerea","PALeontodon hispidus","Leontodon hispidus",NA,"5,12","2020"
+"Pinar Aznalcazar","PA",4,"6.5.2020","soleado","Pieris rapae","","","","","","","","",NA,"1","ls12","0","0",0,"0","","","",NA,"Pieris rapae","PAls12","Lavandula stoechas",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",4,"6.5.2020","soleado","apis mellifera","","","","","","","","",NA,"2","reseda phyteuma","0","0",0,"0","","","",NA,"Apis mellifera","PAreseda phyteuma","Reseda phyteuma",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",4,"6.5.2020","soleado","apis mellifera","","","","","","","","",NA,"2","reseda phyteuma","0","0",0,"0","","","",NA,"Apis mellifera","PAreseda phyteuma","Reseda phyteuma",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",4,"6.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","reseda phyteuma","0","0",0,"0","","","",NA,"Apis mellifera","PAreseda phyteuma","Reseda phyteuma",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",4,"6.5.2020","soleado","abeja=PAC1","Hymenoptera","Andrena","","cinerea","","female","","",NA,"1","CC2","0","0",0,"0","","","","Andrena cinerea","Andrena cinerea","PACC2","Cistus crispus",NA,"2,4","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","xylocopa cantabrita","","","","","","","","",NA,"2","cc1","0","0",0,"0","","","",NA,"Xylocopa cantabrita","PPcc1","Cistus crispus","20,6","20,6","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","abeja","Hymenoptera","Panurgus","","calcaratus","","female","","CMF",NA,"3","tolpis barbata","0","0",0,"0","si","PPc1","","Panurgus calcaratus","Panurgus calcaratus","PPtolpis barbata","Tolpis barbata",NA,"16,10","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","abeja=PPc1","","","","","","","","",NA,"1","andryala integrifolia","0","0",0,"0","","","",NA,"Panurgus calcaratus","PPandryala integrifolia","Andryala integrifolia",NA,"16,10","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","bombilido","Diptera","Systoechus","","sp","","female","","CMF",NA,"3","Leontodon hispidus","0","0",0,"0","si","PPc2","","Systoechus sp","Systoechus sp","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","apis mellifera","","","","","","","","",NA,"3","cc1","0","0",0,"0","","","",NA,"Apis mellifera","PPcc1","Cistus crispus","20,6","20,6","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","xylocopa cantabrita","","","","","","","","",NA,"1","cc1","0","0",0,"0","","","",NA,"Xylocopa cantabrita","PPcc1","Cistus crispus","20,6","20,6","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","abeja","Hymenoptera","Panurgus","","dentipes","","male","","CMF",NA,"1","Leontodon hispidus","0","0",0,"0","si","PPC4.1","","Panurgus dentipes","Panurgus dentipes","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","","Diptera","Merodon","","trochantericus","","male","","CMF",NA,"1","Leontodon hispidus","0","0",0,"0","si","PPC4.2","","Merodon trochantericus","Merodon trochantericus","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","xylocopa cantabrita","","","","","","","","",NA,"1","cc1","0","0",0,"0","","","",NA,"Xylocopa cantabrita","PPcc1","Cistus crispus","20,6","20,6","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","xylocopa cantabrita","","","","","","","","",NA,"2","silene colorata","0","0",0,"0","","","",NA,"Xylocopa cantabrita","PPsilene colorata","Silene colorata",NA,"12,10","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","apis mellifera","","","","","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","",NA,"Apis mellifera","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","xylocopa cantabrita","","","","","","","","",NA,"1","silene colorata","0","0",0,"0","","","",NA,"Xylocopa cantabrita","PPsilene colorata","Silene colorata",NA,"12,10","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","bombilido","","","","","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","si","PPC3","",NA,"Bombylella atra","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","xylocopa cantabrita","","","","","","","","",NA,"1","silene colorata","1","galactite tomentosa",0,"0","","","",NA,"Xylocopa cantabrita","PPsilene colorata","Silene colorata",NA,"12,10","2020"
+"Pinar Puebla","PP",5,"7.5.2020","nublado","apis mellifera","","","","","","","","",NA,"3","Leontodon hispidus","0","0",0,"0","","","",NA,"Apis mellifera","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Hinojos","PH",5,"8.5.2020","sol, mucho viento","coleoptero verdoso","","","","","","","","",NA,"1","HC5","0","0",0,"0","","","",NA,"Psilothrix viridicoerulea","PHHC5","Halimium halimifolium",NA,"7,17","2020"
+"Pinar Hinojos","PH",5,"8.5.2020","sol, mucho viento","mosca","Diptera","Melanostoma","","sp","","female","","CMF",NA,"1","HC5","0","0",0,"0","si","PHC1","","Melanostoma sp","Melanostoma sp","PHHC5","Halimium halimifolium",NA,"7,17","2020"
+"Pinar Hinojos","PH",5,"8.5.2020","sol, mucho viento","abeja pequeña alargada","","","","","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","",NA,"Lasioglossum sp","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",5,"8.5.2020","sol, mucho viento","abeja","Hymenoptera","Andrena","","cinerea","","female","","CMF",NA,"1","Leontodon hispidus","0","0",0,"0","si","PHC2","","Andrena cinerea","Andrena cinerea","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",5,"8.5.2020","sol, mucho viento","abeja=PHC2","Hymenoptera","Andrena","","cinerea","","female","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","","Andrena cinerea","Andrena cinerea","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",5,"8.5.2020","sol, mucho viento","abeja=PHC3","","","","","","","","",NA,"2","Leontodon hispidus","0","0",0,"0","","","",NA,"Andrena cinerea","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",5,"8.5.2020","sol, mucho viento","abeja=PHC4","","","","","","","","",NA,"3","Leontodon hispidus","0","0",0,"0","","","",NA,"Andrena cinerea","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Villamanrique Sur","VS",5,"19.5.2020","soleado","bombus terrestris","","","","","","","","",NA,"1","cs14","0","0",0,"0","","","",NA,"Bombus terrestris","VScs14","Cistus salviifolius",NA,"10,21","2020"
+"Villamanrique Sur","VS",5,"19.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc1","0","0",0,"0","","","",NA,"Apis mellifera","VScc1","Cistus crispus",NA,"20,16","2020"
+"Villamanrique Sur","VS",5,"19.5.2020","soleado","apis mellifera","","","","","","","","",NA,"2","cc1","0","0",0,"0","","","",NA,"Apis mellifera","VScc1","Cistus crispus",NA,"20,16","2020"
+"Villamanrique Sur","VS",5,"19.5.2020","soleado","megascolia maculata","","","","","","","","",NA,"1","cynara humilis","0","0",0,"0","","","",NA,"Megascolia maculata","VScynara humilis","Cynara humilis",NA,"18,14","2020"
+"Villamanrique Sur","VS",5,"19.5.2020","soleado","coleoptero verdoso","","","","","","","","",NA,"1","cs14","0","0",0,"0","","","",NA,"Psilothrix viridicoerulea","VScs14","Cistus salviifolius",NA,"10,21","2020"
+"Villamanrique Sur","VS",5,"19.5.2020","soleado","dasypoda dusmeti","","","","","","","","",NA,"1","cs14","0","0",0,"0","","","",NA,"Dasypoda dusmeti","VScs14","Cistus salviifolius",NA,"10,21","2020"
+"Villamanrique Sur","VS",5,"19.5.2020","soleado","panurgus","","","","","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","",NA,"Panurgus sp","VSLeontodon hispidus","Leontodon hispidus",NA,"18,14","2020"
+"Villamanrique Sur","VS",5,"19.5.2020","soleado","bombus terrestris","","","","","","","","",NA,"1","cc1","0","0",0,"0","","","",NA,"Bombus terrestris","VScc1","Cistus crispus",NA,"20,16","2020"
+"Villamanrique Sur","VS",5,"19.5.2020","soleado","dasypoda dusmeti","","","","","","","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","",NA,"Dasypoda dusmeti","VSLeontodon hispidus","Leontodon hispidus",NA,"18,14","2020"
+"Villamanrique Sur","VS",5,"19.5.2020","soleado","sirfido grande","","","","","","","","",NA,"1","hh20","0","0",0,"0","","","",NA,"Syrphidae 3","VShh20","Halimium halimifolium",NA,"3,4","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc7","0","0",0,"0","","","",NA,"Apis mellifera","VCcc7","Cistus crispus",NA,"11,6","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc6","0","0",0,"0","","","",NA,"Apis mellifera","VCcc6","Cistus crispus",NA,"9,3","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc3","0","0",0,"0","","","",NA,"Apis mellifera","VCcc3","Cistus crispus",NA,"6,5","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","abeja pequeña","Hymenoptera","Flavipanurgus","","venustus","","male","","CMF",NA,"1","cc3","0","0",0,"0","si","VCCC3","","Flavipanurgus venustus","Flavipanurgus venustus","VCcc3","Cistus crispus",NA,"6,5","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","abeja=VCcC3","Hymenoptera","Flavipanurgus","","venustus","","male","","",NA,"1","cc2","0","0",0,"0","","","","Flavipanurgus venustus","Flavipanurgus venustus","VCcc2","Cistus crispus",NA,"7,2","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc7","0","0",0,"0","","","",NA,"Apis mellifera","VCcc7","Cistus crispus",NA,"11,6","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc1","0","0",0,"0","","","",NA,"Apis mellifera","VCcc1","Cistus crispus",NA,"7,2","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","abeja=VCcC3","Hymenoptera","Flavipanurgus","","venustus","","male","","",NA,"1","cc24","0","0",0,"0","","","","Flavipanurgus venustus","Flavipanurgus venustus","VCcc24","Cistus crispus",NA,"9,11","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","abeja","Hymenoptera","Eucera","","elongatula","","female","","CMF",NA,"1","cc2","0","0",0,"0","si","vccc2","","Eucera elongatula","Eucera elongatula","VCcc2","Cistus crispus",NA,"7,2","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","bobilido mediano marron","","","","","","","","",NA,"1","cc8","0","0",0,"0","","","",NA,"Bombylis sp","VCcc8","Cistus crispus",NA,"17,11","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc7","0","0",0,"0","","","",NA,"Apis mellifera","VCcc7","Cistus crispus",NA,"11,6","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc10","1","c22",0,"0","","","",NA,"Apis mellifera","VCcc10","Cistus crispus",NA,"17,11","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","Coenonympha pamphilus","","","","","","","","",NA,"1","cc6","0","0",0,"0","","","",NA,"Coenonympha pamphilus","VCcc6","Cistus crispus",NA,"9,3","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc24","0","0",0,"0","","","",NA,"Apis mellifera","VCcc24","Cistus crispus",NA,"9,11","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","abegra negra brillante pequeña","","","","","","","","",NA,"1","cc24","0","0",0,"0","","","",NA,"Lasioglossum sp","VCcc24","Cistus crispus",NA,"9,11","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc2","0","0",0,"0","","","",NA,"Apis mellifera","VCcc2","Cistus crispus",NA,"7,2","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc1","0","0",0,"0","","","",NA,"Apis mellifera","VCcc1","Cistus crispus",NA,"7,2","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","bombilidio pequeño marron","","","","","","","","",NA,"1","cc10","0","0",0,"0","","","",NA,"Bombylis sp","VCcc10","Cistus crispus",NA,"17,11","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc10","0","0",0,"0","","","",NA,"Apis mellifera","VCcc10","Cistus crispus",NA,"17,11","2020"
+"Villamanrique Chaparral","VC",5,"20.5.2020","soleado","bombilidio pequeño marron","","","","","","","","",NA,"1","cc8","0","0",0,"0","","","",NA,"Bombylis sp","VCcc8","Cistus crispus",NA,"17,11","2020"
+"Pinar Aznalcazar","PA",5,"21.5.2020","soleado","episyrphus balteatus","","","","","","","","",NA,"1","andryala integrifolia","0","0",0,"0","","","",NA,"Episyrphus balteatus","PAandryala integrifolia","Andryala integrifolia",NA,"2,4","2020"
+"Pinar Aznalcazar","PA",5,"21.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","galactite tomentosa","0","0",0,"0","","","",NA,"Apis mellifera","PAgalactite tomentosa","Galactite tomentosa",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",5,"21.5.2020","soleado","coleoptero negro pequeño","","","","","","","","",NA,"1","galactite tomentosa","0","0",0,"0","","","",NA,"Tropinota squalida","PAgalactite tomentosa","Galactite tomentosa",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",5,"21.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","galactite tomentosa","0","0",0,"0","","","",NA,"Apis mellifera","PAgalactite tomentosa","Galactite tomentosa",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",5,"21.5.2020","soleado","abeja","Hymenoptera","Andrena","","flavipes","","female","","CMF",NA,"1","Leontodon hispidus","0","0",0,"0","si","PAC1","","Andrena flavipes","Andrena flavipes","PALeontodon hispidus","Leontodon hispidus",NA,"5,12","2020"
+"Pinar Aznalcazar","PA",5,"21.5.2020","soleado","abeja=PAC1","Hymenoptera","Andrena","","flavipes","","female","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","","Andrena flavipes","Andrena flavipes","PALeontodon hispidus","Leontodon hispidus",NA,"5,12","2020"
+"Pinar Aznalcazar","PA",5,"21.5.2020","soleado","Pieris rapae","","","","","","","","",NA,"1","galactite tomentosa","0","0",0,"0","","","",NA,"Pieris rapae","PAgalactite tomentosa","Galactite tomentosa",NA,"10,10","2020"
+"Pinar Aznalcazar","PA",5,"21.5.2020","soleado","abeja=PAC1","Hymenoptera","Andrena","","flavipes","","female","","",NA,"1","galactite tomentosa","0","0",0,"0","","","","Andrena flavipes","Andrena flavipes","PAgalactite tomentosa","Galactite tomentosa",NA,"10,10","2020"
+"Pinar Hinojos","PH",6,"25.5.2020","soleado","abeja","Hymenoptera","Andrena","","cinerea","","female","","CMF",NA,"3","Leontodon hispidus","0","0",0,"0","si","PHC1","","Andrena cinerea","Andrena cinerea","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",6,"25.5.2020","soleado","abeja=PHC1","Hymenoptera","Andrena","","cinerea","","female","","",NA,"1","andryala integrifolia","0","0",0,"0","","","","Andrena cinerea","Andrena cinerea","PHandryala integrifolia","Andryala integrifolia",NA,"3,17","2020"
+"Pinar Hinojos","PH",6,"25.5.2020","soleado","abeja=PHC1","Hymenoptera","Andrena","","cinerea","","female","","",NA,"2","Leontodon hispidus","0","0",0,"0","","","","Andrena cinerea","Andrena cinerea","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",6,"25.5.2020","soleado","abeja=PHC1","Hymenoptera","Andrena","","cinerea","","female","","",NA,"2","Leontodon hispidus","0","0",0,"0","","","","Andrena cinerea","Andrena cinerea","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Hinojos","PH",6,"25.5.2020","soleado","coleoptero negro pequeño","","","","","","","","",NA,"a","Leontodon hispidus","0","0",0,"0","","","",NA,"Tropinota squalida","PHLeontodon hispidus","Leontodon hispidus",NA,"4,1","2020"
+"Pinar Puebla","PP",6,"26.5.2020","soleado","xylocopa cantabrita","","","","","","","","",NA,"1","cs7","0","0",0,"0","","","",NA,"Xylocopa cantabrita","PPcs7","Cistus salviifolius",NA,"9,17","2020"
+"Pinar Puebla","PP",6,"26.5.2020","soleado","xylocopa cantabrita","","","","","","","","",NA,"2","cs7","0","0",0,"0","","","",NA,"Xylocopa cantabrita","PPcs7","Cistus salviifolius",NA,"9,17","2020"
+"Pinar Puebla","PP",6,"26.5.2020","soleado","abeja","Hymenoptera","Panurgus","","calcaratus","","male","","CMF",NA,"1","Leontodon hispidus","0","0",0,"0","si","PPC1","","Panurgus calcaratus","Panurgus calcaratus","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",6,"26.5.2020","soleado","abeja=PPC1","Hymenoptera","Panurgus","","calcaratus","","male","","",NA,"1","andryala integrifolia","0","0",0,"0","","","","Panurgus calcaratus","Panurgus calcaratus","PPandryala integrifolia","Andryala integrifolia",NA,"16,10","2020"
+"Pinar Puebla","PP",6,"26.5.2020","soleado","abeja=PPC1","Hymenoptera","Panurgus","","calcaratus","","male","","",NA,"1","tolpis barbata","0","0",0,"0","","","","Panurgus calcaratus","Panurgus calcaratus","PPtolpis barbata","Tolpis barbata",NA,"16,10","2020"
+"Pinar Puebla","PP",6,"26.5.2020","soleado","abeja=PPC1","Hymenoptera","Panurgus","","calcaratus","","male","","",NA,"1","Leontodon hispidus","0","0",0,"0","","","","Panurgus calcaratus","Panurgus calcaratus","PPLeontodon hispidus","Leontodon hispidus",NA,"12,10","2020"
+"Pinar Puebla","PP",6,"26.5.2020","soleado","abeja=PPC1","Hymenoptera","Panurgus","","calcaratus","","male","","",NA,"2","silene colorata","0","0",0,"0","","","","Panurgus calcaratus","Panurgus calcaratus","PPsilene colorata","Silene colorata",NA,"12,10","2020"
+"Villamanrique Sur","VS",6,"27.5.2020","soleado","episyrphus balteatus","","","","","","","","",NA,"1","cs1","0","0",0,"0","","","",NA,"Episyrphus balteatus","VScs1","Cistus salviifolius",NA,"13,17","2020"
+"Villamanrique Sur","VS",6,"27.5.2020","soleado","episyrphus balteatus","","","","","","","","",NA,"1","cs9","0","0",0,"0","","","",NA,"Episyrphus balteatus","VScs9","Cistus salviifolius",NA,"11,15","2020"
+"Villamanrique Sur","VS",6,"27.5.2020","soleado","abeja","Hymenoptera","Lasioglossum","","immunitum","","female","","CMF",NA,"1","andryala integrifolia","0","0",0,"0","si","VSC1","","Lasioglossum immunitum","Lasioglossum immunitum","VSandryala integrifolia","Andryala integrifolia",NA,"20,16","2020"
+"Villamanrique Sur","VS",6,"27.5.2020","soleado","apis mellifera","","","","","","","","",NA,"1","cc1","0","0",0,"0","","","",NA,"Apis mellifera","VScc1","Cistus crispus",NA,"20,16","2020"
+"Villamanrique Sur","VS",6,"27.5.2020","soleado","abeja=VSC1","","","","","","","","",NA,"1","cs14","0","0",0,"0","","","",NA,"Andrena cinerea","VScs14","Cistus salviifolius",NA,"10,21","2020"
+"Villamanrique Sur","VS",6,"27.5.2020","soleado","abeja=VSC1","","","","","","","","",NA,"2","Leontodon hispidus","0","0",0,"0","","","",NA,"Andrena cinerea","VSLeontodon hispidus","Leontodon hispidus",NA,"18,14","2020"
+"Villamanrique Sur","VS",6,"27.5.2020","soleado","abeja=VSC1","","","","","","","","",NA,"1","andryala integrifolia","0","0",0,"0","","","",NA,"Andrena cinerea","VSandryala integrifolia","Andryala integrifolia",NA,"20,16","2020"
+"Villamanrique Sur","VS",6,"27.5.2020","soleado","abeja=VSC1","","","","","","","","",NA,"10","andryala integrifolia","0","0",0,"0","","","",NA,"Andrena cinerea","VSandryala integrifolia","Andryala integrifolia",NA,"20,16","2020"
+"Villamanrique Sur","VS",6,"27.5.2020","soleado","dischistus biroi","","","","","","","","",NA,"1","cs14","0","0",0,"0","","","",NA,"Dischistus biroi","VScs14","Cistus salviifolius",NA,"10,21","2020"
+"Villamanrique Chaparral","VC",6,"28.5.2020","soleado","bombilido nuevo puntos","","","","","","","","",NA,"1","CS8","0","0",0,"0","","","",NA,"Bombylella atra","VCCS8","Cistus salviifolius","11,14","11,14","2020"
+"Villamanrique Chaparral","VC",6,"28.5.2020","soleado","apis mellifera","","","","","","","","",NA,"2","CC1","0","0",0,"0","","","",NA,"Apis mellifera","VCCC1","Cistus crispus",NA,"7,2","2020"
+"Villamanrique Chaparral","VC",6,"28.5.2020","soleado","abeja","Hymenoptera","Andrena","","limata","","female","","CMF",NA,"1","cs13","0","0",0,"0","si","VCC1","","Andrena limata","Andrena limata","VCcs13","Cistus salviifolius",NA,"15,12","2020"
+"Villamanrique Chaparral","VC",6,"28.5.2020","soleado","abeja=VCT1.1","","","","","","","","",NA,"1","cs24","0","0",0,"0","","","",NA,"Lasioglossum prasinum","VCcs24","Cistus salviifolius",NA,"16,10","2020"
+"Villamanrique Chaparral","VC",6,"28.5.2020","soleado","abeja","Hymenoptera","Flavipanurgus","","venustus","","male","","CMF",NA,"1","cc24","0","0",0,"0","si","vcc2","","Flavipanurgus venustus","Flavipanurgus venustus","VCcc24","Cistus crispus",NA,"9,11","2020"
+"Villamanrique Chaparral","VC",6,"28.5.2020","soleado","bombilido pequeño marron","","","","","","","","",NA,"1","cs7","0","0",0,"0","","","",NA,"Bombylis sp","VCcs7","Cistus salviifolius",NA,"11,12","2020"
+"Pinar Aznalcazar","PA",6,"29.5.2020","soleado","mosca","","","","","","","","",NA,"1","andryala integrifolia","0","0",0,"0","si","PSC1","han cortado todo el pasto",NA,"Empis sp","PAandryala integrifolia","Andryala integrifolia",NA,"2,4","2020"
