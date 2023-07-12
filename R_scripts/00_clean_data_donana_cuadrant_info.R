@@ -242,5 +242,5 @@ fitness_data21_final <- fitness_data21 %>%
          Periodo_hora,Bosque,Codigo_vuelo,Codigo_within_sequence,
          Polinizador,Planta,X,Y)
 
-write_csv(fitness_data21_final,"results/gorbea/foraging_Gorbea_2021.csv")
+write_csv(fitness_data21_final,"results/donana/foraging_Donana_2021.csv")
 
