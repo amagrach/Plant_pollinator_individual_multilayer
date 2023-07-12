@@ -528,8 +528,8 @@ dev.off()
 
 
 png("figures/donana_Pinar_Aznalcazar_2021.png", width=1000*3, height = 500*3, res=300)
-par(mar=c(0,0,0,4)+.1,xpd=TRUE)
-plot_multilayer(2021,"Pinar Aznalcazar",between_poll_space=15, r_ext= 160)
+par(mar=c(0,0,0,14)+.1,xpd=TRUE)
+plot_multilayer(2021,"Pinar Aznalcazar",between_poll_space=15, r_ext= 60)
 dev.off()
 
 png("figures/donana_Pinar_Hinojos_2020.png", width=1000*3, height = 500*3, res=300)
