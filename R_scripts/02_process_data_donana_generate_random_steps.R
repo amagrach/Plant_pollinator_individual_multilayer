@@ -7,6 +7,8 @@
 # on the following variables: flowers_sp1_XY2,flowers_sp2_XY1,flowers_sp2_XY2
 # deltaflowers_sp1, deltaflowers_sp2
 
+# Pollinators' turning angle is ill-defined in Doñana database. 
+
 
 library(tidyverse)
 library(survival)
