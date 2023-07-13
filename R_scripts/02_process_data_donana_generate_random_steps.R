@@ -241,7 +241,7 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
 }
 
 
-records_used <- steps_21 %>% filter(Polinizador %in% ranking_pollinators) %>%
+records_used <- steps_21 %>% filter(Polinizador %in% pull(ranking_pollinators[1:5,1])) %>%
   nrow()
 
 records_used / nrow(steps_21)
