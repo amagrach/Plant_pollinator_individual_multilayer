@@ -2,6 +2,10 @@
 library(tidyverse)
 library(ggallin) # to use pseudolog10_trans in plots
 
+
+
+number_random_steps <- 20
+
 # Plot results
 path_observations <- paste0("results/gorbea/pollinator_floral_coef_observations_",
                             number_random_steps,"_rd_steps.csv")
