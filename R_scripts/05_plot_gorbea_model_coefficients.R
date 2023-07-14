@@ -44,7 +44,8 @@ coefficient_names <- c(
   `step_length:delta_total_flowers` = "step length:change in\nthe total # flowers",
   `delta_richness:delta_total_flowers` = "change in sp. richness:\nchange in the\ntotal # flowers",
   `time_of_day12:40 - 15:19` = "time of day\n12:40 - 15:19",
-  `time_of_day15:20 - 18:05` = "time of day\n15:20 - 18:05"
+  `time_of_day15:20 - 18:05` = "time of day\n15:20 - 18:05",
+  change_plant_spTRUE = "change plant sp."
 )
 
 coef_observations$pollinator <- gsub("_", " ", coef_observations$pollinator)
