@@ -13,7 +13,7 @@ library(survival)
 library(car)
 
 source("R_scripts/aux_functions/pollinator_model_exp_coef.R")
-source("R_scripts/aux_functions/set_same_factor_levels_no_flower_data.R")
+source("R_scripts/aux_functions/set_same_factor_levels_on_flower_data.R")
 
 number_random_steps <- 20
 
@@ -37,7 +37,7 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
   
   pollinator_i_data_clogit_within_field <- pollinator_i_data_clogit
   
-  pollinator_i_data_clogit_mod <- set_same_factor_levels_no_flower_data(pollinator_i_data_clogit_within_field) %>%
+  pollinator_i_data_clogit_mod <- set_same_factor_levels_on_flower_data(pollinator_i_data_clogit_within_field) %>%
     mutate(cosine_turning = cos(turning_angle*pi/180))
   
   pollinator_i_data_clogit_mod$Periodo <- as.factor(pollinator_i_data_clogit_mod$Periodo)
@@ -49,16 +49,20 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
   
   model_pollinator_i <- clogit(control ~ step_length + #time_of_day +
                                  step_length : time_of_day +
-                                 step_length : plot + 
-                                 step_length : Year + 
-                                 step_length : change_plant_sp +
+                                 step_length : plot +
+                                 step_length : Year +
+                                 # step_length : change_plant_sp +
+                                 # time_of_day +
+                                 # plot + 
+                                 # Year + 
+                                 change_plant_sp +
                                  # step_length : Periodo +
                                  delta_richness +
                                  delta_total_flowers +
                                  # step_length : delta_richness +
                                  # step_length : delta_total_flowers +
                                  # delta_richness : delta_total_flowers +
-                                 cosine_turning +
+                                 # cosine_turning +
                                  # step_length : cosine_turning +
                                  strata(step_ID),
                                method = "exact",
