@@ -49,13 +49,13 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
   
   model_pollinator_i <- clogit(control ~ step_length + #time_of_day +
                                  step_length : time_of_day +
-                                 step_length : plot +
-                                 step_length : Year +
-                                 # step_length : change_plant_sp +
+                                 #step_length : plot +
+                                 #step_length : Year +
+                                 step_length : change_plant_sp +
                                  # time_of_day +
                                  # plot + 
                                  # Year + 
-                                 change_plant_sp +
+                                 # change_plant_sp +
                                  # step_length : Periodo +
                                  delta_richness +
                                  delta_total_flowers +
