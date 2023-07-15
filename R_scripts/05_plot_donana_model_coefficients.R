@@ -3,7 +3,7 @@ library(tidyverse)
 library(ggallin) # to use pseudolog10_trans in plots
 
 
-number_random_steps <- 5
+number_random_steps <- 20
 
 # Plot results
 path_observations <- paste0("results/donana/pollinator_floral_coef_observations_",
@@ -33,7 +33,18 @@ coefficient_names <- c(
   `step_length:delta_total_flowers` = "step length:change in\nthe total # flowers",
   `delta_richness:delta_total_flowers` = "change in sp. richness:\nchange in the\ntotal # flowers",
   `step_length:time_of_day12:00 - 13:59` = "time of day\n12:00 - 13:59",
-  `time_of_day15:20 - 18:05` = "time of day\n15:20 - 18:05"
+  `step_length:time_of_day14:00 - 16:05` = "time of day\n14:00 - 16:05",
+  `time_of_day15:20 - 18:05` = "time of day\n15:20 - 18:05",
+  `BosquePinar Hinojos` = "Hinojos",
+  `BosquePinar Puebla` = "Puebla",
+  `BosquePinar Villamanrique Este (Chaparral)` = "Villamanrique Este",
+  `BosquePinar Villamanrique Sur` = "Villamanrique Sur",
+  `step_length:BosquePinar Hinojos` = "step length:Hinojos",
+  `step_length:BosquePinar Puebla` = "step length:Puebla",
+  `step_length:BosquePinar Villamanrique Este (Chaparral)` = "step length:Villamanrique Este",
+  `step_length:BosquePinar Villamanrique Sur` = "step length:Villamanrique Sur",
+  change_plant_spTRUE = "change plant sp."
+  
 )
 
 coef_observations$pollinator <- gsub("_", " ", coef_observations$pollinator)
