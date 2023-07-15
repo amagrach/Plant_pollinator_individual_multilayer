@@ -85,7 +85,7 @@ ggplot(coef_observations, aes(y=pollinator))+
                    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
                    legend.position="bottom")+
   guides(color = "none")+
-  labs(title=NULL, x="Coef. estimate", y = NULL,
+  labs(title="Gorbea", x="Coef. estimate", y = NULL,
        color = "Floral\nvisitor", shape = NULL)
 
 dev.off()
