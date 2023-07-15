@@ -59,7 +59,7 @@ ggplot(coef_observations, aes(y=pollinator))+
   geom_point(aes(x = estimate, color = as.factor(pollinator), shape = shapes),size=2)+
   geom_errorbar(aes(xmin=estimate-1.96*std.error, xmax=estimate+1.96*std.error,color = as.factor(pollinator)), width=.2)+
   geom_vline(xintercept = 0)+
-  facet_wrap(vars(term), ncol = 5, labeller = as_labeller(coefficient_names), scales = "free_x")+
+  facet_wrap(vars(term), ncol = 3, labeller = as_labeller(coefficient_names), scales = "free_x")+
   scale_y_discrete(limits=rev)+
   scale_x_continuous(trans = pseudolog10_trans)+
   theme_bw()+theme(axis.text.y = element_text(face = "italic"),
@@ -77,14 +77,14 @@ ggplot(coef_observations, aes(y=pollinator))+
   geom_point(aes(x = estimate, color = as.factor(pollinator), shape = shapes),size=2)+
   geom_errorbar(aes(xmin=estimate-1.96*std.error, xmax=estimate+1.96*std.error,color = as.factor(pollinator)), width=.2)+
   geom_vline(xintercept = 0)+
-  facet_wrap(vars(term), ncol = 5, labeller = as_labeller(coefficient_names), scales = "free_x")+
+  facet_wrap(vars(term), ncol = 3, labeller = as_labeller(coefficient_names), scales = "free_x")+
   scale_y_discrete(limits=rev)+
   scale_x_continuous(trans = pseudolog10_trans)+
   theme_bw()+theme(axis.text.y = element_text(face = "italic"),
                    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
                    legend.position="bottom")+
   guides(color = "none")+
-  labs(title=NULL, x="Coef. estimate", y = NULL,
+  labs(title="Doñana", x="Coef. estimate", y = NULL,
        color = "Floral\nvisitor", shape = NULL)
 
 dev.off()
