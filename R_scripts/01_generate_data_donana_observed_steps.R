@@ -77,6 +77,8 @@ steps_data <- steps
 steps_data %>% group_by(Polinizador) %>% count() %>% arrange(desc(n))
 
 # Visualization step statistics for main pollinators
+Year_i <- 2021
+
 
 pollinator_i <- "Apis_mellifera"
 steps_pollinator_i <- steps_data %>% filter(Polinizador == pollinator_i)
