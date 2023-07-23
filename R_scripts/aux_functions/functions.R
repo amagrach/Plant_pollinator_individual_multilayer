@@ -146,6 +146,147 @@ motifs_extraction <- function(visit_list) {
   return(motif_3_list)
 }
 
+motifs_extraction_donana <- function(visit_list) {
+  
+  ##############################################################
+  # GENERATE A LIST OF BIPARTITE NETWORKS (1 NETWORK PER PLOT)
+  ##############################################################
+  
+  multilayer_week <-   data.frame(higher = visit_list$Polinizador,
+                                  lower = visit_list$Subplot_Plant_Label,
+                                  webID = visit_list$Bosque,
+                                  freq = visit_list$Visits_tot)
+  
+  list_incid_matrix <- frame2webs(multilayer_week,type.out="list")
+  
+  names_plot <- names(list_incid_matrix)
+  
+  #print(names_plot)
+  #print(length(list_incid_matrix))
+  
+  first_motif_encuounter <- F
+  
+  for (bosque_i in 1:length(list_incid_matrix)){
+    
+    
+    #print(names_plot[bosque_i])
+    
+    # Incidence matrix for each plot network
+    
+    incid_matrix_i <- list_incid_matrix[[bosque_i ]] 
+    
+    graph_i <- graph_from_incidence_matrix(incid_matrix_i, weighted = T, directed = F)
+    
+    #plot(graph_i)
+    #E(graph_i)
+    
+    
+    # motiv in igraph (triplet is equal to a two-path graph, i.e., a star graph with 2 nodes)
+    
+    pattern <- make_star(3, mode = "undirected")
+    #E(pattern)
+    #plot(pattern)
+    
+    iso <- subgraph_isomorphisms(pattern, graph_i)      # takes a while
+    
+    #WARNING subgraph_isomorphisms works with directed graphs and
+    # at the end of the day it duplicates the motifs in our list
+    # check manual: https://igraph.org/r/doc/subgraph_isomorphisms.html
+    
+    motifs <- lapply(iso, function (x) { induced_subgraph(graph_i, x) })
+    
+    
+    ##############################################################
+    # TRIPLETS ANALYSIS
+    ##############################################################
+    
+    #print(length(motifs))
+    
+    if (length(motifs)>0){
+      
+      if (first_motif_encuounter==F){
+        first_motif_encuounter <- T
+        fist_bosque_i <- bosque_i}
+      
+      # We collect triplets information in "motif_3" tibble
+      
+      tbl_colnames <- c("bosque_id","number_nodes","number_plants","plant_1","subplot_plant_1",
+                        "plant_2","subplot_plant_2","poll_1","poll_2")
+      
+      motif_3 <- as_tibble(data.frame(matrix(nrow=length(motifs),ncol=length(tbl_colnames))))
+      colnames(motif_3) <- tbl_colnames
+      
+      motif_3$bosque_id <- names_plot[bosque_i]
+      
+      #for (i in 1:length(motifs)){print(V(motifs[[i]])$name)}
+      
+      for (i in 1:length(motifs)){
+        
+        lista_names_i <- V(motifs[[i]])$name
+        motif_3$number_nodes[i] <- length(lista_names_i)
+        number_plants <- 0
+        
+        list_plants <- c()
+        list_plants_loc <- c() 
+        list_poll <- c()
+        
+        for (j in 1:length(lista_names_i)) {
+          
+          if (lista_names_i[j] %in%  visit_list$Subplot_Plant_Label){
+            
+            location_plant <- strsplit(lista_names_i[j]," ")
+            list_plants <- c(list_plants,c(location_plant[[1]][2]))
+            list_plants_loc <- c(list_plants_loc,c(location_plant[[1]][1]))
+            number_plants <- number_plants + 1
+            
+          }else{
+            
+            list_poll <- c(list_poll,c(lista_names_i[j]))
+          }
+          
+        }
+        
+        if (number_plants==1) {
+          
+          motif_3$number_plants[i] <- number_plants
+          motif_3$plant_1[i] <- list_plants[1]
+          motif_3$subplot_plant_1[i] <- list_plants_loc[1]
+          motif_3$poll_1[i] <- list_poll[1]
+          motif_3$poll_2[i] <- list_poll[2]
+          
+          iden_plant <- paste(list_plants_loc[1],list_plants[1],sep=" ")
+          
+          
+        } else {
+          
+          motif_3$number_plants[i] <- number_plants
+          motif_3$plant_1[i] <- list_plants[1]
+          motif_3$subplot_plant_1[i] <- list_plants_loc[1]
+          motif_3$plant_2[i] <- list_plants[2]
+          motif_3$subplot_plant_2[i] <- list_plants_loc[2]
+          motif_3$poll_1[i] <- list_poll[1]
+          
+        }
+      }
+      print(paste("Triplets_bosque",names_plot[bosque_i],sep=""))
+      #write_csv(motif_3, paste("Triplets 3_plot",bosque_i,".csv",sep=""))
+      
+      if (bosque_i==fist_bosque_i){
+        motif_3 <- unique(motif_3) #to avoid duplicities due to subgraph isomorphisms	
+        motif_3_list <- motif_3
+      }else{
+        motif_3 <- unique(motif_3)
+        motif_3_list <- motif_3_list %>% bind_rows(motif_3) 
+      }
+    }
+    
+  }
+  return(motif_3_list)
+}
+
+
+
+
 
 #--------
 ##################################################################
@@ -207,6 +348,68 @@ homo_hete_motifs <- function(visit_list) {
   }
   return(output_funct)
 }
+
+
+#--------
+##################################################################
+# FUNCTION (NAME): homo_hete_motifs
+# INPUT (1) -> visit_list: it contains (Bosque,Polinizador,Subplot_Plant_Label,Visits_tot)
+# OUTPUT (1) -> visit_list with 2 new columns: homo_motif, hete_motif
+##################################################################
+
+homo_hete_motifs_donana <- function(visit_list) {
+  
+  motif_3_Carac <- motifs_extraction_donana(visit_list)
+  
+  motif_3_Carac <- motif_3_Carac %>%
+    mutate(descript_plant_1=NA,descript_plant_2=NA,Same_plant = NA)
+  
+  for (i in 1:nrow(motif_3_Carac)){
+    
+    motif_3_Carac$descript_plant_1[i] <- paste(motif_3_Carac$bosque_id[i],
+                                               motif_3_Carac$subplot_plant_1[i],
+                                               motif_3_Carac$plant_1[i],
+                                               sep = " ")
+    
+    if (!is.na(motif_3_Carac$plant_2[i])){
+      motif_3_Carac$descript_plant_2[i] <- paste(motif_3_Carac$bosque_id[i],
+                                                 motif_3_Carac$subplot_plant_2[i],
+                                                 motif_3_Carac$plant_2[i],
+                                                 sep = " ")
+    }
+    if(motif_3_Carac$number_plants[i]==2 && 
+        motif_3_Carac$plant_2[i] == motif_3_Carac$plant_1[i] 
+    ){
+      motif_3_Carac$Same_plant[i]<-TRUE
+      }else if(motif_3_Carac$number_plants[i]==2 && 
+            motif_3_Carac$plant_2[i] != motif_3_Carac$plant_1[i]){
+      
+      motif_3_Carac$Same_plant[i]<-FALSE
+      }else{motif_3_Carac$Same_plant[i]<-NA}
+  }
+  
+  output_funct <- visit_list %>% mutate(homo_motif=NA,hete_motif=NA)
+  
+  # Homo_Motifs: misma especie otros subplots
+  
+  for (i in 1:nrow(output_funct)){
+    
+    descrip <-  paste(output_funct$Bosque[i],output_funct$Subplot_Plant_Label[i],sep = " ")
+    
+    homo_motif <- motif_3_Carac %>% filter(Same_plant & poll_1 == output_funct$Polinizador[i] &
+                                             (motif_3_Carac$descript_plant_1 == descrip|motif_3_Carac$descript_plant_2==descrip))
+    num_homo_motif <- sum(homo_motif$Same_plant,na.rm = TRUE)
+    
+    hete_motif <- motif_3_Carac %>% filter(!Same_plant & number_plants==2 & poll_1 == output_funct$Polinizador[i] &
+                                             (motif_3_Carac$descript_plant_1== descrip|motif_3_Carac$descript_plant_2==descrip))
+    num_hete_motif <- sum(!hete_motif$Same_plant,na.rm = TRUE)
+    
+    output_funct$homo_motif[i] <- num_homo_motif
+    output_funct$hete_motif[i] <- num_hete_motif
+  }
+  return(output_funct)
+}
+
 
 
 #------
