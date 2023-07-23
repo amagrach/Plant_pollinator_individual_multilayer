@@ -14,8 +14,9 @@ fitness_data20 <- read_csv("results/donana/foraging_Donana_2020.csv") %>%
   mutate(Codigo_vuelo = as.character(Codigo_vuelo))
 fitness_data21 <- read_csv("results/donana/foraging_Donana_2021.csv")
 
-fitness2 <- bind_rows(fitness_data20,fitness_data21) %>% 
-  mutate(Subplot=paste0(X,"-",Y))
+fitness2 <- fitness_data21 %>% #bind_rows(fitness_data20,fitness_data21) %>% 
+  mutate(Subplot=paste0(X,"-",Y), 
+         Polinizador = paste0(Polinizador,"_",Codigo_vuelo))
 
 
 
@@ -51,7 +52,7 @@ for (year_i in unique(fitness2$Year)){
     #x <- motifs_extraction(visit_list_week)
     
     if(nrow(visit_list_week)>1){
-      visit_list_week <- homo_hete_motifs(visit_list_week)
+      visit_list_week <- homo_hete_motifs_donana(visit_list_week)
       visit_list_week <- visit_list_week %>% mutate(Week=week_i,Year=year_i)
       
       if (week_i==min(fitness_year_i$Week)){
