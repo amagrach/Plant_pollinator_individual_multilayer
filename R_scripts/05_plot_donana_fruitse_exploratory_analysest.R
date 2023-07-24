@@ -4,7 +4,7 @@ library(tidyverse)
 #---------------------------------------
 # Load fruitset data for Doñana 2021
 fruitset_census <- read_csv("results/donana/fruitset_census_21.csv") %>%
-  mutate(Subplot=paste0(X,"-",Y))
+  mutate(Subplot=paste0(X,"-",Y), fruitset = number_fruits/labelled_flowers)
 
 fruitset_census$Subplot_Plant_Label <- paste(fruitset_census$Subplot,fruitset_census$Planta,
                                                            sep = " ")
@@ -59,6 +59,13 @@ data_model_aux %>% filter(is.na(Visits_tot)) # 70 (179) missing values without (
 data_model_aux %>% filter(is.na(prob_consp_step)) # 114 missing values without (with) Week_ISO
 data_model_aux %>% filter(is.na(homo_motif)) # 179 missing values without (with) Week_ISO
 
+
+# Update period value
+data_model_aux$Periodo <- as.character(data_model_aux$Periodo)
+data_model_aux$Periodo[data_model_aux$Periodo=="1"] <- "March"
+data_model_aux$Periodo[data_model_aux$Periodo=="2"] <- "April"
+data_model_aux$Periodo[data_model_aux$Periodo=="3"] <- "May"
+
 # Data visualization
 
 png("figures/donana_fruitset_visits.png",
@@ -67,17 +74,16 @@ png("figures/donana_fruitset_visits.png",
 
 fruitset_visits_plot <- 
   ggplot(data_model_aux %>% filter(!is.na(Planta)), 
-       aes(x = (number_fruits), y = (Visits_tot), color = Bosque))+
+       aes(x = (fruitset), y = (Visits_tot), color = as.factor(Periodo)))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
-  facet_wrap(~Bosque)+
-  labs(x="Total number of fruits", y = "Total number of visits",color=NULL)+
+  facet_wrap(~Periodo)+
+  labs(x="Total number of fruits per plant individual", y = "Total number of visits",color=NULL)+
   theme_bw()+
-  theme(legend.position="bottom")+
+  theme(legend.position="none")+
   theme(legend.text = element_text(size=15))+
   theme(axis.text=element_text(size=15),  axis.title=element_text(size=17,face="bold"))+                                                                # Change font size
-  theme(strip.text.x = element_text(size = 18))+
-  guides(fill=guide_legend(nrow=2,byrow=TRUE),colour = guide_legend(override.aes = list(size=5)))
+  theme(strip.text.x = element_text(size = 18))
 fruitset_visits_plot
 
 dev.off()
@@ -90,11 +96,11 @@ png("figures/donana_fruitset_visits_plant.png",
 
 fruitset_visits_plant_plot <- 
   ggplot(data_model_aux %>% filter(!is.na(Planta)), 
-       aes(x = (number_fruits), y = (Visits_tot), color = Planta))+
+       aes(x = (fruitset), y = (Visits_tot), color = Planta))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
-  facet_wrap(~Bosque)+
-  labs(x="Total number of fruits", y = "Total number of visits",color=NULL)+
+  facet_wrap(~Periodo)+
+  labs(x="Total number of fruits per plant individual", y = "Total number of visits",color=NULL)+
   theme_bw()+
   theme(legend.position="bottom")+
   theme(legend.text = element_text(size=15))+
@@ -112,17 +118,16 @@ png("figures/donana_fruitset_homomotifs.png",
 
 fruitset_homomotifs_plot <- 
   ggplot(data_model_aux %>% filter(!is.na(Planta)), 
-       aes(x = (number_fruits), y = (homo_motif), color = Bosque))+
+       aes(x = (fruitset), y = (homo_motif), color = as.factor(Periodo)))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
-  facet_wrap(~Bosque)+
-  labs(x="Total number of fruits", y = "Total number of homo-motifs",color=NULL)+
+  facet_wrap(~Periodo)+
+  labs(x="Total number of fruits per plant individual", y = "Total number of homo-motifs",color=NULL)+
   theme_bw()+
-  theme(legend.position="bottom")+
+  theme(legend.position="none")+
   theme(legend.text = element_text(size=15))+
   theme(axis.text=element_text(size=15),  axis.title=element_text(size=17,face="bold"))+                                                                # Change font size
-  theme(strip.text.x = element_text(size = 18))+
-  guides(fill=guide_legend(nrow=2,byrow=TRUE),colour = guide_legend(override.aes = list(size=5)))
+  theme(strip.text.x = element_text(size = 18))
 fruitset_homomotifs_plot 
 dev.off()
 
@@ -134,11 +139,11 @@ png("figures/donana_fruitset_homomotifs_plant.png",
 
 fruitset_homomotifs_plant_plot <- 
   ggplot(data_model_aux %>% filter(!is.na(Planta)), 
-       aes(x = (number_fruits), y = (homo_motif), color = Planta))+
+       aes(x = (fruitset), y = (homo_motif), color = Planta))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
-  facet_wrap(~Bosque)+
-  labs(x="Total number of fruits", y = "Total number of homo-motifs",color=NULL)+
+  facet_wrap(~Periodo)+
+  labs(x="Total number of fruits per plant individual", y = "Total number of homo-motifs",color=NULL)+
   theme_bw()+
   theme(legend.position="bottom")+
   theme(legend.text = element_text(size=15))+
@@ -156,17 +161,16 @@ png("figures/donana_fruitset_hetemotifs.png",
 
 fruitset_hetemotifs_plot <- 
   ggplot(data_model_aux  %>% filter(!is.na(Planta)), 
-       aes(x = (number_fruits), y = (hete_motif), color = Bosque))+
+       aes(x = (fruitset), y = (hete_motif), color = as.factor(Periodo)))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
-  facet_wrap(~Bosque)+
-  labs(x="Total number of fruits", y = "Total number of hete-motifs",color=NULL)+
+  facet_wrap(~Periodo)+
+  labs(x="Total number of fruits per plant individual", y = "Total number of hete-motifs",color=NULL)+
   theme_bw()+
-  theme(legend.position="bottom")+
+  theme(legend.position="none")+
   theme(legend.text = element_text(size=15))+
   theme(axis.text=element_text(size=15),  axis.title=element_text(size=17,face="bold"))+                                                                # Change font size
-  theme(strip.text.x = element_text(size = 18))+
-  guides(fill=guide_legend(nrow=2,byrow=TRUE),colour = guide_legend(override.aes = list(size=5)))
+  theme(strip.text.x = element_text(size = 18))
 fruitset_hetemotifs_plot
 dev.off()
 
@@ -179,11 +183,11 @@ png("figures/donana_fruitset_hetemotifs_plant.png",
 
 fruitset_hetemotifs_plant_plot <- 
   ggplot(data_model_aux  %>% filter(!is.na(Planta)), 
-       aes(x = (number_fruits), y = (hete_motif), color = Planta))+
+       aes(x = (fruitset), y = (hete_motif), color = Planta))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
-  facet_wrap(~Bosque)+
-  labs(x="Total number of fruits", y = "Total number of hete-motifs",color=NULL)+
+  facet_wrap(~Periodo)+
+  labs(x="Total number of fruits per plant individual", y = "Total number of hete-motifs",color=NULL)+
   theme_bw()+
   theme(legend.position="bottom")+
   theme(legend.text = element_text(size=15))+
@@ -202,17 +206,16 @@ png("figures/donana_fruitset_prob_consp_step.png",
 
 fruitset_prob_consp_step_plot <- 
   ggplot(data_model_aux  %>% filter(!is.na(Planta)), 
-         aes(x = (number_fruits), y = (prob_consp_step), color = Bosque))+
+         aes(x = (fruitset), y = (prob_consp_step), color = as.factor(Periodo)))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
-  facet_wrap(~Bosque)+
-  labs(x="Total number of fruits", y = "Prob. consp. step",color=NULL)+
+  facet_wrap(~Periodo)+
+  labs(x="Total number of fruits per plant individual", y = "Prob. consp. step",color=NULL)+
   theme_bw()+
-  theme(legend.position="bottom")+
+  theme(legend.position="none")+
   theme(legend.text = element_text(size=15))+
   theme(axis.text=element_text(size=15),  axis.title=element_text(size=17,face="bold"))+                                                                # Change font size
-  theme(strip.text.x = element_text(size = 18))+
-  guides(fill=guide_legend(nrow=2,byrow=TRUE),colour = guide_legend(override.aes = list(size=5)))
+  theme(strip.text.x = element_text(size = 18))
 fruitset_prob_consp_step_plot
 dev.off()
 
@@ -225,11 +228,11 @@ png("figures/donana_fruitset_prob_consp_step_plant.png",
 
 fruitset_prob_consp_step_plant_plot <- 
   ggplot(data_model_aux  %>% filter(!is.na(Planta)), 
-         aes(x = (number_fruits), y = (prob_consp_step), color = Planta))+
+         aes(x = (fruitset), y = (prob_consp_step), color = Planta))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
-  facet_wrap(~Bosque)+
-  labs(x="Total number of fruits", y = "Prob. consp. step",color=NULL)+
+  facet_wrap(~Periodo)+
+  labs(x="Total number of fruits per plant individual", y = "Prob. consp. step",color=NULL)+
   theme_bw()+
   theme(legend.position="bottom")+
   theme(legend.text = element_text(size=15))+
