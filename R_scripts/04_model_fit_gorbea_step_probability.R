@@ -37,36 +37,63 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
   
   pollinator_i_data_clogit_within_field <- pollinator_i_data_clogit
   
-  pollinator_i_data_clogit_mod <- set_same_factor_levels_on_flower_data(pollinator_i_data_clogit_within_field) %>%
-    mutate(cosine_turning = cos(turning_angle*pi/180))
+  pollinator_i_data_clogit_mod <- set_same_factor_levels_on_flower_data(pollinator_i_data_clogit_within_field)
   
   pollinator_i_data_clogit_mod$Periodo <- as.factor(pollinator_i_data_clogit_mod$Periodo)
   
   pollinator_i_data_clogit_mod$step_length <- scale(pollinator_i_data_clogit_mod$step_length)
   pollinator_i_data_clogit_mod$delta_richness <- scale(pollinator_i_data_clogit_mod$delta_richness)
   pollinator_i_data_clogit_mod$delta_total_flowers <- scale(pollinator_i_data_clogit_mod$delta_total_flowers)
-  pollinator_i_data_clogit_mod$cosine_turning <- scale(pollinator_i_data_clogit_mod$cosine_turning)
   
-  model_pollinator_i <- clogit(control ~ step_length + #time_of_day +
-                                 step_length : time_of_day +
-                                 step_length : plot +
-                                 #step_length : Year +
-                                 step_length : change_plant_sp +
-                                 # time_of_day +
-                                 # plot + 
-                                 # Year + 
-                                 # change_plant_sp +
-                                 # step_length : Periodo +
-                                 delta_richness +
-                                 delta_total_flowers +
-                                 # step_length : delta_richness +
-                                 # step_length : delta_total_flowers +
-                                 # delta_richness : delta_total_flowers +
-                                 # cosine_turning +
-                                 # step_length : cosine_turning +
-                                 strata(step_ID),
-                               method = "exact",
-                               pollinator_i_data_clogit_mod)
+  if(length(unique(pollinator_i_data_clogit_mod$Periodo))>1){
+    
+    model_pollinator_i <- clogit(control ~ step_length + #time_of_day +
+                                   step_length : time_of_day +
+                                   # step_length : plot +
+                                   #step_length : Year +
+                                   step_length : change_plant_sp +
+                                   # time_of_day +
+                                   # plot + 
+                                   # Year + 
+                                   # change_plant_sp +
+                                   step_length : Periodo +
+                                   delta_richness +
+                                   delta_total_flowers +
+                                   # step_length : delta_richness +
+                                   # step_length : delta_total_flowers +
+                                   # delta_richness : delta_total_flowers +
+                                   # cosine_turning +
+                                   # step_length : cosine_turning +
+                                   strata(step_ID),
+                                 method = "exact",
+                                 pollinator_i_data_clogit_mod)
+    
+  }else{
+    
+    model_pollinator_i <- clogit(control ~ step_length + #time_of_day +
+                                   step_length : time_of_day +
+                                   # step_length : plot +
+                                   #step_length : Year +
+                                   step_length : change_plant_sp +
+                                   # time_of_day +
+                                   # plot + 
+                                   # Year + 
+                                   # change_plant_sp +
+                                   # step_length : Periodo +
+                                   delta_richness +
+                                   delta_total_flowers +
+                                   # step_length : delta_richness +
+                                   # step_length : delta_total_flowers +
+                                   # delta_richness : delta_total_flowers +
+                                   # cosine_turning +
+                                   # step_length : cosine_turning +
+                                   strata(step_ID),
+                                 method = "exact",
+                                 pollinator_i_data_clogit_mod)
+    
+  }
+  
+  
   
   print(summary(model_pollinator_i))
   
@@ -75,14 +102,6 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
   # cat("concordance: ",model_pollinator_i[["concordance"]][6],"\n")
   
   print(cor.test(pollinator_i_data_clogit_mod$step_length[pollinator_i_data_clogit_mod$control == 1],
-                 pollinator_i_data_clogit_mod$cosine_turning[pollinator_i_data_clogit_mod$control == 1]),
-        method = "spearman")
-  
-  print(cor.test(pollinator_i_data_clogit_mod$step_length[pollinator_i_data_clogit_mod$control == 1],
-                 as.numeric(pollinator_i_data_clogit_mod$change_plant_sp[pollinator_i_data_clogit_mod$control == 1])),
-        method = "spearman")
-  
-  print(cor.test(pollinator_i_data_clogit_mod$cosine_turning[pollinator_i_data_clogit_mod$control == 1],
                  as.numeric(pollinator_i_data_clogit_mod$change_plant_sp[pollinator_i_data_clogit_mod$control == 1])),
         method = "spearman")
   
