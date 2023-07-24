@@ -1,0 +1,366 @@
+Bosque,Planta,X,Y,Week_ISO,Periodo,prob_consp_step
+Pinar Aznalcazar,Cistus_salviifolius,3,6,11,1,0.9992026154385386
+Pinar Aznalcazar,Cistus_salviifolius,3,9,11,1,0.9993909096399266
+Pinar Aznalcazar,Cistus_salviifolius,4,4,11,1,0.974462059085433
+Pinar Aznalcazar,Cistus_salviifolius,4,9,11,1,0.9994947615980019
+Pinar Aznalcazar,Cistus_salviifolius,6,4,11,1,0.9995596527503804
+Pinar Aznalcazar,Cistus_salviifolius,6,7,11,1,0.9986438188600553
+Pinar Aznalcazar,Cistus_salviifolius,6,10,11,1,0.9992199739424238
+Pinar Aznalcazar,Cistus_salviifolius,7,2,11,1,0.9913099762753821
+Pinar Aznalcazar,Cistus_salviifolius,9,3,11,1,0.9995559549975271
+Pinar Aznalcazar,Cistus_salviifolius,3,6,12,1,4.644511860864875e-8
+Pinar Aznalcazar,Cistus_salviifolius,3,8,12,1,7.059916005691528e-12
+Pinar Aznalcazar,Cistus_salviifolius,3,9,12,1,1.5371478511538735e-11
+Pinar Aznalcazar,Cistus_salviifolius,4,9,12,1,1.3067292066586342e-9
+Pinar Aznalcazar,Cistus_salviifolius,6,1,12,1,0.9735033125663863
+Pinar Aznalcazar,Cistus_salviifolius,6,3,12,1,0.05163558920827281
+Pinar Aznalcazar,Cistus_salviifolius,6,4,12,1,0.9824986364484802
+Pinar Aznalcazar,Cistus_salviifolius,6,7,12,1,1.0616553333184364e-5
+Pinar Aznalcazar,Cistus_salviifolius,8,3,12,1,0.9917656823619148
+Pinar Aznalcazar,Cistus_salviifolius,8,10,12,1,0.0023769230969553834
+Pinar Aznalcazar,Cistus_salviifolius,2,7,14,2,4.467788817672976e-290
+Pinar Aznalcazar,Cistus_salviifolius,3,8,14,2,9.358913196286557e-292
+Pinar Aznalcazar,Cistus_salviifolius,4,10,14,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,6,1,14,2,1.57539686320747e-289
+Pinar Aznalcazar,Cistus_salviifolius,6,4,14,2,2.181098872536907e-255
+Pinar Aznalcazar,Cistus_salviifolius,6,7,14,2,3.791320528742118e-302
+Pinar Aznalcazar,Cistus_salviifolius,6,10,14,2,1.9828233393480726e-270
+Pinar Aznalcazar,Cistus_salviifolius,8,3,14,2,6.340338676849972e-281
+Pinar Aznalcazar,Cistus_salviifolius,8,10,14,2,2.45491656008623e-299
+Pinar Aznalcazar,Cistus_salviifolius,9,3,14,2,1.1608552560843717e-294
+Pinar Aznalcazar,Cistus_crispus,1,1,16,2,0.99999999303759
+Pinar Aznalcazar,Cistus_crispus,1,2,16,2,0.999999996518795
+Pinar Aznalcazar,Cistus_crispus,1,9,16,2,0.999999996518795
+Pinar Aznalcazar,Cistus_crispus,2,6,16,2,0.999999996518795
+Pinar Aznalcazar,Cistus_crispus,4,7,16,2,0.999999996518795
+Pinar Aznalcazar,Cistus_crispus,5,7,16,2,0.9999999965180711
+Pinar Aznalcazar,Cistus_crispus,6,2,16,2,0.9999999965176863
+Pinar Aznalcazar,Cistus_crispus,6,7,16,2,0.999999996518795
+Pinar Aznalcazar,Cistus_crispus,7,3,16,2,0.999999996518795
+Pinar Aznalcazar,Cistus_crispus,7,6,16,2,1
+Pinar Aznalcazar,Cistus_crispus,7,7,16,2,NA
+Pinar Aznalcazar,Cistus_crispus,8,6,16,2,NA
+Pinar Aznalcazar,Cistus_crispus,8,7,16,2,0.999999996518795
+Pinar Aznalcazar,Cistus_crispus,8,8,16,2,NA
+Pinar Aznalcazar,Cistus_crispus,9,2,16,2,0.999999996518795
+Pinar Aznalcazar,Cistus_crispus,9,6,16,2,1
+Pinar Aznalcazar,Cistus_salviifolius,1,7,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,1,10,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,2,7,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,3,6,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,3,7,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,3,8,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,3,9,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,4,9,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,6,3,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,6,4,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,6,7,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,6,10,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,8,3,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,8,10,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,9,3,16,2,NA
+Pinar Aznalcazar,Cistus_salviifolius,10,10,16,2,NA
+Pinar Aznalcazar,Halimium_halimifolium,10,8,16,2,NA
+Pinar Aznalcazar,Cistus_crispus,1,1,17,2,0.9999999980204868
+Pinar Aznalcazar,Cistus_crispus,1,2,17,2,0.9999999990102434
+Pinar Aznalcazar,Cistus_crispus,1,8,17,2,0.9999999990102434
+Pinar Aznalcazar,Cistus_crispus,2,1,17,2,0.9999999990102434
+Pinar Aznalcazar,Cistus_crispus,2,6,17,2,0.9999999990102434
+Pinar Aznalcazar,Cistus_crispus,4,7,17,2,0.9999999990102434
+Pinar Aznalcazar,Cistus_crispus,6,2,17,2,0.9999999990102434
+Pinar Aznalcazar,Cistus_crispus,7,3,17,2,0.9999999990102434
+Pinar Aznalcazar,Cistus_crispus,9,7,17,2,NA
+Pinar Aznalcazar,Cistus_crispus,9,8,17,2,NA
+Pinar Aznalcazar,Halimium_halimifolium,9,6,17,2,NA
+Pinar Aznalcazar,Halimium_halimifolium,10,8,17,2,NA
+Pinar Aznalcazar,Halimium_halimifolium,10,9,17,2,NA
+Pinar Aznalcazar,Cistus_crispus,1,1,18,3,0.24818379742954388
+Pinar Aznalcazar,Cistus_crispus,1,2,18,3,0.08930487570863058
+Pinar Aznalcazar,Cistus_crispus,1,3,18,3,0.4688906869285171
+Pinar Aznalcazar,Cistus_crispus,2,1,18,3,0.5446966832459298
+Pinar Aznalcazar,Cistus_crispus,2,3,18,3,0.5435340718040994
+Pinar Aznalcazar,Cistus_crispus,2,6,18,3,0.5441980866758064
+Pinar Aznalcazar,Cistus_crispus,4,7,18,3,0.5466695220412132
+Pinar Aznalcazar,Cistus_crispus,7,3,18,3,0.5441180746291737
+Pinar Aznalcazar,Cistus_crispus,9,2,18,3,0.5466150647028961
+Pinar Aznalcazar,Cistus_crispus,9,7,18,3,NA
+Pinar Aznalcazar,Halimium_halimifolium,8,10,18,3,NA
+Pinar Aznalcazar,Halimium_halimifolium,9,6,18,3,NA
+Pinar Aznalcazar,Halimium_halimifolium,10,8,18,3,NA
+Pinar Aznalcazar,Halimium_halimifolium,10,9,18,3,NA
+Pinar Aznalcazar,Cistus_crispus,9,7,20,3,NA
+Pinar Aznalcazar,Halimium_halimifolium,8,10,20,3,NA
+Pinar Aznalcazar,Halimium_halimifolium,9,6,20,3,NA
+Pinar Aznalcazar,Halimium_halimifolium,10,8,20,3,NA
+Pinar Aznalcazar,Halimium_halimifolium,10,9,20,3,NA
+Pinar Hinojos,Halimium_calycinum,1,1,09,1,0.9963555207647539
+Pinar Hinojos,Halimium_calycinum,4,5,09,1,0.9999967341525975
+Pinar Hinojos,Halimium_calycinum,5,4,09,1,0.6887481647445713
+Pinar Hinojos,Halimium_calycinum,8,1,09,1,0.9959008319488019
+Pinar Hinojos,Halimium_calycinum,8,4,09,1,0.9999999997405158
+Pinar Hinojos,Halimium_calycinum,2,1,10,1,7.894275409644185e-49
+Pinar Hinojos,Halimium_calycinum,3,6,10,1,1.5033500559714924e-61
+Pinar Hinojos,Halimium_calycinum,4,5,10,1,1.9528162845191535e-10
+Pinar Hinojos,Halimium_calycinum,5,4,10,1,1.5093463570833471e-33
+Pinar Hinojos,Halimium_calycinum,8,1,10,1,2.612235770606589e-59
+Pinar Hinojos,Halimium_calycinum,8,4,10,1,0.08359342988245348
+Pinar Hinojos,Halimium_calycinum,1,1,11,1,0.9888017634859823
+Pinar Hinojos,Halimium_calycinum,2,1,11,1,0.9962532337708407
+Pinar Hinojos,Halimium_calycinum,4,5,11,1,0.9962532337708407
+Pinar Hinojos,Halimium_calycinum,5,4,11,1,0.9962532337708407
+Pinar Hinojos,Halimium_calycinum,8,1,11,1,0.9962532337708407
+Pinar Hinojos,Halimium_calycinum,8,4,11,1,0.9962532337708407
+Pinar Hinojos,Halimium_calycinum,1,1,13,1,0.9999130845084206
+Pinar Hinojos,Halimium_calycinum,2,1,13,1,0.999971027330066
+Pinar Hinojos,Halimium_calycinum,3,6,13,1,0.999971027330066
+Pinar Hinojos,Halimium_calycinum,4,5,13,1,0.999971027330066
+Pinar Hinojos,Halimium_calycinum,5,4,13,1,0.999971027330066
+Pinar Hinojos,Halimium_calycinum,8,1,13,1,0.999971027330066
+Pinar Hinojos,Halimium_calycinum,8,4,13,1,1
+Pinar Hinojos,Cistus_libanotis,4,8,14,2,9.667345329870269e-21
+Pinar Hinojos,Cistus_libanotis,10,7,14,2,0.9999999999999999
+Pinar Hinojos,Halimium_calycinum,1,1,14,2,NA
+Pinar Hinojos,Halimium_calycinum,2,1,14,2,NA
+Pinar Hinojos,Halimium_calycinum,4,5,14,2,NA
+Pinar Hinojos,Halimium_calycinum,5,4,14,2,NA
+Pinar Hinojos,Halimium_calycinum,8,1,14,2,NA
+Pinar Hinojos,Halimium_calycinum,8,4,14,2,NA
+Pinar Hinojos,Cistus_libanotis,4,8,16,2,0.9999999999534289
+Pinar Hinojos,Cistus_libanotis,10,7,16,2,1
+Pinar Hinojos,Halimium_calycinum,1,1,16,2,NA
+Pinar Hinojos,Halimium_calycinum,2,1,16,2,NA
+Pinar Hinojos,Halimium_calycinum,3,6,16,2,NA
+Pinar Hinojos,Halimium_calycinum,4,5,16,2,NA
+Pinar Hinojos,Halimium_calycinum,5,4,16,2,NA
+Pinar Hinojos,Halimium_calycinum,8,4,16,2,NA
+Pinar Puebla,Cistus_salviifolius,3,6,10,1,1.4040939747308732e-75
+Pinar Puebla,Cistus_salviifolius,6,2,10,1,1.770879654024689e-90
+Pinar Puebla,Cistus_salviifolius,7,7,10,1,4.473980854447407e-81
+Pinar Puebla,Cistus_salviifolius,9,4,10,1,3.6963201221876316e-113
+Pinar Puebla,Cistus_salviifolius,9,10,10,1,1.9088170195223025e-158
+Pinar Puebla,Cistus_salviifolius,2,4,11,1,0.9999989935999295
+Pinar Puebla,Cistus_salviifolius,3,6,11,1,0.9999989935999295
+Pinar Puebla,Cistus_salviifolius,3,10,11,1,0.9999989935994995
+Pinar Puebla,Cistus_salviifolius,6,1,11,1,0.9999979872008491
+Pinar Puebla,Cistus_salviifolius,6,2,11,1,0.999998993599922
+Pinar Puebla,Cistus_salviifolius,7,7,11,1,1
+Pinar Puebla,Cistus_salviifolius,9,2,11,1,0.9999989935999295
+Pinar Puebla,Cistus_salviifolius,9,4,11,1,0.9999989935999295
+Pinar Puebla,Cistus_salviifolius,9,10,11,1,0.9999989935998831
+Pinar Puebla,Cistus_salviifolius,2,10,12,1,0.9971131065863758
+Pinar Puebla,Cistus_salviifolius,3,6,12,1,0.9999569694018573
+Pinar Puebla,Cistus_salviifolius,3,10,12,1,0.9999569763885668
+Pinar Puebla,Cistus_salviifolius,6,1,12,1,0.37064243301907274
+Pinar Puebla,Cistus_salviifolius,6,2,12,1,0.608893048037884
+Pinar Puebla,Cistus_salviifolius,7,1,12,1,0.999956976770648
+Pinar Puebla,Cistus_salviifolius,7,7,12,1,0.999956976770469
+Pinar Puebla,Cistus_salviifolius,9,4,12,1,0.9999569767346971
+Pinar Puebla,Cistus_salviifolius,9,10,12,1,0.9999569767687986
+Pinar Puebla,Cistus_salviifolius,1,2,14,2,NA
+Pinar Puebla,Cistus_salviifolius,1,7,14,2,NA
+Pinar Puebla,Cistus_salviifolius,2,10,14,2,NA
+Pinar Puebla,Cistus_salviifolius,3,6,14,2,NA
+Pinar Puebla,Cistus_salviifolius,4,2,14,2,NA
+Pinar Puebla,Cistus_salviifolius,4,6,14,2,NA
+Pinar Puebla,Cistus_salviifolius,5,1,14,2,NA
+Pinar Puebla,Cistus_salviifolius,5,7,14,2,NA
+Pinar Puebla,Cistus_salviifolius,6,1,14,2,NA
+Pinar Puebla,Cistus_salviifolius,9,2,14,2,NA
+Pinar Puebla,Cistus_salviifolius,2,10,16,2,NA
+Pinar Puebla,Cistus_salviifolius,3,4,16,2,NA
+Pinar Puebla,Cistus_salviifolius,6,1,16,2,NA
+Pinar Puebla,Cistus_salviifolius,9,4,16,2,NA
+Pinar Puebla,Cistus_crispus,8,6,17,2,1
+Pinar Puebla,Cistus_crispus,8,7,17,2,1
+Pinar Puebla,Cistus_crispus,9,6,17,2,1
+Pinar Puebla,Cistus_crispus,9,7,17,2,0.9999999999830971
+Pinar Puebla,Cistus_crispus,10,7,17,2,1
+Pinar Puebla,Cistus_crispus,8,6,19,3,NA
+Pinar Puebla,Cistus_crispus,8,7,19,3,NA
+Pinar Puebla,Cistus_crispus,9,6,19,3,NA
+Pinar Puebla,Cistus_crispus,9,7,19,3,NA
+Pinar Puebla,Cistus_crispus,10,6,19,3,NA
+Pinar Puebla,Cistus_crispus,8,7,20,3,NA
+Pinar Puebla,Cistus_crispus,9,6,20,3,NA
+Pinar Puebla,Cistus_crispus,9,7,20,3,NA
+Pinar Puebla,Cistus_crispus,10,6,20,3,NA
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,3,9,10,1,1
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,5,10,10,1,1
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,2,10,1,1
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,6,10,1,1
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,3,9,12,1,3.8496933922658615e-8
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,4,5,12,1,9.692437063230808e-13
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,4,10,12,1,0.5551231770812439
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,7,9,12,1,2.335470330089926e-15
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,8,3,12,1,1.924157450991154e-12
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,2,12,1,6.023579540503502e-5
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,6,12,1,1.6158933887834521e-6
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,8,12,1,2.0249467106729024e-7
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,9,12,1,2.322271044812751e-6
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,10,12,1,2.39072520402741e-7
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,6,6,12,1,1.211624000253767e-5
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,6,8,12,1,0.9990993219838421
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,8,12,1,0.9990998827764456
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,9,12,1,0.02927587310227084
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,9,6,12,1,0.9990998838457141
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,4,5,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,5,1,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,5,2,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,6,5,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,7,9,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,7,10,14,2,2.662626778084874e-36
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,8,14,2,0.009228852063169136
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,9,14,2,7.579095295063282e-4
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,8,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,10,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,2,1,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,2,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,8,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,4,2,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,6,6,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,9,14,2,0.9999999999999996
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,8,3,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,9,6,14,2,1
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,3,1,15,2,2.0349813079783448e-199
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,4,5,15,2,8.359046350187384e-20
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,5,4,15,2,6.314191510612333e-154
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,6,1,15,2,1.1434362323438814e-52
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,6,4,15,2,2.1013143031461248e-141
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,6,5,15,2,1.2584561546888616e-33
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,6,6,15,2,0
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,1,15,2,0.9985771926203499
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,8,15,2,0.9990512366733402
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,2,6,15,2,0.9990512366733402
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,7,15,2,0.9995253516285502
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,4,2,15,2,0.9995255057642802
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,5,4,15,2,0.9995255057642802
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,6,6,15,2,0.9990512366733402
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,8,15,2,0.9990512366733402
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,9,15,2,0.9995255057617839
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,8,3,15,2,0.9990512366733402
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,2,16,2,0.994522807289006
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,4,16,2,0.9945228072890062
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,2,5,16,2,0.9945228072890062
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,4,7,16,2,0.9945228072890062
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,5,4,16,2,0.9945228072890006
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,5,5,16,2,0.994522807200144
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,6,4,16,2,0.9945228072889796
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,7,1,16,2,0.9890756142180058
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,9,5,16,2,0.9945228072890062
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,8,16,2,NA
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,2,6,16,2,NA
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,8,16,2,NA
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,10,16,2,NA
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,4,2,16,2,NA
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,4,9,16,2,NA
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,5,6,16,2,NA
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,5,9,16,2,NA
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,8,16,2,NA
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,8,3,16,2,NA
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,3,18,3,0.9984171525906558
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,4,18,3,0.9968968448234549
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,7,18,3,0.9992131038965791
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,2,3,18,3,0.9980564811942726
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,2,5,18,3,0.9904470689267993
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,5,4,18,3,0.999194779741346
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,6,4,18,3,0.9991517658233476
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,7,1,18,3,0.9984257275555104
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,9,5,18,3,0.999212954306233
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,2,19,3,0.9999999999999831
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,3,19,3,1
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,4,19,3,0.9999999999724847
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,7,19,3,1
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,2,5,19,3,1
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,4,7,19,3,1
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,5,4,19,3,1
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,5,5,19,3,1
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,6,4,19,3,1
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,7,1,19,3,1
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,7,21,3,NA
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,3,1,21,3,NA
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,5,5,21,3,NA
+Pinar Villamanrique Sur,Cistus_salviifolius,1,6,11,1,0.9987910396952754
+Pinar Villamanrique Sur,Cistus_salviifolius,2,3,11,1,0.9983724312838608
+Pinar Villamanrique Sur,Cistus_salviifolius,2,9,11,1,0.9988323438925898
+Pinar Villamanrique Sur,Cistus_salviifolius,3,7,11,1,0.9989331274761966
+Pinar Villamanrique Sur,Cistus_salviifolius,3,9,11,1,0.9983278194179162
+Pinar Villamanrique Sur,Cistus_salviifolius,3,10,11,1,0.9990363400884497
+Pinar Villamanrique Sur,Cistus_salviifolius,4,3,11,1,0.9990292281095196
+Pinar Villamanrique Sur,Cistus_salviifolius,4,9,11,1,0.9457669991703394
+Pinar Villamanrique Sur,Cistus_salviifolius,5,8,11,1,0.9989631300687111
+Pinar Villamanrique Sur,Cistus_salviifolius,7,9,11,1,0.999288355312114
+Pinar Villamanrique Sur,Cistus_salviifolius,9,10,11,1,0.9993281014614307
+Pinar Villamanrique Sur,Cistus_salviifolius,1,2,12,1,1
+Pinar Villamanrique Sur,Cistus_salviifolius,1,3,12,1,1
+Pinar Villamanrique Sur,Cistus_salviifolius,1,6,12,1,1
+Pinar Villamanrique Sur,Cistus_salviifolius,2,3,12,1,1
+Pinar Villamanrique Sur,Cistus_salviifolius,3,7,12,1,1
+Pinar Villamanrique Sur,Cistus_salviifolius,3,10,12,1,1
+Pinar Villamanrique Sur,Cistus_salviifolius,5,2,12,1,1
+Pinar Villamanrique Sur,Cistus_salviifolius,6,3,12,1,1
+Pinar Villamanrique Sur,Cistus_salviifolius,8,3,12,1,1
+Pinar Villamanrique Sur,Cistus_salviifolius,9,7,12,1,1
+Pinar Villamanrique Sur,Cistus_salviifolius,9,8,12,1,1
+Pinar Villamanrique Sur,Cistus_salviifolius,3,10,14,2,0.9999908175129317
+Pinar Villamanrique Sur,Cistus_salviifolius,4,9,14,2,0.9999907448933268
+Pinar Villamanrique Sur,Cistus_salviifolius,5,1,14,2,0.9994089033291267
+Pinar Villamanrique Sur,Cistus_salviifolius,6,3,14,2,0.9999884480200169
+Pinar Villamanrique Sur,Cistus_salviifolius,7,9,14,2,0.9998892008304572
+Pinar Villamanrique Sur,Cistus_salviifolius,8,3,14,2,0.999993775710863
+Pinar Villamanrique Sur,Cistus_salviifolius,8,5,14,2,0.9999942298187904
+Pinar Villamanrique Sur,Cistus_salviifolius,9,2,14,2,0.9992186229941905
+Pinar Villamanrique Sur,Cistus_salviifolius,9,7,14,2,0.9999377347096202
+Pinar Villamanrique Sur,Cistus_salviifolius,9,8,14,2,0.9999655589559954
+Pinar Villamanrique Sur,Cistus_crispus,8,8,15,2,NA
+Pinar Villamanrique Sur,Cistus_crispus,7,9,15,2,NA
+Pinar Villamanrique Sur,Cistus_crispus,9,7,15,2,NA
+Pinar Villamanrique Sur,Cistus_salviifolius,1,1,15,2,1.4898532317673394e-17
+Pinar Villamanrique Sur,Cistus_salviifolius,1,6,15,2,8.394470186313976e-4
+Pinar Villamanrique Sur,Cistus_salviifolius,3,4,15,2,0.17600212155568798
+Pinar Villamanrique Sur,Cistus_salviifolius,4,9,15,2,0.0030137213260088827
+Pinar Villamanrique Sur,Cistus_salviifolius,5,8,15,2,6.322786996961499e-4
+Pinar Villamanrique Sur,Cistus_salviifolius,8,2,15,2,0.9997113414293236
+Pinar Villamanrique Sur,Cistus_salviifolius,9,2,15,2,6.796556065261524e-84
+Pinar Villamanrique Sur,Cistus_salviifolius,9,7,15,2,1.0792442273610713e-34
+Pinar Villamanrique Sur,Cistus_salviifolius,9,8,15,2,0.5950833466800007
+Pinar Villamanrique Sur,Halimium_halimifolium,1,9,15,2,NA
+Pinar Villamanrique Sur,Halimium_halimifolium,3,1,15,2,NA
+Pinar Villamanrique Sur,Cistus_crispus,5,4,16,2,0.9999980629643193
+Pinar Villamanrique Sur,Cistus_crispus,6,6,16,2,0.9999940768371207
+Pinar Villamanrique Sur,Cistus_crispus,7,10,16,2,0.9999660791751175
+Pinar Villamanrique Sur,Cistus_crispus,8,8,16,2,0.9999922565262122
+Pinar Villamanrique Sur,Cistus_crispus,8,9,16,2,0.9993994929660603
+Pinar Villamanrique Sur,Cistus_crispus,8,10,16,2,0.9999758875635247
+Pinar Villamanrique Sur,Cistus_crispus,9,7,16,2,0.9999598580387012
+Pinar Villamanrique Sur,Cistus_salviifolius,1,10,16,2,NA
+Pinar Villamanrique Sur,Cistus_salviifolius,2,9,16,2,NA
+Pinar Villamanrique Sur,Cistus_salviifolius,2,10,16,2,NA
+Pinar Villamanrique Sur,Cistus_salviifolius,8,2,16,2,NA
+Pinar Villamanrique Sur,Cistus_salviifolius,9,7,16,2,NA
+Pinar Villamanrique Sur,Cistus_salviifolius,9,10,16,2,NA
+Pinar Villamanrique Sur,Halimium_halimifolium,1,9,16,2,1.5863843743721367e-133
+Pinar Villamanrique Sur,Halimium_halimifolium,3,1,16,2,2.0077828156670062e-91
+Pinar Villamanrique Sur,Cistus_crispus,3,6,18,3,0.008617171242201767
+Pinar Villamanrique Sur,Cistus_crispus,5,4,18,3,0.8112684458178213
+Pinar Villamanrique Sur,Cistus_crispus,6,6,18,3,0.81126843881255
+Pinar Villamanrique Sur,Cistus_crispus,8,8,18,3,0.43316996688192344
+Pinar Villamanrique Sur,Cistus_crispus,8,9,18,3,2.900478310291589e-9
+Pinar Villamanrique Sur,Cistus_crispus,8,10,18,3,0.6581552477183569
+Pinar Villamanrique Sur,Cistus_crispus,9,7,18,3,0.7467200152531794
+Pinar Villamanrique Sur,Halimium_halimifolium,1,9,18,3,NA
+Pinar Villamanrique Sur,Halimium_halimifolium,3,1,18,3,NA
+Pinar Villamanrique Sur,Cistus_crispus,3,5,19,3,2.246617087732695e-7
+Pinar Villamanrique Sur,Cistus_crispus,4,6,19,3,1.532872264681635e-8
+Pinar Villamanrique Sur,Cistus_crispus,5,4,19,3,0.9941232278589996
+Pinar Villamanrique Sur,Cistus_crispus,6,6,19,3,0.9937840884255943
+Pinar Villamanrique Sur,Cistus_crispus,8,8,19,3,0.9882806860249338
+Pinar Villamanrique Sur,Cistus_crispus,9,2,19,3,0.022235632302861394
+Pinar Villamanrique Sur,Cistus_crispus,9,7,19,3,0.6431199356710917
+Pinar Villamanrique Sur,Cistus_crispus,10,8,19,3,0.01584698327970322
+Pinar Villamanrique Sur,Halimium_halimifolium,1,9,19,3,NA
+Pinar Villamanrique Sur,Halimium_halimifolium,3,1,19,3,NA
+Pinar Villamanrique Sur,Cistus_crispus,5,4,21,3,NA
+Pinar Villamanrique Sur,Cistus_crispus,6,6,21,3,NA
+Pinar Villamanrique Sur,Cistus_crispus,9,2,21,3,NA
+Pinar Villamanrique Sur,Halimium_halimifolium,1,9,21,3,NA
+Pinar Villamanrique Sur,Halimium_halimifolium,3,1,21,3,NA
