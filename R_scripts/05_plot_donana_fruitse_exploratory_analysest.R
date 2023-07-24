@@ -66,6 +66,14 @@ data_model_aux$Periodo[data_model_aux$Periodo=="1"] <- "March"
 data_model_aux$Periodo[data_model_aux$Periodo=="2"] <- "April"
 data_model_aux$Periodo[data_model_aux$Periodo=="3"] <- "May"
 
+
+#-------------------------------------------------------------------------
+# Save data for models
+path_save_file <- paste0("results/donana/data for_fruitset_models_from_",
+                         number_random_steps,"_rd_steps.csv")
+
+write_csv(data_model_aux, path_save_file)
+
 # Data visualization
 
 png("figures/donana_fruitset_visits.png",
@@ -78,7 +86,7 @@ fruitset_visits_plot <-
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+
-  labs(x="Total number of fruits per plant individual", y = "Total number of visits",color=NULL)+
+  labs(x="Fruitset", y = "Total number of visits",color=NULL)+
   theme_bw()+
   theme(legend.position="none")+
   theme(legend.text = element_text(size=15))+
@@ -100,7 +108,7 @@ fruitset_visits_plant_plot <-
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+
-  labs(x="Total number of fruits per plant individual", y = "Total number of visits",color=NULL)+
+  labs(x="Fruitset", y = "Total number of visits",color=NULL)+
   theme_bw()+
   theme(legend.position="bottom")+
   theme(legend.text = element_text(size=15))+
@@ -122,7 +130,7 @@ fruitset_homomotifs_plot <-
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+
-  labs(x="Total number of fruits per plant individual", y = "Total number of homo-motifs",color=NULL)+
+  labs(x="Fruitset", y = "Total number of homo-motifs",color=NULL)+
   theme_bw()+
   theme(legend.position="none")+
   theme(legend.text = element_text(size=15))+
@@ -143,7 +151,7 @@ fruitset_homomotifs_plant_plot <-
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+
-  labs(x="Total number of fruits per plant individual", y = "Total number of homo-motifs",color=NULL)+
+  labs(x="Fruitset", y = "Total number of homo-motifs",color=NULL)+
   theme_bw()+
   theme(legend.position="bottom")+
   theme(legend.text = element_text(size=15))+
@@ -165,7 +173,7 @@ fruitset_hetemotifs_plot <-
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+
-  labs(x="Total number of fruits per plant individual", y = "Total number of hete-motifs",color=NULL)+
+  labs(x="Fruitset", y = "Total number of hete-motifs",color=NULL)+
   theme_bw()+
   theme(legend.position="none")+
   theme(legend.text = element_text(size=15))+
@@ -187,7 +195,7 @@ fruitset_hetemotifs_plant_plot <-
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+
-  labs(x="Total number of fruits per plant individual", y = "Total number of hete-motifs",color=NULL)+
+  labs(x="Fruitset", y = "Total number of hete-motifs",color=NULL)+
   theme_bw()+
   theme(legend.position="bottom")+
   theme(legend.text = element_text(size=15))+
@@ -210,7 +218,7 @@ fruitset_prob_consp_step_plot <-
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+
-  labs(x="Total number of fruits per plant individual", y = "Prob. consp. step",color=NULL)+
+  labs(x="Fruitset", y = "Prob. consp. step",color=NULL)+
   theme_bw()+
   theme(legend.position="none")+
   theme(legend.text = element_text(size=15))+
@@ -232,7 +240,7 @@ fruitset_prob_consp_step_plant_plot <-
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+
-  labs(x="Total number of fruits per plant individual", y = "Prob. consp. step",color=NULL)+
+  labs(x="Fruitset", y = "Prob. consp. step",color=NULL)+
   theme_bw()+
   theme(legend.position="bottom")+
   theme(legend.text = element_text(size=15))+
