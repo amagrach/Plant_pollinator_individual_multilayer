@@ -81,12 +81,17 @@ ggplot(data_model)+
 # test_cistus_salviifolius # Remove 3-8 Cistus_salviifolius 6-2 Cistus_salviifolius
 
 data_model_filtered <- data_model %>%
-  filter(!row_number() %in% c(99, 62)) %>%
+  filter(!row_number() %in% c(99, 62))
+
+data_model_beta_full <- data_model_filtered
+data_model_beta_full$fruitset[data_model_beta_full$fruitset==1] <- 1-1e-3
+data_model_beta_full$fruitset[data_model_beta_full$fruitset==0] <- 1e-3
+
+data_model_beta <- data_model_beta_full %>%
   filter(Planta != "Cistus_salviifolius")# White test suggest this species highly increase heterokedasticity
 
-data_model_beta <- data_model_filtered
-data_model_beta$fruitset[data_model_beta$fruitset==1] <- 1-1e-3
-data_model_beta$fruitset[data_model_beta$fruitset==0] <- 1e-3
+data_model_beta_salvii <- data_model_beta_full %>%
+  filter(Planta == "Cistus_salviifolius")
 
 # Pairwise visualization
 ggpairs(data_model %>% dplyr::select("fruitset","homo_motif",
@@ -630,11 +635,37 @@ shapiro.test(residuals(short_alternative_variables_fruitset_GLM_homo_hete_beta_p
 summary(short_alternative_variables_fruitset_GLM_homo_hete_beta_planta_quan)
 
 performance::check_model(consp_prob_fruitset_GLM_beta_planta_quan)
+performance::r2(consp_prob_fruitset_GLM_beta_planta_quan)
+shapiro.test(residuals(consp_prob_fruitset_GLM_beta_planta_quan))
 shapiro.test(residuals(consp_prob_fruitset_GLM_beta_planta_quan))
 
 performance::check_model(prop_homo_fruitset_GLM_beta_planta_quan)
 shapiro.test(residuals(prop_homo_fruitset_GLM_beta_planta_quan))
 
 
+# Do the results change when using the full dataset??
+
+short_alternative_variables_fruitset_GLM_beta_planta_quan_full <-  betareg::betareg((fruitset) ~ scale(prop_homo) + 
+                                                                                 scale(prob_consp_step) + 
+                                                                                 Planta, 
+                                                                               data_model_beta_full)
+summary(short_alternative_variables_fruitset_GLM_beta_planta_quan_full) # prop_homo and prop_cons are almost significant
+#perform Breusch-Pagan Test
+lmtest::bptest(short_alternative_variables_fruitset_GLM_beta_planta_quan_full)
+performance::check_model(short_alternative_variables_fruitset_GLM_beta_planta_quan_full)
+
+# Predictor trends look the same, but they are not significant at the 95% CI
 
 
+# Do the results change when using the only C. salviifolius dataset??
+
+short_alternative_variables_fruitset_GLM_beta_planta_quan_salvii <-  betareg::betareg((fruitset) ~ scale(prop_homo) + 
+                                                                                      scale(prob_consp_step), 
+                                                                                    data_model_beta_salvii)
+summary(short_alternative_variables_fruitset_GLM_beta_planta_quan_salvii) # prop_homo and prop_cons trends are not significant, and opposite to those found before
+#perform Breusch-Pagan Test
+lmtest::bptest(short_alternative_variables_fruitset_GLM_beta_planta_quan_salvii)
+performance::check_model(short_alternative_variables_fruitset_GLM_beta_planta_quan_salvii) # Hypotheses are not met.
+
+
+write_csv(data_model_beta,"results/donana/beta_model_results.csv")
