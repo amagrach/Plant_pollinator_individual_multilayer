@@ -31,11 +31,9 @@ data_model <- read_csv(path_save_file) %>%
   mutate(Periodo = as.factor(Periodo),
          Planta = as.factor(Planta),
          Bosque = as.factor(Bosque),
-         prop_homo = homo_motif/(homo_motif+hete_motif))
+         prop_homo = homo_motif/(homo_motif+hete_motif)) %>%
+  filter(fruitset>0.5)
 
-data_model$cat_prob_consp_step <- "p<0.8"
-data_model$cat_prob_consp_step[data_model$prob_consp_step > 0.8] <- "p>0.8"
-data_model$cat_prob_consp_step <- as.factor(data_model$cat_prob_consp_step)
 
 data_model_beta <- data_model
 data_model_beta$fruitset[data_model_beta$fruitset==1] <- 1-1e-3
