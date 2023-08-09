@@ -23,7 +23,7 @@ ggplot(data_model_beta, aes(x=fruitset,y=predictions, color = species_name))+
   guides(fill=guide_legend(nrow=2,byrow=TRUE),colour = guide_legend(nrow=2,byrow=TRUE,override.aes = list(size=5)))
 
 
-png("figures/fruitset_beta_fit.png", width=500, height = 500, res=300)
+png("figures/fruitset_beta_fit.png", width=1500, height = 1500, res=300)
 
 ggplot(data_model_beta, aes(x=fruitset,y=predictions, color = species_name))+
   geom_abline(slope = 1,  color="deepskyblue1",
