@@ -1,5 +1,6 @@
 
 library(tidyverse)
+library(car)
 
 
 data_model_beta <- read_csv("results/donana/beta_model_results.csv")
@@ -29,6 +30,7 @@ ggplot(data_model_beta, aes(x=fruitset,y=predictions, color = species_name))+
   geom_abline(slope = 1,  color="deepskyblue1",
               linetype="dashed", linewidth=1.5)+geom_point(alpha=0.5,size=3)+
   labs(x="Observed fruitset", y="Predicted fruitset", color=NULL)+
+  xlim(0,1)+ylim(0,1)+
   theme_bw()+
   theme(legend.position="bottom")+
   theme(legend.text = element_text(face = "italic"))+
@@ -39,3 +41,11 @@ ggplot(data_model_beta, aes(x=fruitset,y=predictions, color = species_name))+
 
 
 dev.off()
+
+
+#produce added variable plots
+short_alternative_variables_fruitset_GLM_beta_planta_quan <-  betareg::betareg((fruitset) ~ scale(prop_homo) + 
+                                                                                      scale(prob_consp_step) + 
+                                                                                      Planta, 
+                                                                                    data_model_beta)
+car::avPlots(short_alternative_variables_fruitset_GLM_beta_planta_quan) # this function does not work with beta-regression
