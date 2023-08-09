@@ -42,10 +42,3 @@ ggplot(data_model_beta, aes(x=fruitset,y=predictions, color = species_name))+
 
 dev.off()
 
-
-#produce added variable plots
-short_alternative_variables_fruitset_GLM_beta_planta_quan <-  betareg::betareg((fruitset) ~ scale(prop_homo) + 
-                                                                                      scale(prob_consp_step) + 
-                                                                                      Planta, 
-                                                                                    data_model_beta)
-car::avPlots(short_alternative_variables_fruitset_GLM_beta_planta_quan) # this function does not work with beta-regression

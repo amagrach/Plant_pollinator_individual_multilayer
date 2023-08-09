@@ -59,6 +59,8 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
                                    step_length : Periodo +
                                    delta_richness +
                                    delta_total_flowers +
+                                   delta_richness : change_plant_sp +
+                                   delta_total_flowers : change_plant_sp +
                                    # step_length : delta_richness +
                                    # step_length : delta_total_flowers +
                                    # delta_richness : delta_total_flowers +

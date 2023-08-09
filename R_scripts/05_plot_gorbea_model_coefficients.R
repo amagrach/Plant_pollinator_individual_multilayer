@@ -45,7 +45,9 @@ coefficient_names <- c(
   `delta_richness:delta_total_flowers` = "change in sp. richness:\nchange in the\ntotal # flowers",
   `time_of_day12:40 - 15:19` = "time of day\n12:40 - 15:19",
   `time_of_day15:20 - 18:05` = "time of day\n15:20 - 18:05",
-  change_plant_spTRUE = "change plant sp."
+  change_plant_spTRUE = "change plant sp.",
+  `delta_richness:change_plant_spTRUE` = "change in sp. richness:unloyal\n(floral fidelity)",
+  `delta_total_flowers:change_plant_spTRUE` = "change in the total\n# flowers:unloyal (floral fidelity)"
 )
 
 coef_observations$pollinator <- gsub("_", " ", coef_observations$pollinator)
@@ -60,7 +62,7 @@ ggplot(coef_observations, aes(y=pollinator))+
   geom_point(aes(x = estimate, color = as.factor(pollinator), shape = shapes),size=2)+
   geom_errorbar(aes(xmin=estimate-1.96*std.error, xmax=estimate+1.96*std.error,color = as.factor(pollinator)), width=.2)+
   geom_vline(xintercept = 0)+
-  facet_wrap(vars(term), ncol = 4, labeller = as_labeller(coefficient_names), scales = "free_x")+
+  facet_wrap(vars(term), ncol = 5, labeller = as_labeller(coefficient_names), scales = "free_x")+
   scale_y_discrete(limits=rev)+
   scale_x_continuous(trans = pseudolog10_trans)+
   theme_bw()+theme(axis.text.y = element_text(face = "italic"),
@@ -71,14 +73,14 @@ ggplot(coef_observations, aes(y=pollinator))+
        color = "Floral\nvisitor", shape = NULL)
 
 png("figures/gorbea_clogit_floral_coef_observed_distributions.png",
-    width = 11.69, # The width of the plot in inches
+    width = 11.69*1.2, # The width of the plot in inches
     height = 11.69*0.6, units = "in", res=300*2)
 
 ggplot(coef_observations, aes(y=pollinator))+
   geom_point(aes(x = estimate, color = as.factor(pollinator), shape = shapes),size=2)+
   geom_errorbar(aes(xmin=estimate-1.96*std.error, xmax=estimate+1.96*std.error,color = as.factor(pollinator)), width=.2)+
   geom_vline(xintercept = 0)+
-  facet_wrap(vars(term), ncol = 4, labeller = as_labeller(coefficient_names), scales = "free_x")+
+  facet_wrap(vars(term), ncol = 5, labeller = as_labeller(coefficient_names), scales = "free_x")+
   scale_y_discrete(limits=rev)+
   scale_x_continuous(trans = pseudolog10_trans)+
   theme_bw()+theme(axis.text.y = element_text(face = "italic"),
