@@ -47,17 +47,62 @@ path_save_file <- paste0("results/donana/consp_step_probability_from_",
 
 consp_prob_step <- read_csv(path_save_file)
 
+
+#------------------------------------------------
+# Load flora data
+
+flora_census <- read_csv("results/donana/flora_census_21.csv")
+
+flora_census %>% dplyr::select(Year, Bosque, Periodo, Week_ISO, X, Y) %>%
+  group_by(Year, Bosque, Periodo, Week_ISO, X, Y) %>% count() %>% filter(n>1)
+
+plant_richness_censuses <- flora_census %>% dplyr::select(X, Y, Planta, Bosque, Periodo, Week_ISO) %>%
+  unique() %>% group_by(X, Y, Bosque, Periodo, Week_ISO) %>% count() %>% rename(plant_richness = n)
+
+total_flowers_censuses <- flora_census %>% dplyr::select(X, Y, Flores, Bosque, Periodo, Week_ISO) %>%
+  group_by(X, Y, Bosque, Periodo, Week_ISO) %>% count(wt = Flores) %>% rename(total_number_flowers = n) %>%
+  filter(total_number_flowers > 0)
+
+#------------------------------------------------
+# Load flora data
+
+flights_raw <- read_csv("results/donana/foraging_Donana_2021.csv") %>%
+  rename(node = Codigo_within_sequence)
+
+
+flights_raw$Periodo_hora %>% sort() %>% unique()
+
+
+# Change variables
+flights_raw$time_of_day <- "10:00 - 11:59" 
+flights_raw$time_of_day[lubridate::hour(flights_raw$Periodo_hora) >= 12] <- "12:00 - 13:59" 
+flights_raw$time_of_day[lubridate::hour(flights_raw$Periodo_hora) >= 14] <- "14:00 - 16:05" 
+
+flights_raw$Periodo <- 1
+flights_raw$Periodo[flights_raw$Day_ISO > 90] <- 2
+flights_raw$Periodo[flights_raw$Day_ISO > 123] <- 3
+
+pollinator_richness_censuses <- flights_raw %>% dplyr::select(X, Y, Planta, Polinizador, Bosque, Periodo,Week_ISO) %>%
+  unique() %>% group_by(X, Y, Bosque, Periodo, Planta,Week_ISO) %>% count() %>% rename(poll_richness = n)
+
+
 #---------------------------------------
 # Combine fruitset, motif and consp. prob. data for Doñana 2021
 data_model_aux <- fruitset_census %>% 
   left_join(motifs_aggregated, 
             by = c("Bosque","Subplot_Plant_Label","Week_ISO")) %>%
-  left_join(consp_prob_step, by = c("Bosque","Planta","X", "Y","Week_ISO","Periodo"))
+  left_join(consp_prob_step, by = c("Bosque","Planta","X", "Y","Week_ISO","Periodo")) %>%
+  left_join(pollinator_richness_censuses, by = c("Bosque","Planta","X", "Y","Week_ISO","Periodo")) %>%
+  left_join(plant_richness_censuses, by = c("Bosque","X", "Y","Week_ISO","Periodo")) %>%
+  left_join(total_flowers_censuses, by = c("Bosque","X", "Y","Week_ISO","Periodo"))
 
 # Sanity check
 data_model_aux %>% filter(is.na(Visits_tot)) # 70 (179) missing values without (with) Week_ISO
 data_model_aux %>% filter(is.na(prob_consp_step)) # 114 missing values without (with) Week_ISO
 data_model_aux %>% filter(is.na(homo_motif)) # 179 missing values without (with) Week_ISO
+data_model_aux %>% filter(is.na(poll_richness)) # 195 missing values with Week_ISO
+data_model_aux %>% filter(is.na(plant_richness)) # 23 missing values with Week_ISO
+data_model_aux %>% filter(is.na(total_number_flowers)) # 24 missing values with Week_ISO
 
 
 # Update period value
