@@ -7,7 +7,7 @@ number_random_steps <- 20
 
 # Plot results
 path_observations <- paste0("results/donana/pollinator_floral_coef_observations_",
-                            number_random_steps,"_rd_steps.csv")
+                            number_random_steps,"_rd_steps_UPDATED.csv")
 coef_observations <- read_csv(path_observations)
 
 coef_observations$term %>% unique()
@@ -45,7 +45,8 @@ coefficient_names <- c(
   `step_length:BosquePinar Villamanrique Sur` = "step length:Villamanrique Sur",
   change_plant_spTRUE = "change plant sp.",
   `delta_richness:change_plant_spTRUE` = "change in sp. richness:unloyal\n(floral fidelity)",
-  `delta_total_flowers:change_plant_spTRUE` = "change in the total\n# flowers:unloyal (floral fidelity)"
+  `delta_total_flowers:change_plant_spTRUE` = "change in the total\n# flowers:unloyal (floral fidelity)",
+  `log_sl` = "Ln(step length)"
   
 )
 
@@ -71,7 +72,7 @@ ggplot(coef_observations, aes(y=pollinator))+
   labs(title=NULL, x="Coef. estimate", y = NULL,
        color = "Floral\nvisitor", shape = NULL)
 
-png("figures/donana_clogit_floral_coef_observed_distributions.png",
+png("figures/donana_clogit_floral_coef_observed_distributions_UPDATED.png",
     width = 11.69*1.3, # The width of the plot in inches
     height = 11.69*0.6, units = "in", res=300*2)
 

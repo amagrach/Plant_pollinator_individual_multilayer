@@ -18,7 +18,7 @@ source("R_scripts/aux_functions/set_same_factor_levels_on_flower_data.R")
 number_random_steps <- 20
 
 data_path_file <- paste0("results/donana/total_pollinator_i_data_clogit_observations_",
-                         number_random_steps,"_rd_steps_NEW.csv")
+                         number_random_steps,"_rd_steps_UPDATED.csv")
 
 total_pollinator_i_data_clogit <- read_csv(data_path_file) # %>% filter(Periodo<3)
 ranking_pollinators <- total_pollinator_i_data_clogit %>% group_by(Polinizador) %>% count() %>% arrange(desc(n))
@@ -28,7 +28,7 @@ ranking_pollinators <- total_pollinator_i_data_clogit %>% group_by(Polinizador) 
 main_pollinator_coef <- NULL
 set.seed(1234)
 
-for(pollinator_i in ranking_pollinators$Polinizador) {
+for(pollinator_i in ranking_pollinators$Polinizador[c(1:5)]) {
   
   print(pollinator_i)
   
@@ -44,8 +44,13 @@ for(pollinator_i in ranking_pollinators$Polinizador) {
   pollinator_i_data_clogit_mod$delta_total_flowers <- scale(pollinator_i_data_clogit_mod$delta_total_flowers)
   pollinator_i_data_clogit_mod$log_sl = log(pollinator_i_data_clogit_mod$step_length +1e-3)
   
+  print(pollinator_i_data_clogit_mod %>% 
+    mutate(change_plant_sp = as.character(change_plant_sp),
+           control = as.character(control)) %>% 
+    group_by(control,change_plant_sp) %>% count())
+  
   model_pollinator_i <- clogit(control ~ step_length + #time_of_day +
-                                log_sl +
+                                # log_sl +
                                 # step_length : time_of_day +
                                 # step_length : plot +
                                 #step_length : Year +
@@ -53,7 +58,7 @@ for(pollinator_i in ranking_pollinators$Polinizador) {
                                 # time_of_day +
                                 # plot + 
                                 # Year + 
-                                change_plant_sp +
+                                # change_plant_sp +
                                 # step_length : Periodo +
                                 delta_richness +
                                 delta_total_flowers +
@@ -66,6 +71,7 @@ for(pollinator_i in ranking_pollinators$Polinizador) {
                                 # step_length : cosine_turning +
                                 strata(step_ID),
                               method = "exact",
+                              control = coxph.control(iter.max = 1e4),
                               pollinator_i_data_clogit_mod)
   
   
@@ -80,10 +86,10 @@ for(pollinator_i in ranking_pollinators$Polinizador) {
   #                as.numeric(pollinator_i_data_clogit_mod$change_plant_sp[pollinator_i_data_clogit_mod$control == 1])),
   #       method = "spearman")
   
-  print(cor.test(pollinator_i_data_clogit_mod$delta_richness[pollinator_i_data_clogit_mod$control == 1],
-                 pollinator_i_data_clogit_mod$delta_total_flowers[pollinator_i_data_clogit_mod$control == 1]),
-        method = "spearman")
-  
+  # print(cor.test(pollinator_i_data_clogit_mod$delta_richness[pollinator_i_data_clogit_mod$control == 1],
+  #                pollinator_i_data_clogit_mod$delta_total_flowers[pollinator_i_data_clogit_mod$control == 1]),
+  #       method = "spearman")
+  # 
   pollinator_i_coef <- broom::tidy(model_pollinator_i) %>% mutate(pollinator = pollinator_i)
   
   main_pollinator_coef <- bind_rows(main_pollinator_coef, pollinator_i_coef)
@@ -94,7 +100,7 @@ for(pollinator_i in ranking_pollinators$Polinizador) {
 # Save model coefficients
 
 path_save_file <- paste0("results/donana/pollinator_floral_coef_observations_",
-                         number_random_steps,"_rd_steps.csv")
+                         number_random_steps,"_rd_steps_UPDATED.csv")
 
 write_csv(main_pollinator_coef, path_save_file)
 
