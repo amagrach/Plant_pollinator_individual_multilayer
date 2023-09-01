@@ -27,7 +27,7 @@ flora_census <- read_csv("results/donana/flora_census_21.csv")
 number_random_steps <- 20
 
 data_path_file <- paste0("results/donana/total_pollinator_i_data_clogit_observations_",
-                         number_random_steps,"_rd_steps_NEW.csv")
+                         number_random_steps,"_rd_steps_UPDATED.csv")
 
 total_pollinator_i_data_clogit_raw <- read_csv(data_path_file) # %>% filter(Periodo<3)
 
@@ -52,7 +52,7 @@ for(combination_i in 1:nrow(bosque_plant_week_combinations)){
     pollinator_i_data_clogit_mod <- set_same_factor_levels_on_flower_data_donana(total_pollinator_i_data_clogit) %>%
       mutate(cosine_turning = cos(turning_angle*pi/180))
     
-    pollinator_i_data_clogit_mod$Periodo <- as.factor(pollinator_i_data_clogit_mod$Periodo)
+    # pollinator_i_data_clogit_mod$Periodo <- as.factor(pollinator_i_data_clogit_mod$Periodo)
     # pollinator_i_data_clogit_mod$step_length <- pollinator_i_data_clogit_mod$step_length
     # pollinator_i_data_clogit_mod$delta_richness <- pollinator_i_data_clogit_mod$delta_richness
     # pollinator_i_data_clogit_mod$delta_total_flowers <- pollinator_i_data_clogit_mod$delta_total_flowers
@@ -62,7 +62,7 @@ for(combination_i in 1:nrow(bosque_plant_week_combinations)){
                                    #step_length : time_of_day +
                                    #step_length : Bosque +
                                    # # step_length : Year +
-                                   step_length : change_plant_sp +
+                                   change_plant_sp +
                                    # # time_of_day +
                                    # # Bosque +
                                    # change_plant_sp +
