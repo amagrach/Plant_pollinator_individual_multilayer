@@ -8,7 +8,7 @@ number_random_steps <- 20
 
 # Plot results
 path_observations <- paste0("results/gorbea/pollinator_floral_coef_observations_",
-                            number_random_steps,"_rd_steps.csv")
+                            number_random_steps,"_rd_steps_UPDATED.csv")
 coef_observations <- read_csv(path_observations)
 
 coef_observations$term %>% unique()
@@ -47,7 +47,8 @@ coefficient_names <- c(
   `time_of_day15:20 - 18:05` = "time of day\n15:20 - 18:05",
   change_plant_spTRUE = "change plant sp.",
   `delta_richness:change_plant_spTRUE` = "change in sp. richness:unloyal\n(floral fidelity)",
-  `delta_total_flowers:change_plant_spTRUE` = "change in the total\n# flowers:unloyal (floral fidelity)"
+  `delta_total_flowers:change_plant_spTRUE` = "change in the total\n# flowers:unloyal (floral fidelity)",
+  `log_sl` = "Ln(step length)"
 )
 
 coef_observations$pollinator <- gsub("_", " ", coef_observations$pollinator)
@@ -61,7 +62,7 @@ coef_observations$shapes <- factor(coef_observations$shapes, levels=c("p-value <
 ggplot(coef_observations, aes(y=pollinator))+
   geom_point(aes(x = estimate, color = as.factor(pollinator), shape = shapes),size=2)+
   geom_errorbar(aes(xmin=estimate-1.96*std.error, xmax=estimate+1.96*std.error,color = as.factor(pollinator)), width=.2)+
-  geom_vline(xintercept = 0)+
+  geom_vline(xintercept = 0,linetype = "dashed")+
   facet_wrap(vars(term), ncol = 5, labeller = as_labeller(coefficient_names), scales = "free_x")+
   scale_y_discrete(limits=rev)+
   scale_x_continuous(trans = pseudolog10_trans)+
@@ -72,14 +73,14 @@ ggplot(coef_observations, aes(y=pollinator))+
   labs(title=NULL, x="Coef. estimate", y = NULL,
        color = "Floral\nvisitor", shape = NULL)
 
-png("figures/gorbea_clogit_floral_coef_observed_distributions.png",
+png("figures/gorbea_clogit_floral_coef_observed_distributions_UPDATED.png",
     width = 11.69*1.2, # The width of the plot in inches
     height = 11.69*0.6, units = "in", res=300*2)
 
 ggplot(coef_observations, aes(y=pollinator))+
   geom_point(aes(x = estimate, color = as.factor(pollinator), shape = shapes),size=2)+
   geom_errorbar(aes(xmin=estimate-1.96*std.error, xmax=estimate+1.96*std.error,color = as.factor(pollinator)), width=.2)+
-  geom_vline(xintercept = 0)+
+  geom_vline(xintercept = 0,linetype = "dashed")+
   facet_wrap(vars(term), ncol = 5, labeller = as_labeller(coefficient_names), scales = "free_x")+
   scale_y_discrete(limits=rev)+
   scale_x_continuous(trans = pseudolog10_trans)+
@@ -91,11 +92,3 @@ ggplot(coef_observations, aes(y=pollinator))+
        color = "Floral\nvisitor", shape = NULL)
 
 dev.off()
-
-
-total_pollinator_i_data_clogit$Polinizador[total_pollinator_i_data_clogit$Bosque==3 &
-                                             total_pollinator_i_data_clogit$Polinizador %in% ranking_pollinators$Polinizador[1:5]] %>% unique()
-
-total_pollinator_i_data_clogit$Polinizador[total_pollinator_i_data_clogit$Bosque==4 &
-                                             total_pollinator_i_data_clogit$Polinizador %in% ranking_pollinators$Polinizador[1:5]] %>% unique()
-

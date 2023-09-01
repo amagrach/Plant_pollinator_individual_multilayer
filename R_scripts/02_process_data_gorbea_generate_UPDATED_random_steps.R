@@ -9,14 +9,12 @@
 
 
 library(tidyverse)
-library(survival)
+library(fitdistrplus)
 
-source("R_scripts/aux_functions/pollinator_model_exp_coef.R")
-source("R_scripts/aux_functions/set_same_factor_levels_no_flower_data.R")
-source("R_scripts/aux_functions/generate_rd_steps_XY3.R")
+source("R_scripts/aux_functions/set_same_factor_levels_on_flower_data.R")
+source("R_scripts/aux_functions/generate_UPDATED_rd_steps.R")
 
-# Load step data
-
+# Load step data ----------------------
 # When insects enter the plots, we have no info about the turning angle
 
 steps_20_21 <- read_csv("results/gorbea/observed_steps_20_21.csv") %>%
@@ -29,11 +27,19 @@ steps_20_21 <- read_csv("results/gorbea/observed_steps_20_21.csv") %>%
 # to zero
 steps_20_21[is.na(steps_20_21)] <- 0
 
+
+# Load clogit coeficients to update iSSF
+
+number_random_steps <- 20
+
+path_observations <- paste0("results/gorbea/pollinator_floral_coef_observations_",
+                            number_random_steps,"_rd_steps.csv")
+coef_observations <- read_csv(path_observations)
+
+
 # Load flora info to estimate the flora info for rd steps
 flora_census <- read_csv("results/gorbea/flora_census_20_21.csv")
 
-# Input data
-number_random_steps <- 20
 
 # Extract parameters for main floral visitors
 
@@ -58,34 +64,39 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
   pollinator_i_data_clogit <- NULL
   
   step_ID <- 1
-  
-  # Extract probabilities for lengths and turning angles
-  # Fit by randomizing all observed data----
-  
-  rows_with_turning_angle <- steps_pollinator_i %>% nrow()
-  
-  steps_lenght_turning_table <- table(steps_pollinator_i$step_length)  %>% #steps_pollinator_i_year_plot_periodo_change$turning_angle) %>% 
-    as.data.frame.table() %>% filter(Freq > 0) %>% rename(length = Var1)  %>% 
-    mutate(prob = Freq / rows_with_turning_angle)
-  
-  steps_lenght_turning_table$length <-
-    as.numeric(levels(steps_lenght_turning_table$length))[steps_lenght_turning_table$length]
-  
-  p_binomial <- sum(steps_pollinator_i$change_plant_sp)/nrow(steps_pollinator_i)
-  
+
   steps_pollinator_i$control <- 1
+  
+  tentative_shape_coef <- coef_observations$estimate[(coef_observations$term == "log_sl") & (coef_observations$pollinator == pollinator_i)]
+  tentative_rate_coef <- coef_observations$estimate[(coef_observations$term == "step_length") & (coef_observations$pollinator == pollinator_i)]
   
   
   for (row.i in 1:nrow(steps_pollinator_i)) {
     
+    steps_pollinator_i_row <- steps_pollinator_i[row.i,]
+    
+    data_for_step_distribution <- steps_20_21 %>% filter(Polinizador == pollinator_i,
+                                                 Periodo ==  steps_pollinator_i_row$Periodo,
+                                                 time_of_day ==  steps_pollinator_i_row$time_of_day,
+                                                 Bosque == steps_pollinator_i_row$Bosque)
+    
+    number_observations_i <- data_for_step_distribution %>% nrow()
+    
+    steps_length_data <- data_for_step_distribution$step_length
+    
+    p_binomial <- sum(data_for_step_distribution$change_plant_sp)/nrow(data_for_step_distribution)
+    
+    steps_pollinator_i_row$control <- 1
+    
     steps_pollinator_i_year_plot_periodo_change_row <- 
-      steps_pollinator_i[row.i,]
+      steps_pollinator_i_row
     
     # Create random steps for each observed step----------
     
     rd_steps_pollinator_i_year_plot_periodo_change_row <- 
-      generate_rd_steps_XY3(steps_pollinator_i_year_plot_periodo_change_row,
-                            number_random_steps, steps_lenght_turning_table,
+      generate_UPDATED_rd_steps(steps_pollinator_i_year_plot_periodo_change_row,
+                            number_random_steps, steps_length_data,
+                            tentative_shape_coef, tentative_rate_coef,
                             p_binomial)
     
     while(nrow(rd_steps_pollinator_i_year_plot_periodo_change_row) < number_random_steps) {
@@ -94,9 +105,10 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
         nrow(rd_steps_pollinator_i_year_plot_periodo_change_row) 
       
       additional_rd_steps_pollinator_i_year_plot_periodo_change_row <-
-        generate_rd_steps_XY3(steps_pollinator_i_year_plot_periodo_change_row,
+        generate_UPDATED_rd_steps(steps_pollinator_i_year_plot_periodo_change_row,
                               additional_random_steps, 
-                              steps_lenght_turning_table,
+                              steps_length_data,
+                              tentative_shape_coef, tentative_rate_coef,
                               p_binomial)
       
       rd_steps_pollinator_i_year_plot_periodo_change_row <- 
@@ -176,7 +188,7 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
                                               pollinator_i_data_clogit)
   
   path_save_file <- paste0("results/gorbea/total_pollinator_i_data_clogit_observations_",
-                           number_random_steps,"_rd_steps_NEW.csv")
+                           number_random_steps,"_rd_steps_UPDATED.csv")
   
   write_csv(total_pollinator_i_data_clogit, path_save_file)
   
