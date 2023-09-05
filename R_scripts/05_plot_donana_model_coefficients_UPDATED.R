@@ -14,7 +14,7 @@ coef_observations$term %>% unique()
 
 
 coefficient_names <- c(
-  `step_length` = "step length",
+  `step_length` = "Step length",
   `cosine_turning` = "cosine of\nturning angle",
   `step_length:time_of_day12:00 - 13:59` = "step length:12:00 - 13:59",
   `step_length:time_of_day14:00 - 16:05` = "step length:14:00 - 16:05",
@@ -27,8 +27,8 @@ coefficient_names <- c(
   `step_length:cosine_turning` = "step length:cosine of\nturning angle",
   `step_length:Periodo2` = "step length:May-June",
   `step_length:Periodo3` = "step length:July",
-  `delta_richness` = "change in sp. richness",
-  `delta_total_flowers` = "change in the total\n# flowers",
+  `delta_richness` = "Change in sp. richness",
+  `delta_total_flowers` = "Change in the total\n# flowers",
   `step_length:delta_richness` = "step length:change\nin sp. richness",
   `step_length:delta_total_flowers` = "step length:change in\nthe total # flowers",
   `delta_richness:delta_total_flowers` = "change in sp. richness:\nchange in the\ntotal # flowers",
@@ -43,7 +43,7 @@ coefficient_names <- c(
   `step_length:BosquePinar Puebla` = "step length:Puebla",
   `step_length:BosquePinar Villamanrique Este (Chaparral)` = "step length:Villamanrique Este",
   `step_length:BosquePinar Villamanrique Sur` = "step length:Villamanrique Sur",
-  change_plant_spTRUE = "change plant sp.",
+  change_plant_spTRUE = "Unloyal movement",
   `delta_richness:change_plant_spTRUE` = "change in sp. richness:unloyal\n(floral fidelity)",
   `delta_total_flowers:change_plant_spTRUE` = "change in the total\n# flowers:unloyal (floral fidelity)",
   `log_sl` = "Ln(step length)"
@@ -61,7 +61,7 @@ coef_observations$shapes <- factor(coef_observations$shapes, levels=c("p-value <
 ggplot(coef_observations, aes(y=pollinator))+
   geom_point(aes(x = estimate, color = as.factor(pollinator), shape = shapes),size=2)+
   geom_errorbar(aes(xmin=estimate-1.96*std.error, xmax=estimate+1.96*std.error,color = as.factor(pollinator)), width=.2)+
-  geom_vline(xintercept = 0)+
+  geom_vline(xintercept = 0,linetype = "dashed")+
   facet_wrap(vars(term), ncol = 5, labeller = as_labeller(coefficient_names), scales = "free_x")+
   scale_y_discrete(limits=rev)+
   scale_x_continuous(trans = pseudolog10_trans)+
@@ -72,14 +72,20 @@ ggplot(coef_observations, aes(y=pollinator))+
   labs(title=NULL, x="Coef. estimate", y = NULL,
        color = "Floral\nvisitor", shape = NULL)
 
+coef_observations$plot_order <- 1
+coef_observations$plot_order[coef_observations$pollinator=="Bombus terrestris"] <- 2
+coef_observations$plot_order[coef_observations$pollinator=="Anthophora dispar"] <- 3
+coef_observations$plot_order[coef_observations$pollinator=="Dasypoda cingulata"] <- 4
+coef_observations$plot_order[coef_observations$pollinator=="Xylocopa cantabrita"] <- 5
+
 png("figures/donana_clogit_floral_coef_observed_distributions_UPDATED.png",
     width = 11.69*1.3, # The width of the plot in inches
-    height = 11.69*0.6, units = "in", res=300*2)
+    height = 11.69*0.4, units = "in", res=300*2)
 
 ggplot(coef_observations, aes(y=pollinator))+
-  geom_point(aes(x = estimate, color = as.factor(pollinator), shape = shapes),size=2)+
+  geom_point(aes(x = estimate, y = reorder(as.factor(pollinator), plot_order), color = as.factor(pollinator), shape = shapes),size=2)+
   geom_errorbar(aes(xmin=estimate-1.96*std.error, xmax=estimate+1.96*std.error,color = as.factor(pollinator)), width=.2)+
-  geom_vline(xintercept = 0)+
+  geom_vline(xintercept = 0,linetype = "dashed")+
   facet_wrap(vars(term), ncol = 5, labeller = as_labeller(coefficient_names), scales = "free_x")+
   scale_y_discrete(limits=rev)+
   scale_x_continuous(trans = pseudolog10_trans)+
@@ -87,7 +93,11 @@ ggplot(coef_observations, aes(y=pollinator))+
                    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
                    legend.position="bottom")+
   guides(color = "none")+
-  labs(title="Doñana", x="Coef. estimate", y = NULL,
-       color = "Floral\nvisitor", shape = NULL)
+  labs(title="Pine forest (Doñana N.P.)", x="Coef. estimate", y = NULL,
+       color = "Floral\nvisitor", shape = NULL)+
+  theme(legend.text = element_text(size=15))+
+  theme(axis.text=element_text(size=15),  axis.title=element_text(size=17,face="bold"))+                                                                # Change font size
+  theme(strip.text.x = element_text(size = 18))+
+  theme(plot.title = element_text(size = 19))
 
 dev.off()
