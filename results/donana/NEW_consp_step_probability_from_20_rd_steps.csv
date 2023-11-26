@@ -1,0 +1,1344 @@
+Bosque,Year,Planta,X,Y,Periodo,Flores,prob_consp_step
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,6,1,1,0.9999973403412207
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,9,1,1,0.9999971908711959
+Pinar Aznalcazar,2021,Cistus_salviifolius,4,9,1,1,0.9999971908408399
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,4,1,2,0.9999972381700037
+Pinar Aznalcazar,2021,Cistus_salviifolius,7,2,1,1,0.9999973361580913
+Pinar Aznalcazar,2021,Cistus_salviifolius,9,3,1,2,0.9999973121107821
+Pinar Aznalcazar,2021,Lavandula_stoechas,2,10,1,100,0.9999705910435548
+Pinar Aznalcazar,2021,Cistus_salviifolius,1,7,1,2,0.9999973511605506
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,6,1,4,0.9999973403412207
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,9,1,9,0.9999971908711959
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,8,1,1,0.9999980740162603
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,3,1,2,0.9999981055905209
+Pinar Aznalcazar,2021,Cistus_salviifolius,8,3,1,8,0.9999981022695879
+Pinar Aznalcazar,2021,Cistus_salviifolius,4,4,1,7,0.9999991228638658
+Pinar Aznalcazar,2021,Cistus_salviifolius,4,9,1,7,0.9999971908408399
+Pinar Aznalcazar,2021,Cistus_salviifolius,4,10,1,2,0.9999981247892915
+Pinar Aznalcazar,2021,Cistus_salviifolius,1,7,1,3,0.9999973511605506
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,4,1,16,0.9999972381700037
+Pinar Aznalcazar,2021,Cistus_salviifolius,9,1,1,2,0.9999982537753862
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,7,1,6,0.9999982605865877
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,10,1,10,0.9999991226216554
+Pinar Aznalcazar,2021,Cistus_salviifolius,7,2,1,7,0.9999973361580913
+Pinar Aznalcazar,2021,Cistus_salviifolius,7,4,1,1,0.9999981137573749
+Pinar Aznalcazar,2021,Cistus_salviifolius,8,10,1,2,0.9999982585562555
+Pinar Aznalcazar,2021,Cistus_salviifolius,9,3,1,20,0.9999973121107821
+Pinar Aznalcazar,2021,Lavandula_stoechas,2,10,1,864,0.9999705910435548
+Pinar Aznalcazar,2021,Cistus_salviifolius,1,7,1,5,0.9999973511605506
+Pinar Aznalcazar,2021,Cistus_salviifolius,1,10,1,4,0.9999987828093567
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,6,1,15,0.9999973403412207
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,7,1,3,0.9999989067798352
+Pinar Aznalcazar,2021,Cistus_salviifolius,2,7,1,4,0.999998938467741
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,8,1,7,0.9999980740162603
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,9,1,15,0.9999971908711959
+Pinar Aznalcazar,2021,Cistus_salviifolius,4,9,1,21,0.9999971908408399
+Pinar Aznalcazar,2021,Cistus_salviifolius,4,10,1,5,0.9999981247892915
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,1,1,5,0.9999990988477351
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,3,1,5,0.9999981055905209
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,4,1,43,0.9999972381700037
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,7,1,14,0.9999982605865877
+Pinar Aznalcazar,2021,Cistus_salviifolius,8,10,1,22,0.9999982585562555
+Pinar Aznalcazar,2021,Cistus_salviifolius,7,2,1,8,0.9999973361580913
+Pinar Aznalcazar,2021,Cistus_salviifolius,7,4,1,6,0.9999981137573749
+Pinar Aznalcazar,2021,Cistus_salviifolius,9,1,1,5,0.9999982537753862
+Pinar Aznalcazar,2021,Cistus_salviifolius,8,3,1,15,0.9999981022695879
+Pinar Aznalcazar,2021,Cistus_salviifolius,9,3,1,35,0.9999973121107821
+Pinar Aznalcazar,2021,Cistus_salviifolius,9,6,1,1,0.9999991302241691
+Pinar Aznalcazar,2021,Cistus_salviifolius,10,10,1,2,0.9999991278827021
+Pinar Aznalcazar,2021,Lavandula_stoechas,1,10,1,270,0.9999835600234542
+Pinar Aznalcazar,2021,Lavandula_stoechas,2,10,1,3400,0.9999705910435548
+Pinar Aznalcazar,2021,Cistus_salviifolius,1,7,2,15,0.9999880939606003
+Pinar Aznalcazar,2021,Cistus_salviifolius,1,10,2,2,0.9999972765607098
+Pinar Aznalcazar,2021,Cistus_salviifolius,2,7,2,9,0.999997799179978
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,6,2,3,0.9999947209805231
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,7,2,7,0.9999782902365184
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,8,2,9,0.9999976892757628
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,9,2,12,0.9999976460079955
+Pinar Aznalcazar,2021,Cistus_salviifolius,4,9,2,13,0.9999977116401627
+Pinar Aznalcazar,2021,Cistus_salviifolius,4,4,2,3,0.9999989082119481
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,1,2,16,0.9999984655747105
+Pinar Aznalcazar,2021,Cistus_salviifolius,7,2,2,3,0.999993556046494
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,3,2,17,0.9999977358927056
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,4,2,66,0.9999977298528373
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,7,2,6,0.9999977510384254
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,10,2,34,0.9999978213248842
+Pinar Aznalcazar,2021,Cistus_salviifolius,7,4,2,7,0.9999846892351465
+Pinar Aznalcazar,2021,Cistus_salviifolius,8,10,2,6,0.999997819686645
+Pinar Aznalcazar,2021,Cistus_salviifolius,8,3,2,18,0.9999977313185504
+Pinar Aznalcazar,2021,Cistus_salviifolius,9,3,2,7,0.9999977379380307
+Pinar Aznalcazar,2021,Cistus_salviifolius,10,10,2,7,0.9999978232584296
+Pinar Aznalcazar,2021,Lavandula_stoechas,1,10,2,1200,0.9999796788646742
+Pinar Aznalcazar,2021,Lavandula_stoechas,2,10,2,7200,0.9999795948121128
+Pinar Aznalcazar,2021,Aetheorhiza_bulbosa,5,1,2,1,0.9999902211827798
+Pinar Aznalcazar,2021,Aetheorhiza_bulbosa,7,4,2,1,0.9999884622902392
+Pinar Aznalcazar,2021,Aetheorhiza_bulbosa,7,6,2,1,0.9999902210043093
+Pinar Aznalcazar,2021,Aetheorhiza_bulbosa,9,6,2,1,0.9999884687295861
+Pinar Aznalcazar,2021,Cistus_crispus,1,1,2,2,0.9999899234585236
+Pinar Aznalcazar,2021,Cistus_crispus,1,1,2,4,0.9999899234585236
+Pinar Aznalcazar,2021,Cistus_crispus,1,2,2,4,0.999995493935569
+Pinar Aznalcazar,2021,Cistus_crispus,2,6,2,5,0.9999972989809978
+Pinar Aznalcazar,2021,Cistus_crispus,1,9,2,5,0.9999972464153442
+Pinar Aznalcazar,2021,Cistus_crispus,4,7,2,3,0.9999972990082808
+Pinar Aznalcazar,2021,Cistus_crispus,5,7,2,3,0.9999858108263214
+Pinar Aznalcazar,2021,Cistus_crispus,6,7,2,4,0.9999962545758775
+Pinar Aznalcazar,2021,Cistus_crispus,6,2,2,2,0.9999941684774997
+Pinar Aznalcazar,2021,Cistus_crispus,8,7,2,18,0.9999973023722962
+Pinar Aznalcazar,2021,Cistus_crispus,9,2,2,1,0.999997300293886
+Pinar Aznalcazar,2021,Cistus_crispus,7,3,2,1,0.9999972999810277
+Pinar Aznalcazar,2021,Cistus_salviifolius,1,7,2,5,0.9999880939606003
+Pinar Aznalcazar,2021,Cistus_salviifolius,1,10,2,1,0.9999972765607098
+Pinar Aznalcazar,2021,Cistus_salviifolius,4,9,2,1,0.9999977116401627
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,9,2,2,0.9999976460079955
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,8,2,1,0.9999976892757628
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,6,2,1,0.9999947209805231
+Pinar Aznalcazar,2021,Cistus_salviifolius,3,7,2,1,0.9999782902365184
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,7,2,1,0.9999977510384254
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,10,2,1,0.9999978213248842
+Pinar Aznalcazar,2021,Cistus_salviifolius,2,7,2,2,0.999997799179978
+Pinar Aznalcazar,2021,Cistus_salviifolius,8,10,2,1,0.999997819686645
+Pinar Aznalcazar,2021,Cistus_salviifolius,10,10,2,6,0.9999978232584296
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,3,2,1,0.9999977358927056
+Pinar Aznalcazar,2021,Cistus_salviifolius,6,4,2,4,0.9999977298528373
+Pinar Aznalcazar,2021,Cistus_salviifolius,8,3,2,1,0.9999977313185504
+Pinar Aznalcazar,2021,Cistus_salviifolius,9,3,2,2,0.9999977379380307
+Pinar Aznalcazar,2021,Lavandula_stoechas,1,10,2,20,0.9999796788646742
+Pinar Aznalcazar,2021,Lavandula_stoechas,2,10,2,552,0.9999795948121128
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,8,2,3,0.9999736357737915
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,8,2,6,0.9999736357737915
+Pinar Aznalcazar,2021,Galactites_tomentosus,1,3,2,1,0.9999911510134276
+Pinar Aznalcazar,2021,Galactites_tomentosus,1,4,2,1,0.9999987319633893
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,1,2,1,0.999996508674223
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,5,2,1,0.9999985596049838
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,5,2,1,0.9999985102832748
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,8,2,1,0.9999974726177556
+Pinar Aznalcazar,2021,Cistus_crispus,8,7,2,41,0.9999973023722962
+Pinar Aznalcazar,2021,Cistus_crispus,1,1,2,11,0.9999899234585236
+Pinar Aznalcazar,2021,Cistus_crispus,2,1,2,6,0.9999986488168572
+Pinar Aznalcazar,2021,Cistus_crispus,3,1,2,4,0.9999927829546237
+Pinar Aznalcazar,2021,Cistus_crispus,1,2,2,7,0.999995493935569
+Pinar Aznalcazar,2021,Cistus_crispus,1,3,2,2,0.9999983536653605
+Pinar Aznalcazar,2021,Cistus_crispus,2,3,2,4,0.9999983002960632
+Pinar Aznalcazar,2021,Cistus_crispus,1,9,2,6,0.9999972464153442
+Pinar Aznalcazar,2021,Cistus_crispus,1,7,2,1,0.9999890824956417
+Pinar Aznalcazar,2021,Cistus_crispus,1,8,2,2,0.9999985381995582
+Pinar Aznalcazar,2021,Cistus_crispus,4,7,2,52,0.9999972990082808
+Pinar Aznalcazar,2021,Cistus_crispus,2,6,2,19,0.9999972989809978
+Pinar Aznalcazar,2021,Cistus_crispus,5,7,2,6,0.9999858108263214
+Pinar Aznalcazar,2021,Cistus_crispus,6,7,2,3,0.9999962545758775
+Pinar Aznalcazar,2021,Cistus_crispus,6,2,2,5,0.9999941684774997
+Pinar Aznalcazar,2021,Cistus_crispus,7,3,2,13,0.9999972999810277
+Pinar Aznalcazar,2021,Cistus_crispus,9,2,2,4,0.999997300293886
+Pinar Aznalcazar,2021,Galactites_tomentosus,1,1,2,1,0.9999970572001252
+Pinar Aznalcazar,2021,Galactites_tomentosus,1,2,2,1,0.9999924827534176
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,2,2,1,0.9999986653163514
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,3,2,1,0.9999814845048868
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,3,2,3,0.9999814845048868
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,1,2,1,0.9999899347232618
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,2,2,1,0.9999985641830035
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,3,2,1,0.9999985452520048
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,4,2,1,0.9999985810203397
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,6,2,1,0.9999841201354153
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,7,2,1,0.9999964244676339
+Pinar Aznalcazar,2021,Galactites_tomentosus,4,2,2,1,0.9999986018983803
+Pinar Aznalcazar,2021,Galactites_tomentosus,4,3,2,1,0.9999985333867699
+Pinar Aznalcazar,2021,Galactites_tomentosus,4,5,2,1,0.9999972743477812
+Pinar Aznalcazar,2021,Galactites_tomentosus,4,5,2,2,0.9999972743477812
+Pinar Aznalcazar,2021,Galactites_tomentosus,4,6,2,2,0.9999985499371719
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,3,2,1,0.9999986115922446
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,4,2,1,0.9999985844101793
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,6,2,4,0.9999985982499424
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,7,2,1,0.9999802647646369
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,8,2,2,0.9999974726177556
+Pinar Aznalcazar,2021,Galactites_tomentosus,6,1,2,4,0.9999928144495414
+Pinar Aznalcazar,2021,Galactites_tomentosus,6,2,2,1,0.9999952146566978
+Pinar Aznalcazar,2021,Galactites_tomentosus,7,1,2,1,0.9999987368742661
+Pinar Aznalcazar,2021,Galactites_tomentosus,7,2,2,1,0.9999930360907309
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,8,2,19,0.9999736357737915
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,8,2,73,0.9999736357737915
+Pinar Aznalcazar,2021,Halimium_halimifolium,9,6,2,2,0.9999914063596662
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,9,2,4,0.999992480490502
+Pinar Aznalcazar,2021,Andryala_arenaria,4,8,3,1,0.9999941822671651
+Pinar Aznalcazar,2021,Andryala_arenaria,4,9,3,1,0.9999941822671655
+Pinar Aznalcazar,2021,Andryala_arenaria,6,1,3,1,0.9999944093331203
+Pinar Aznalcazar,2021,Andryala_arenaria,7,1,3,1,0.9999696398868302
+Pinar Aznalcazar,2021,Andryala_arenaria,8,1,3,1,0.9999928909488975
+Pinar Aznalcazar,2021,Andryala_arenaria,9,1,3,1,0.999994127205739
+Pinar Aznalcazar,2021,Andryala_arenaria,7,2,3,1,0.9999876340152132
+Pinar Aznalcazar,2021,Cistus_crispus,8,7,3,90,0.9999976292003786
+Pinar Aznalcazar,2021,Cistus_crispus,1,1,3,3,0.9999962392419223
+Pinar Aznalcazar,2021,Cistus_crispus,1,1,3,19,0.9999962392419223
+Pinar Aznalcazar,2021,Cistus_crispus,2,1,3,NA,0.9999973480875018
+Pinar Aznalcazar,2021,Cistus_crispus,3,1,3,11,0.9999975183930678
+Pinar Aznalcazar,2021,Cistus_crispus,1,2,3,5,0.9999973351049557
+Pinar Aznalcazar,2021,Cistus_crispus,1,3,3,10,0.9999974155990898
+Pinar Aznalcazar,2021,Cistus_crispus,2,3,3,31,0.9999974766918334
+Pinar Aznalcazar,2021,Cistus_crispus,2,6,3,19,0.9999975991373389
+Pinar Aznalcazar,2021,Cistus_crispus,1,7,3,3,0.9999975023942063
+Pinar Aznalcazar,2021,Cistus_crispus,1,8,3,9,0.9999974314380524
+Pinar Aznalcazar,2021,Cistus_crispus,1,9,3,2,0.9999975282303651
+Pinar Aznalcazar,2021,Cistus_crispus,4,7,3,44,0.999997526617981
+Pinar Aznalcazar,2021,Cistus_crispus,5,7,3,4,0.9999975340551602
+Pinar Aznalcazar,2021,Cistus_crispus,6,7,3,3,0.9999877201420637
+Pinar Aznalcazar,2021,Cistus_crispus,6,2,3,1,0.9999987887499677
+Pinar Aznalcazar,2021,Cistus_crispus,7,3,3,9,0.999997614390147
+Pinar Aznalcazar,2021,Cistus_crispus,9,2,3,7,0.9999976274413086
+Pinar Aznalcazar,2021,Halimium_halimifolium,9,6,3,34,0.9999921661007484
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,8,3,137,0.9999839729926361
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,8,3,58,0.9999839729926361
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,9,3,52,0.9999916142969006
+Pinar Aznalcazar,2021,Halimium_halimifolium,8,10,3,19,0.999992169382691
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,4,3,4,0.999998908465393
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,5,3,6,0.9999989715398082
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,6,3,4,0.9999981777064861
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,6,3,1,0.9999981777064861
+Pinar Aznalcazar,2021,Galactites_tomentosus,1,6,3,1,0.9999990579013214
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,6,3,1,0.999998944050779
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,7,3,1,0.9999990301385663
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,8,3,1,0.9999990723769576
+Pinar Aznalcazar,2021,Galactites_tomentosus,4,2,3,1,0.9999989938891392
+Pinar Aznalcazar,2021,Galactites_tomentosus,4,3,3,1,0.9999988579901696
+Pinar Aznalcazar,2021,Galactites_tomentosus,4,4,3,1,0.9999980373010198
+Pinar Aznalcazar,2021,Galactites_tomentosus,4,4,3,2,0.9999980373010198
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,1,3,4,0.9999990605947533
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,2,3,2,0.9999989511732812
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,3,3,2,0.9999980772648978
+Pinar Aznalcazar,2021,Galactites_tomentosus,5,3,3,1,0.9999980772648978
+Pinar Aznalcazar,2021,Galactites_tomentosus,1,3,3,1,0.9999926541341077
+Pinar Aznalcazar,2021,Galactites_tomentosus,1,3,3,3,0.9999926541341077
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,3,3,1,0.9999880850720239
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,3,3,1,0.9999989876612824
+Pinar Aznalcazar,2021,Galactites_tomentosus,1,4,3,1,0.999999021195281
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,4,3,1,0.9999989466363663
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,4,3,1,0.9999988273974691
+Pinar Aznalcazar,2021,Galactites_tomentosus,1,5,3,1,0.9999989852781661
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,5,3,1,0.9999988863916958
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,5,3,1,0.9999971828767952
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,5,3,4,0.9999971828767952
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,5,3,2,0.9999971828767952
+Pinar Aznalcazar,2021,Galactites_tomentosus,1,1,3,1,0.9999978231526014
+Pinar Aznalcazar,2021,Galactites_tomentosus,1,1,3,2,0.9999978231526014
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,1,3,1,0.9999916025636754
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,1,3,2,0.9999916025636754
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,1,3,3,0.9999916025636754
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,1,3,4,0.9999916025636754
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,1,3,5,0.9999916025636754
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,1,3,6,0.9999916025636754
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,1,3,7,0.9999916025636754
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,1,3,8,0.9999916025636754
+Pinar Aznalcazar,2021,Galactites_tomentosus,2,1,3,9,0.9999916025636754
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,1,3,1,0.9999954442370829
+Pinar Aznalcazar,2021,Galactites_tomentosus,1,2,3,1,0.9999985209930826
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,1,3,3,0.9999954442370829
+Pinar Aznalcazar,2021,Galactites_tomentosus,3,1,3,2,0.9999954442370829
+Pinar Aznalcazar,2021,Galactites_tomentosus,6,7,3,1,0.9999969529923093
+Pinar Aznalcazar,2021,Aetheorhiza_bulbosa,6,3,3,1,0.9999921761727183
+Pinar Aznalcazar,2021,Aetheorhiza_bulbosa,7,1,3,1,0.9999908608029661
+Pinar Aznalcazar,2021,Aetheorhiza_bulbosa,8,1,3,1,0.999991347857193
+Pinar Aznalcazar,2021,Aetheorhiza_bulbosa,9,1,3,1,0.9999918273511086
+Pinar Aznalcazar,2021,Aetheorhiza_bulbosa,7,2,3,1,0.9999826876217405
+Pinar Aznalcazar,2021,Cistus_crispus,1,1,3,1,0.9999962392419223
+Pinar Aznalcazar,2021,Cistus_crispus,1,2,3,1,0.9999973351049557
+Pinar Aznalcazar,2021,Cistus_crispus,2,1,3,3,0.9999973480875018
+Pinar Aznalcazar,2021,Cistus_crispus,3,1,3,2,0.9999975183930678
+Pinar Aznalcazar,2021,Cistus_crispus,1,3,3,3,0.9999974155990898
+Pinar Aznalcazar,2021,Cistus_crispus,2,3,3,3,0.9999974766918334
+Pinar Aznalcazar,2021,Cistus_crispus,1,7,3,1,0.9999975023942063
+Pinar Aznalcazar,2021,Cistus_crispus,1,8,3,1,0.9999974314380524
+Pinar Aznalcazar,2021,Cistus_crispus,1,9,3,1,0.9999975282303651
+Pinar Aznalcazar,2021,Cistus_crispus,2,6,3,1,0.9999975991373389
+Pinar Aznalcazar,2021,Cistus_crispus,4,7,3,4,0.999997526617981
+Pinar Aznalcazar,2021,Cistus_crispus,5,7,3,2,0.9999975340551602
+Pinar Aznalcazar,2021,Cistus_crispus,7,3,3,4,0.999997614390147
+Pinar Aznalcazar,2021,Cistus_crispus,9,2,3,3,0.9999976274413086
+Pinar Aznalcazar,2021,Cistus_crispus,8,7,3,13,0.9999976292003786
+Pinar Aznalcazar,2021,Halimium_halimifolium,9,6,3,12,0.9999921661007484
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,8,3,48,0.9999839729926361
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,8,3,23,0.9999839729926361
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,9,3,14,0.9999916142969006
+Pinar Aznalcazar,2021,Halimium_halimifolium,8,10,3,11,0.999992169382691
+Pinar Aznalcazar,2021,Halimium_halimifolium,9,6,3,2,0.9999921661007484
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,8,3,2,0.9999839729926361
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,8,3,3,0.9999839729926361
+Pinar Aznalcazar,2021,Halimium_halimifolium,10,9,3,2,0.9999916142969006
+Pinar Aznalcazar,2021,Halimium_halimifolium,8,10,3,1,0.999992169382691
+Pinar Hinojos,2021,Halimium_calycinum,1,1,1,8,0.6799999932308718
+Pinar Hinojos,2021,Halimium_calycinum,4,5,1,32,0.8399999954872479
+Pinar Hinojos,2021,Halimium_calycinum,5,4,1,3,0.5200138718703667
+Pinar Hinojos,2021,Halimium_calycinum,8,1,1,9,0.6800015590896742
+Pinar Hinojos,2021,Ulex_australis,3,3,1,42,0.7673656759123184
+Pinar Hinojos,2021,Ulex_australis,4,1,1,114,0.8518518497626147
+Pinar Hinojos,2021,Ulex_australis,6,4,1,98,0.8518517940893414
+Pinar Hinojos,2021,Ulex_australis,7,3,1,78,0.7777777756881764
+Pinar Hinojos,2021,Ulex_australis,7,4,1,21,0.29629629311934863
+Pinar Hinojos,2021,Ulex_australis,8,5,1,62,0.666676382832461
+Pinar Hinojos,2021,Ulex_australis,8,7,1,39,0.5736224789612638
+Pinar Hinojos,2021,Ulex_australis,8,9,1,87,0.8518517853957666
+Pinar Hinojos,2021,Ulex_australis,8,10,1,96,0.7037038727052812
+Pinar Hinojos,2021,Ulex_australis,9,5,1,123,0.8518518497626147
+Pinar Hinojos,2021,Ulex_australis,10,2,1,94,0.8518518496972923
+Pinar Hinojos,2021,Halimium_calycinum,1,1,1,1,0.6799999932308718
+Pinar Hinojos,2021,Halimium_calycinum,1,1,1,2,0.6799999932308718
+Pinar Hinojos,2021,Halimium_calycinum,2,1,1,5,0.679999997743591
+Pinar Hinojos,2021,Halimium_calycinum,3,6,1,3,0.679999997743624
+Pinar Hinojos,2021,Halimium_calycinum,4,5,1,9,0.8399999954872479
+Pinar Hinojos,2021,Halimium_calycinum,5,4,1,2,0.5200138718703667
+Pinar Hinojos,2021,Halimium_calycinum,8,1,1,6,0.6800015590896742
+Pinar Hinojos,2021,Ulex_australis,3,3,1,27,0.7673656759123184
+Pinar Hinojos,2021,Ulex_australis,4,1,1,42,0.8518518497626147
+Pinar Hinojos,2021,Ulex_australis,6,4,1,33,0.8518517940893414
+Pinar Hinojos,2021,Ulex_australis,7,3,1,43,0.7777777756881764
+Pinar Hinojos,2021,Ulex_australis,7,4,1,12,0.29629629311934863
+Pinar Hinojos,2021,Ulex_australis,8,5,1,32,0.666676382832461
+Pinar Hinojos,2021,Ulex_australis,8,7,1,21,0.5736224789612638
+Pinar Hinojos,2021,Ulex_australis,8,9,1,36,0.8518517853957666
+Pinar Hinojos,2021,Ulex_australis,9,5,1,57,0.8518518497626147
+Pinar Hinojos,2021,Ulex_australis,10,2,1,45,0.8518518496972923
+Pinar Hinojos,2021,Halimium_calycinum,1,1,1,5,0.6799999932308718
+Pinar Hinojos,2021,Halimium_calycinum,1,1,1,3,0.6799999932308718
+Pinar Hinojos,2021,Halimium_calycinum,3,6,1,1,0.679999997743624
+Pinar Hinojos,2021,Halimium_calycinum,4,5,1,52,0.8399999954872479
+Pinar Hinojos,2021,Halimium_calycinum,5,4,1,4,0.5200138718703667
+Pinar Hinojos,2021,Halimium_calycinum,8,1,1,28,0.6800015590896742
+Pinar Hinojos,2021,Ulex_australis,3,3,1,19,0.7673656759123184
+Pinar Hinojos,2021,Ulex_australis,6,4,1,5,0.8518517940893414
+Pinar Hinojos,2021,Halimium_calycinum,1,1,1,6,0.6799999932308718
+Pinar Hinojos,2021,Halimium_calycinum,2,1,1,12,0.679999997743591
+Pinar Hinojos,2021,Halimium_calycinum,4,5,1,74,0.8399999954872479
+Pinar Hinojos,2021,Halimium_calycinum,8,1,1,35,0.6800015590896742
+Pinar Hinojos,2021,Leontodon_longirostris,1,10,1,1,0.999999990598433
+Pinar Hinojos,2021,Leontodon_longirostris,5,7,1,1,0.999999990598433
+Pinar Hinojos,2021,Leontodon_longirostris,10,8,1,1,0.999999990598433
+Pinar Hinojos,2021,Aetheorhiza_bulbosa,10,7,2,1,0.9999999858976496
+Pinar Hinojos,2021,Aetheorhiza_bulbosa,10,8,2,1,0.4999999858976496
+Pinar Hinojos,2021,Cistus_libanotis,4,8,2,1,0.9999999887181197
+Pinar Hinojos,2021,Cistus_libanotis,10,7,2,7,0.9999999887181197
+Pinar Hinojos,2021,Halimium_calycinum,1,1,2,1,0.9999999974359363
+Pinar Hinojos,2021,Halimium_calycinum,2,1,2,3,0.9999999948718726
+Pinar Hinojos,2021,Halimium_calycinum,4,5,2,27,0.9999999948718726
+Pinar Hinojos,2021,Halimium_calycinum,5,4,2,2,0.8194153032285113
+Pinar Hinojos,2021,Halimium_calycinum,8,1,2,22,0.9999999974359363
+Pinar Hinojos,2021,Halimium_calycinum,8,4,2,13,0.9999999948718726
+Pinar Hinojos,2021,Muscari_comosum,6,2,2,30,0.9999999717952992
+Pinar Hinojos,2021,Bartsia_trixago,10,6,2,6,0.4999999858977669
+Pinar Hinojos,2021,Cistus_libanotis,4,8,2,11,0.9999999887181197
+Pinar Hinojos,2021,Cistus_libanotis,10,7,2,43,0.9999999887181197
+Pinar Hinojos,2021,Halimium_calycinum,2,1,2,1,0.9999999948718726
+Pinar Hinojos,2021,Halimium_calycinum,3,6,2,1,0.8181818323476965
+Pinar Hinojos,2021,Halimium_calycinum,4,5,2,8,0.9999999948718726
+Pinar Hinojos,2021,Halimium_calycinum,5,4,2,4,0.8194153032285113
+Pinar Hinojos,2021,Halimium_calycinum,8,4,2,2,0.9999999948718726
+Pinar Hinojos,2021,Leontodon_longirostris,1,3,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,1,4,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,1,5,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,1,6,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,1,7,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,1,8,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,1,9,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,1,10,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,2,4,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,2,5,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,2,6,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,2,7,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,2,8,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,2,9,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,2,10,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,3,5,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,3,7,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,3,8,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,3,9,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,4,8,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,4,9,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,4,10,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,5,9,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,5,10,2,1,0.9999999991941513
+Pinar Hinojos,2021,Leontodon_longirostris,6,10,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,7,10,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,8,7,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,8,8,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,9,1,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,9,8,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,10,2,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,10,10,2,1,0.9999999991941514
+Pinar Hinojos,2021,Bartsia_trixago,10,7,2,3,0.9999999858976496
+Pinar Hinojos,2021,Chamaemelum_mixtum,5,9,2,1,0.9999999858976496
+Pinar Hinojos,2021,Chamaemelum_mixtum,5,10,2,1,0.9999999858976496
+Pinar Hinojos,2021,Cistus_libanotis,10,8,2,4,0.5999999943590598
+Pinar Hinojos,2021,Leontodon_longirostris,1,2,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,2,3,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,4,7,2,1,0.9999999991941514
+Pinar Hinojos,2021,Leontodon_longirostris,1,3,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,1,4,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,1,5,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,1,6,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,1,7,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,1,8,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,1,9,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,1,10,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,2,3,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,2,4,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,2,5,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,2,6,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,2,7,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,2,8,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,2,9,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,3,7,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,3,8,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,3,9,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,4,7,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,4,8,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,4,9,3,1,0.9999999987179682
+Pinar Hinojos,2021,Leontodon_longirostris,9,9,3,1,0.9999999987179682
+Pinar Puebla,2021,Anemone_palmata,3,2,1,1,0.9768987386669372
+Pinar Puebla,2021,Anemone_palmata,4,1,1,3,0.9748433863228252
+Pinar Puebla,2021,Anemone_palmata,4,2,1,2,0.9747542304480848
+Pinar Puebla,2021,Anemone_palmata,6,7,1,2,0.9666937979778468
+Pinar Puebla,2021,Anemone_palmata,7,9,1,2,0.9675923747628868
+Pinar Puebla,2021,Anemone_palmata,8,1,1,2,0.9749051714856724
+Pinar Puebla,2021,Anemone_palmata,8,2,1,1,0.9749346755518244
+Pinar Puebla,2021,Anemone_palmata,8,3,1,2,0.9749486745035179
+Pinar Puebla,2021,Anemone_palmata,9,2,1,1,0.9748327387147682
+Pinar Puebla,2021,Anemone_palmata,9,8,1,1,0.9749658919953553
+Pinar Puebla,2021,Cistus_salviifolius,1,1,1,3,0.9492794881165294
+Pinar Puebla,2021,Cistus_salviifolius,1,7,1,6,0.9383498985888132
+Pinar Puebla,2021,Cistus_salviifolius,2,4,1,2,0.9489658110815214
+Pinar Puebla,2021,Cistus_salviifolius,2,10,1,4,0.8976113452049259
+Pinar Puebla,2021,Cistus_salviifolius,3,6,1,5,0.9483594399781201
+Pinar Puebla,2021,Cistus_salviifolius,3,10,1,3,0.9837230237360978
+Pinar Puebla,2021,Cistus_salviifolius,4,1,1,2,0.887934381024808
+Pinar Puebla,2021,Cistus_salviifolius,4,3,1,1,0.8928940044055618
+Pinar Puebla,2021,Cistus_salviifolius,4,9,1,2,0.8983999681524449
+Pinar Puebla,2021,Cistus_salviifolius,5,5,1,1,0.9462797774873982
+Pinar Puebla,2021,Cistus_salviifolius,6,1,1,6,0.964365088565882
+Pinar Puebla,2021,Cistus_salviifolius,6,2,1,8,0.9473652538203945
+Pinar Puebla,2021,Cistus_salviifolius,7,1,1,10,0.9999404718630643
+Pinar Puebla,2021,Cistus_salviifolius,7,7,1,8,0.9490612213355333
+Pinar Puebla,2021,Cistus_salviifolius,9,2,1,2,0.9429732553903499
+Pinar Puebla,2021,Cistus_salviifolius,9,4,1,7,0.9492885423773344
+Pinar Puebla,2021,Cistus_salviifolius,9,10,1,8,0.9546533254778723
+Pinar Puebla,2021,Cistus_salviifolius,9,10,1,12,0.9546533254778723
+Pinar Puebla,2021,Lavandula_stoechas,2,10,1,8,0.2109828290133182
+Pinar Puebla,2021,Lavandula_stoechas,7,8,1,16,0.999670734991509
+Pinar Puebla,2021,Lavandula_stoechas,9,3,1,8,0.43781090564273045
+Pinar Puebla,2021,Rosmarinus_officinalis,6,3,1,8,0.7486829399703001
+Pinar Puebla,2021,Rosmarinus_officinalis,7,4,1,12,0.9995609799901001
+Pinar Puebla,2021,Cistus_salviifolius,1,1,1,5,0.9492794881165294
+Pinar Puebla,2021,Cistus_salviifolius,2,1,1,5,0.9491098171097485
+Pinar Puebla,2021,Cistus_salviifolius,3,1,1,2,0.9486719787869567
+Pinar Puebla,2021,Cistus_salviifolius,2,4,1,8,0.9489658110815214
+Pinar Puebla,2021,Cistus_salviifolius,3,6,1,18,0.9483594399781201
+Pinar Puebla,2021,Cistus_salviifolius,1,8,1,2,0.9061562325810594
+Pinar Puebla,2021,Cistus_salviifolius,2,10,1,3,0.8976113452049259
+Pinar Puebla,2021,Cistus_salviifolius,3,10,1,5,0.9837230237360978
+Pinar Puebla,2021,Cistus_salviifolius,4,2,1,7,0.9046628290681552
+Pinar Puebla,2021,Cistus_salviifolius,6,1,1,10,0.964365088565882
+Pinar Puebla,2021,Cistus_salviifolius,6,1,1,15,0.964365088565882
+Pinar Puebla,2021,Cistus_salviifolius,6,2,1,14,0.9473652538203945
+Pinar Puebla,2021,Cistus_salviifolius,5,7,1,2,0.9143703223940267
+Pinar Puebla,2021,Cistus_salviifolius,9,2,1,9,0.9429732553903499
+Pinar Puebla,2021,Cistus_salviifolius,9,4,1,9,0.9492885423773344
+Pinar Puebla,2021,Cistus_salviifolius,8,10,1,5,0.9127049026768808
+Pinar Puebla,2021,Cistus_salviifolius,9,10,1,18,0.9546533254778723
+Pinar Puebla,2021,Lavandula_stoechas,4,7,1,310,0.9594240585331503
+Pinar Puebla,2021,Rosmarinus_officinalis,6,3,1,17,0.7486829399703001
+Pinar Puebla,2021,Anemone_palmata,1,4,1,1,0.9966530446210748
+Pinar Puebla,2021,Anemone_palmata,2,5,1,1,0.9863318668935908
+Pinar Puebla,2021,Anemone_palmata,2,7,1,1,0.9746550944172595
+Pinar Puebla,2021,Anemone_palmata,2,9,1,1,0.9747466648510608
+Pinar Puebla,2021,Anemone_palmata,2,10,1,1,0.9658443480792686
+Pinar Puebla,2021,Anemone_palmata,3,3,1,1,0.9765571678351401
+Pinar Puebla,2021,Anemone_palmata,3,5,1,1,0.9752391053336751
+Pinar Puebla,2021,Anemone_palmata,3,9,1,1,0.9736536225754995
+Pinar Puebla,2021,Anemone_palmata,3,10,1,1,0.9999560979437084
+Pinar Puebla,2021,Anemone_palmata,4,1,1,1,0.9748433863228252
+Pinar Puebla,2021,Anemone_palmata,4,3,1,1,0.9721765887318906
+Pinar Puebla,2021,Anemone_palmata,4,10,1,1,0.9739482916496903
+Pinar Puebla,2021,Anemone_palmata,5,2,1,1,0.9749781190377895
+Pinar Puebla,2021,Anemone_palmata,5,4,1,1,0.9748058683116232
+Pinar Puebla,2021,Anemone_palmata,5,8,1,1,0.9550613930563795
+Pinar Puebla,2021,Anemone_palmata,6,4,1,1,0.9748763013388941
+Pinar Puebla,2021,Anemone_palmata,6,5,1,1,0.9744548529428775
+Pinar Puebla,2021,Anemone_palmata,6,7,1,1,0.9666937979778468
+Pinar Puebla,2021,Anemone_palmata,6,8,1,1,0.9574696531802953
+Pinar Puebla,2021,Anemone_palmata,6,9,1,1,0.9591321435347003
+Pinar Puebla,2021,Anemone_palmata,6,10,1,1,0.9700057164308029
+Pinar Puebla,2021,Anemone_palmata,7,10,1,1,0.975003715938883
+Pinar Puebla,2021,Anemone_palmata,8,1,1,1,0.9749051714856724
+Pinar Puebla,2021,Anemone_palmata,8,5,1,1,0.974921990085387
+Pinar Puebla,2021,Anemone_palmata,8,7,1,1,0.9744770472410229
+Pinar Puebla,2021,Anemone_palmata,9,1,1,1,0.9749404126106769
+Pinar Puebla,2021,Anemone_palmata,9,3,1,1,0.9999560979990081
+Pinar Puebla,2021,Anemone_palmata,9,9,1,1,0.9763007046536819
+Pinar Puebla,2021,Anemone_palmata,10,9,1,1,0.9768651619601473
+Pinar Puebla,2021,Anemone_palmata,10,10,1,1,0.9857611100410076
+Pinar Puebla,2021,Cistus_salviifolius,1,1,1,2,0.9492794881165294
+Pinar Puebla,2021,Cistus_salviifolius,2,1,1,3,0.9491098171097485
+Pinar Puebla,2021,Cistus_salviifolius,3,1,1,5,0.9486719787869567
+Pinar Puebla,2021,Cistus_salviifolius,1,2,1,3,0.9490821785585171
+Pinar Puebla,2021,Cistus_salviifolius,2,4,1,3,0.9489658110815214
+Pinar Puebla,2021,Cistus_salviifolius,3,6,1,6,0.9483594399781201
+Pinar Puebla,2021,Cistus_salviifolius,1,7,1,10,0.9383498985888132
+Pinar Puebla,2021,Cistus_salviifolius,1,8,1,6,0.9061562325810594
+Pinar Puebla,2021,Cistus_salviifolius,3,10,1,9,0.9837230237360978
+Pinar Puebla,2021,Cistus_salviifolius,2,10,1,7,0.8976113452049259
+Pinar Puebla,2021,Cistus_salviifolius,4,1,1,4,0.887934381024808
+Pinar Puebla,2021,Cistus_salviifolius,4,2,1,3,0.9046628290681552
+Pinar Puebla,2021,Cistus_salviifolius,4,6,1,3,0.9281290201161553
+Pinar Puebla,2021,Cistus_salviifolius,6,1,1,22,0.964365088565882
+Pinar Puebla,2021,Cistus_salviifolius,6,2,1,4,0.9473652538203945
+Pinar Puebla,2021,Cistus_salviifolius,6,1,1,3,0.964365088565882
+Pinar Puebla,2021,Cistus_salviifolius,5,7,1,1,0.9143703223940267
+Pinar Puebla,2021,Cistus_salviifolius,4,8,1,1,0.9999700867384121
+Pinar Puebla,2021,Cistus_salviifolius,7,1,1,20,0.9999404718630643
+Pinar Puebla,2021,Cistus_salviifolius,9,2,1,4,0.9429732553903499
+Pinar Puebla,2021,Cistus_salviifolius,9,4,1,11,0.9492885423773344
+Pinar Puebla,2021,Cistus_salviifolius,7,7,1,27,0.9490612213355333
+Pinar Puebla,2021,Cistus_salviifolius,8,10,1,3,0.9127049026768808
+Pinar Puebla,2021,Cistus_salviifolius,9,10,1,24,0.9546533254778723
+Pinar Puebla,2021,Rosmarinus_officinalis,6,3,1,3,0.7486829399703001
+Pinar Puebla,2021,Lavandula_stoechas,7,8,1,60,0.999670734991509
+Pinar Puebla,2021,Lavandula_stoechas,7,8,1,450,0.999670734991509
+Pinar Puebla,2021,Lavandula_stoechas,9,6,1,45,0.19995510872123506
+Pinar Puebla,2021,Lavandula_stoechas,3,10,1,135,0.44182247627337295
+Pinar Puebla,2021,Lavandula_stoechas,4,7,1,140,0.9594240585331503
+Pinar Puebla,2021,Lavandula_stoechas,4,8,1,210,0.5634050839575111
+Pinar Puebla,2021,Lavandula_stoechas,7,1,1,250,0.6248941524178085
+Pinar Puebla,2021,Lavandula_stoechas,7,4,1,432,0.8316478255946965
+Pinar Puebla,2021,Lavandula_stoechas,9,3,1,160,0.43781090564273045
+Pinar Puebla,2021,Lavandula_stoechas,9,5,1,286,0.6249484450948123
+Pinar Puebla,2021,Lavandula_stoechas,7,6,1,160,0.4961761877790874
+Pinar Puebla,2021,Lavandula_stoechas,6,6,1,280,0.6248919076058022
+Pinar Puebla,2021,Cistus_salviifolius,1,2,2,7,0.9998799530039583
+Pinar Puebla,2021,Cistus_salviifolius,4,2,2,1,0.9641293361099758
+Pinar Puebla,2021,Cistus_salviifolius,1,7,2,1,0.999881717757912
+Pinar Puebla,2021,Cistus_salviifolius,3,6,2,1,0.999880804688487
+Pinar Puebla,2021,Cistus_salviifolius,4,6,2,4,0.9991032546865775
+Pinar Puebla,2021,Cistus_salviifolius,5,7,2,2,0.9998819932535004
+Pinar Puebla,2021,Cistus_salviifolius,2,10,2,3,0.9997657899629441
+Pinar Puebla,2021,Cistus_salviifolius,5,1,2,2,0.9983888894984222
+Pinar Puebla,2021,Cistus_salviifolius,6,1,2,1,0.9998738353289285
+Pinar Puebla,2021,Cistus_salviifolius,9,2,2,1,0.9998815671067885
+Pinar Puebla,2021,Cistus_salviifolius,4,1,2,1,0.9998812283802091
+Pinar Puebla,2021,Lavandula_stoechas,7,4,2,675,0.9998450517209437
+Pinar Puebla,2021,Lavandula_stoechas,7,1,2,240,0.4998825643119778
+Pinar Puebla,2021,Lavandula_stoechas,9,3,2,120,0.4998459937664655
+Pinar Puebla,2021,Lavandula_stoechas,9,5,2,345,0.7640146096562777
+Pinar Puebla,2021,Lavandula_stoechas,4,7,2,160,0.49984505381521604
+Pinar Puebla,2021,Lavandula_stoechas,4,8,2,380,0.7645509341141526
+Pinar Puebla,2021,Lavandula_stoechas,3,10,2,90,0.4092413973122293
+Pinar Puebla,2021,Lavandula_stoechas,6,6,2,300,0.6761709072522714
+Pinar Puebla,2021,Lavandula_stoechas,7,6,2,80,0.32476079057141827
+Pinar Puebla,2021,Lavandula_stoechas,7,8,2,80,0.9997237557900701
+Pinar Puebla,2021,Lavandula_stoechas,7,8,2,580,0.9997237557900701
+Pinar Puebla,2021,Leontodon_longirostris,1,1,2,1,0.933294871509956
+Pinar Puebla,2021,Leontodon_longirostris,1,2,2,1,0.932853757376937
+Pinar Puebla,2021,Leontodon_longirostris,1,3,2,1,0.9315891767458059
+Pinar Puebla,2021,Leontodon_longirostris,1,4,2,1,0.9271978255655056
+Pinar Puebla,2021,Leontodon_longirostris,1,5,2,1,0.9320142193436582
+Pinar Puebla,2021,Leontodon_longirostris,1,6,2,1,0.927712226893761
+Pinar Puebla,2021,Leontodon_longirostris,1,7,2,1,0.923453500685285
+Pinar Puebla,2021,Leontodon_longirostris,1,8,2,1,0.9292265940980557
+Pinar Puebla,2021,Leontodon_longirostris,1,9,2,1,0.9221298714786846
+Pinar Puebla,2021,Leontodon_longirostris,1,10,2,1,0.9222250946778665
+Pinar Puebla,2021,Leontodon_longirostris,2,1,2,1,0.9331671798429512
+Pinar Puebla,2021,Leontodon_longirostris,2,2,2,1,0.9332453293081721
+Pinar Puebla,2021,Leontodon_longirostris,2,3,2,1,0.933264290033905
+Pinar Puebla,2021,Leontodon_longirostris,2,5,2,1,0.8991860177552662
+Pinar Puebla,2021,Leontodon_longirostris,2,6,2,1,0.9213254536524597
+Pinar Puebla,2021,Leontodon_longirostris,2,7,2,1,0.8903365886466982
+Pinar Puebla,2021,Leontodon_longirostris,2,8,2,1,0.9221291329237233
+Pinar Puebla,2021,Leontodon_longirostris,2,9,2,1,0.9221455787326305
+Pinar Puebla,2021,Leontodon_longirostris,2,10,2,1,0.922203645222491
+Pinar Puebla,2021,Leontodon_longirostris,3,1,2,1,0.9333137272031218
+Pinar Puebla,2021,Leontodon_longirostris,3,2,2,1,0.9331606295321904
+Pinar Puebla,2021,Leontodon_longirostris,3,3,2,1,0.9332489426391024
+Pinar Puebla,2021,Leontodon_longirostris,3,4,2,1,0.9247535896686807
+Pinar Puebla,2021,Leontodon_longirostris,3,5,2,1,0.93066951785145
+Pinar Puebla,2021,Leontodon_longirostris,3,7,2,1,0.9212441422998449
+Pinar Puebla,2021,Leontodon_longirostris,3,8,2,1,0.922222819927225
+Pinar Puebla,2021,Leontodon_longirostris,3,9,2,1,0.9221840369446676
+Pinar Puebla,2021,Leontodon_longirostris,3,10,2,1,0.9443012694260697
+Pinar Puebla,2021,Leontodon_longirostris,4,2,2,1,0.8834636864989345
+Pinar Puebla,2021,Leontodon_longirostris,4,3,2,1,0.9332586615529848
+Pinar Puebla,2021,Leontodon_longirostris,4,4,2,1,0.9329936732509418
+Pinar Puebla,2021,Leontodon_longirostris,4,6,2,1,0.9216030496308035
+Pinar Puebla,2021,Leontodon_longirostris,4,9,2,1,0.9222197075925898
+Pinar Puebla,2021,Leontodon_longirostris,4,10,2,1,0.9221805846018356
+Pinar Puebla,2021,Leontodon_longirostris,5,2,2,1,0.9332953232278981
+Pinar Puebla,2021,Leontodon_longirostris,5,3,2,1,0.9332714692685887
+Pinar Puebla,2021,Leontodon_longirostris,5,5,2,1,0.9318706831950793
+Pinar Puebla,2021,Leontodon_longirostris,5,6,2,1,0.9276680830442388
+Pinar Puebla,2021,Leontodon_longirostris,5,9,2,1,0.9221981928707925
+Pinar Puebla,2021,Leontodon_longirostris,5,10,2,1,0.9220834931213142
+Pinar Puebla,2021,Leontodon_longirostris,6,6,2,1,0.9777381406315676
+Pinar Puebla,2021,Leontodon_longirostris,6,7,2,1,0.9263152219280293
+Pinar Puebla,2021,Leontodon_longirostris,6,8,2,1,0.9235607315343218
+Pinar Puebla,2021,Leontodon_longirostris,6,9,2,1,0.922559928716407
+Pinar Puebla,2021,Leontodon_longirostris,6,10,2,1,0.9301539864895376
+Pinar Puebla,2021,Leontodon_longirostris,7,1,2,1,0.9555407789904216
+Pinar Puebla,2021,Leontodon_longirostris,7,2,2,1,0.9333051891036996
+Pinar Puebla,2021,Leontodon_longirostris,7,3,2,1,0.9332911772820075
+Pinar Puebla,2021,Leontodon_longirostris,7,5,2,1,0.933017441317402
+Pinar Puebla,2021,Leontodon_longirostris,7,7,2,1,0.9306559544335871
+Pinar Puebla,2021,Leontodon_longirostris,7,8,2,1,0.9999782216923763
+Pinar Puebla,2021,Leontodon_longirostris,7,9,2,1,0.9254728773127148
+Pinar Puebla,2021,Leontodon_longirostris,7,10,2,1,0.9328567626172687
+Pinar Puebla,2021,Leontodon_longirostris,8,1,2,1,0.9329110217680642
+Pinar Puebla,2021,Leontodon_longirostris,8,2,2,1,0.9333062638369485
+Pinar Puebla,2021,Leontodon_longirostris,8,3,2,1,0.9333016018041285
+Pinar Puebla,2021,Leontodon_longirostris,8,4,2,1,0.9332906516220544
+Pinar Puebla,2021,Leontodon_longirostris,8,5,2,1,0.933256399255373
+Pinar Puebla,2021,Leontodon_longirostris,8,6,2,1,0.9331475149056307
+Pinar Puebla,2021,Leontodon_longirostris,8,7,2,1,0.9327833161099603
+Pinar Puebla,2021,Leontodon_longirostris,8,8,2,1,0.9319976178699828
+Pinar Puebla,2021,Leontodon_longirostris,8,9,2,1,0.9310208189889067
+Pinar Puebla,2021,Leontodon_longirostris,8,10,2,1,0.9305168934780044
+Pinar Puebla,2021,Leontodon_longirostris,9,1,2,1,0.933309519551888
+Pinar Puebla,2021,Leontodon_longirostris,9,5,2,1,0.9777582657630214
+Pinar Puebla,2021,Leontodon_longirostris,9,7,2,1,0.932604095776358
+Pinar Puebla,2021,Leontodon_longirostris,9,8,2,1,0.9331274504979846
+Pinar Puebla,2021,Leontodon_longirostris,10,3,2,1,0.9333082885905207
+Pinar Puebla,2021,Leontodon_longirostris,10,4,2,1,0.933308050953318
+Pinar Puebla,2021,Leontodon_longirostris,10,5,2,1,0.933307167119662
+Pinar Puebla,2021,Leontodon_longirostris,10,6,2,1,0.9333045903739167
+Pinar Puebla,2021,Leontodon_longirostris,10,7,2,1,0.9332994163150315
+Pinar Puebla,2021,Leontodon_longirostris,10,8,2,1,0.9166327058783245
+Pinar Puebla,2021,Leontodon_longirostris,10,9,2,1,0.9238372751986514
+Pinar Puebla,2021,Leontodon_longirostris,10,10,2,1,0.9309715266030522
+Pinar Puebla,2021,Leontodon_longirostris,2,4,2,1,0.9255695796728629
+Pinar Puebla,2021,Leontodon_longirostris,4,1,2,1,0.933170134826878
+Pinar Puebla,2021,Leontodon_longirostris,4,5,2,1,0.9310703962498346
+Pinar Puebla,2021,Leontodon_longirostris,4,7,2,1,0.95553604392789
+Pinar Puebla,2021,Leontodon_longirostris,5,1,2,1,0.9321762632444212
+Pinar Puebla,2021,Leontodon_longirostris,5,4,2,1,0.923807779549293
+Pinar Puebla,2021,Leontodon_longirostris,5,7,2,1,0.9237871156182311
+Pinar Puebla,2021,Leontodon_longirostris,5,8,2,1,0.9224535936784067
+Pinar Puebla,2021,Leontodon_longirostris,6,3,2,1,0.9332786122481646
+Pinar Puebla,2021,Leontodon_longirostris,6,4,2,1,0.9330898574627666
+Pinar Puebla,2021,Leontodon_longirostris,6,5,2,1,0.9333056621692033
+Pinar Puebla,2021,Leontodon_longirostris,7,4,2,1,0.9999804879965175
+Pinar Puebla,2021,Leontodon_longirostris,9,9,2,1,0.9249580032220259
+Pinar Puebla,2021,Leontodon_longirostris,10,1,2,1,0.933309249001714
+Pinar Puebla,2021,Leontodon_longirostris,10,2,2,1,0.933308062479145
+Pinar Puebla,2021,Cistus_salviifolius,3,4,2,1,0.9997735067737452
+Pinar Puebla,2021,Cistus_salviifolius,2,10,2,2,0.9997657899629441
+Pinar Puebla,2021,Cistus_salviifolius,9,4,2,1,0.9998815684657757
+Pinar Puebla,2021,Cistus_salviifolius,5,4,2,1,0.9997429673305261
+Pinar Puebla,2021,Cistus_crispus,9,7,2,1,0.9982439199604002
+Pinar Puebla,2021,Lavandula_stoechas,4,7,2,75,0.49984505381521604
+Pinar Puebla,2021,Lavandula_stoechas,4,8,2,105,0.7645509341141526
+Pinar Puebla,2021,Lavandula_stoechas,3,10,2,32,0.4092413973122293
+Pinar Puebla,2021,Lavandula_stoechas,7,1,2,25,0.4998825643119778
+Pinar Puebla,2021,Lavandula_stoechas,7,4,2,180,0.9998450517209437
+Pinar Puebla,2021,Lavandula_stoechas,6,6,2,120,0.6761709072522714
+Pinar Puebla,2021,Lavandula_stoechas,7,6,2,32,0.32476079057141827
+Pinar Puebla,2021,Lavandula_stoechas,7,8,2,18,0.9997237557900701
+Pinar Puebla,2021,Lavandula_stoechas,7,8,2,190,0.9997237557900701
+Pinar Puebla,2021,Lavandula_stoechas,9,5,2,85,0.7640146096562777
+Pinar Puebla,2021,Lavandula_stoechas,9,3,2,64,0.4998459937664655
+Pinar Puebla,2021,Lavandula_stoechas,4,9,2,6,0.05915523783850493
+Pinar Puebla,2021,Lavandula_stoechas,9,6,2,8,0.14711384245352768
+Pinar Puebla,2021,Tuberaria_guttata,1,3,2,1,0.9997110764284871
+Pinar Puebla,2021,Tuberaria_guttata,2,5,2,1,0.9951780387357704
+Pinar Puebla,2021,Tuberaria_guttata,2,6,2,1,0.9997327310628062
+Pinar Puebla,2021,Tuberaria_guttata,2,7,2,1,0.996095961778044
+Pinar Puebla,2021,Lavandula_stoechas,7,4,2,45,0.9998450517209437
+Pinar Puebla,2021,Lavandula_stoechas,9,3,2,36,0.4998459937664655
+Pinar Puebla,2021,Lavandula_stoechas,9,5,2,28,0.7640146096562777
+Pinar Puebla,2021,Lavandula_stoechas,7,6,2,6,0.32476079057141827
+Pinar Puebla,2021,Lavandula_stoechas,6,6,2,20,0.6761709072522714
+Pinar Puebla,2021,Lavandula_stoechas,7,8,2,16,0.9997237557900701
+Pinar Puebla,2021,Lavandula_stoechas,7,1,2,15,0.4998825643119778
+Pinar Puebla,2021,Lavandula_stoechas,3,10,2,8,0.4092413973122293
+Pinar Puebla,2021,Lavandula_stoechas,4,7,2,24,0.49984505381521604
+Pinar Puebla,2021,Lavandula_stoechas,4,8,2,36,0.7645509341141526
+Pinar Puebla,2021,Cistus_crispus,9,7,2,13,0.9982439199604002
+Pinar Puebla,2021,Galactites_tomentosus,4,2,2,1,0.9982439199604002
+Pinar Puebla,2021,Tuberaria_guttata,1,4,2,1,0.9996930638185122
+Pinar Puebla,2021,Tuberaria_guttata,2,4,2,1,0.999707796346951
+Pinar Puebla,2021,Tuberaria_guttata,3,7,2,1,0.9997376467537451
+Pinar Puebla,2021,Tolpis_barbata,2,5,2,1,0.9998223515062589
+Pinar Puebla,2021,Tolpis_barbata,2,7,2,1,0.9998223517040872
+Pinar Puebla,2021,Tolpis_barbata,8,1,2,1,0.9998243919910138
+Pinar Puebla,2021,Tolpis_barbata,10,10,2,1,0.9998110367484089
+Pinar Puebla,2021,Tolpis_barbata,9,9,2,1,0.9998106151305292
+Pinar Puebla,2021,Tolpis_barbata,10,8,2,3,0.9992528033150446
+Pinar Puebla,2021,Tolpis_barbata,10,8,2,1,0.9992528033150446
+Pinar Puebla,2021,Tolpis_barbata,10,9,2,2,0.999080092225056
+Pinar Puebla,2021,Tolpis_barbata,10,9,2,1,0.999080092225056
+Pinar Puebla,2021,Tolpis_barbata,10,9,2,4,0.999080092225056
+Pinar Puebla,2021,Silene_colorata,9,9,2,1,0.9996968973014579
+Pinar Puebla,2021,Silene_colorata,10,8,2,3,0.998843045977851
+Pinar Puebla,2021,Silene_colorata,10,8,2,1,0.998843045977851
+Pinar Puebla,2021,Silene_colorata,10,9,2,2,0.9987822446189204
+Pinar Puebla,2021,Silene_colorata,10,9,2,1,0.9987822446189204
+Pinar Puebla,2021,Silene_colorata,10,9,2,4,0.9987822446189204
+Pinar Puebla,2021,Aetheorhiza_bulbosa,1,1,2,1,0.9505915570415745
+Pinar Puebla,2021,Aetheorhiza_bulbosa,1,2,2,1,0.9503407219544677
+Pinar Puebla,2021,Aetheorhiza_bulbosa,1,3,2,1,0.9488594061826455
+Pinar Puebla,2021,Aetheorhiza_bulbosa,1,4,2,1,0.9438452686342969
+Pinar Puebla,2021,Aetheorhiza_bulbosa,1,5,2,1,0.9491536266853012
+Pinar Puebla,2021,Aetheorhiza_bulbosa,1,6,2,1,0.9443907305817654
+Pinar Puebla,2021,Aetheorhiza_bulbosa,1,9,2,1,0.9383271722615828
+Pinar Puebla,2021,Aetheorhiza_bulbosa,1,10,2,1,0.9382963043525444
+Pinar Puebla,2021,Aetheorhiza_bulbosa,2,1,2,1,0.950588870660334
+Pinar Puebla,2021,Aetheorhiza_bulbosa,2,2,2,1,0.9505819587940021
+Pinar Puebla,2021,Aetheorhiza_bulbosa,2,3,2,1,0.9505505768824977
+Pinar Puebla,2021,Aetheorhiza_bulbosa,2,4,2,1,0.9420840506702856
+Pinar Puebla,2021,Aetheorhiza_bulbosa,2,5,2,1,0.9155767985526346
+Pinar Puebla,2021,Aetheorhiza_bulbosa,2,6,2,1,0.9378403820806722
+Pinar Puebla,2021,Aetheorhiza_bulbosa,2,7,2,1,0.9184353571051898
+Pinar Puebla,2021,Aetheorhiza_bulbosa,2,8,2,1,0.93832597703986
+Pinar Puebla,2021,Aetheorhiza_bulbosa,2,9,2,1,0.9382542180129823
+Pinar Puebla,2021,Aetheorhiza_bulbosa,3,2,2,1,0.9505806798120886
+Pinar Puebla,2021,Aetheorhiza_bulbosa,3,3,2,1,0.9505398390996563
+Pinar Puebla,2021,Aetheorhiza_bulbosa,3,4,2,1,0.9412504953547083
+Pinar Puebla,2021,Aetheorhiza_bulbosa,3,5,2,1,0.9476576389018787
+Pinar Puebla,2021,Aetheorhiza_bulbosa,3,6,2,1,0.9414176897064357
+Pinar Puebla,2021,Aetheorhiza_bulbosa,3,7,2,1,0.9377760086477395
+Pinar Puebla,2021,Aetheorhiza_bulbosa,3,8,2,1,0.9382923352699369
+Pinar Puebla,2021,Aetheorhiza_bulbosa,3,9,2,1,0.9382476664906978
+Pinar Puebla,2021,Aetheorhiza_bulbosa,3,10,2,1,0.9628038796101295
+Pinar Puebla,2021,Aetheorhiza_bulbosa,4,2,2,1,0.9033138884626848
+Pinar Puebla,2021,Aetheorhiza_bulbosa,4,3,2,1,0.9505372004575436
+Pinar Puebla,2021,Aetheorhiza_bulbosa,4,4,2,1,0.9502484425059519
+Pinar Puebla,2021,Aetheorhiza_bulbosa,4,5,2,1,0.94811897002402
+Pinar Puebla,2021,Aetheorhiza_bulbosa,4,6,2,1,0.9379646116273951
+Pinar Puebla,2021,Aetheorhiza_bulbosa,4,7,2,1,0.9752869620924336
+Pinar Puebla,2021,Aetheorhiza_bulbosa,4,10,2,1,0.9382503113734986
+Pinar Puebla,2021,Aetheorhiza_bulbosa,5,1,2,1,0.9474493451027762
+Pinar Puebla,2021,Aetheorhiza_bulbosa,5,2,2,1,0.9504302776190265
+Pinar Puebla,2021,Aetheorhiza_bulbosa,5,3,2,1,0.9504987920300845
+Pinar Puebla,2021,Aetheorhiza_bulbosa,5,4,2,1,0.9425805716100235
+Pinar Puebla,2021,Aetheorhiza_bulbosa,5,5,2,1,0.9491472065019644
+Pinar Puebla,2021,Aetheorhiza_bulbosa,5,6,2,1,0.94438772384935
+Pinar Puebla,2021,Aetheorhiza_bulbosa,5,8,2,1,0.9385475971917321
+Pinar Puebla,2021,Aetheorhiza_bulbosa,5,9,2,1,0.9383230963394602
+Pinar Puebla,2021,Aetheorhiza_bulbosa,5,10,2,1,0.9382925863397928
+Pinar Puebla,2021,Aetheorhiza_bulbosa,6,1,2,1,0.9504365383229558
+Pinar Puebla,2021,Aetheorhiza_bulbosa,6,2,2,1,0.9505954093141332
+Pinar Puebla,2021,Aetheorhiza_bulbosa,6,3,2,1,0.9504176472069634
+Pinar Puebla,2021,Aetheorhiza_bulbosa,6,4,2,1,0.9504859704260876
+Pinar Puebla,2021,Aetheorhiza_bulbosa,6,6,2,1,0.9876326409871654
+Pinar Puebla,2021,Aetheorhiza_bulbosa,6,7,2,1,0.9428421810912917
+Pinar Puebla,2021,Aetheorhiza_bulbosa,6,8,2,1,0.9397886745537226
+Pinar Puebla,2021,Aetheorhiza_bulbosa,6,9,2,1,0.93886509212258
+Pinar Puebla,2021,Aetheorhiza_bulbosa,7,1,2,1,0.9752922224729206
+Pinar Puebla,2021,Aetheorhiza_bulbosa,7,2,2,1,0.9504304310526425
+Pinar Puebla,2021,Aetheorhiza_bulbosa,7,3,2,1,0.9505179349637424
+Pinar Puebla,2021,Aetheorhiza_bulbosa,7,5,2,1,0.9504211923664728
+Pinar Puebla,2021,Aetheorhiza_bulbosa,7,7,2,1,0.947655395260661
+Pinar Puebla,2021,Aetheorhiza_bulbosa,7,8,2,1,0.9999783199995111
+Pinar Puebla,2021,Aetheorhiza_bulbosa,7,9,2,1,0.9420922414099855
+Pinar Puebla,2021,Aetheorhiza_bulbosa,8,1,2,1,0.9494928171202076
+Pinar Puebla,2021,Aetheorhiza_bulbosa,8,2,2,1,0.9505705549085904
+Pinar Puebla,2021,Aetheorhiza_bulbosa,8,3,2,1,0.9505746337106336
+Pinar Puebla,2021,Aetheorhiza_bulbosa,8,4,2,1,0.9505772232162112
+Pinar Puebla,2021,Aetheorhiza_bulbosa,8,5,2,1,0.9505483412705756
+Pinar Puebla,2021,Aetheorhiza_bulbosa,8,6,2,1,0.9504208913090622
+Pinar Puebla,2021,Aetheorhiza_bulbosa,8,7,2,1,0.9500093416697829
+Pinar Puebla,2021,Aetheorhiza_bulbosa,8,8,2,1,0.9491363562200655
+Pinar Puebla,2021,Aetheorhiza_bulbosa,8,9,2,1,0.9480579910788003
+Pinar Puebla,2021,Aetheorhiza_bulbosa,8,10,2,1,0.9475049337642336
+Pinar Puebla,2021,Aetheorhiza_bulbosa,9,1,2,1,0.9505895447021068
+Pinar Puebla,2021,Aetheorhiza_bulbosa,9,7,2,1,0.9498005219058521
+Pinar Puebla,2021,Aetheorhiza_bulbosa,9,8,2,1,0.9503748405258141
+Pinar Puebla,2021,Aetheorhiza_bulbosa,9,10,2,1,0.9505908416487118
+Pinar Puebla,2021,Aetheorhiza_bulbosa,10,1,2,1,0.9505903759064148
+Pinar Puebla,2021,Aetheorhiza_bulbosa,10,2,2,1,0.9505890271865683
+Pinar Puebla,2021,Aetheorhiza_bulbosa,10,3,2,1,0.9505893744118353
+Pinar Puebla,2021,Aetheorhiza_bulbosa,10,4,2,1,0.9505892720255367
+Pinar Puebla,2021,Aetheorhiza_bulbosa,10,5,2,1,0.9505883738034974
+Pinar Puebla,2021,Aetheorhiza_bulbosa,10,6,2,1,0.9505853691520746
+Pinar Puebla,2021,Aetheorhiza_bulbosa,10,7,2,1,0.950578528819461
+Pinar Puebla,2021,Aetheorhiza_bulbosa,10,8,2,1,0.9257541300080452
+Pinar Puebla,2021,Aetheorhiza_bulbosa,10,9,2,1,0.9314337331780989
+Pinar Puebla,2021,Aetheorhiza_bulbosa,10,10,2,1,0.94240100114266
+Pinar Puebla,2021,Lavandula_stoechas,7,4,3,9,0.994864576460787
+Pinar Puebla,2021,Lavandula_stoechas,9,3,3,30,0.9996486589754429
+Pinar Puebla,2021,Lavandula_stoechas,9,5,3,8,0.9995132304874053
+Pinar Puebla,2021,Lavandula_stoechas,4,8,3,10,0.9996483140297284
+Pinar Puebla,2021,Lavandula_stoechas,6,6,3,8,0.9996466384133842
+Pinar Puebla,2021,Cistus_crispus,9,7,3,10,0.9982439199604002
+Pinar Puebla,2021,Andryala_arenaria,1,6,3,1,0.9998569109760841
+Pinar Puebla,2021,Andryala_arenaria,2,7,3,1,0.9998226417032788
+Pinar Puebla,2021,Andryala_arenaria,2,8,3,1,0.9998145044832173
+Pinar Puebla,2021,Andryala_arenaria,2,9,3,1,0.9998419507293785
+Pinar Puebla,2021,Andryala_arenaria,3,7,3,1,0.9998281428303156
+Pinar Puebla,2021,Andryala_arenaria,3,8,3,1,0.9998239626143279
+Pinar Puebla,2021,Andryala_arenaria,7,2,3,1,0.9998274191764213
+Pinar Puebla,2021,Andryala_arenaria,7,3,3,1,0.9998225130248523
+Pinar Puebla,2021,Andryala_arenaria,7,4,3,1,0.9991541708174755
+Pinar Puebla,2021,Andryala_arenaria,8,2,3,1,0.9998138138355789
+Pinar Puebla,2021,Andryala_arenaria,8,3,3,1,0.9998093382560299
+Pinar Puebla,2021,Andryala_arenaria,8,4,3,1,0.9998403712324259
+Pinar Puebla,2021,Andryala_arenaria,9,2,3,1,0.9998411284725833
+Pinar Puebla,2021,Cistus_crispus,9,7,3,6,0.9982439199604002
+Pinar Villamanrique Este (Chaparral),2021,Anemone_palmata,4,8,1,1,0.9976312846351476
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,3,9,1,1,0.9197898755885754
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,5,10,1,2,0.9186999752276569
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,10,2,1,2,0.939368739637568
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,3,10,1,460,0.8802270477057598
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,4,6,1,90,0.5202216504637044
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,4,10,1,370,0.7365651607404645
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,6,9,1,140,0.69192545665545
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,8,1,1,80,0.6543635041285163
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,8,5,1,480,0.8683306213980353
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,9,3,1,70,0.6919094015078687
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,9,5,1,630,0.9962962121899244
+Pinar Villamanrique Este (Chaparral),2021,Anemone_palmata,5,1,1,1,0.9109968917701664
+Pinar Villamanrique Este (Chaparral),2021,Anemone_palmata,5,4,1,1,0.9973640033895729
+Pinar Villamanrique Este (Chaparral),2021,Anemone_palmata,6,4,1,1,0.9963739216027769
+Pinar Villamanrique Este (Chaparral),2021,Anemone_palmata,6,5,1,1,0.8561352197902153
+Pinar Villamanrique Este (Chaparral),2021,Anemone_palmata,6,7,1,1,0.9976256858435039
+Pinar Villamanrique Este (Chaparral),2021,Anemone_palmata,7,1,1,1,0.9161695647228999
+Pinar Villamanrique Este (Chaparral),2021,Anemone_palmata,7,5,1,1,0.9973399187593623
+Pinar Villamanrique Este (Chaparral),2021,Anemone_palmata,8,1,1,1,0.9976336877913224
+Pinar Villamanrique Este (Chaparral),2021,Anemone_palmata,8,6,1,1,0.9975547187219757
+Pinar Villamanrique Este (Chaparral),2021,Anemone_palmata,9,6,1,1,0.9108779432822155
+Pinar Villamanrique Este (Chaparral),2021,Anemone_palmata,9,7,1,1,0.9976019296081754
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,3,9,1,7,0.9197898755885754
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,4,10,1,4,0.9978157148812374
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,5,10,1,9,0.9186999752276569
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,5,10,1,5,0.9186999752276569
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,6,2,1,2,0.9219850676247403
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,6,10,1,7,0.9204648973800499
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,8,3,1,1,0.853622722361985
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,10,2,1,16,0.939368739637568
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,10,6,1,3,0.92089108064571
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,2,1,1,0.9966356419496233
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,3,10,1,6,0.8802270477057598
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,4,6,1,16,0.5202216504637044
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,6,9,1,63,0.69192545665545
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,8,1,1,38,0.6543635041285163
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,9,3,1,24,0.6919094015078687
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,9,4,1,27,0.3895768922047454
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,9,5,1,39,0.9962962121899244
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,10,1,1,17,0.39505710634946606
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,3,9,1,8,0.9197898755885754
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,4,5,1,5,0.9219429157412754
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,4,10,1,2,0.9978157148812374
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,5,1,1,1,0.9118283398226629
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,5,10,1,7,0.9186999752276569
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,7,9,1,12,0.9111801899155838
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,7,10,1,2,0.9217584572756623
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,8,3,1,4,0.853622722361985
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,10,2,1,19,0.939368739637568
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,10,6,1,14,0.92089108064571
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,10,8,1,11,0.9212755047920913
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,10,9,1,32,0.9219691081008966
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,10,10,1,1,0.9204689812652794
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,10,10,1,14,0.9204689812652794
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,3,1,5,0.9983257258589971
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,8,1,1,0.99822658488537
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,9,1,3,0.9982679875087591
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,1,1,3,0.9982844958024853
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,2,1,2,0.9966356419496233
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,8,1,1,0.9983058076165707
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,5,1,2,0.9744194693450682
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,5,1,1,0.9982928273381401
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,8,1,14,0.998302389026695
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,5,1,2,0.9315317421266004
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,6,1,5,0.998306533793158
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,8,1,5,0.9980267888056734
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,8,1,3,0.9982131795838182
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,9,1,10,0.9890603886344348
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,8,3,1,1,0.9982952584032928
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,9,6,1,3,0.9978880161044935
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,3,10,1,45,0.8802270477057598
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,4,6,1,32,0.5202216504637044
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,6,9,1,85,0.69192545665545
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,8,1,1,20,0.6543635041285163
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,9,3,1,65,0.6919094015078687
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,9,5,1,80,0.9962962121899244
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,10,1,1,3,0.39505710634946606
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,4,5,2,2,0.9558815670481708
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,5,1,2,2,0.9470901335497868
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,5,2,2,1,0.9971602557575113
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,6,5,2,1,0.9718664180461254
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,7,9,2,21,0.9942914824641196
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,7,10,2,1,0.9959726939430559
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,10,8,2,2,0.996935088106876
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,10,9,2,5,0.9970666024905908
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,1,2,9,0.9984556007546358
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,1,2,12,0.9984556007546358
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,1,2,13,0.9984556007546358
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,1,2,33,0.9991491112539177
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,1,2,1,0.9991491112539177
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,1,2,26,0.9832585520864937
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,1,2,4,0.9832585520864937
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,4,2,7,0.9988641135812693
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,4,2,12,0.9988641135812693
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,4,2,2,0.9988641135812693
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,8,2,4,0.9526038939373115
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,6,2,5,0.9988783657193432
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,6,2,4,0.9988783657193432
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,7,2,7,0.9332782034569124
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,7,2,13,0.9332782034569124
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,8,2,20,0.9986767334550166
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,8,2,6,0.9986767334550166
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,9,2,12,0.9825739931178777
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,1,2,5,0.9832585520864937
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,2,2,13,0.9465866407224591
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,2,2,1,0.9465866407224591
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,2,2,10,0.9773494619622608
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,3,2,12,0.9994110642694108
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,4,2,1,0.8940987240925539
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,4,2,4,0.8940987240925539
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,5,2,4,0.49183065253616604
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,6,2,4,0.9974839191991969
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,7,2,1,0.9774826874154019
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,8,2,32,0.9993345273664014
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,9,2,9,0.9942905949946815
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,10,2,28,0.9990171069492012
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,10,2,33,0.9994817070895406
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,9,2,13,0.998934769260085
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,5,2,1,0.8723313601061269
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,5,2,7,0.6347252695263353
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,5,2,3,0.6347252695263353
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,6,2,19,0.9990410075747123
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,6,2,6,0.9987794257447726
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,6,2,57,0.9987794257447726
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,7,2,18,0.9917998394753078
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,8,2,67,0.9995524446976861
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,8,2,7,0.9558747650808914
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,1,2,1,0.9989767049284105
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,1,2,7,0.9989767049284105
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,1,2,2,0.9989767049284105
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,8,3,2,6,0.9991183131561486
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,5,2,8,0.9970864719435616
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,6,2,2,0.9846115679047553
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,8,6,2,2,0.981251761182887
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,8,2,3,0.999119240530015
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,8,2,58,0.999119240530015
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,9,2,24,0.968769596967224
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,8,7,2,2,0.969946601977754
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,9,6,2,10,0.9979298915804562
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,9,2,39,0.9581740504412172
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,4,6,2,19,0.9922555967380048
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,3,10,2,23,0.9948371373115128
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,9,3,2,24,0.99483644054252
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,9,5,2,10,0.966657307585118
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,8,1,2,10,0.9947984680259795
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,3,1,2,1,0.9978892248403878
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,4,5,2,1,0.7328721629052589
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,6,1,2,1,0.9989461329755924
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,6,4,2,3,0.9920968978452152
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,6,5,2,1,0.810463506796192
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,6,6,2,1,0.9989482928556636
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,5,4,2,1,0.9954645776174249
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,7,9,2,4,0.9942914824641196
+Pinar Villamanrique Este (Chaparral),2021,Cistus_ladanifer,9,7,2,1,0.9971100870248897
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,1,2,3,0.9984556007546358
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,1,2,8,0.9984556007546358
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,1,2,2,0.9984556007546358
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,2,2,7,0.9301246517074289
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,3,2,5,0.8994525512959025
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,4,2,4,0.9988641135812693
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,4,2,3,0.9988641135812693
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,6,2,20,0.9988783657193432
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,6,2,2,0.9988783657193432
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,3,2,4,0.8761476952108335
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,7,2,10,0.9332782034569124
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,7,2,11,0.9332782034569124
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,8,2,23,0.9986767334550166
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,8,2,5,0.9986767334550166
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,8,2,5,0.9526038939373115
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,9,2,4,0.9825739931178777
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,1,2,1,0.9532958754851618
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,2,2,4,0.9465866407224591
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,4,2,3,0.8940987240925539
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,3,2,17,0.9995423838912819
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,5,2,1,0.49183065253616604
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,6,2,13,0.9974839191991969
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,7,2,6,0.9774826874154019
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,8,2,30,0.9993345273664014
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,9,2,16,0.9942905949946815
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,10,2,16,0.9990171069492012
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,9,2,29,0.998934769260085
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,10,2,14,0.9994817070895406
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,4,2,12,0.9936808613896763
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,5,2,5,0.8723313601061269
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,5,2,4,0.6347252695263353
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,5,2,1,0.6347252695263353
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,6,2,13,0.9990410075747123
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,6,2,32,0.9987794257447726
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,7,2,8,0.9917998394753078
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,7,2,3,0.9516473326762631
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,8,2,11,0.9995524446976861
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,8,2,3,0.9558747650808914
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,9,2,18,0.991093860340875
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,8,3,2,3,0.9991183131561486
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,8,3,2,4,0.9991183131561486
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,6,2,10,0.9846115679047553
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,8,7,2,1,0.969946601977754
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,7,2,3,0.9636358830251739
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,8,2,19,0.999119240530015
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,9,2,16,0.968769596967224
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,9,6,2,3,0.9979298915804562
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,4,6,2,24,0.9922555967380048
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,3,10,2,12,0.9948371373115128
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,6,9,2,21,0.9974068124341045
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,8,1,2,6,0.9947984680259795
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,9,3,2,8,0.99483644054252
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,4,7,2,6,0.9988512170717929
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,7,1,2,14,0.9956764738019541
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,7,1,2,1,0.9956764738019541
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,9,5,2,12,0.9982362667043703
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,4,1,2,1,0.9887283568999656
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,4,2,2,1,0.9982227887104078
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,5,1,2,1,0.9798260323452606
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,5,4,2,21,0.9954645776174249
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,6,4,2,29,0.9920968978452152
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,5,5,2,6,0.9615680476914299
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,6,5,2,2,0.810463506796192
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,3,1,2,2,0.9978892248403878
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,3,2,2,1,0.9978080765360154
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,2,2,9,0.9982814689836316
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,2,3,2,2,0.9863300498280096
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,3,2,2,0.977159315022205
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,4,2,7,0.9989389136032355
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,3,4,2,1,0.9903037948162217
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,2,5,2,4,0.9989277698298118
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,7,2,3,0.9989414609041808
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,1,2,1,0.9984556007546358
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,2,2,1,0.9301246517074289
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,3,2,2,0.9994110642694108
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,2,6,2,18,0.9988783657193432
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,7,2,2,0.9332782034569124
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,7,2,3,0.9774826874154019
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,8,2,4,0.9986767334550166
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,8,2,8,0.9986767334550166
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,8,2,8,0.9993345273664014
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,9,2,2,0.9825739931178777
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,9,2,4,0.9942905949946815
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,3,10,2,10,0.9990171069492012
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,2,2,5,0.9773494619622608
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,3,2,2,0.9995423838912819
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,4,2,1,0.9936808613896763
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,4,2,1,0.9907727044475672
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,6,2,1,0.9974839191991969
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,6,2,6,0.9990410075747123
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,6,6,2,1,0.9987794257447726
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,7,2,3,0.9917998394753078
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,4,9,2,6,0.998934769260085
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,5,9,2,10,0.991093860340875
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,8,3,2,5,0.9991183131561486
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,6,2,1,0.9846115679047553
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,8,2,8,0.999119240530015
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,7,9,2,3,0.968769596967224
+Pinar Villamanrique Este (Chaparral),2021,Cistus_salviifolius,1,10,2,5,0.9940390932226831
+Pinar Villamanrique Este (Chaparral),2021,Rosmarinus_officinalis,4,6,2,12,0.9922555967380048
+Pinar Villamanrique Este (Chaparral),2021,Andryala_integrifolia,2,5,3,1,0.9783628048696027
+Pinar Villamanrique Este (Chaparral),2021,Andryala_integrifolia,3,4,3,1,0.9129087960534302
+Pinar Villamanrique Este (Chaparral),2021,Andryala_integrifolia,3,5,3,1,0.9949730219068815
+Pinar Villamanrique Este (Chaparral),2021,Andryala_integrifolia,3,6,3,1,0.9946075864451317
+Pinar Villamanrique Este (Chaparral),2021,Andryala_integrifolia,3,7,3,1,0.9949768601001323
+Pinar Villamanrique Este (Chaparral),2021,Andryala_integrifolia,4,6,3,1,0.9949258590036631
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,3,1,3,7,0.9986421872451549
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,2,1,3,3,0.9987434381905199
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,2,3,1,0.9966830335581005
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,2,3,10,0.9966830335581005
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,3,3,1,0.9981192702775203
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,3,3,24,0.9981192702775203
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,2,3,3,8,0.9975587980932228
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,2,3,3,12,0.9975587980932228
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,3,3,3,1,0.9972989437386656
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,4,3,9,0.9973720090824775
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,3,4,3,1,0.8067078700101944
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,2,5,3,9,0.973822135119795
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,7,3,9,0.9981480153271973
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,4,1,3,6,0.9986968990598516
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,5,2,3,3,0.9985811409500582
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,6,1,3,2,0.9962984878276991
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,6,1,3,1,0.9962984878276991
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,4,4,3,1,0.9971651358716083
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,5,4,3,18,0.9986997806025012
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,6,4,3,15,0.9986413450318171
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,4,5,3,3,0.9976078448098805
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,5,5,3,12,0.9979603827084296
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,7,1,3,17,0.9981460449204616
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,7,1,3,1,0.9981460449204616
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,9,5,3,7,0.9987649049587588
+Pinar Villamanrique Este (Chaparral),2021,Leontodon_longirostris,1,6,3,1,0.9716042934560868
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,2,3,2,0.9966830335581005
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,2,3,8,0.9966830335581005
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,3,1,3,1,0.9986421872451549
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,3,3,14,0.9981192702775203
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,4,3,8,0.9973720090824775
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,2,3,3,4,0.9975587980932228
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,3,4,3,3,0.8067078700101944
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,4,1,3,3,0.9986968990598516
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,4,4,3,4,0.9971651358716083
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,2,5,3,13,0.973822135119795
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,4,5,3,2,0.9976078448098805
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,7,3,16,0.9981480153271973
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,4,7,3,5,0.9993599363948288
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,5,2,3,1,0.9985811409500582
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,5,4,3,12,0.9986997806025012
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,5,5,3,9,0.9979603827084296
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,7,1,3,12,0.9981460449204616
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,6,4,3,10,0.9986413450318171
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,9,5,3,4,0.9987649049587588
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,1,7,3,1,0.9981480153271973
+Pinar Villamanrique Este (Chaparral),2021,Cistus_crispus,5,5,3,1,0.9979603827084296
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,10,1,11,0.9999825354105566
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,10,1,9,0.999982540333495
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,8,2,1,3,0.9999773344099342
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,10,1,6,0.9999825440462018
+Pinar Villamanrique Sur,2021,Lavandula_stoechas,3,8,1,240,0.4998225966365089
+Pinar Villamanrique Sur,2021,Tuberaria_guttata,7,1,1,1,0.999966506592126
+Pinar Villamanrique Sur,2021,Tuberaria_guttata,7,2,1,1,0.9999558992279342
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,1,1,4,0.9999825472123401
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,2,1,2,0.9995387322618147
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,3,1,3,0.9986781274954041
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,6,1,7,0.9999767339841847
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,6,1,4,0.9999767339841847
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,10,1,2,0.9999825354105566
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,2,1,3,0.9996941257981982
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,3,1,5,0.9999824420726054
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,9,1,9,0.9999861773985499
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,3,1,3,0.9999824420726054
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,7,1,3,0.9999794424717044
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,9,1,6,0.9781484241076369
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,10,1,11,0.999982540333495
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,4,3,1,6,0.9999241807239597
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,4,8,1,3,0.9934718533159288
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,4,9,1,7,0.9636904944608595
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,5,2,1,4,0.9999831484438624
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,5,8,1,2,0.9827592699857788
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,8,5,1,4,0.9993414959725082
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,7,9,1,7,0.9999883661647547
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,1,1,3,0.9999883603358816
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,7,1,6,0.9905874304068343
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,8,1,7,0.9999875636137168
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,10,1,10,0.9999825440462018
+Pinar Villamanrique Sur,2021,Tuberaria_guttata,5,2,1,1,0.9999574274754187
+Pinar Villamanrique Sur,2021,Tuberaria_guttata,5,3,1,1,0.9999669891760669
+Pinar Villamanrique Sur,2021,Tuberaria_guttata,6,1,1,1,0.9999557926089291
+Pinar Villamanrique Sur,2021,Tuberaria_guttata,6,2,1,1,0.9999110240022849
+Pinar Villamanrique Sur,2021,Tuberaria_guttata,6,3,1,1,0.9997402214525684
+Pinar Villamanrique Sur,2021,Tuberaria_guttata,8,4,1,1,0.9999703999104381
+Pinar Villamanrique Sur,2021,Tuberaria_guttata,10,4,1,1,0.9999698270876497
+Pinar Villamanrique Sur,2021,Tuberaria_guttata,10,5,1,1,0.9999698343067628
+Pinar Villamanrique Sur,2021,Anemone_palmata,5,9,1,1,0.9999366464009869
+Pinar Villamanrique Sur,2021,Anemone_palmata,6,9,1,1,0.9999396077584922
+Pinar Villamanrique Sur,2021,Anemone_palmata,9,9,1,1,0.999940629799198
+Pinar Villamanrique Sur,2021,Lavandula_stoechas,3,8,1,144,0.4998225966365089
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,1,1,21,0.9999825472123401
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,1,1,3,0.9999825472123401
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,2,1,6,0.9995387322618147
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,2,1,3,0.9995387322618147
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,3,1,6,0.9986781274954041
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,6,1,28,0.9999767339841847
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,6,1,6,0.9999767339841847
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,10,1,20,0.9999825354105566
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,2,1,9,0.9996941257981982
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,3,1,20,0.9999824420726054
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,6,1,7,0.9358844316092513
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,5,1,1,0.9346180033282053
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,9,1,18,0.9999861773985499
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,10,1,14,0.999982540333495
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,4,1,2,0.9842210212237287
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,7,1,23,0.9999794424717044
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,4,8,1,4,0.9934718533159288
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,4,9,1,11,0.9636904944608595
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,10,1,5,0.9534604604574826
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,5,1,1,4,0.9999937997021546
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,5,2,1,12,0.9999831484438624
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,5,8,1,10,0.9827592699857788
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,6,3,1,8,0.9999582318912087
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,6,3,1,1,0.9999582318912087
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,7,9,1,46,0.9999883661647547
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,8,3,1,14,0.9999941734443714
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,1,1,12,0.9999883603358816
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,8,5,1,15,0.9993414959725082
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,7,1,8,0.9905874304068343
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,8,1,33,0.9999875636137168
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,10,1,34,0.9999825440462018
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,10,1,1,5,0.9999790652735414
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,10,1,1,1,0.9999790652735414
+Pinar Villamanrique Sur,2021,Lavandula_stoechas,3,8,1,280,0.4998225966365089
+Pinar Villamanrique Sur,2021,Anemone_palmata,4,9,1,1,0.9999403836128391
+Pinar Villamanrique Sur,2021,Anemone_palmata,5,7,1,1,0.9999408082343951
+Pinar Villamanrique Sur,2021,Anemone_palmata,10,10,1,1,0.9999406302832078
+Pinar Villamanrique Sur,2021,Serapias_lingua,8,5,1,1,0.9996451932730178
+Pinar Villamanrique Sur,2021,Tuberaria_guttata,6,2,1,2,0.9999110240022849
+Pinar Villamanrique Sur,2021,Tuberaria_guttata,6,2,1,3,0.9999110240022849
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,1,2,6,0.9999820347481772
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,1,2,28,0.9999820347481772
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,2,2,6,0.9729447381472546
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,2,2,11,0.9729447381472546
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,3,2,6,0.9468263733243263
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,6,2,23,0.9999820316668605
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,6,2,6,0.9999820316668605
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,10,2,17,0.9929630431900868
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,2,2,9,0.9236784529227459
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,3,2,22,0.9993312245164708
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,5,2,12,0.9954890109684064
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,6,2,3,0.8909333579966843
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,9,2,29,0.9999778193482846
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,10,2,38,0.9999792934015168
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,1,2,6,0.9476808502209396
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,1,2,1,0.9476808502209396
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,4,3,2,9,0.8625610939453066
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,4,2,2,4,0.923004532478445
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,4,2,32,0.9999859981961007
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,7,2,26,0.999938041908959
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,9,2,18,0.940685301013533
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,10,2,59,0.9999910104529701
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,4,8,2,18,0.9968480849509387
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,4,9,2,35,0.9999523815303313
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,5,1,2,48,0.9935184768387818
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,5,2,2,21,0.9346832275263068
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,6,3,2,26,0.9620556454908917
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,6,3,2,5,0.9620556454908917
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,5,8,2,13,0.9789578262034309
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,5,8,2,5,0.9789578262034309
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,8,2,2,50,0.9999865263268233
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,8,3,2,7,0.9367455158994563
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,8,5,2,16,0.9367053353181565
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,7,9,2,41,0.9746810883541438
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,1,2,27,0.9620181988647509
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,2,2,22,0.9570291466887688
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,10,1,2,18,0.96202148764159
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,10,1,2,23,0.96202148764159
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,7,2,27,0.9741310455429726
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,8,2,87,0.9999910175512137
+Pinar Villamanrique Sur,2021,Genista_hirsuta,8,7,2,136,0.4998225966365089
+Pinar Villamanrique Sur,2021,Lavandula_stoechas,3,8,2,950,0.4998225966365089
+Pinar Villamanrique Sur,2021,Lavandula_stoechas,4,7,2,2250,0.9998225966365089
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,1,2,12,0.9999820347481772
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,1,2,18,0.9999820347481772
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,2,2,3,0.9729447381472546
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,3,2,1,0.9468263733243263
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,2,2,2,0.9236784529227459
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,3,2,2,0.9993312245164708
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,5,2,4,0.9954890109684064
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,6,2,8,0.9999820316668605
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,6,2,4,0.9999820316668605
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,10,2,11,0.9929630431900868
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,10,2,13,0.9999792934015168
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,9,2,19,0.9999778193482846
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,5,1,2,12,0.9935184768387818
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,5,2,2,2,0.9346832275263068
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,4,3,2,3,0.8625610939453066
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,4,2,10,0.9999859981961007
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,7,2,4,0.999938041908959
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,9,2,3,0.940685301013533
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,3,10,2,3,0.9999910104529701
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,4,8,2,10,0.9968480849509387
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,4,9,2,10,0.9999523815303313
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,5,8,2,3,0.9789578262034309
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,5,8,2,6,0.9789578262034309
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,6,3,2,3,0.9620556454908917
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,8,5,2,2,0.9367053353181565
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,1,2,7,0.9620181988647509
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,8,2,2,26,0.9999865263268233
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,8,3,2,2,0.9367455158994563
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,2,2,6,0.9570291466887688
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,10,1,2,4,0.96202148764159
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,7,2,6,0.9741310455429726
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,8,2,16,0.9999910175512137
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,10,2,6,0.9745641508716375
+Pinar Villamanrique Sur,2021,Lavandula_stoechas,4,7,2,232,0.9998225966365089
+Pinar Villamanrique Sur,2021,Lavandula_stoechas,3,8,2,88,0.4998225966365089
+Pinar Villamanrique Sur,2021,Genista_hirsuta,8,7,2,224,0.4998225966365089
+Pinar Villamanrique Sur,2021,Halimium_halimifolium,1,9,2,10,0.9998580773092072
+Pinar Villamanrique Sur,2021,Halimium_halimifolium,3,1,2,1,0.9997871159073064
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,8,2,2,0.9999112982980809
+Pinar Villamanrique Sur,2021,Cistus_crispus,7,9,2,2,0.973169126294139
+Pinar Villamanrique Sur,2021,Cistus_crispus,9,7,2,1,0.9974151017986281
+Pinar Villamanrique Sur,2021,Halimium_halimifolium,3,1,2,11,0.9997871159073064
+Pinar Villamanrique Sur,2021,Halimium_halimifolium,1,9,2,46,0.9998580773092072
+Pinar Villamanrique Sur,2021,Halimium_halimifolium,3,1,2,10,0.9997871159073064
+Pinar Villamanrique Sur,2021,Lavandula_stoechas,3,8,2,182,0.4998225966365089
+Pinar Villamanrique Sur,2021,Lavandula_stoechas,4,7,2,48,0.9998225966365089
+Pinar Villamanrique Sur,2021,Genista_hirsuta,8,7,2,44,0.4998225966365089
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,1,10,2,1,0.9929630431900868
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,9,2,1,0.9999778193482846
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,2,10,2,2,0.9999792934015168
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,8,2,2,15,0.9999865263268233
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,7,2,3,0.9741310455429726
+Pinar Villamanrique Sur,2021,Cistus_salviifolius,9,10,2,3,0.9745641508716375
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,1,1,2,1,0.9565063127505133
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,4,1,2,1,0.8902455938964813
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,4,3,2,1,0.8645742640954714
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,5,1,2,1,0.9565063127239454
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,5,2,2,1,0.9131170652169778
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,5,3,2,1,0.8757306121804022
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,6,1,2,1,0.9078272468043724
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,6,2,2,1,0.87746372437778
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,7,3,2,1,0.9002875489632715
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,7,4,2,1,0.9121762763538547
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,7,5,2,1,0.9129983436007807
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,8,4,2,1,0.9129556602535056
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,9,3,2,1,0.9130094510454219
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,9,4,2,1,0.9130238538300117
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,9,5,2,1,0.9127476536438287
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,9,8,2,1,0.9565063127510007
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,9,9,2,1,0.9130276807415065
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,10,3,2,1,0.9130437260736491
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,10,4,2,1,0.9126824796184226
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,10,5,2,1,0.9129907656902073
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,10,9,2,1,0.9130274323519177
+Pinar Villamanrique Sur,2021,Leontodon_longirostris,10,10,2,1,0.913027680974227
+Pinar Villamanrique Sur,2021,Tolpis_barbata,9,5,2,1,0.9991049524900824
+Pinar Villamanrique Sur,2021,Tolpis_barbata,9,6,2,1,0.9999482746051845
+Pinar Villamanrique Sur,2021,Tolpis_barbata,10,1,2,1,0.9999493133183525
+Pinar Villamanrique Sur,2021,Tolpis_barbata,10,2,2,1,0.9238659621647511
+Pinar Villamanrique Sur,2021,Tolpis_barbata,10,4,2,1,0.9770336439082884
+Pinar Villamanrique Sur,2021,Tolpis_barbata,10,5,2,1,0.9988963315792667
+Pinar Villamanrique Sur,2021,Tolpis_barbata,10,6,2,1,0.999948266091096
+Pinar Villamanrique Sur,2021,Cistus_crispus,7,10,2,5,0.752478984175737
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,9,2,11,0.750180504252886
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,10,2,6,0.7528956354792573
+Pinar Villamanrique Sur,2021,Cistus_crispus,6,6,2,6,0.8142419502102329
+Pinar Villamanrique Sur,2021,Cistus_crispus,3,5,2,2,0.9999305166141604
+Pinar Villamanrique Sur,2021,Cistus_crispus,3,6,2,6,0.9999416257557167
+Pinar Villamanrique Sur,2021,Cistus_crispus,3,6,2,1,0.9999416257557167
+Pinar Villamanrique Sur,2021,Cistus_crispus,5,4,2,23,0.9999821182565426
+Pinar Villamanrique Sur,2021,Cistus_crispus,4,6,2,1,0.999186179042384
+Pinar Villamanrique Sur,2021,Cistus_crispus,4,6,2,6,0.999186179042384
+Pinar Villamanrique Sur,2021,Cistus_crispus,9,2,2,3,0.9999822108527371
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,8,2,9,0.9999112982980809
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,8,2,1,0.9999112982980809
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,8,2,10,0.9999112982980809
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,8,2,33,0.9999112982980809
+Pinar Villamanrique Sur,2021,Cistus_crispus,9,7,2,12,0.9974151017986281
+Pinar Villamanrique Sur,2021,Cistus_crispus,10,8,2,2,0.7167804934656127
+Pinar Villamanrique Sur,2021,Halimium_halimifolium,3,1,3,38,0.9997782457956361
+Pinar Villamanrique Sur,2021,Halimium_halimifolium,3,1,3,39,0.9997782457956361
+Pinar Villamanrique Sur,2021,Halimium_halimifolium,1,9,3,83,0.9998669474773817
+Pinar Villamanrique Sur,2021,Cistus_crispus,10,8,3,3,0.542047743207284
+Pinar Villamanrique Sur,2021,Cistus_crispus,7,10,3,5,0.4896676427489771
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,10,3,14,0.7730412466880621
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,10,3,25,0.7730412466880621
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,9,3,24,0.5553532918534958
+Pinar Villamanrique Sur,2021,Cistus_crispus,5,4,3,97,0.9999605770303328
+Pinar Villamanrique Sur,2021,Cistus_crispus,6,6,3,68,0.9860674203785144
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,8,3,10,0.9987691299813695
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,8,3,12,0.9987691299813695
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,8,3,18,0.9987691299813695
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,8,3,34,0.9987691299813695
+Pinar Villamanrique Sur,2021,Cistus_crispus,9,7,3,30,0.5572934222871868
+Pinar Villamanrique Sur,2021,Cistus_crispus,3,5,3,3,0.7111115000649362
+Pinar Villamanrique Sur,2021,Cistus_crispus,3,6,3,6,0.7718966180304088
+Pinar Villamanrique Sur,2021,Cistus_crispus,3,6,3,9,0.7718966180304088
+Pinar Villamanrique Sur,2021,Cistus_crispus,4,6,3,1,0.56116258186938
+Pinar Villamanrique Sur,2021,Cistus_crispus,4,6,3,2,0.56116258186938
+Pinar Villamanrique Sur,2021,Cistus_crispus,4,6,3,3,0.56116258186938
+Pinar Villamanrique Sur,2021,Cistus_crispus,3,5,3,1,0.7111115000649362
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,8,3,2,0.9987691299813695
+Pinar Villamanrique Sur,2021,Cistus_crispus,8,8,3,1,0.9987691299813695
+Pinar Villamanrique Sur,2021,Cistus_crispus,9,7,3,2,0.5572934222871868
+Pinar Villamanrique Sur,2021,Cistus_crispus,5,4,3,34,0.9999605770303328
+Pinar Villamanrique Sur,2021,Cistus_crispus,6,6,3,27,0.9860674203785144
+Pinar Villamanrique Sur,2021,Halimium_halimifolium,3,1,3,14,0.9997782457956361
+Pinar Villamanrique Sur,2021,Halimium_halimifolium,3,1,3,25,0.9997782457956361
+Pinar Villamanrique Sur,2021,Halimium_halimifolium,1,9,3,29,0.9998669474773817
+Pinar Villamanrique Sur,2021,Cistus_crispus,6,6,3,2,0.9860674203785144
+Pinar Villamanrique Sur,2021,Cistus_crispus,5,4,3,2,0.9999605770303328
+Pinar Villamanrique Sur,2021,Cistus_crispus,9,2,3,2,0.7186247011350743
+Pinar Villamanrique Sur,2021,Halimium_halimifolium,3,1,3,3,0.9997782457956361
+Pinar Villamanrique Sur,2021,Halimium_halimifolium,1,9,3,5,0.9998669474773817

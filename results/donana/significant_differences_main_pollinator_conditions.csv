@@ -1,0 +1,17 @@
+comparisson,coefficients,sigma,species
+Villam. Sur (Flow. period 2: 12:00 - 13:59) - Aznalcazar (Flow. period 1: 10:00 - 11:59),0.3391061182802763,0.0943936114191645,Apis mellifera
+Villam. Sur (Flow. period 2: 12:00 - 13:59) - Puebla (Flow. period 1: 10:00 - 11:59),0.38532824982342584,0.09297553123891512,Apis mellifera
+Villam. Sur (Flow. period 2: 12:00 - 13:59) - Villam. Este (Flow. period 2: 14:00 - 16:05),0.36207243586996146,0.09590703449275158,Apis mellifera
+Villam. Sur (Flow. period 2: 12:00 - 13:59) - Villam. Sur (Flow. period 1: 10:00 - 11:59),0.3461923727891522,0.09422024478270533,Apis mellifera
+Aznalcazar (Flow. period 3: 10:00 - 11:59) - Aznalcazar (Flow. period 1: 10:00 - 11:59),0.8033530235798525,0.23746832716481092,Bombus terrestris
+Aznalcazar (Flow. period 3: 10:00 - 11:59) - Aznalcazar (Flow. period 1: 12:00 - 13:59),0.8416963984357629,0.23628369231463348,Bombus terrestris
+Aznalcazar (Flow. period 3: 10:00 - 11:59) - Aznalcazar (Flow. period 1: 14:00 - 16:05),0.8209168223430239,0.2363158698239841,Bombus terrestris
+Villam. Sur (Flow. period 1: 12:00 - 13:59) - Aznalcazar (Flow. period 1: 14:00 - 16:05),-0.044111331644261745,0.008747125588218089,Bombus terrestris
+Aznalcazar (Flow. period 3: 10:00 - 11:59) - Aznalcazar (Flow. period 2: 10:00 - 11:59),0.7798589060763945,0.24770360471731276,Bombus terrestris
+Aznalcazar (Flow. period 3: 10:00 - 11:59) - Aznalcazar (Flow. period 2: 14:00 - 16:05),0.843751558242608,0.2366326239502282,Bombus terrestris
+Villam. Sur (Flow. period 1: 12:00 - 13:59) - Aznalcazar (Flow. period 3: 10:00 - 11:59),-0.8650281539872857,0.23615392887820022,Bombus terrestris
+Villam. Sur (Flow. period 2: 10:00 - 11:59) - Aznalcazar (Flow. period 3: 10:00 - 11:59),-0.7976846510171383,0.24602963822782553,Bombus terrestris
+Villam. Sur (Flow. period 3: 12:00 - 13:59) - Hinojos (Flow. period 2: 14:00 - 16:05),0.5754812164130338,0.15995151318383685,Dasypodacingulata
+Villam. Sur (Flow. period 3: 12:00 - 13:59) - Villam. Este (Flow. period 2: 12:00 - 13:59),0.4754812164130334,0.16718657384827468,Dasypodacingulata
+Villam. Sur (Flow. period 3: 12:00 - 13:59) - Hinojos (Flow. period 2: 14:00 - 16:05),0.5754812164130338,0.15995151318383685,Xylocopa cantabrita
+Villam. Sur (Flow. period 3: 12:00 - 13:59) - Villam. Este (Flow. period 2: 12:00 - 13:59),0.4754812164130334,0.16718657384827468,Xylocopa cantabrita

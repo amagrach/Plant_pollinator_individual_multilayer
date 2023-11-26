@@ -1,0 +1,396 @@
+Fecha,Bosque,ronda,Planta,X,Y,labelled_flowers,number_fruits,abortos,Year,Day_ISO,Day,Week_ISO,Week,Periodo,Subplot,fruitset,Subplot_Plant_Label,Visits_tot,homo_motif,hete_motif,prob_consp_step,poll_richness,plant_richness,total_number_flowers,unloyal_steps,poll_abundance
+2021-03-18,Pinar Aznalcazar,2,Cistus_salviifolius,3,6,4,3,1,2021,77,17,11,3,March,3-6,0.75,3-6 Cistus_salviifolius,1,4,0,0.9999973403412207,1,1,4,NA,1
+2021-03-18,Pinar Aznalcazar,2,Cistus_salviifolius,3,9,5,5,0,2021,77,17,11,3,March,3-9,1,3-9 Cistus_salviifolius,9,0,3,0.9999971908711959,1,1,9,NA,7
+2021-03-18,Pinar Aznalcazar,2,Cistus_salviifolius,4,4,5,5,0,2021,77,17,11,3,March,4-4,1,4-4 Cistus_salviifolius,16,10,0,0.9999991228638658,4,1,7,NA,5
+2021-03-18,Pinar Aznalcazar,2,Cistus_salviifolius,4,9,5,5,0,2021,77,17,11,3,March,4-9,1,4-9 Cistus_salviifolius,2,1,0,0.9999971908408399,1,1,7,NA,1
+2021-03-18,Pinar Aznalcazar,2,Cistus_salviifolius,6,4,5,5,0,2021,77,17,11,3,March,6-4,1,6-4 Cistus_salviifolius,20,9,0,0.9999972381700037,4,1,16,NA,4
+2021-03-18,Pinar Aznalcazar,2,Cistus_salviifolius,6,7,5,5,0,2021,77,17,11,3,March,6-7,1,6-7 Cistus_salviifolius,1,2,0,0.9999982605865877,1,1,6,NA,1
+2021-03-18,Pinar Aznalcazar,2,Cistus_salviifolius,6,10,5,5,0,2021,77,17,11,3,March,6-10,1,6-10 Cistus_salviifolius,1,2,0,0.9999991226216554,1,1,10,NA,1
+2021-03-18,Pinar Aznalcazar,2,Cistus_salviifolius,7,2,5,5,0,2021,77,17,11,3,March,7-2,1,7-2 Cistus_salviifolius,3,2,0,0.9999973361580913,1,1,7,NA,1
+2021-03-18,Pinar Aznalcazar,2,Cistus_salviifolius,9,3,5,5,0,2021,77,17,11,3,March,9-3,1,9-3 Cistus_salviifolius,12,4,0,0.9999973121107821,3,1,20,NA,4
+2021-03-25,Pinar Aznalcazar,3,Cistus_salviifolius,3,6,5,5,0,2021,84,24,12,4,March,3-6,1,3-6 Cistus_salviifolius,19,14,0,0.9999973403412207,2,1,15,NA,2
+2021-03-25,Pinar Aznalcazar,3,Cistus_salviifolius,3,8,5,5,0,2021,84,24,12,4,March,3-8,1,3-8 Cistus_salviifolius,12,9,0,0.9999980740162603,3,1,7,NA,3
+2021-03-25,Pinar Aznalcazar,3,Cistus_salviifolius,3,9,5,5,0,2021,84,24,12,4,March,3-9,1,3-9 Cistus_salviifolius,36,5,6,0.9999971908711959,2,1,15,NA,9
+2021-03-25,Pinar Aznalcazar,3,Cistus_salviifolius,4,9,5,5,0,2021,84,24,12,4,March,4-9,1,4-9 Cistus_salviifolius,16,11,0,0.9999971908408399,3,1,21,NA,3
+2021-03-25,Pinar Aznalcazar,3,Cistus_salviifolius,6,1,5,5,0,2021,84,24,12,4,March,6-1,1,6-1 Cistus_salviifolius,3,6,0,0.9999990988477351,2,1,5,NA,2
+2021-03-25,Pinar Aznalcazar,3,Cistus_salviifolius,6,3,5,5,0,2021,84,24,12,4,March,6-3,1,6-3 Cistus_salviifolius,7,13,0,0.9999981055905209,2,1,5,NA,2
+2021-03-25,Pinar Aznalcazar,3,Cistus_salviifolius,6,4,5,5,0,2021,84,24,12,4,March,6-4,1,6-4 Cistus_salviifolius,83,31,0,0.9999972381700037,3,1,43,NA,4
+2021-03-25,Pinar Aznalcazar,3,Cistus_salviifolius,6,7,5,5,0,2021,84,24,12,4,March,6-7,1,6-7 Cistus_salviifolius,7,7,0,0.9999982605865877,2,1,14,NA,2
+2021-03-25,Pinar Aznalcazar,3,Cistus_salviifolius,8,3,5,5,0,2021,84,24,12,4,March,8-3,1,8-3 Cistus_salviifolius,14,8,0,0.9999981022695879,NA,1,15,NA,NA
+2021-03-25,Pinar Aznalcazar,3,Cistus_salviifolius,8,10,5,5,0,2021,84,24,12,4,March,8-10,1,8-10 Cistus_salviifolius,6,4,0,0.9999982585562555,NA,1,22,NA,NA
+2021-04-07,Pinar Aznalcazar,4,Cistus_salviifolius,2,7,5,5,0,2021,97,37,14,6,April,2-7,1,2-7 Cistus_salviifolius,NA,NA,NA,0.999997799179978,NA,1,9,NA,NA
+2021-04-07,Pinar Aznalcazar,4,Cistus_salviifolius,3,8,5,5,0,2021,97,37,14,6,April,3-8,1,3-8 Cistus_salviifolius,NA,NA,NA,0.9999976892757628,NA,1,9,NA,NA
+2021-04-07,Pinar Aznalcazar,4,Cistus_salviifolius,4,10,5,4,1,2021,97,37,14,6,April,4-10,0.8,4-10 Cistus_salviifolius,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2021-04-07,Pinar Aznalcazar,4,Cistus_salviifolius,6,1,5,5,0,2021,97,37,14,6,April,6-1,1,6-1 Cistus_salviifolius,6,10,1,0.9999984655747105,1,1,16,NA,1
+2021-04-07,Pinar Aznalcazar,4,Cistus_salviifolius,6,4,5,2,3,2021,97,37,14,6,April,6-4,0.4,6-4 Cistus_salviifolius,NA,NA,NA,0.9999977298528373,NA,1,66,NA,NA
+2021-04-07,Pinar Aznalcazar,4,Cistus_salviifolius,6,7,5,3,2,2021,97,37,14,6,April,6-7,0.6,6-7 Cistus_salviifolius,NA,NA,NA,0.9999977510384254,NA,1,6,NA,NA
+2021-04-07,Pinar Aznalcazar,4,Cistus_salviifolius,6,10,5,4,1,2021,97,37,14,6,April,6-10,0.8,6-10 Cistus_salviifolius,NA,NA,NA,0.9999978213248842,NA,1,34,NA,NA
+2021-04-07,Pinar Aznalcazar,4,Cistus_salviifolius,8,3,5,4,1,2021,97,37,14,6,April,8-3,0.8,8-3 Cistus_salviifolius,32,13,1,0.9999977313185504,2,1,18,NA,2
+2021-04-07,Pinar Aznalcazar,4,Cistus_salviifolius,8,10,5,3,2,2021,97,37,14,6,April,8-10,0.6,8-10 Cistus_salviifolius,NA,NA,NA,0.999997819686645,NA,1,6,NA,NA
+2021-04-07,Pinar Aznalcazar,4,Cistus_salviifolius,9,3,5,5,0,2021,97,37,14,6,April,9-3,1,9-3 Cistus_salviifolius,52,22,1,0.9999977379380307,1,1,7,NA,1
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,1,1,2,2,0,2021,109,49,16,7,April,1-1,1,1-1 Cistus_crispus,22,8,0,0.9999899234585236,2,1,6,NA,2
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,1,1,4,4,0,2021,109,49,16,7,April,1-1,1,1-1 Cistus_crispus,22,8,0,0.9999899234585236,2,1,6,NA,2
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,1,2,4,4,0,2021,109,49,16,7,April,1-2,1,1-2 Cistus_crispus,6,8,0,0.999995493935569,1,1,4,NA,1
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,1,9,5,2,3,2021,109,49,16,7,April,1-9,0.4,1-9 Cistus_crispus,12,22,4,0.9999972464153442,2,1,5,1,3
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,2,6,5,5,0,2021,109,49,16,7,April,2-6,1,2-6 Cistus_crispus,14,20,0,0.9999972989809978,2,1,5,NA,3
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,4,7,6,3,3,2021,109,49,16,7,April,4-7,0.5,4-7 Cistus_crispus,180,80,12,0.9999972990082808,5,1,3,1,13
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,5,7,3,3,0,2021,109,49,16,7,April,5-7,1,5-7 Cistus_crispus,106,82,10,0.9999858108263214,6,1,3,NA,13
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,6,2,2,2,0,2021,109,49,16,7,April,6-2,1,6-2 Cistus_crispus,2,14,0,0.9999941684774997,1,1,2,NA,1
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,6,7,4,4,0,2021,109,49,16,7,April,6-7,1,6-7 Cistus_crispus,20,36,6,0.9999962545758775,4,2,5,NA,5
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,7,3,1,1,0,2021,109,49,16,7,April,7-3,1,7-3 Cistus_crispus,2,14,0,0.9999972999810277,1,1,1,NA,1
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,7,6,1,1,0,2021,109,49,16,7,April,7-6,1,7-6 Cistus_crispus,12,40,10,NA,3,NA,NA,NA,4
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,7,7,1,0,1,2021,109,49,16,7,April,7-7,0,7-7 Cistus_crispus,6,14,10,NA,1,NA,NA,NA,2
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,8,6,2,1,1,2021,109,49,16,7,April,8-6,0.5,8-6 Cistus_crispus,12,24,4,NA,2,NA,NA,NA,4
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,8,7,3,3,0,2021,109,49,16,7,April,8-7,1,8-7 Cistus_crispus,32,52,10,0.9999973023722962,3,1,18,NA,5
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,8,8,6,4,2,2021,109,49,16,7,April,8-8,0.6666666666666666,8-8 Cistus_crispus,14,10,0,NA,2,NA,NA,NA,2
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,9,2,1,1,0,2021,109,49,16,7,April,9-2,1,9-2 Cistus_crispus,NA,NA,NA,0.999997300293886,NA,1,1,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Cistus_crispus,9,6,2,2,0,2021,109,49,16,7,April,9-6,1,9-6 Cistus_crispus,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,1,7,5,1,4,2021,109,49,16,7,April,1-7,0.2,1-7 Cistus_salviifolius,2,0,12,0.9999880939606003,1,1,5,1,1
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,1,10,1,0,1,2021,109,49,16,7,April,1-10,0,1-10 Cistus_salviifolius,NA,NA,NA,0.9999972765607098,NA,2,21,NA,3
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,2,7,2,2,0,2021,109,49,16,7,April,2-7,1,2-7 Cistus_salviifolius,NA,NA,NA,0.999997799179978,NA,1,2,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,3,6,1,1,0,2021,109,49,16,7,April,3-6,1,3-6 Cistus_salviifolius,NA,NA,NA,0.9999947209805231,NA,1,1,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,3,7,1,1,0,2021,109,49,16,7,April,3-7,1,3-7 Cistus_salviifolius,NA,NA,NA,0.9999782902365184,NA,1,1,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,3,8,1,1,0,2021,109,49,16,7,April,3-8,1,3-8 Cistus_salviifolius,NA,NA,NA,0.9999976892757628,NA,1,1,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,3,9,2,2,0,2021,109,49,16,7,April,3-9,1,3-9 Cistus_salviifolius,NA,NA,NA,0.9999976460079955,NA,1,2,NA,1
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,4,9,1,1,0,2021,109,49,16,7,April,4-9,1,4-9 Cistus_salviifolius,NA,NA,NA,0.9999977116401627,NA,1,1,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,6,3,1,1,0,2021,109,49,16,7,April,6-3,1,6-3 Cistus_salviifolius,NA,NA,NA,0.9999977358927056,NA,1,1,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,6,4,4,0,4,2021,109,49,16,7,April,6-4,0,6-4 Cistus_salviifolius,NA,NA,NA,0.9999977298528373,NA,1,4,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,6,7,1,0,1,2021,109,49,16,7,April,6-7,0,6-7 Cistus_salviifolius,NA,NA,NA,0.9999977510384254,NA,2,5,NA,5
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,6,10,1,1,0,2021,109,49,16,7,April,6-10,1,6-10 Cistus_salviifolius,NA,NA,NA,0.9999978213248842,NA,1,1,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,8,3,1,1,0,2021,109,49,16,7,April,8-3,1,8-3 Cistus_salviifolius,NA,NA,NA,0.9999977313185504,NA,1,1,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,8,10,1,0,1,2021,109,49,16,7,April,8-10,0,8-10 Cistus_salviifolius,NA,NA,NA,0.999997819686645,NA,1,1,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,9,3,2,1,1,2021,109,49,16,7,April,9-3,0.5,9-3 Cistus_salviifolius,NA,NA,NA,0.9999977379380307,NA,1,2,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Cistus_salviifolius,10,10,6,6,0,2021,109,49,16,7,April,10-10,1,10-10 Cistus_salviifolius,NA,NA,NA,0.9999978232584296,NA,1,6,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Halimium_halimifolium,10,8,3,2,1,2021,109,49,16,7,April,10-8,0.6666666666666666,10-8 Halimium_halimifolium,NA,NA,NA,0.9999736357737915,NA,1,9,NA,NA
+2021-04-19,Pinar Aznalcazar,5,Halimium_halimifolium,10,8,6,1,5,2021,109,49,16,7,April,10-8,0.16666666666666666,10-8 Halimium_halimifolium,NA,NA,NA,0.9999736357737915,NA,1,9,NA,NA
+2021-04-28,Pinar Aznalcazar,6,Cistus_crispus,1,1,2,1,1,2021,118,58,17,9,April,1-1,0.5,1-1 Cistus_crispus,NA,NA,NA,0.9999899234585236,NA,2,17,NA,1
+2021-04-28,Pinar Aznalcazar,6,Cistus_crispus,1,1,5,3,2,2021,118,58,17,9,April,1-1,0.6,1-1 Cistus_crispus,NA,NA,NA,0.9999899234585236,NA,2,17,NA,1
+2021-04-28,Pinar Aznalcazar,6,Cistus_crispus,1,2,5,5,0,2021,118,58,17,9,April,1-2,1,1-2 Cistus_crispus,NA,NA,NA,0.999995493935569,NA,2,8,NA,NA
+2021-04-28,Pinar Aznalcazar,6,Cistus_crispus,1,8,5,5,0,2021,118,58,17,9,April,1-8,1,1-8 Cistus_crispus,NA,NA,NA,0.9999985381995582,NA,1,2,NA,NA
+2021-04-28,Pinar Aznalcazar,6,Cistus_crispus,2,1,5,3,2,2021,118,58,17,9,April,2-1,0.6,2-1 Cistus_crispus,NA,NA,NA,0.9999986488168572,NA,1,6,NA,NA
+2021-04-28,Pinar Aznalcazar,6,Cistus_crispus,2,6,5,5,0,2021,118,58,17,9,April,2-6,1,2-6 Cistus_crispus,NA,NA,NA,0.9999972989809978,NA,1,19,NA,NA
+2021-04-28,Pinar Aznalcazar,6,Cistus_crispus,4,7,5,5,0,2021,118,58,17,9,April,4-7,1,4-7 Cistus_crispus,190,85,12,0.9999972990082808,3,1,52,NA,3
+2021-04-28,Pinar Aznalcazar,6,Cistus_crispus,6,2,5,2,3,2021,118,58,17,9,April,6-2,0.4,6-2 Cistus_crispus,NA,NA,NA,0.9999941684774997,NA,2,17,NA,1
+2021-04-28,Pinar Aznalcazar,6,Cistus_crispus,7,3,5,3,2,2021,118,58,17,9,April,7-3,0.6,7-3 Cistus_crispus,NA,NA,NA,0.9999972999810277,NA,1,13,NA,NA
+2021-04-28,Pinar Aznalcazar,6,Cistus_crispus,9,7,1,1,0,2021,118,58,17,9,April,9-7,1,9-7 Cistus_crispus,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2021-04-28,Pinar Aznalcazar,6,Cistus_crispus,9,8,4,3,1,2021,118,58,17,9,April,9-8,0.75,9-8 Cistus_crispus,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2021-04-28,Pinar Aznalcazar,6,Halimium_halimifolium,9,6,2,0,2,2021,118,58,17,9,April,9-6,0,9-6 Halimium_halimifolium,NA,NA,NA,0.9999914063596662,NA,1,2,NA,NA
+2021-04-28,Pinar Aznalcazar,6,Halimium_halimifolium,10,8,20,14,6,2021,118,58,17,9,April,10-8,0.7,10-8 Halimium_halimifolium,NA,NA,NA,0.9999736357737915,NA,1,92,NA,NA
+2021-04-28,Pinar Aznalcazar,6,Halimium_halimifolium,10,8,15,7,8,2021,118,58,17,9,April,10-8,0.4666666666666667,10-8 Halimium_halimifolium,NA,NA,NA,0.9999736357737915,NA,1,92,NA,NA
+2021-04-28,Pinar Aznalcazar,6,Halimium_halimifolium,10,9,4,2,2,2021,118,58,17,9,April,10-9,0.5,10-9 Halimium_halimifolium,NA,NA,NA,0.999992480490502,NA,1,4,NA,NA
+2021-05-07,Pinar Aznalcazar,7,Cistus_crispus,1,1,5,5,0,2021,127,67,18,10,May,1-1,1,1-1 Cistus_crispus,25,11,4,0.9999962392419223,1,2,34,NA,2
+2021-05-07,Pinar Aznalcazar,7,Cistus_crispus,1,2,5,4,1,2021,127,67,18,10,May,1-2,0.8,1-2 Cistus_crispus,17,13,4,0.9999973351049557,2,2,8,1,4
+2021-05-07,Pinar Aznalcazar,7,Cistus_crispus,1,3,5,5,0,2021,127,67,18,10,May,1-3,1,1-3 Cistus_crispus,4,4,4,0.9999974155990898,2,2,20,1,4
+2021-05-07,Pinar Aznalcazar,7,Cistus_crispus,2,1,5,5,0,2021,127,67,18,10,May,2-1,1,2-1 Cistus_crispus,7,3,5,0.9999973480875018,2,2,56,NA,6
+2021-05-07,Pinar Aznalcazar,7,Cistus_crispus,2,3,5,5,0,2021,127,67,18,10,May,2-3,1,2-3 Cistus_crispus,20,6,7,0.9999974766918334,4,2,38,5,7
+2021-05-07,Pinar Aznalcazar,7,Cistus_crispus,2,6,5,5,0,2021,127,67,18,10,May,2-6,1,2-6 Cistus_crispus,22,29,0,0.9999975991373389,2,1,19,NA,2
+2021-05-07,Pinar Aznalcazar,7,Cistus_crispus,4,7,5,3,2,2021,127,67,18,10,May,4-7,0.6,4-7 Cistus_crispus,215,101,16,0.999997526617981,2,1,44,2,4
+2021-05-07,Pinar Aznalcazar,7,Cistus_crispus,7,3,5,3,2,2021,127,67,18,10,May,7-3,0.6,7-3 Cistus_crispus,3,19,0,0.999997614390147,1,1,9,NA,1
+2021-05-07,Pinar Aznalcazar,7,Cistus_crispus,9,2,5,2,3,2021,127,67,18,10,May,9-2,0.4,9-2 Cistus_crispus,NA,NA,NA,0.9999976274413086,NA,1,7,NA,NA
+2021-05-07,Pinar Aznalcazar,7,Cistus_crispus,9,7,5,4,1,2021,127,67,18,10,May,9-7,0.8,9-7 Cistus_crispus,10,3,0,NA,1,NA,NA,NA,1
+2021-05-07,Pinar Aznalcazar,7,Halimium_halimifolium,8,10,10,10,0,2021,127,67,18,10,May,8-10,1,8-10 Halimium_halimifolium,NA,NA,NA,0.999992169382691,NA,1,19,NA,NA
+2021-05-07,Pinar Aznalcazar,7,Halimium_halimifolium,9,6,10,6,4,2021,127,67,18,10,May,9-6,0.6,9-6 Halimium_halimifolium,NA,NA,NA,0.9999921661007484,NA,1,34,NA,NA
+2021-05-07,Pinar Aznalcazar,7,Halimium_halimifolium,10,8,10,6,4,2021,127,67,18,10,May,10-8,0.6,10-8 Halimium_halimifolium,NA,NA,NA,0.9999839729926361,NA,1,195,NA,NA
+2021-05-07,Pinar Aznalcazar,7,Halimium_halimifolium,10,8,10,6,4,2021,127,67,18,10,May,10-8,0.6,10-8 Halimium_halimifolium,NA,NA,NA,0.9999839729926361,NA,1,195,NA,NA
+2021-05-07,Pinar Aznalcazar,7,Halimium_halimifolium,10,9,10,6,4,2021,127,67,18,10,May,10-9,0.6,10-9 Halimium_halimifolium,NA,NA,NA,0.9999916142969006,NA,1,52,NA,NA
+2021-05-19,Pinar Aznalcazar,8,Cistus_crispus,9,7,2,2,0,2021,139,79,20,12,May,9-7,1,9-7 Cistus_crispus,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2021-05-19,Pinar Aznalcazar,8,Halimium_halimifolium,8,10,10,4,6,2021,139,79,20,12,May,8-10,0.4,8-10 Halimium_halimifolium,NA,NA,NA,0.999992169382691,NA,1,11,NA,NA
+2021-05-19,Pinar Aznalcazar,8,Halimium_halimifolium,9,6,10,3,7,2021,139,79,20,12,May,9-6,0.3,9-6 Halimium_halimifolium,1,0,2,0.9999921661007484,1,1,12,1,1
+2021-05-19,Pinar Aznalcazar,8,Halimium_halimifolium,10,8,10,2,8,2021,139,79,20,12,May,10-8,0.2,10-8 Halimium_halimifolium,NA,NA,NA,0.9999839729926361,NA,1,71,NA,NA
+2021-05-19,Pinar Aznalcazar,8,Halimium_halimifolium,10,8,10,2,8,2021,139,79,20,12,May,10-8,0.2,10-8 Halimium_halimifolium,NA,NA,NA,0.9999839729926361,NA,1,71,NA,NA
+2021-05-19,Pinar Aznalcazar,8,Halimium_halimifolium,10,9,10,3,7,2021,139,79,20,12,May,10-9,0.3,10-9 Halimium_halimifolium,NA,NA,NA,0.9999916142969006,NA,1,14,NA,NA
+2021-03-02,Pinar Hinojos,1,Halimium_calycinum,1,1,5,5,0,2021,61,1,09,1,March,1-1,1,1-1 Halimium_calycinum,NA,NA,NA,0.6799999932308718,NA,1,8,NA,NA
+2021-03-02,Pinar Hinojos,1,Halimium_calycinum,4,5,5,3,2,2021,61,1,09,1,March,4-5,0.6,4-5 Halimium_calycinum,NA,NA,NA,0.8399999954872479,NA,1,32,NA,NA
+2021-03-02,Pinar Hinojos,1,Halimium_calycinum,5,4,3,3,0,2021,61,1,09,1,March,5-4,1,5-4 Halimium_calycinum,NA,NA,NA,0.5200138718703667,NA,1,3,NA,NA
+2021-03-02,Pinar Hinojos,1,Halimium_calycinum,8,1,5,4,1,2021,61,1,09,1,March,8-1,0.8,8-1 Halimium_calycinum,8,3,1,0.6800015590896742,1,1,9,NA,2
+2021-03-02,Pinar Hinojos,1,Halimium_calycinum,8,4,5,4,1,2021,61,1,09,1,March,8-4,0.8,8-4 Halimium_calycinum,7,3,1,NA,1,2,281,1,3
+2021-03-11,Pinar Hinojos,2,Halimium_calycinum,2,1,5,4,1,2021,70,10,10,2,March,2-1,0.8,2-1 Halimium_calycinum,8,0,0,0.679999997743591,3,1,5,NA,3
+2021-03-11,Pinar Hinojos,2,Halimium_calycinum,3,6,3,1,2,2021,70,10,10,2,March,3-6,0.3333333333333333,3-6 Halimium_calycinum,NA,NA,NA,0.679999997743624,NA,1,3,NA,NA
+2021-03-11,Pinar Hinojos,2,Halimium_calycinum,4,5,5,2,3,2021,70,10,10,2,March,4-5,0.4,4-5 Halimium_calycinum,NA,NA,NA,0.8399999954872479,NA,1,9,NA,NA
+2021-03-11,Pinar Hinojos,2,Halimium_calycinum,5,4,2,2,0,2021,70,10,10,2,March,5-4,1,5-4 Halimium_calycinum,2,1,0,0.5200138718703667,1,1,2,NA,1
+2021-03-11,Pinar Hinojos,2,Halimium_calycinum,8,1,5,3,2,2021,70,10,10,2,March,8-1,0.6,8-1 Halimium_calycinum,NA,NA,NA,0.6800015590896742,NA,1,6,NA,NA
+2021-03-11,Pinar Hinojos,2,Halimium_calycinum,8,4,5,4,1,2021,70,10,10,2,March,8-4,0.8,8-4 Halimium_calycinum,18,4,1,NA,1,2,107,NA,3
+2021-03-19,Pinar Hinojos,3,Halimium_calycinum,1,1,5,3,2,2021,78,18,11,3,March,1-1,0.6,1-1 Halimium_calycinum,NA,NA,NA,0.6799999932308718,NA,1,11,NA,NA
+2021-03-19,Pinar Hinojos,3,Halimium_calycinum,1,1,3,1,2,2021,78,18,11,3,March,1-1,0.3333333333333333,1-1 Halimium_calycinum,NA,NA,NA,0.6799999932308718,NA,1,11,NA,NA
+2021-03-19,Pinar Hinojos,3,Halimium_calycinum,1,1,3,3,0,2021,78,18,11,3,March,1-1,1,1-1 Halimium_calycinum,NA,NA,NA,0.6799999932308718,NA,1,11,NA,NA
+2021-03-19,Pinar Hinojos,3,Halimium_calycinum,2,1,5,2,3,2021,78,18,11,3,March,2-1,0.4,2-1 Halimium_calycinum,16,0,0,0.679999997743591,NA,1,5,NA,NA
+2021-03-19,Pinar Hinojos,3,Halimium_calycinum,4,5,10,3,7,2021,78,18,11,3,March,4-5,0.3,4-5 Halimium_calycinum,NA,NA,NA,0.8399999954872479,NA,1,52,NA,NA
+2021-03-19,Pinar Hinojos,3,Halimium_calycinum,5,4,4,4,0,2021,78,18,11,3,March,5-4,1,5-4 Halimium_calycinum,17,4,0,0.5200138718703667,3,1,4,NA,3
+2021-03-19,Pinar Hinojos,3,Halimium_calycinum,8,1,9,7,2,2021,78,18,11,3,March,8-1,0.7777777777777778,8-1 Halimium_calycinum,14,3,1,0.6800015590896742,1,1,28,NA,1
+2021-03-19,Pinar Hinojos,3,Halimium_calycinum,8,4,9,6,3,2021,78,18,11,3,March,8-4,0.6666666666666666,8-4 Halimium_calycinum,35,5,1,NA,1,1,43,NA,1
+2021-03-31,Pinar Hinojos,4,Halimium_calycinum,1,1,1,0,1,2021,90,30,13,5,March,1-1,0,1-1 Halimium_calycinum,NA,NA,NA,0.6799999932308718,NA,1,10,NA,NA
+2021-03-31,Pinar Hinojos,4,Halimium_calycinum,1,1,3,0,3,2021,90,30,13,5,March,1-1,0,1-1 Halimium_calycinum,NA,NA,NA,0.6799999932308718,NA,1,10,NA,NA
+2021-03-31,Pinar Hinojos,4,Halimium_calycinum,1,1,6,4,2,2021,90,30,13,5,March,1-1,0.6666666666666666,1-1 Halimium_calycinum,NA,NA,NA,0.6799999932308718,NA,1,10,NA,NA
+2021-03-31,Pinar Hinojos,4,Halimium_calycinum,2,1,9,0,9,2021,90,30,13,5,March,2-1,0,2-1 Halimium_calycinum,NA,NA,NA,0.679999997743591,NA,1,12,NA,NA
+2021-03-31,Pinar Hinojos,4,Halimium_calycinum,3,6,1,1,0,2021,90,30,13,5,March,3-6,1,3-6 Halimium_calycinum,NA,NA,NA,0.679999997743624,NA,1,1,NA,NA
+2021-03-31,Pinar Hinojos,4,Halimium_calycinum,4,5,9,4,5,2021,90,30,13,5,March,4-5,0.4444444444444444,4-5 Halimium_calycinum,5,2,0,0.8399999954872479,1,1,74,NA,1
+2021-03-31,Pinar Hinojos,4,Halimium_calycinum,5,4,3,1,2,2021,90,30,13,5,March,5-4,0.3333333333333333,5-4 Halimium_calycinum,31,8,0,0.5200138718703667,1,1,3,NA,1
+2021-03-31,Pinar Hinojos,4,Halimium_calycinum,8,1,9,4,5,2021,90,30,13,5,March,8-1,0.4444444444444444,8-1 Halimium_calycinum,NA,NA,NA,0.6800015590896742,NA,1,35,NA,NA
+2021-03-31,Pinar Hinojos,4,Halimium_calycinum,8,4,9,5,4,2021,90,30,13,5,March,8-4,0.5555555555555556,8-4 Halimium_calycinum,43,7,1,NA,1,NA,NA,NA,1
+2021-04-09,Pinar Hinojos,5,Cistus_libanotis,4,8,1,1,0,2021,99,39,14,6,April,4-8,1,4-8 Cistus_libanotis,NA,NA,NA,0.9999999887181197,NA,1,1,NA,NA
+2021-04-09,Pinar Hinojos,5,Cistus_libanotis,10,7,7,7,0,2021,99,39,14,6,April,10-7,1,10-7 Cistus_libanotis,9,0,1,0.9999999887181197,1,2,8,1,3
+2021-04-09,Pinar Hinojos,5,Halimium_calycinum,1,1,1,1,0,2021,99,39,14,6,April,1-1,1,1-1 Halimium_calycinum,NA,NA,NA,0.9999999974359363,NA,1,2,NA,NA
+2021-04-09,Pinar Hinojos,5,Halimium_calycinum,1,1,1,0,1,2021,99,39,14,6,April,1-1,0,1-1 Halimium_calycinum,NA,NA,NA,0.9999999974359363,NA,1,2,NA,NA
+2021-04-09,Pinar Hinojos,5,Halimium_calycinum,2,1,3,1,2,2021,99,39,14,6,April,2-1,0.3333333333333333,2-1 Halimium_calycinum,NA,NA,NA,0.9999999948718726,NA,1,3,NA,NA
+2021-04-09,Pinar Hinojos,5,Halimium_calycinum,4,5,5,2,3,2021,99,39,14,6,April,4-5,0.4,4-5 Halimium_calycinum,10,4,0,0.9999999948718726,NA,1,27,NA,NA
+2021-04-09,Pinar Hinojos,5,Halimium_calycinum,5,4,2,2,0,2021,99,39,14,6,April,5-4,1,5-4 Halimium_calycinum,32,10,0,0.8194153032285113,NA,1,2,NA,NA
+2021-04-09,Pinar Hinojos,5,Halimium_calycinum,8,1,8,7,1,2021,99,39,14,6,April,8-1,0.875,8-1 Halimium_calycinum,NA,NA,NA,0.9999999974359363,NA,1,22,NA,NA
+2021-04-09,Pinar Hinojos,5,Halimium_calycinum,8,4,7,6,1,2021,99,39,14,6,April,8-4,0.8571428571428571,8-4 Halimium_calycinum,45,9,1,0.9999999948718726,NA,1,13,NA,NA
+2021-04-21,Pinar Hinojos,6,Cistus_libanotis,4,8,11,5,6,2021,111,51,16,8,April,4-8,0.45454545454545453,4-8 Cistus_libanotis,1,1,0,0.9999999887181197,1,2,13,NA,2
+2021-04-21,Pinar Hinojos,6,Cistus_libanotis,10,7,43,20,23,2021,111,51,16,8,April,10-7,0.46511627906976744,10-7 Cistus_libanotis,68,2,2,0.9999999887181197,2,1,43,NA,6
+2021-04-21,Pinar Hinojos,6,Halimium_calycinum,1,1,1,1,0,2021,111,51,16,8,April,1-1,1,1-1 Halimium_calycinum,NA,NA,NA,0.9999999974359363,NA,1,2,NA,NA
+2021-04-21,Pinar Hinojos,6,Halimium_calycinum,1,1,1,0,1,2021,111,51,16,8,April,1-1,0,1-1 Halimium_calycinum,NA,NA,NA,0.9999999974359363,NA,1,2,NA,NA
+2021-04-21,Pinar Hinojos,6,Halimium_calycinum,2,1,1,0,1,2021,111,51,16,8,April,2-1,0,2-1 Halimium_calycinum,NA,NA,NA,0.9999999948718726,NA,1,1,NA,NA
+2021-04-21,Pinar Hinojos,6,Halimium_calycinum,3,6,1,0,1,2021,111,51,16,8,April,3-6,0,3-6 Halimium_calycinum,NA,NA,NA,0.8181818323476965,NA,1,1,NA,1
+2021-04-21,Pinar Hinojos,6,Halimium_calycinum,4,5,8,4,4,2021,111,51,16,8,April,4-5,0.5,4-5 Halimium_calycinum,NA,NA,NA,0.9999999948718726,NA,1,8,NA,1
+2021-04-21,Pinar Hinojos,6,Halimium_calycinum,5,4,1,0,1,2021,111,51,16,8,April,5-4,0,5-4 Halimium_calycinum,NA,NA,NA,0.8194153032285113,NA,1,4,NA,NA
+2021-04-21,Pinar Hinojos,6,Halimium_calycinum,8,4,2,0,2,2021,111,51,16,8,April,8-4,0,8-4 Halimium_calycinum,NA,NA,NA,0.9999999948718726,NA,1,2,NA,NA
+2021-04-21,Pinar Hinojos,7,Cistus_libanotis,4,8,1,1,0,2021,111,51,16,8,April,4-8,1,4-8 Cistus_libanotis,1,1,0,0.9999999887181197,1,2,13,NA,2
+2021-04-21,Pinar Hinojos,7,Cistus_libanotis,10,7,4,0,4,2021,111,51,16,8,April,10-7,0,10-7 Cistus_libanotis,68,2,2,0.9999999887181197,2,1,43,NA,6
+2021-03-10,Pinar Puebla,1,Cistus_salviifolius,3,6,5,4,1,2021,69,9,10,2,March,3-6,0.8,3-6 Cistus_salviifolius,NA,NA,NA,0.9483594399781201,NA,1,5,NA,NA
+2021-03-10,Pinar Puebla,1,Cistus_salviifolius,6,2,5,5,0,2021,69,9,10,2,March,6-2,1,6-2 Cistus_salviifolius,15,3,1,0.9473652538203945,5,1,8,1,6
+2021-03-10,Pinar Puebla,1,Cistus_salviifolius,7,7,5,4,1,2021,69,9,10,2,March,7-7,0.8,7-7 Cistus_salviifolius,NA,NA,NA,0.9490612213355333,NA,1,8,NA,NA
+2021-03-10,Pinar Puebla,1,Cistus_salviifolius,9,4,5,5,0,2021,69,9,10,2,March,9-4,1,9-4 Cistus_salviifolius,2,2,2,0.9492885423773344,2,1,7,NA,2
+2021-03-10,Pinar Puebla,1,Cistus_salviifolius,9,10,5,5,0,2021,69,9,10,2,March,9-10,1,9-10 Cistus_salviifolius,10,0,0,0.9546533254778723,1,1,20,NA,2
+2021-03-17,Pinar Puebla,2,Cistus_salviifolius,2,4,5,4,1,2021,76,16,11,3,March,2-4,0.8,2-4 Cistus_salviifolius,NA,NA,NA,0.9489658110815214,NA,1,8,NA,NA
+2021-03-17,Pinar Puebla,2,Cistus_salviifolius,3,6,5,4,1,2021,76,16,11,3,March,3-6,0.8,3-6 Cistus_salviifolius,NA,NA,NA,0.9483594399781201,NA,1,18,NA,NA
+2021-03-17,Pinar Puebla,2,Cistus_salviifolius,3,10,5,5,0,2021,76,16,11,3,March,3-10,1,3-10 Cistus_salviifolius,NA,NA,NA,0.9837230237360978,NA,2,7,NA,NA
+2021-03-17,Pinar Puebla,2,Cistus_salviifolius,6,1,5,5,0,2021,76,16,11,3,March,6-1,1,6-1 Cistus_salviifolius,49,16,0,0.964365088565882,3,1,25,NA,5
+2021-03-17,Pinar Puebla,2,Cistus_salviifolius,6,1,5,5,0,2021,76,16,11,3,March,6-1,1,6-1 Cistus_salviifolius,49,16,0,0.964365088565882,3,1,25,NA,5
+2021-03-17,Pinar Puebla,2,Cistus_salviifolius,6,2,5,3,2,2021,76,16,11,3,March,6-2,0.6,6-2 Cistus_salviifolius,37,13,2,0.9473652538203945,3,1,14,NA,4
+2021-03-17,Pinar Puebla,2,Cistus_salviifolius,7,7,5,5,0,2021,76,16,11,3,March,7-7,1,7-7 Cistus_salviifolius,1,0,1,0.9490612213355333,1,NA,NA,NA,1
+2021-03-17,Pinar Puebla,2,Cistus_salviifolius,9,2,5,4,1,2021,76,16,11,3,March,9-2,0.8,9-2 Cistus_salviifolius,2,1,0,0.9429732553903499,1,2,11,NA,1
+2021-03-17,Pinar Puebla,2,Cistus_salviifolius,9,4,5,5,0,2021,76,16,11,3,March,9-4,1,9-4 Cistus_salviifolius,8,5,4,0.9492885423773344,1,1,9,NA,1
+2021-03-17,Pinar Puebla,2,Cistus_salviifolius,9,10,5,5,0,2021,76,16,11,3,March,9-10,1,9-10 Cistus_salviifolius,25,1,0,0.9546533254778723,1,1,18,NA,1
+2021-03-26,Pinar Puebla,3,Cistus_salviifolius,2,10,5,3,2,2021,85,25,12,4,March,2-10,0.6,2-10 Cistus_salviifolius,NA,NA,NA,0.8976113452049259,NA,1,7,NA,NA
+2021-03-26,Pinar Puebla,3,Cistus_salviifolius,3,6,5,4,1,2021,85,25,12,4,March,3-6,0.8,3-6 Cistus_salviifolius,6,2,0,0.9483594399781201,1,1,6,NA,1
+2021-03-26,Pinar Puebla,3,Cistus_salviifolius,3,10,5,3,2,2021,85,25,12,4,March,3-10,0.6,3-10 Cistus_salviifolius,NA,NA,NA,0.9837230237360978,NA,2,144,NA,1
+2021-03-26,Pinar Puebla,3,Cistus_salviifolius,6,1,5,5,0,2021,85,25,12,4,March,6-1,1,6-1 Cistus_salviifolius,64,25,0,0.964365088565882,1,1,25,NA,1
+2021-03-26,Pinar Puebla,3,Cistus_salviifolius,6,1,5,4,1,2021,85,25,12,4,March,6-1,0.8,6-1 Cistus_salviifolius,64,25,0,0.964365088565882,1,1,25,NA,1
+2021-03-26,Pinar Puebla,3,Cistus_salviifolius,6,2,5,4,1,2021,85,25,12,4,March,6-2,0.8,6-2 Cistus_salviifolius,48,21,3,0.9473652538203945,1,1,4,NA,2
+2021-03-26,Pinar Puebla,3,Cistus_salviifolius,7,1,5,5,0,2021,85,25,12,4,March,7-1,1,7-1 Cistus_salviifolius,33,16,0,0.9999404718630643,1,2,270,NA,5
+2021-03-26,Pinar Puebla,3,Cistus_salviifolius,7,7,5,5,0,2021,85,25,12,4,March,7-7,1,7-7 Cistus_salviifolius,2,0,2,0.9490612213355333,NA,1,27,NA,NA
+2021-03-26,Pinar Puebla,3,Cistus_salviifolius,9,4,5,5,0,2021,85,25,12,4,March,9-4,1,9-4 Cistus_salviifolius,15,8,4,0.9492885423773344,1,1,11,NA,1
+2021-03-26,Pinar Puebla,3,Cistus_salviifolius,9,10,5,4,1,2021,85,25,12,4,March,9-10,0.8,9-10 Cistus_salviifolius,32,2,1,0.9546533254778723,1,1,24,NA,1
+2021-04-08,Pinar Puebla,4,Cistus_salviifolius,1,2,7,2,5,2021,98,38,14,6,April,1-2,0.2857142857142857,1-2 Cistus_salviifolius,NA,NA,NA,0.9998799530039583,NA,2,47,NA,NA
+2021-04-08,Pinar Puebla,4,Cistus_salviifolius,1,7,1,0,1,2021,98,38,14,6,April,1-7,0,1-7 Cistus_salviifolius,NA,NA,NA,0.999881717757912,NA,2,15,NA,NA
+2021-04-08,Pinar Puebla,4,Cistus_salviifolius,2,10,3,3,0,2021,98,38,14,6,April,2-10,1,2-10 Cistus_salviifolius,NA,NA,NA,0.9997657899629441,NA,2,4,NA,NA
+2021-04-08,Pinar Puebla,4,Cistus_salviifolius,3,6,1,0,1,2021,98,38,14,6,April,3-6,0,3-6 Cistus_salviifolius,NA,NA,NA,0.999880804688487,NA,1,1,NA,NA
+2021-04-08,Pinar Puebla,4,Cistus_salviifolius,4,2,1,0,1,2021,98,38,14,6,April,4-2,0,4-2 Cistus_salviifolius,NA,NA,NA,0.9641293361099758,NA,2,19,NA,NA
+2021-04-08,Pinar Puebla,4,Cistus_salviifolius,4,6,4,2,2,2021,98,38,14,6,April,4-6,0.5,4-6 Cistus_salviifolius,NA,NA,NA,0.9991032546865775,NA,2,12,NA,NA
+2021-04-08,Pinar Puebla,4,Cistus_salviifolius,5,1,2,2,0,2021,98,38,14,6,April,5-1,1,5-1 Cistus_salviifolius,NA,NA,NA,0.9983888894984222,NA,1,2,NA,NA
+2021-04-08,Pinar Puebla,4,Cistus_salviifolius,5,7,2,2,0,2021,98,38,14,6,April,5-7,1,5-7 Cistus_salviifolius,NA,NA,NA,0.9998819932535004,NA,1,2,NA,NA
+2021-04-08,Pinar Puebla,4,Cistus_salviifolius,6,1,1,1,0,2021,98,38,14,6,April,6-1,1,6-1 Cistus_salviifolius,NA,NA,NA,0.9998738353289285,NA,1,1,NA,NA
+2021-04-08,Pinar Puebla,4,Cistus_salviifolius,9,2,1,0,1,2021,98,38,14,6,April,9-2,0,9-2 Cistus_salviifolius,NA,NA,NA,0.9998815671067885,NA,1,1,NA,NA
+2021-04-20,Pinar Puebla,5,Cistus_salviifolius,2,10,2,1,1,2021,110,50,16,8,April,2-10,0.5,2-10 Cistus_salviifolius,2,0,0,0.9997657899629441,1,1,2,NA,1
+2021-04-20,Pinar Puebla,5,Cistus_salviifolius,3,4,1,0,1,2021,110,50,16,8,April,3-4,0,3-4 Cistus_salviifolius,NA,NA,NA,0.9997735067737452,NA,2,8,NA,2
+2021-04-20,Pinar Puebla,5,Cistus_salviifolius,6,1,1,1,0,2021,110,50,16,8,April,6-1,1,6-1 Cistus_salviifolius,NA,NA,NA,0.9998738353289285,NA,1,1,NA,NA
+2021-04-20,Pinar Puebla,5,Cistus_salviifolius,9,4,1,0,1,2021,110,50,16,8,April,9-4,0,9-4 Cistus_salviifolius,NA,NA,NA,0.9998815684657757,NA,1,1,NA,NA
+2021-04-30,Pinar Puebla,6,Cistus_crispus,8,6,2,2,0,2021,120,60,17,9,April,8-6,1,8-6 Cistus_crispus,7,8,1,NA,1,1,8,NA,3
+2021-04-30,Pinar Puebla,6,Cistus_crispus,8,7,1,1,0,2021,120,60,17,9,April,8-7,1,8-7 Cistus_crispus,4,8,1,NA,1,1,6,NA,3
+2021-04-30,Pinar Puebla,6,Cistus_crispus,9,6,4,3,1,2021,120,60,17,9,April,9-6,0.75,9-6 Cistus_crispus,2,5,0,NA,1,NA,NA,NA,2
+2021-04-30,Pinar Puebla,6,Cistus_crispus,9,7,2,2,0,2021,120,60,17,9,April,9-7,1,9-7 Cistus_crispus,3,3,1,0.9982439199604002,1,2,15,1,1
+2021-04-30,Pinar Puebla,6,Cistus_crispus,10,7,4,4,0,2021,120,60,17,9,April,10-7,1,10-7 Cistus_crispus,7,6,1,NA,2,1,3,NA,2
+2021-05-11,Pinar Puebla,7,Cistus_crispus,8,6,3,1,2,2021,131,71,19,11,May,8-6,0.3333333333333333,8-6 Cistus_crispus,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2021-05-11,Pinar Puebla,7,Cistus_crispus,8,7,2,0,2,2021,131,71,19,11,May,8-7,0,8-7 Cistus_crispus,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2021-05-11,Pinar Puebla,7,Cistus_crispus,9,6,2,0,2,2021,131,71,19,11,May,9-6,0,9-6 Cistus_crispus,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2021-05-11,Pinar Puebla,7,Cistus_crispus,9,7,2,0,2,2021,131,71,19,11,May,9-7,0,9-7 Cistus_crispus,NA,NA,NA,0.9982439199604002,NA,1,10,NA,NA
+2021-05-11,Pinar Puebla,7,Cistus_crispus,10,6,1,1,0,2021,131,71,19,11,May,10-6,1,10-6 Cistus_crispus,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2021-05-18,Pinar Puebla,8,Cistus_crispus,8,7,2,0,2,2021,138,78,20,12,May,8-7,0,8-7 Cistus_crispus,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2021-05-18,Pinar Puebla,8,Cistus_crispus,9,6,2,1,1,2021,138,78,20,12,May,9-6,0.5,9-6 Cistus_crispus,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2021-05-18,Pinar Puebla,8,Cistus_crispus,9,7,2,1,1,2021,138,78,20,12,May,9-7,0.5,9-7 Cistus_crispus,NA,NA,NA,0.9982439199604002,NA,1,6,NA,NA
+2021-05-18,Pinar Puebla,8,Cistus_crispus,10,6,1,1,0,2021,138,78,20,12,May,10-6,1,10-6 Cistus_crispus,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2021-03-13,Pinar Villamanrique Este (Chaparral),2,Cistus_ladanifer,3,9,5,0,5,2021,72,12,10,2,March,3-9,0,3-9 Cistus_ladanifer,12,5,0,0.9197898755885754,2,1,7,NA,3
+2021-03-13,Pinar Villamanrique Este (Chaparral),2,Cistus_ladanifer,5,10,5,1,4,2021,72,12,10,2,March,5-10,0.2,5-10 Cistus_ladanifer,17,9,3,0.9186999752276569,4,1,14,NA,6
+2021-03-13,Pinar Villamanrique Este (Chaparral),2,Cistus_ladanifer,5,10,5,2,3,2021,72,12,10,2,March,5-10,0.4,5-10 Cistus_ladanifer,17,9,3,0.9186999752276569,4,1,14,NA,6
+2021-03-13,Pinar Villamanrique Este (Chaparral),2,Cistus_ladanifer,10,2,5,0,5,2021,72,12,10,2,March,10-2,0,10-2 Cistus_ladanifer,42,0,0,0.939368739637568,6,1,16,NA,8
+2021-03-13,Pinar Villamanrique Este (Chaparral),2,Cistus_ladanifer,10,6,3,0,3,2021,72,12,10,2,March,10-6,0,10-6 Cistus_ladanifer,NA,NA,NA,0.92089108064571,NA,1,3,NA,NA
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_ladanifer,3,9,5,3,2,2021,82,22,12,4,March,3-9,0.6,3-9 Cistus_ladanifer,NA,NA,NA,0.9197898755885754,NA,1,8,NA,NA
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_ladanifer,4,5,5,5,0,2021,82,22,12,4,March,4-5,1,4-5 Cistus_ladanifer,NA,NA,NA,0.9219429157412754,NA,2,7,NA,NA
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_ladanifer,4,10,4,2,2,2021,82,22,12,4,March,4-10,0.5,4-10 Cistus_ladanifer,NA,NA,NA,0.9978157148812374,NA,1,2,NA,NA
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_ladanifer,7,9,5,1,4,2021,82,22,12,4,March,7-9,0.2,7-9 Cistus_ladanifer,9,3,3,0.9111801899155838,3,2,22,NA,4
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_ladanifer,8,3,4,3,1,2021,82,22,12,4,March,8-3,0.75,8-3 Cistus_ladanifer,7,2,0,0.853622722361985,2,2,5,NA,2
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_ladanifer,10,2,5,2,3,2021,82,22,12,4,March,10-2,0.4,10-2 Cistus_ladanifer,117,4,0,0.939368739637568,2,1,19,NA,4
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_ladanifer,10,6,5,1,4,2021,82,22,12,4,March,10-6,0.2,10-6 Cistus_ladanifer,22,3,2,0.92089108064571,2,1,14,3,3
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_ladanifer,10,8,5,3,2,2021,82,22,12,4,March,10-8,0.6,10-8 Cistus_ladanifer,21,7,4,0.9212755047920913,4,1,11,NA,6
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_ladanifer,10,9,5,0,5,2021,82,22,12,4,March,10-9,0,10-9 Cistus_ladanifer,8,2,0,0.9219691081008966,1,1,32,NA,1
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_ladanifer,10,10,5,0,5,2021,82,22,12,4,March,10-10,0,10-10 Cistus_ladanifer,3,1,0,0.9204689812652794,1,1,15,NA,1
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_salviifolius,6,6,5,5,0,2021,82,22,12,4,March,6-6,1,6-6 Cistus_salviifolius,NA,NA,NA,0.998306533793158,NA,1,5,NA,NA
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_salviifolius,6,8,5,4,1,2021,82,22,12,4,March,6-8,0.8,6-8 Cistus_salviifolius,1,2,2,0.9980267888056734,1,1,5,NA,1
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_salviifolius,7,8,3,0,3,2021,82,22,12,4,March,7-8,0,7-8 Cistus_salviifolius,NA,NA,NA,0.9982131795838182,NA,1,3,NA,NA
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_salviifolius,7,9,5,4,1,2021,82,22,12,4,March,7-9,0.8,7-9 Cistus_salviifolius,1,2,2,0.9890603886344348,1,2,22,NA,4
+2021-03-23,Pinar Villamanrique Este (Chaparral),3,Cistus_salviifolius,9,6,5,4,1,2021,82,22,12,4,March,9-6,0.8,9-6 Cistus_salviifolius,12,2,5,0.9978880161044935,2,1,3,4,3
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_ladanifer,4,5,2,1,1,2021,95,35,14,5,April,4-5,0.5,4-5 Cistus_ladanifer,NA,NA,NA,0.9558815670481708,NA,2,10,NA,3
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_ladanifer,5,1,2,1,1,2021,95,35,14,5,April,5-1,0.5,5-1 Cistus_ladanifer,NA,NA,NA,0.9470901335497868,NA,1,2,NA,NA
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_ladanifer,5,2,1,1,0,2021,95,35,14,5,April,5-2,1,5-2 Cistus_ladanifer,NA,NA,NA,0.9971602557575113,NA,1,1,NA,NA
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_ladanifer,6,5,1,1,0,2021,95,35,14,5,April,6-5,1,6-5 Cistus_ladanifer,NA,NA,NA,0.9718664180461254,NA,2,11,NA,NA
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_ladanifer,7,9,20,15,5,2021,95,35,14,5,April,7-9,0.75,7-9 Cistus_ladanifer,33,13,5,0.9942914824641196,1,2,45,NA,2
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_ladanifer,7,10,1,1,0,2021,95,35,14,5,April,7-10,1,7-10 Cistus_ladanifer,NA,NA,NA,0.9959726939430559,NA,1,1,NA,NA
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_ladanifer,10,8,2,0,2,2021,95,35,14,5,April,10-8,0,10-8 Cistus_ladanifer,25,9,4,0.996935088106876,1,1,2,NA,1
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_ladanifer,10,9,5,4,1,2021,95,35,14,5,April,10-9,0.8,10-9 Cistus_ladanifer,16,8,0,0.9970666024905908,2,1,5,NA,2
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_salviifolius,1,8,5,5,0,2021,95,35,14,5,April,1-8,1,1-8 Cistus_salviifolius,3,4,2,0.9986767334550166,1,1,26,NA,1
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_salviifolius,1,10,5,5,0,2021,95,35,14,5,April,1-10,1,1-10 Cistus_salviifolius,NA,NA,NA,0.9940390932226831,NA,NA,NA,NA,NA
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_salviifolius,2,1,5,4,1,2021,95,35,14,5,April,2-1,0.8,2-1 Cistus_salviifolius,4,2,0,0.9991491112539177,1,1,34,NA,1
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_salviifolius,3,2,5,5,0,2021,95,35,14,5,April,3-2,1,3-2 Cistus_salviifolius,4,2,0,0.9465866407224591,1,1,14,NA,1
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_salviifolius,3,8,5,1,4,2021,95,35,14,5,April,3-8,0.2,3-8 Cistus_salviifolius,9,2,0,0.9993345273664014,1,1,32,NA,1
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_salviifolius,4,2,5,4,1,2021,95,35,14,5,April,4-2,0.8,4-2 Cistus_salviifolius,NA,NA,NA,0.9773494619622608,NA,1,10,NA,NA
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_salviifolius,6,6,5,4,1,2021,95,35,14,5,April,6-6,0.8,6-6 Cistus_salviifolius,2,1,0,0.9987794257447726,NA,1,63,NA,NA
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_salviifolius,7,9,5,4,1,2021,95,35,14,5,April,7-9,0.8,7-9 Cistus_salviifolius,2,3,3,0.968769596967224,NA,2,45,NA,2
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_salviifolius,8,3,5,2,3,2021,95,35,14,5,April,8-3,0.4,8-3 Cistus_salviifolius,NA,NA,NA,0.9991183131561486,NA,1,12,NA,NA
+2021-04-05,Pinar Villamanrique Este (Chaparral),4,Cistus_salviifolius,9,6,5,4,1,2021,95,35,14,5,April,9-6,0.8,9-6 Cistus_salviifolius,13,5,5,0.9979298915804562,NA,1,10,NA,NA
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_crispus,3,1,1,1,0,2021,102,42,15,6,April,3-1,1,3-1 Cistus_crispus,NA,NA,NA,0.9978892248403878,NA,2,6,NA,NA
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_crispus,4,5,1,1,0,2021,102,42,15,6,April,4-5,1,4-5 Cistus_crispus,NA,NA,NA,0.7328721629052589,NA,2,3,NA,NA
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_crispus,5,4,1,0,1,2021,102,42,15,6,April,5-4,0,5-4 Cistus_crispus,6,12,0,0.9954645776174249,2,2,13,NA,4
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_crispus,6,1,1,0,1,2021,102,42,15,6,April,6-1,0,6-1 Cistus_crispus,2,4,0,0.9989461329755924,1,1,1,NA,1
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_crispus,6,4,3,2,1,2021,102,42,15,6,April,6-4,0.6666666666666666,6-4 Cistus_crispus,8,12,0,0.9920968978452152,2,1,3,NA,3
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_crispus,6,5,1,1,0,2021,102,42,15,6,April,6-5,1,6-5 Cistus_crispus,4,8,0,0.810463506796192,2,2,6,NA,3
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_crispus,6,6,1,0,1,2021,102,42,15,6,April,6-6,0,6-6 Cistus_crispus,NA,NA,NA,0.9989482928556636,NA,2,39,NA,1
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_salviifolius,1,1,5,5,0,2021,102,42,15,6,April,1-1,1,1-1 Cistus_salviifolius,10,2,0,0.9984556007546358,1,1,13,NA,1
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_salviifolius,1,8,5,5,0,2021,102,42,15,6,April,1-8,1,1-8 Cistus_salviifolius,4,6,2,0.9986767334550166,1,1,28,NA,1
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_salviifolius,2,6,5,5,0,2021,102,42,15,6,April,2-6,1,2-6 Cistus_salviifolius,NA,NA,NA,0.9988783657193432,NA,1,22,NA,1
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_salviifolius,3,7,5,4,1,2021,102,42,15,6,April,3-7,0.8,3-7 Cistus_salviifolius,2,4,0,0.9774826874154019,1,1,6,NA,1
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_salviifolius,4,2,5,4,1,2021,102,42,15,6,April,4-2,0.8,4-2 Cistus_salviifolius,NA,NA,NA,0.9773494619622608,NA,1,10,NA,NA
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_salviifolius,5,4,5,5,0,2021,102,42,15,6,April,5-4,1,5-4 Cistus_salviifolius,NA,NA,NA,0.9936808613896763,NA,2,13,NA,4
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_salviifolius,6,6,5,5,0,2021,102,42,15,6,April,6-6,1,6-6 Cistus_salviifolius,4,2,0,0.9987794257447726,1,2,39,NA,1
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_salviifolius,7,8,5,5,0,2021,102,42,15,6,April,7-8,1,7-8 Cistus_salviifolius,12,8,2,0.999119240530015,3,1,22,1,3
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_salviifolius,7,9,5,5,0,2021,102,42,15,6,April,7-9,1,7-9 Cistus_salviifolius,3,4,4,0.968769596967224,1,2,20,1,2
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_salviifolius,8,3,1,1,0,2021,102,42,15,6,April,8-3,1,8-3 Cistus_salviifolius,NA,NA,NA,0.9991183131561486,NA,1,7,NA,NA
+2021-04-12,Pinar Villamanrique Este (Chaparral),5,Cistus_salviifolius,8,3,4,4,0,2021,102,42,15,6,April,8-3,1,8-3 Cistus_salviifolius,NA,NA,NA,0.9991183131561486,NA,1,7,NA,NA
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_crispus,1,2,5,3,2,2021,112,52,16,8,April,1-2,0.6,1-2 Cistus_crispus,4,9,0,0.9982814689836316,2,2,10,NA,3
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_crispus,1,4,5,4,1,2021,112,52,16,8,April,1-4,0.8,1-4 Cistus_crispus,5,7,1,0.9989389136032355,2,1,7,NA,2
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_crispus,2,5,5,1,4,2021,112,52,16,8,April,2-5,0.2,2-5 Cistus_crispus,5,6,0,0.9989277698298118,1,1,4,NA,2
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_crispus,4,7,5,5,0,2021,112,52,16,8,April,4-7,1,4-7 Cistus_crispus,2,0,2,0.9988512170717929,1,1,6,1,1
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_crispus,5,4,5,4,1,2021,112,52,16,8,April,5-4,0.8,5-4 Cistus_crispus,58,34,4,0.9954645776174249,5,2,22,2,9
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_crispus,5,5,5,3,2,2021,112,52,16,8,April,5-5,0.6,5-5 Cistus_crispus,3,6,0,0.9615680476914299,2,1,6,NA,2
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_crispus,6,4,5,4,1,2021,112,52,16,8,April,6-4,0.8,6-4 Cistus_crispus,112,29,3,0.9920968978452152,4,2,30,NA,8
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_crispus,7,1,5,5,0,2021,112,52,16,8,April,7-1,1,7-1 Cistus_crispus,19,4,0,0.9956764738019541,2,2,17,NA,3
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_crispus,9,5,5,1,4,2021,112,52,16,8,April,9-5,0.2,9-5 Cistus_crispus,9,0,0,0.9982362667043703,2,1,12,NA,2
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_salviifolius,1,8,5,4,1,2021,112,52,16,8,April,1-8,0.8,1-8 Cistus_salviifolius,5,7,3,0.9986767334550166,1,1,12,NA,1
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_salviifolius,2,6,5,4,1,2021,112,52,16,8,April,2-6,0.8,2-6 Cistus_salviifolius,2,1,1,0.9988783657193432,1,1,22,NA,1
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_salviifolius,3,8,5,3,2,2021,112,52,16,8,April,3-8,0.6,3-8 Cistus_salviifolius,NA,NA,NA,0.9993345273664014,NA,1,8,NA,NA
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_salviifolius,3,10,5,5,0,2021,112,52,16,8,April,3-10,1,3-10 Cistus_salviifolius,NA,NA,NA,0.9990171069492012,NA,1,10,NA,NA
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_salviifolius,4,2,5,5,0,2021,112,52,16,8,April,4-2,1,4-2 Cistus_salviifolius,NA,NA,NA,0.9773494619622608,NA,2,6,NA,NA
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_salviifolius,4,9,5,4,1,2021,112,52,16,8,April,4-9,0.8,4-9 Cistus_salviifolius,NA,NA,NA,0.998934769260085,NA,1,6,NA,NA
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_salviifolius,5,6,5,5,0,2021,112,52,16,8,April,5-6,1,5-6 Cistus_salviifolius,6,6,3,0.9990410075747123,1,1,6,NA,1
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_salviifolius,5,9,5,3,2,2021,112,52,16,8,April,5-9,0.6,5-9 Cistus_salviifolius,NA,NA,NA,0.991093860340875,NA,1,10,NA,NA
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_salviifolius,7,8,5,3,2,2021,112,52,16,8,April,7-8,0.6,7-8 Cistus_salviifolius,NA,NA,NA,0.999119240530015,NA,1,8,NA,NA
+2021-04-22,Pinar Villamanrique Este (Chaparral),6,Cistus_salviifolius,8,3,5,2,3,2021,112,52,16,8,April,8-3,0.4,8-3 Cistus_salviifolius,NA,NA,NA,0.9991183131561486,NA,1,8,NA,NA
+2021-05-04,Pinar Villamanrique Este (Chaparral),7,Cistus_crispus,1,3,5,3,2,2021,124,64,18,10,May,1-3,0.6,1-3 Cistus_crispus,80,35,0,0.9981192702775203,4,1,25,NA,9
+2021-05-04,Pinar Villamanrique Este (Chaparral),7,Cistus_crispus,1,4,5,5,0,2021,124,64,18,10,May,1-4,1,1-4 Cistus_crispus,69,39,1,0.9973720090824775,5,1,9,NA,9
+2021-05-04,Pinar Villamanrique Este (Chaparral),7,Cistus_crispus,1,7,5,5,0,2021,124,64,18,10,May,1-7,1,1-7 Cistus_crispus,3,5,0,0.9981480153271973,1,1,9,NA,1
+2021-05-04,Pinar Villamanrique Este (Chaparral),7,Cistus_crispus,2,3,5,4,1,2021,124,64,18,10,May,2-3,0.8,2-3 Cistus_crispus,60,37,0,0.9975587980932228,4,1,20,NA,7
+2021-05-04,Pinar Villamanrique Este (Chaparral),7,Cistus_crispus,2,3,5,5,0,2021,124,64,18,10,May,2-3,1,2-3 Cistus_crispus,60,37,0,0.9975587980932228,4,1,20,NA,7
+2021-05-04,Pinar Villamanrique Este (Chaparral),7,Cistus_crispus,2,5,5,3,2,2021,124,64,18,10,May,2-5,0.6,2-5 Cistus_crispus,21,20,0,0.973822135119795,3,2,14,NA,4
+2021-05-04,Pinar Villamanrique Este (Chaparral),7,Cistus_crispus,5,4,5,4,1,2021,124,64,18,10,May,5-4,0.8,5-4 Cistus_crispus,86,58,4,0.9986997806025012,5,1,18,NA,6
+2021-05-04,Pinar Villamanrique Este (Chaparral),7,Cistus_crispus,6,4,5,3,2,2021,124,64,18,10,May,6-4,0.6,6-4 Cistus_crispus,145,44,3,0.9986413450318171,3,1,15,NA,4
+2021-05-04,Pinar Villamanrique Este (Chaparral),7,Cistus_crispus,7,1,6,6,0,2021,124,64,18,10,May,7-1,1,7-1 Cistus_crispus,30,12,0,0.9981460449204616,3,1,18,NA,3
+2021-05-04,Pinar Villamanrique Este (Chaparral),7,Cistus_crispus,9,5,6,6,0,2021,124,64,18,10,May,9-5,1,9-5 Cistus_crispus,19,1,0,0.9987649049587588,1,1,7,NA,1
+2021-05-13,Pinar Villamanrique Este (Chaparral),8,Cistus_crispus,1,2,5,0,5,2021,133,73,19,11,May,1-2,0,1-2 Cistus_crispus,26,32,0,0.9966830335581005,2,1,10,NA,2
+2021-05-13,Pinar Villamanrique Este (Chaparral),8,Cistus_crispus,1,3,5,5,0,2021,133,73,19,11,May,1-3,1,1-3 Cistus_crispus,110,58,1,0.9981192702775203,6,1,15,NA,8
+2021-05-13,Pinar Villamanrique Este (Chaparral),8,Cistus_crispus,1,4,5,5,0,2021,133,73,19,11,May,1-4,1,1-4 Cistus_crispus,104,55,2,0.9973720090824775,6,1,8,NA,6
+2021-05-13,Pinar Villamanrique Este (Chaparral),8,Cistus_crispus,1,7,5,4,1,2021,133,73,19,11,May,1-7,0.8,1-7 Cistus_crispus,22,16,0,0.9981480153271973,1,1,16,NA,2
+2021-05-13,Pinar Villamanrique Este (Chaparral),8,Cistus_crispus,2,5,5,4,1,2021,133,73,19,11,May,2-5,0.8,2-5 Cistus_crispus,42,35,0,0.973822135119795,4,1,13,NA,4
+2021-05-13,Pinar Villamanrique Este (Chaparral),8,Cistus_crispus,4,7,5,3,2,2021,133,73,19,11,May,4-7,0.6,4-7 Cistus_crispus,NA,NA,NA,0.9993599363948288,NA,1,5,NA,NA
+2021-05-13,Pinar Villamanrique Este (Chaparral),8,Cistus_crispus,5,4,5,5,0,2021,133,73,19,11,May,5-4,1,5-4 Cistus_crispus,99,67,4,0.9986997806025012,2,1,12,NA,3
+2021-05-13,Pinar Villamanrique Este (Chaparral),8,Cistus_crispus,5,5,5,2,3,2021,133,73,19,11,May,5-5,0.4,5-5 Cistus_crispus,52,18,0,0.9979603827084296,2,1,9,NA,3
+2021-05-13,Pinar Villamanrique Este (Chaparral),8,Cistus_crispus,6,4,5,4,1,2021,133,73,19,11,May,6-4,0.8,6-4 Cistus_crispus,157,52,3,0.9986413450318171,2,1,10,NA,2
+2021-05-13,Pinar Villamanrique Este (Chaparral),8,Cistus_crispus,7,1,5,5,0,2021,133,73,19,11,May,7-1,1,7-1 Cistus_crispus,33,15,0,0.9981460449204616,1,1,12,NA,1
+2021-05-25,Pinar Villamanrique Este (Chaparral),9,Cistus_crispus,1,7,1,0,1,2021,145,85,21,13,May,1-7,0,1-7 Cistus_crispus,NA,NA,NA,0.9981480153271973,NA,1,1,NA,NA
+2021-05-25,Pinar Villamanrique Este (Chaparral),9,Cistus_crispus,3,1,1,1,0,2021,145,85,21,13,May,3-1,1,3-1 Cistus_crispus,NA,NA,NA,0.9986421872451549,NA,1,1,NA,NA
+2021-05-25,Pinar Villamanrique Este (Chaparral),9,Cistus_crispus,5,5,1,0,1,2021,145,85,21,13,May,5-5,0,5-5 Cistus_crispus,NA,NA,NA,0.9979603827084296,NA,1,1,NA,NA
+2021-03-15,Pinar Villamanrique Sur,2,Cistus_salviifolius,1,6,5,5,0,2021,74,14,11,2,March,1-6,1,1-6 Cistus_salviifolius,88,8,2,0.9999767339841847,2,1,11,1,3
+2021-03-15,Pinar Villamanrique Sur,2,Cistus_salviifolius,2,3,5,4,1,2021,74,14,11,2,March,2-3,0.8,2-3 Cistus_salviifolius,8,4,0,0.9999824420726054,1,1,8,NA,1
+2021-03-15,Pinar Villamanrique Sur,2,Cistus_salviifolius,2,9,5,5,0,2021,74,14,11,2,March,2-9,1,2-9 Cistus_salviifolius,32,7,0,0.9999861773985499,1,1,9,NA,1
+2021-03-15,Pinar Villamanrique Sur,2,Cistus_salviifolius,3,7,4,4,0,2021,74,14,11,2,March,3-7,1,3-7 Cistus_salviifolius,6,4,0,0.9999794424717044,NA,1,3,NA,NA
+2021-03-15,Pinar Villamanrique Sur,2,Cistus_salviifolius,3,9,5,5,0,2021,74,14,11,2,March,3-9,1,3-9 Cistus_salviifolius,29,8,0,0.9781484241076369,3,1,6,NA,4
+2021-03-15,Pinar Villamanrique Sur,2,Cistus_salviifolius,3,10,5,5,0,2021,74,14,11,2,March,3-10,1,3-10 Cistus_salviifolius,34,6,2,0.999982540333495,2,1,11,1,2
+2021-03-15,Pinar Villamanrique Sur,2,Cistus_salviifolius,4,3,5,5,0,2021,74,14,11,2,March,4-3,1,4-3 Cistus_salviifolius,NA,NA,NA,0.9999241807239597,NA,1,6,NA,NA
+2021-03-15,Pinar Villamanrique Sur,2,Cistus_salviifolius,4,9,5,5,0,2021,74,14,11,2,March,4-9,1,4-9 Cistus_salviifolius,47,14,2,0.9636904944608595,5,1,7,NA,5
+2021-03-15,Pinar Villamanrique Sur,2,Cistus_salviifolius,5,8,2,2,0,2021,74,14,11,2,March,5-8,1,5-8 Cistus_salviifolius,NA,NA,NA,0.9827592699857788,NA,1,2,NA,NA
+2021-03-15,Pinar Villamanrique Sur,2,Cistus_salviifolius,7,9,5,4,1,2021,74,14,11,2,March,7-9,0.8,7-9 Cistus_salviifolius,14,8,0,0.9999883661647547,2,1,7,NA,2
+2021-03-15,Pinar Villamanrique Sur,2,Cistus_salviifolius,9,10,5,5,0,2021,74,14,11,2,March,9-10,1,9-10 Cistus_salviifolius,9,0,0,0.9999825440462018,NA,1,10,NA,NA
+2021-03-22,Pinar Villamanrique Sur,3,Cistus_salviifolius,1,2,5,0,5,2021,81,21,12,3,March,1-2,0,1-2 Cistus_salviifolius,NA,NA,NA,0.9995387322618147,NA,1,9,NA,NA
+2021-03-22,Pinar Villamanrique Sur,3,Cistus_salviifolius,1,3,5,5,0,2021,81,21,12,3,March,1-3,1,1-3 Cistus_salviifolius,NA,NA,NA,0.9986781274954041,NA,1,6,NA,NA
+2021-03-22,Pinar Villamanrique Sur,3,Cistus_salviifolius,1,6,5,5,0,2021,81,21,12,3,March,1-6,1,1-6 Cistus_salviifolius,164,12,2,0.9999767339841847,5,1,34,NA,6
+2021-03-22,Pinar Villamanrique Sur,3,Cistus_salviifolius,2,3,5,4,1,2021,81,21,12,3,March,2-3,0.8,2-3 Cistus_salviifolius,NA,NA,NA,0.9999824420726054,NA,1,20,NA,NA
+2021-03-22,Pinar Villamanrique Sur,3,Cistus_salviifolius,3,7,5,4,1,2021,81,21,12,3,March,3-7,0.8,3-7 Cistus_salviifolius,12,8,0,0.9999794424717044,2,1,23,NA,2
+2021-03-22,Pinar Villamanrique Sur,3,Cistus_salviifolius,3,10,5,5,0,2021,81,21,12,3,March,3-10,1,3-10 Cistus_salviifolius,62,6,2,0.999982540333495,1,1,14,NA,1
+2021-03-22,Pinar Villamanrique Sur,3,Cistus_salviifolius,5,2,5,5,0,2021,81,21,12,3,March,5-2,1,5-2 Cistus_salviifolius,2,6,0,0.9999831484438624,1,1,12,NA,1
+2021-03-22,Pinar Villamanrique Sur,3,Cistus_salviifolius,6,3,5,5,0,2021,81,21,12,3,March,6-3,1,6-3 Cistus_salviifolius,6,6,0,0.9999582318912087,1,1,9,NA,1
+2021-03-22,Pinar Villamanrique Sur,3,Cistus_salviifolius,8,3,5,5,0,2021,81,21,12,3,March,8-3,1,8-3 Cistus_salviifolius,62,20,0,0.9999941734443714,2,1,14,NA,4
+2021-03-22,Pinar Villamanrique Sur,3,Cistus_salviifolius,9,7,5,4,1,2021,81,21,12,3,March,9-7,0.8,9-7 Cistus_salviifolius,8,12,0,0.9905874304068343,1,1,8,NA,2
+2021-03-22,Pinar Villamanrique Sur,3,Cistus_salviifolius,9,8,5,5,0,2021,81,21,12,3,March,9-8,1,9-8 Cistus_salviifolius,6,12,0,0.9999875636137168,1,1,33,NA,2
+2021-04-06,Pinar Villamanrique Sur,4,Cistus_salviifolius,3,10,5,5,0,2021,96,36,14,6,April,3-10,1,3-10 Cistus_salviifolius,67,7,2,0.9999910104529701,1,1,59,NA,1
+2021-04-06,Pinar Villamanrique Sur,4,Cistus_salviifolius,4,9,5,4,1,2021,96,36,14,6,April,4-9,0.8,4-9 Cistus_salviifolius,51,18,2,0.9999523815303313,1,1,35,NA,1
+2021-04-06,Pinar Villamanrique Sur,4,Cistus_salviifolius,5,1,5,5,0,2021,96,36,14,6,April,5-1,1,5-1 Cistus_salviifolius,9,7,0,0.9935184768387818,2,1,48,NA,2
+2021-04-06,Pinar Villamanrique Sur,4,Cistus_salviifolius,6,3,5,5,0,2021,96,36,14,6,April,6-3,1,6-3 Cistus_salviifolius,44,13,0,0.9620556454908917,1,1,31,NA,3
+2021-04-06,Pinar Villamanrique Sur,4,Cistus_salviifolius,7,9,5,4,1,2021,96,36,14,6,April,7-9,0.8,7-9 Cistus_salviifolius,NA,NA,NA,0.9746810883541438,NA,1,41,NA,NA
+2021-04-06,Pinar Villamanrique Sur,4,Cistus_salviifolius,8,3,5,5,0,2021,96,36,14,6,April,8-3,1,8-3 Cistus_salviifolius,79,28,0,0.9367455158994563,2,1,7,NA,3
+2021-04-06,Pinar Villamanrique Sur,4,Cistus_salviifolius,8,5,5,5,0,2021,96,36,14,6,April,8-5,1,8-5 Cistus_salviifolius,NA,NA,NA,0.9367053353181565,NA,1,16,NA,NA
+2021-04-06,Pinar Villamanrique Sur,4,Cistus_salviifolius,9,2,5,4,1,2021,96,36,14,6,April,9-2,0.8,9-2 Cistus_salviifolius,33,16,0,0.9570291466887688,2,1,22,NA,6
+2021-04-06,Pinar Villamanrique Sur,4,Cistus_salviifolius,9,7,5,5,0,2021,96,36,14,6,April,9-7,1,9-7 Cistus_salviifolius,13,12,0,0.9741310455429726,1,1,27,NA,1
+2021-04-06,Pinar Villamanrique Sur,4,Cistus_salviifolius,9,8,5,4,1,2021,96,36,14,6,April,9-8,0.8,9-8 Cistus_salviifolius,15,12,0,0.9999910175512137,1,1,87,NA,1
+2021-04-13,Pinar Villamanrique Sur,5,Cistus_crispus,8,8,2,1,1,2021,103,43,15,7,April,8-8,0.5,8-8 Cistus_crispus,NA,NA,NA,0.9999112982980809,NA,1,2,NA,NA
+2021-04-13,Pinar Villamanrique Sur,5,Cistus_crispus,7,9,2,2,0,2021,103,43,15,7,April,7-9,1,7-9 Cistus_crispus,NA,NA,NA,0.973169126294139,NA,1,2,NA,NA
+2021-04-13,Pinar Villamanrique Sur,5,Cistus_crispus,9,7,1,1,0,2021,103,43,15,7,April,9-7,1,9-7 Cistus_crispus,NA,NA,NA,0.9974151017986281,NA,2,7,NA,NA
+2021-04-13,Pinar Villamanrique Sur,5,Cistus_salviifolius,1,1,5,5,0,2021,103,43,15,7,April,1-1,1,1-1 Cistus_salviifolius,11,5,0,0.9999820347481772,1,1,30,NA,1
+2021-04-13,Pinar Villamanrique Sur,5,Cistus_salviifolius,1,6,5,5,0,2021,103,43,15,7,April,1-6,1,1-6 Cistus_salviifolius,236,20,2,0.9999820316668605,NA,1,12,NA,NA
+2021-04-13,Pinar Villamanrique Sur,5,Cistus_salviifolius,3,4,5,5,0,2021,103,43,15,7,April,3-4,1,3-4 Cistus_salviifolius,NA,NA,NA,0.9999859981961007,NA,1,10,NA,NA
+2021-04-13,Pinar Villamanrique Sur,5,Cistus_salviifolius,4,9,5,5,0,2021,103,43,15,7,April,4-9,1,4-9 Cistus_salviifolius,65,27,2,0.9999523815303313,2,1,10,NA,3
+2021-04-13,Pinar Villamanrique Sur,5,Cistus_salviifolius,5,8,5,4,1,2021,103,43,15,7,April,5-8,0.8,5-8 Cistus_salviifolius,2,3,0,0.9789578262034309,1,1,9,NA,1
+2021-04-13,Pinar Villamanrique Sur,5,Cistus_salviifolius,5,8,5,4,1,2021,103,43,15,7,April,5-8,0.8,5-8 Cistus_salviifolius,2,3,0,0.9789578262034309,1,1,9,NA,1
+2021-04-13,Pinar Villamanrique Sur,5,Cistus_salviifolius,8,2,5,5,0,2021,103,43,15,7,April,8-2,1,8-2 Cistus_salviifolius,117,39,0,0.9999865263268233,3,1,26,NA,4
+2021-04-13,Pinar Villamanrique Sur,5,Cistus_salviifolius,9,2,5,5,0,2021,103,43,15,7,April,9-2,1,9-2 Cistus_salviifolius,69,36,0,0.9570291466887688,2,1,6,NA,2
+2021-04-13,Pinar Villamanrique Sur,5,Cistus_salviifolius,9,7,5,3,2,2021,103,43,15,7,April,9-7,0.6,9-7 Cistus_salviifolius,18,12,0,0.9741310455429726,NA,2,7,NA,NA
+2021-04-13,Pinar Villamanrique Sur,5,Cistus_salviifolius,9,8,5,5,0,2021,103,43,15,7,April,9-8,1,9-8 Cistus_salviifolius,24,12,0,0.9999910175512137,NA,1,16,NA,NA
+2021-04-13,Pinar Villamanrique Sur,5,Halimium_halimifolium,1,9,10,8,2,2021,103,43,15,7,April,1-9,0.8,1-9 Halimium_halimifolium,NA,NA,NA,0.9998580773092072,NA,1,10,NA,NA
+2021-04-13,Pinar Villamanrique Sur,5,Halimium_halimifolium,3,1,1,0,1,2021,103,43,15,7,April,3-1,0,3-1 Halimium_halimifolium,NA,NA,NA,0.9997871159073064,NA,1,1,NA,NA
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_crispus,5,4,5,5,0,2021,113,53,16,8,April,5-4,1,5-4 Cistus_crispus,6,7,0,0.9999821182565426,2,1,23,NA,2
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_crispus,6,6,5,4,1,2021,113,53,16,8,April,6-6,0.8,6-6 Cistus_crispus,9,8,0,0.8142419502102329,3,1,6,NA,3
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_crispus,7,10,5,4,1,2021,113,53,16,8,April,7-10,0.8,7-10 Cistus_crispus,NA,NA,NA,0.752478984175737,NA,1,5,NA,NA
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_crispus,8,8,5,5,0,2021,113,53,16,8,April,8-8,1,8-8 Cistus_crispus,54,25,0,0.9999112982980809,6,1,53,NA,10
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_crispus,8,8,5,5,0,2021,113,53,16,8,April,8-8,1,8-8 Cistus_crispus,54,25,0,0.9999112982980809,6,1,53,NA,10
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_crispus,8,8,5,5,0,2021,113,53,16,8,April,8-8,1,8-8 Cistus_crispus,54,25,0,0.9999112982980809,6,1,53,NA,10
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_crispus,8,9,5,4,1,2021,113,53,16,8,April,8-9,0.8,8-9 Cistus_crispus,34,19,0,0.750180504252886,3,1,11,NA,6
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_crispus,8,10,5,4,1,2021,113,53,16,8,April,8-10,0.8,8-10 Cistus_crispus,5,5,0,0.7528956354792573,1,1,12,NA,1
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_crispus,8,10,5,4,1,2021,113,53,16,8,April,8-10,0.8,8-10 Cistus_crispus,5,5,0,0.7528956354792573,1,1,12,NA,1
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_crispus,9,7,5,5,0,2021,113,53,16,8,April,9-7,1,9-7 Cistus_crispus,3,5,0,0.9974151017986281,1,2,15,NA,1
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_salviifolius,1,10,1,1,0,2021,113,53,16,8,April,1-10,1,1-10 Cistus_salviifolius,NA,NA,NA,0.9929630431900868,NA,1,1,NA,NA
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_salviifolius,2,9,1,0,1,2021,113,53,16,8,April,2-9,0,2-9 Cistus_salviifolius,NA,NA,NA,0.9999778193482846,NA,1,1,NA,NA
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_salviifolius,2,10,2,1,1,2021,113,53,16,8,April,2-10,0.5,2-10 Cistus_salviifolius,NA,NA,NA,0.9999792934015168,NA,1,2,NA,NA
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_salviifolius,8,2,15,14,1,2021,113,53,16,8,April,8-2,0.9333333333333333,8-2 Cistus_salviifolius,142,44,0,0.9999865263268233,NA,1,15,NA,NA
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_salviifolius,9,7,5,3,2,2021,113,53,16,8,April,9-7,0.6,9-7 Cistus_salviifolius,NA,NA,NA,0.9741310455429726,NA,2,15,NA,1
+2021-04-23,Pinar Villamanrique Sur,6,Cistus_salviifolius,9,10,3,3,0,2021,113,53,16,8,April,9-10,1,9-10 Cistus_salviifolius,NA,NA,NA,0.9745641508716375,NA,1,3,NA,NA
+2021-04-23,Pinar Villamanrique Sur,6,Halimium_halimifolium,1,9,20,8,12,2021,113,53,16,8,April,1-9,0.4,1-9 Halimium_halimifolium,NA,NA,NA,0.9998580773092072,NA,1,46,NA,NA
+2021-04-23,Pinar Villamanrique Sur,6,Halimium_halimifolium,3,1,10,4,6,2021,113,53,16,8,April,3-1,0.4,3-1 Halimium_halimifolium,11,0,0,0.9997871159073064,1,1,21,NA,1
+2021-04-23,Pinar Villamanrique Sur,6,Halimium_halimifolium,3,1,10,0,10,2021,113,53,16,8,April,3-1,0,3-1 Halimium_halimifolium,11,0,0,0.9997871159073064,1,1,21,NA,1
+2021-05-06,Pinar Villamanrique Sur,7,Cistus_crispus,3,6,5,4,1,2021,126,66,18,10,May,3-6,0.8,3-6 Cistus_crispus,12,13,0,0.7718966180304088,1,1,15,NA,1
+2021-05-06,Pinar Villamanrique Sur,7,Cistus_crispus,3,6,5,4,1,2021,126,66,18,10,May,3-6,0.8,3-6 Cistus_crispus,12,13,0,0.7718966180304088,1,1,15,NA,1
+2021-05-06,Pinar Villamanrique Sur,7,Cistus_crispus,5,4,5,5,0,2021,126,66,18,10,May,5-4,1,5-4 Cistus_crispus,43,32,0,0.9999605770303328,5,1,97,NA,6
+2021-05-06,Pinar Villamanrique Sur,7,Cistus_crispus,6,6,5,5,0,2021,126,66,18,10,May,6-6,1,6-6 Cistus_crispus,121,37,0,0.9860674203785144,5,1,68,NA,9
+2021-05-06,Pinar Villamanrique Sur,7,Cistus_crispus,8,8,5,5,0,2021,126,66,18,10,May,8-8,1,8-8 Cistus_crispus,59,37,0,0.9987691299813695,2,1,74,NA,2
+2021-05-06,Pinar Villamanrique Sur,7,Cistus_crispus,8,8,5,4,1,2021,126,66,18,10,May,8-8,0.8,8-8 Cistus_crispus,59,37,0,0.9987691299813695,2,1,74,NA,2
+2021-05-06,Pinar Villamanrique Sur,7,Cistus_crispus,8,9,5,4,1,2021,126,66,18,10,May,8-9,0.8,8-9 Cistus_crispus,53,26,0,0.5553532918534958,2,1,24,NA,3
+2021-05-06,Pinar Villamanrique Sur,7,Cistus_crispus,8,10,5,3,2,2021,126,66,18,10,May,8-10,0.6,8-10 Cistus_crispus,10,7,0,0.7730412466880621,1,1,39,NA,1
+2021-05-06,Pinar Villamanrique Sur,7,Cistus_crispus,8,10,5,1,4,2021,126,66,18,10,May,8-10,0.2,8-10 Cistus_crispus,10,7,0,0.7730412466880621,1,1,39,NA,1
+2021-05-06,Pinar Villamanrique Sur,7,Cistus_crispus,9,7,5,5,0,2021,126,66,18,10,May,9-7,1,9-7 Cistus_crispus,13,8,0,0.5572934222871868,1,1,30,NA,1
+2021-05-06,Pinar Villamanrique Sur,7,Halimium_halimifolium,1,9,10,1,9,2021,126,66,18,10,May,1-9,0.1,1-9 Halimium_halimifolium,NA,NA,NA,0.9998669474773817,NA,1,83,NA,NA
+2021-05-06,Pinar Villamanrique Sur,7,Halimium_halimifolium,3,1,10,1,9,2021,126,66,18,10,May,3-1,0.1,3-1 Halimium_halimifolium,NA,NA,NA,0.9997782457956361,NA,1,77,NA,NA
+2021-05-06,Pinar Villamanrique Sur,7,Halimium_halimifolium,3,1,10,0,10,2021,126,66,18,10,May,3-1,0,3-1 Halimium_halimifolium,NA,NA,NA,0.9997782457956361,NA,1,77,NA,NA
+2021-05-14,Pinar Villamanrique Sur,8,Cistus_crispus,3,5,1,0,1,2021,134,74,19,11,May,3-5,0,3-5 Cistus_crispus,6,10,0,0.7111115000649362,1,1,1,NA,2
+2021-05-14,Pinar Villamanrique Sur,8,Cistus_crispus,4,6,1,0,1,2021,134,74,19,11,May,4-6,0,4-6 Cistus_crispus,22,24,0,0.56116258186938,1,1,1,NA,2
+2021-05-14,Pinar Villamanrique Sur,8,Cistus_crispus,5,4,14,7,7,2021,134,74,19,11,May,5-4,0.5,5-4 Cistus_crispus,77,48,0,0.9999605770303328,3,1,34,NA,6
+2021-05-14,Pinar Villamanrique Sur,8,Cistus_crispus,6,6,10,2,8,2021,134,74,19,11,May,6-6,0.2,6-6 Cistus_crispus,140,46,0,0.9860674203785144,3,1,27,NA,4
+2021-05-14,Pinar Villamanrique Sur,8,Cistus_crispus,8,8,1,0,1,2021,134,74,19,11,May,8-8,0,8-8 Cistus_crispus,NA,NA,NA,0.9987691299813695,NA,1,3,NA,NA
+2021-05-14,Pinar Villamanrique Sur,8,Cistus_crispus,8,8,2,0,2,2021,134,74,19,11,May,8-8,0,8-8 Cistus_crispus,NA,NA,NA,0.9987691299813695,NA,1,3,NA,NA
+2021-05-14,Pinar Villamanrique Sur,8,Cistus_crispus,9,2,5,4,1,2021,134,74,19,11,May,9-2,0.8,9-2 Cistus_crispus,NA,NA,NA,0.7186247011350743,NA,NA,NA,NA,NA
+2021-05-14,Pinar Villamanrique Sur,8,Cistus_crispus,9,7,2,2,0,2021,134,74,19,11,May,9-7,1,9-7 Cistus_crispus,NA,NA,NA,0.5572934222871868,NA,1,2,NA,NA
+2021-05-14,Pinar Villamanrique Sur,8,Cistus_crispus,10,8,3,0,3,2021,134,74,19,11,May,10-8,0,10-8 Cistus_crispus,NA,NA,NA,0.542047743207284,NA,1,3,NA,NA
+2021-05-14,Pinar Villamanrique Sur,8,Halimium_halimifolium,1,9,10,0,10,2021,134,74,19,11,May,1-9,0,1-9 Halimium_halimifolium,NA,NA,NA,0.9998669474773817,NA,1,29,NA,NA
+2021-05-14,Pinar Villamanrique Sur,8,Halimium_halimifolium,3,1,10,0,10,2021,134,74,19,11,May,3-1,0,3-1 Halimium_halimifolium,NA,NA,NA,0.9997782457956361,NA,1,39,NA,NA
+2021-05-14,Pinar Villamanrique Sur,8,Halimium_halimifolium,3,1,10,0,10,2021,134,74,19,11,May,3-1,0,3-1 Halimium_halimifolium,NA,NA,NA,0.9997782457956361,NA,1,39,NA,NA
+2021-05-26,Pinar Villamanrique Sur,9,Cistus_crispus,5,4,2,0,2,2021,146,86,21,13,May,5-4,0,5-4 Cistus_crispus,NA,NA,NA,0.9999605770303328,NA,1,2,NA,NA
+2021-05-26,Pinar Villamanrique Sur,9,Cistus_crispus,6,6,2,1,1,2021,146,86,21,13,May,6-6,0.5,6-6 Cistus_crispus,NA,NA,NA,0.9860674203785144,NA,1,2,NA,NA
+2021-05-26,Pinar Villamanrique Sur,9,Cistus_crispus,9,2,2,2,0,2021,146,86,21,13,May,9-2,1,9-2 Cistus_crispus,NA,NA,NA,0.7186247011350743,NA,1,2,NA,NA
+2021-05-26,Pinar Villamanrique Sur,9,Halimium_halimifolium,1,9,5,0,5,2021,146,86,21,13,May,1-9,0,1-9 Halimium_halimifolium,NA,NA,NA,0.9998669474773817,NA,1,5,NA,NA
+2021-05-26,Pinar Villamanrique Sur,9,Halimium_halimifolium,3,1,3,0,3,2021,146,86,21,13,May,3-1,0,3-1 Halimium_halimifolium,NA,NA,NA,0.9997782457956361,NA,1,3,NA,NA

@@ -1,0 +1,884 @@
+Bosque,Planta,X,Y,Periodo,prob_consp_step
+Pinar Aznalcazar,Aetheorhiza_bulbosa,5,1,2,6.186357371142768e-6
+Pinar Aznalcazar,Aetheorhiza_bulbosa,6,3,3,NA
+Pinar Aznalcazar,Aetheorhiza_bulbosa,7,1,3,NA
+Pinar Aznalcazar,Aetheorhiza_bulbosa,7,2,3,NA
+Pinar Aznalcazar,Aetheorhiza_bulbosa,7,4,2,6.186357371142768e-6
+Pinar Aznalcazar,Aetheorhiza_bulbosa,7,6,2,6.186358288586053e-6
+Pinar Aznalcazar,Aetheorhiza_bulbosa,8,1,3,NA
+Pinar Aznalcazar,Aetheorhiza_bulbosa,9,1,3,NA
+Pinar Aznalcazar,Aetheorhiza_bulbosa,9,6,2,3.093178685571384e-6
+Pinar Aznalcazar,Andryala_arenaria,4,8,3,NA
+Pinar Aznalcazar,Andryala_arenaria,4,9,3,NA
+Pinar Aznalcazar,Andryala_arenaria,6,1,3,NA
+Pinar Aznalcazar,Andryala_arenaria,7,1,3,NA
+Pinar Aznalcazar,Andryala_arenaria,7,2,3,NA
+Pinar Aznalcazar,Andryala_arenaria,8,1,3,NA
+Pinar Aznalcazar,Andryala_arenaria,9,1,3,NA
+Pinar Aznalcazar,Cistus_crispus,1,1,2,0.9996621178228988
+Pinar Aznalcazar,Cistus_crispus,1,1,3,0.8145142021582706
+Pinar Aznalcazar,Cistus_crispus,1,2,2,0.9996469899055255
+Pinar Aznalcazar,Cistus_crispus,1,2,3,0.36163132166499273
+Pinar Aznalcazar,Cistus_crispus,1,3,2,0.9996246721974354
+Pinar Aznalcazar,Cistus_crispus,1,3,3,0.6367217386258391
+Pinar Aznalcazar,Cistus_crispus,1,7,2,0.9992657562730056
+Pinar Aznalcazar,Cistus_crispus,1,7,3,0.6965131312898508
+Pinar Aznalcazar,Cistus_crispus,1,8,2,0.9999660797086066
+Pinar Aznalcazar,Cistus_crispus,1,8,3,0.782656214200322
+Pinar Aznalcazar,Cistus_crispus,1,9,2,0.9999656018211589
+Pinar Aznalcazar,Cistus_crispus,1,9,3,0.7113546485541784
+Pinar Aznalcazar,Cistus_crispus,2,1,2,0.9999819817222431
+Pinar Aznalcazar,Cistus_crispus,2,1,3,0.9230631911749305
+Pinar Aznalcazar,Cistus_crispus,2,3,2,0.999572316652143
+Pinar Aznalcazar,Cistus_crispus,2,3,3,0.8327083340773351
+Pinar Aznalcazar,Cistus_crispus,2,6,2,0.9999615203920273
+Pinar Aznalcazar,Cistus_crispus,2,6,3,0.8430867244854622
+Pinar Aznalcazar,Cistus_crispus,3,1,2,0.9996350802391368
+Pinar Aznalcazar,Cistus_crispus,3,1,3,0.6924131023334588
+Pinar Aznalcazar,Cistus_crispus,4,7,2,0.9999591203171007
+Pinar Aznalcazar,Cistus_crispus,4,7,3,0.93349217092441406
+Pinar Aznalcazar,Cistus_crispus,5,7,2,0.9993287310214853
+Pinar Aznalcazar,Cistus_crispus,5,7,3,0.7391590726663329
+Pinar Aznalcazar,Cistus_crispus,6,2,2,0.9994637773698322
+Pinar Aznalcazar,Cistus_crispus,6,2,3,0.666303571872391
+Pinar Aznalcazar,Cistus_crispus,6,7,2,0.9994098121794202
+Pinar Aznalcazar,Cistus_crispus,6,7,3,0.29918277417553685
+Pinar Aznalcazar,Cistus_crispus,7,3,2,0.9999661190890206
+Pinar Aznalcazar,Cistus_crispus,7,3,3,0.808414969384163
+Pinar Aznalcazar,Cistus_crispus,8,7,2,0.9999691932242211
+Pinar Aznalcazar,Cistus_crispus,8,7,3,0.9911915846208347
+Pinar Aznalcazar,Cistus_crispus,9,2,2,0.9999707449317495
+Pinar Aznalcazar,Cistus_crispus,9,2,3,0.8028254880980292
+Pinar Aznalcazar,Cistus_salviifolius,1,7,1,1
+Pinar Aznalcazar,Cistus_salviifolius,1,7,2,0.8969501321072431
+Pinar Aznalcazar,Cistus_salviifolius,1,10,1,1
+Pinar Aznalcazar,Cistus_salviifolius,1,10,2,0.9999994917982302
+Pinar Aznalcazar,Cistus_salviifolius,2,7,1,1
+Pinar Aznalcazar,Cistus_salviifolius,2,7,2,0.9417948359553041
+Pinar Aznalcazar,Cistus_salviifolius,3,6,1,1
+Pinar Aznalcazar,Cistus_salviifolius,3,6,2,0.9145944060950331
+Pinar Aznalcazar,Cistus_salviifolius,3,7,1,1
+Pinar Aznalcazar,Cistus_salviifolius,3,7,2,0.9183041169873534
+Pinar Aznalcazar,Cistus_salviifolius,3,8,1,1
+Pinar Aznalcazar,Cistus_salviifolius,3,8,2,0.9425822539586056
+Pinar Aznalcazar,Cistus_salviifolius,3,9,1,1
+Pinar Aznalcazar,Cistus_salviifolius,3,9,2,0.9412224747389056
+Pinar Aznalcazar,Cistus_salviifolius,4,4,1,1
+Pinar Aznalcazar,Cistus_salviifolius,4,4,2,0.9425136950455643
+Pinar Aznalcazar,Cistus_salviifolius,4,9,1,1
+Pinar Aznalcazar,Cistus_salviifolius,4,9,2,0.9428803175404876
+Pinar Aznalcazar,Cistus_salviifolius,4,10,1,1
+Pinar Aznalcazar,Cistus_salviifolius,6,1,1,1
+Pinar Aznalcazar,Cistus_salviifolius,6,1,2,0.8774766397994569
+Pinar Aznalcazar,Cistus_salviifolius,6,3,1,1
+Pinar Aznalcazar,Cistus_salviifolius,6,3,2,0.94434111075394
+Pinar Aznalcazar,Cistus_salviifolius,6,4,1,1
+Pinar Aznalcazar,Cistus_salviifolius,6,4,2,0.9459207539129904
+Pinar Aznalcazar,Cistus_salviifolius,6,7,1,1
+Pinar Aznalcazar,Cistus_salviifolius,6,7,2,0.9398957454355265
+Pinar Aznalcazar,Cistus_salviifolius,6,10,1,1
+Pinar Aznalcazar,Cistus_salviifolius,6,10,2,0.9447442963509008
+Pinar Aznalcazar,Cistus_salviifolius,7,2,1,1
+Pinar Aznalcazar,Cistus_salviifolius,7,2,2,0.8721786469916681
+Pinar Aznalcazar,Cistus_salviifolius,7,4,1,1
+Pinar Aznalcazar,Cistus_salviifolius,7,4,2,0.9279856905594773
+Pinar Aznalcazar,Cistus_salviifolius,8,3,1,1
+Pinar Aznalcazar,Cistus_salviifolius,8,3,2,0.9438651677815263
+Pinar Aznalcazar,Cistus_salviifolius,8,10,1,1
+Pinar Aznalcazar,Cistus_salviifolius,8,10,2,0.9372923810826544
+Pinar Aznalcazar,Cistus_salviifolius,9,1,1,1
+Pinar Aznalcazar,Cistus_salviifolius,9,3,1,1
+Pinar Aznalcazar,Cistus_salviifolius,9,3,2,0.9398802553175798
+Pinar Aznalcazar,Cistus_salviifolius,9,6,1,1
+Pinar Aznalcazar,Cistus_salviifolius,10,10,1,1
+Pinar Aznalcazar,Cistus_salviifolius,10,10,2,0.9333574627343587
+Pinar Aznalcazar,Galactites_tomentosus,1,1,2,0.9999999999998597
+Pinar Aznalcazar,Galactites_tomentosus,1,1,3,0.9768620180586219
+Pinar Aznalcazar,Galactites_tomentosus,1,2,2,0.9999999999941785
+Pinar Aznalcazar,Galactites_tomentosus,1,2,3,0.7090703583852569
+Pinar Aznalcazar,Galactites_tomentosus,1,3,2,0.999999999986356
+Pinar Aznalcazar,Galactites_tomentosus,1,3,3,0.8941813078404638
+Pinar Aznalcazar,Galactites_tomentosus,1,4,2,1
+Pinar Aznalcazar,Galactites_tomentosus,1,4,3,0.924081194614339
+Pinar Aznalcazar,Galactites_tomentosus,1,5,3,0.9170290313842809
+Pinar Aznalcazar,Galactites_tomentosus,1,6,3,0.934544687357773
+Pinar Aznalcazar,Galactites_tomentosus,2,1,3,0.9998436830355949
+Pinar Aznalcazar,Galactites_tomentosus,2,2,2,1
+Pinar Aznalcazar,Galactites_tomentosus,2,3,2,0.9999999999798527
+Pinar Aznalcazar,Galactites_tomentosus,2,3,3,0.9936355527203208
+Pinar Aznalcazar,Galactites_tomentosus,2,4,3,0.9524381476199938
+Pinar Aznalcazar,Galactites_tomentosus,2,5,3,0.9544882905779521
+Pinar Aznalcazar,Galactites_tomentosus,3,1,2,0.9999999999772294
+Pinar Aznalcazar,Galactites_tomentosus,3,1,3,0.9016965995038204
+Pinar Aznalcazar,Galactites_tomentosus,3,2,2,1
+Pinar Aznalcazar,Galactites_tomentosus,3,3,2,1
+Pinar Aznalcazar,Galactites_tomentosus,3,3,3,0.9873788933844141
+Pinar Aznalcazar,Galactites_tomentosus,3,4,2,1
+Pinar Aznalcazar,Galactites_tomentosus,3,4,3,0.8985262369065282
+Pinar Aznalcazar,Galactites_tomentosus,3,5,2,1
+Pinar Aznalcazar,Galactites_tomentosus,3,5,3,0.9882850807405559
+Pinar Aznalcazar,Galactites_tomentosus,3,6,2,0.9999999998482697
+Pinar Aznalcazar,Galactites_tomentosus,3,6,3,0.9418302813247895
+Pinar Aznalcazar,Galactites_tomentosus,3,7,2,0.999999999969608
+Pinar Aznalcazar,Galactites_tomentosus,3,7,3,0.9523222168205135
+Pinar Aznalcazar,Galactites_tomentosus,3,8,3,0.9689126598652935
+Pinar Aznalcazar,Galactites_tomentosus,4,2,2,1
+Pinar Aznalcazar,Galactites_tomentosus,4,2,3,0.9051650685974687
+Pinar Aznalcazar,Galactites_tomentosus,4,3,2,1
+Pinar Aznalcazar,Galactites_tomentosus,4,3,3,0.9253754635296445
+Pinar Aznalcazar,Galactites_tomentosus,4,4,3,0.9551655105985898
+Pinar Aznalcazar,Galactites_tomentosus,4,5,2,1
+Pinar Aznalcazar,Galactites_tomentosus,4,6,2,1
+Pinar Aznalcazar,Galactites_tomentosus,5,1,2,0.9999999999724958
+Pinar Aznalcazar,Galactites_tomentosus,5,1,3,0.9168293403284243
+Pinar Aznalcazar,Galactites_tomentosus,5,2,3,0.9482667593461167
+Pinar Aznalcazar,Galactites_tomentosus,5,3,2,1
+Pinar Aznalcazar,Galactites_tomentosus,5,3,3,0.9926854616272116
+Pinar Aznalcazar,Galactites_tomentosus,5,4,2,1
+Pinar Aznalcazar,Galactites_tomentosus,5,4,3,0.9340820944851144
+Pinar Aznalcazar,Galactites_tomentosus,5,5,2,1
+Pinar Aznalcazar,Galactites_tomentosus,5,5,3,0.9638305618489382
+Pinar Aznalcazar,Galactites_tomentosus,5,6,2,1
+Pinar Aznalcazar,Galactites_tomentosus,5,6,3,0.9756384780664782
+Pinar Aznalcazar,Galactites_tomentosus,5,7,2,0.9999999999765855
+Pinar Aznalcazar,Galactites_tomentosus,5,8,2,1
+Pinar Aznalcazar,Galactites_tomentosus,6,1,2,0.9999999999996013
+Pinar Aznalcazar,Galactites_tomentosus,6,2,2,0.9999999999992114
+Pinar Aznalcazar,Galactites_tomentosus,6,7,3,0.7584191131533256
+Pinar Aznalcazar,Galactites_tomentosus,7,1,2,1
+Pinar Aznalcazar,Galactites_tomentosus,7,2,2,0.999999999976657
+Pinar Aznalcazar,Halimium_halimifolium,8,10,3,NA
+Pinar Aznalcazar,Halimium_halimifolium,9,6,2,NA
+Pinar Aznalcazar,Halimium_halimifolium,9,6,3,NA
+Pinar Aznalcazar,Halimium_halimifolium,10,8,2,NA
+Pinar Aznalcazar,Halimium_halimifolium,10,8,3,NA
+Pinar Aznalcazar,Halimium_halimifolium,10,9,2,NA
+Pinar Aznalcazar,Halimium_halimifolium,10,9,3,NA
+Pinar Aznalcazar,Lavandula_stoechas,1,10,1,0.5
+Pinar Aznalcazar,Lavandula_stoechas,1,10,2,0.4576955716932228
+Pinar Aznalcazar,Lavandula_stoechas,2,10,1,0.5
+Pinar Aznalcazar,Lavandula_stoechas,2,10,2,0.9576735803430193
+Pinar Hinojos,Aetheorhiza_bulbosa,10,7,2,NA
+Pinar Hinojos,Aetheorhiza_bulbosa,10,8,2,NA
+Pinar Hinojos,Bartsia_trixago,10,6,2,NA
+Pinar Hinojos,Bartsia_trixago,10,7,2,NA
+Pinar Hinojos,Chamaemelum_mixtum,5,9,2,NA
+Pinar Hinojos,Chamaemelum_mixtum,5,10,2,NA
+Pinar Hinojos,Cistus_libanotis,4,8,2,0.9989522674073251
+Pinar Hinojos,Cistus_libanotis,10,7,2,0.9999999996552308
+Pinar Hinojos,Cistus_libanotis,10,8,2,0.6803939734540445
+Pinar Hinojos,Halimium_calycinum,1,1,1,0.8571108290772881
+Pinar Hinojos,Halimium_calycinum,1,1,2,NA
+Pinar Hinojos,Halimium_calycinum,2,1,1,0.85541665171569925
+Pinar Hinojos,Halimium_calycinum,2,1,2,NA
+Pinar Hinojos,Halimium_calycinum,3,6,1,0.8439442410326016
+Pinar Hinojos,Halimium_calycinum,3,6,2,NA
+Pinar Hinojos,Halimium_calycinum,4,4,1,0.9840200491754766
+Pinar Hinojos,Halimium_calycinum,4,5,1,0.9707929818763535
+Pinar Hinojos,Halimium_calycinum,4,5,2,NA
+Pinar Hinojos,Halimium_calycinum,5,4,1,0.8732524224952254
+Pinar Hinojos,Halimium_calycinum,5,4,2,NA
+Pinar Hinojos,Halimium_calycinum,8,1,1,0.9119709709692082
+Pinar Hinojos,Halimium_calycinum,8,1,2,NA
+Pinar Hinojos,Halimium_calycinum,8,4,1,0.9981664971229487
+Pinar Hinojos,Halimium_calycinum,8,4,2,NA
+Pinar Hinojos,Leontodon_longirostris,1,2,2,NA
+Pinar Hinojos,Leontodon_longirostris,1,3,2,NA
+Pinar Hinojos,Leontodon_longirostris,1,3,3,NA
+Pinar Hinojos,Leontodon_longirostris,1,4,2,NA
+Pinar Hinojos,Leontodon_longirostris,1,4,3,NA
+Pinar Hinojos,Leontodon_longirostris,1,5,2,NA
+Pinar Hinojos,Leontodon_longirostris,1,5,3,NA
+Pinar Hinojos,Leontodon_longirostris,1,6,2,NA
+Pinar Hinojos,Leontodon_longirostris,1,6,3,NA
+Pinar Hinojos,Leontodon_longirostris,1,7,2,NA
+Pinar Hinojos,Leontodon_longirostris,1,7,3,NA
+Pinar Hinojos,Leontodon_longirostris,1,8,2,NA
+Pinar Hinojos,Leontodon_longirostris,1,8,3,NA
+Pinar Hinojos,Leontodon_longirostris,1,9,2,NA
+Pinar Hinojos,Leontodon_longirostris,1,9,3,NA
+Pinar Hinojos,Leontodon_longirostris,1,10,1,NA
+Pinar Hinojos,Leontodon_longirostris,1,10,2,NA
+Pinar Hinojos,Leontodon_longirostris,1,10,3,NA
+Pinar Hinojos,Leontodon_longirostris,2,3,2,NA
+Pinar Hinojos,Leontodon_longirostris,2,3,3,NA
+Pinar Hinojos,Leontodon_longirostris,2,4,2,NA
+Pinar Hinojos,Leontodon_longirostris,2,4,3,NA
+Pinar Hinojos,Leontodon_longirostris,2,5,2,NA
+Pinar Hinojos,Leontodon_longirostris,2,5,3,NA
+Pinar Hinojos,Leontodon_longirostris,2,6,2,NA
+Pinar Hinojos,Leontodon_longirostris,2,6,3,NA
+Pinar Hinojos,Leontodon_longirostris,2,7,2,NA
+Pinar Hinojos,Leontodon_longirostris,2,7,3,NA
+Pinar Hinojos,Leontodon_longirostris,2,8,2,NA
+Pinar Hinojos,Leontodon_longirostris,2,8,3,NA
+Pinar Hinojos,Leontodon_longirostris,2,9,2,NA
+Pinar Hinojos,Leontodon_longirostris,2,9,3,NA
+Pinar Hinojos,Leontodon_longirostris,2,10,2,NA
+Pinar Hinojos,Leontodon_longirostris,3,5,2,NA
+Pinar Hinojos,Leontodon_longirostris,3,7,2,NA
+Pinar Hinojos,Leontodon_longirostris,3,7,3,NA
+Pinar Hinojos,Leontodon_longirostris,3,8,2,NA
+Pinar Hinojos,Leontodon_longirostris,3,8,3,NA
+Pinar Hinojos,Leontodon_longirostris,3,9,2,NA
+Pinar Hinojos,Leontodon_longirostris,3,9,3,NA
+Pinar Hinojos,Leontodon_longirostris,4,7,2,NA
+Pinar Hinojos,Leontodon_longirostris,4,7,3,NA
+Pinar Hinojos,Leontodon_longirostris,4,8,2,NA
+Pinar Hinojos,Leontodon_longirostris,4,8,3,NA
+Pinar Hinojos,Leontodon_longirostris,4,9,2,NA
+Pinar Hinojos,Leontodon_longirostris,4,9,3,NA
+Pinar Hinojos,Leontodon_longirostris,4,10,2,NA
+Pinar Hinojos,Leontodon_longirostris,5,7,1,NA
+Pinar Hinojos,Leontodon_longirostris,5,9,2,NA
+Pinar Hinojos,Leontodon_longirostris,5,10,2,NA
+Pinar Hinojos,Leontodon_longirostris,6,10,2,NA
+Pinar Hinojos,Leontodon_longirostris,7,10,2,NA
+Pinar Hinojos,Leontodon_longirostris,8,7,2,NA
+Pinar Hinojos,Leontodon_longirostris,8,8,2,NA
+Pinar Hinojos,Leontodon_longirostris,9,1,2,NA
+Pinar Hinojos,Leontodon_longirostris,9,8,2,NA
+Pinar Hinojos,Leontodon_longirostris,9,9,3,NA
+Pinar Hinojos,Leontodon_longirostris,10,2,2,NA
+Pinar Hinojos,Leontodon_longirostris,10,8,1,NA
+Pinar Hinojos,Leontodon_longirostris,10,10,2,NA
+Pinar Hinojos,Muscari_comosum,6,2,2,0.998959633831367
+Pinar Hinojos,Ulex_australis,3,3,1,0.9203603784347959
+Pinar Hinojos,Ulex_australis,4,1,1,0.9262947921330019
+Pinar Hinojos,Ulex_australis,4,4,1,0.9994098889858875
+Pinar Hinojos,Ulex_australis,6,4,1,0.9259567925886153
+Pinar Hinojos,Ulex_australis,7,3,1,0.9258738449899124
+Pinar Hinojos,Ulex_australis,7,4,1,0.8118934798255487
+Pinar Hinojos,Ulex_australis,8,4,1,0.9999999999939908
+Pinar Hinojos,Ulex_australis,8,5,1,0.9216233598204632
+Pinar Hinojos,Ulex_australis,8,7,1,0.8554097361311194
+Pinar Hinojos,Ulex_australis,8,9,1,0.9258379007635144
+Pinar Hinojos,Ulex_australis,8,10,1,0.9194471045202186
+Pinar Hinojos,Ulex_australis,9,5,1,0.9501342842066779
+Pinar Hinojos,Ulex_australis,10,2,1,0.9259639636093203
+Pinar Puebla,Aetheorhiza_bulbosa,1,1,2,0.4754505482019382
+Pinar Puebla,Aetheorhiza_bulbosa,1,2,2,0.31359413286536897
+Pinar Puebla,Aetheorhiza_bulbosa,1,3,2,0.3522999106723282
+Pinar Puebla,Aetheorhiza_bulbosa,1,4,2,0.34158923247084994
+Pinar Puebla,Aetheorhiza_bulbosa,1,5,2,0.6050967777183349
+Pinar Puebla,Aetheorhiza_bulbosa,1,6,2,0.5915325572280831
+Pinar Puebla,Aetheorhiza_bulbosa,1,9,2,0.43911790143641893
+Pinar Puebla,Aetheorhiza_bulbosa,1,10,2,0.3783772163447104
+Pinar Puebla,Aetheorhiza_bulbosa,2,1,2,0.5578668815872587
+Pinar Puebla,Aetheorhiza_bulbosa,2,2,2,0.6155898306325358
+Pinar Puebla,Aetheorhiza_bulbosa,2,3,2,0.6903534033377913
+Pinar Puebla,Aetheorhiza_bulbosa,2,4,2,0.4078356780693825
+Pinar Puebla,Aetheorhiza_bulbosa,2,5,2,0.1832235742552264
+Pinar Puebla,Aetheorhiza_bulbosa,2,6,2,0.40838935309679414
+Pinar Puebla,Aetheorhiza_bulbosa,2,7,2,0.16008738346347473
+Pinar Puebla,Aetheorhiza_bulbosa,2,8,2,0.5812838742934429
+Pinar Puebla,Aetheorhiza_bulbosa,2,9,2,0.5076768473584558
+Pinar Puebla,Aetheorhiza_bulbosa,3,2,2,0.7000300298864228
+Pinar Puebla,Aetheorhiza_bulbosa,3,3,2,0.7721627093693757
+Pinar Puebla,Aetheorhiza_bulbosa,3,4,2,0.49773965031286804
+Pinar Puebla,Aetheorhiza_bulbosa,3,5,2,0.80320555002037
+Pinar Puebla,Aetheorhiza_bulbosa,3,6,2,0.7761746915377009
+Pinar Puebla,Aetheorhiza_bulbosa,3,7,2,0.4384823939964033
+Pinar Puebla,Aetheorhiza_bulbosa,3,8,2,0.6665725162921313
+Pinar Puebla,Aetheorhiza_bulbosa,3,9,2,0.5718226037053967
+Pinar Puebla,Aetheorhiza_bulbosa,3,10,2,0.32051595053538423
+Pinar Puebla,Aetheorhiza_bulbosa,4,2,2,0.22637822205518907
+Pinar Puebla,Aetheorhiza_bulbosa,4,3,2,0.845561460959808
+Pinar Puebla,Aetheorhiza_bulbosa,4,4,2,0.873945538120951
+Pinar Puebla,Aetheorhiza_bulbosa,4,5,2,0.8851540071931122
+Pinar Puebla,Aetheorhiza_bulbosa,4,6,2,0.5407173454689407
+Pinar Puebla,Aetheorhiza_bulbosa,4,7,2,0.6599142673182569
+Pinar Puebla,Aetheorhiza_bulbosa,4,10,2,0.5159065675114927
+Pinar Puebla,Aetheorhiza_bulbosa,5,1,2,0.47021019725138735
+Pinar Puebla,Aetheorhiza_bulbosa,5,2,2,0.8235521201825597
+Pinar Puebla,Aetheorhiza_bulbosa,5,3,2,0.8876027669636543
+Pinar Puebla,Aetheorhiza_bulbosa,5,4,2,0.6169116166342048
+Pinar Puebla,Aetheorhiza_bulbosa,5,5,2,0.9383291049041897
+Pinar Puebla,Aetheorhiza_bulbosa,5,6,2,0.9143161726590306
+Pinar Puebla,Aetheorhiza_bulbosa,5,8,2,0.7667942519586193
+Pinar Puebla,Aetheorhiza_bulbosa,5,9,2,0.6516429864268768
+Pinar Puebla,Aetheorhiza_bulbosa,5,10,2,0.5310410544122101
+Pinar Puebla,Aetheorhiza_bulbosa,6,1,2,0.763806826320838
+Pinar Puebla,Aetheorhiza_bulbosa,6,2,2,0.9673068449844794
+Pinar Puebla,Aetheorhiza_bulbosa,6,3,2,0.891332912281018
+Pinar Puebla,Aetheorhiza_bulbosa,6,4,2,0.9341286405818611
+Pinar Puebla,Aetheorhiza_bulbosa,6,6,2,0.9233624567533778
+Pinar Puebla,Aetheorhiza_bulbosa,6,7,2,0.8859577267015963
+Pinar Puebla,Aetheorhiza_bulbosa,6,8,2,0.7961568847587507
+Pinar Puebla,Aetheorhiza_bulbosa,6,9,2,0.6490915605979127
+Pinar Puebla,Aetheorhiza_bulbosa,7,1,2,0.6820618460189084
+Pinar Puebla,Aetheorhiza_bulbosa,7,2,2,0.8410743556093644
+Pinar Puebla,Aetheorhiza_bulbosa,7,3,2,0.897603488492663
+Pinar Puebla,Aetheorhiza_bulbosa,7,5,2,0.9303623011817913
+Pinar Puebla,Aetheorhiza_bulbosa,7,7,2,0.865022335989796
+Pinar Puebla,Aetheorhiza_bulbosa,7,8,2,0.9660926991184766
+Pinar Puebla,Aetheorhiza_bulbosa,7,9,2,0.634094714074723
+Pinar Puebla,Aetheorhiza_bulbosa,8,1,2,0.46084882344534395
+Pinar Puebla,Aetheorhiza_bulbosa,8,2,2,0.8039433787575937
+Pinar Puebla,Aetheorhiza_bulbosa,8,3,2,0.8649730258244462
+Pinar Puebla,Aetheorhiza_bulbosa,8,4,2,0.8788237524967358
+Pinar Puebla,Aetheorhiza_bulbosa,8,5,2,0.8899798673660279
+Pinar Puebla,Aetheorhiza_bulbosa,8,6,2,0.8823373062887954
+Pinar Puebla,Aetheorhiza_bulbosa,8,7,2,0.8253819951268498
+Pinar Puebla,Aetheorhiza_bulbosa,8,8,2,0.7368529215067737
+Pinar Puebla,Aetheorhiza_bulbosa,8,9,2,0.5953930577594515
+Pinar Puebla,Aetheorhiza_bulbosa,8,10,2,0.48146217067455227
+Pinar Puebla,Aetheorhiza_bulbosa,9,1,2,0.6621154633302694
+Pinar Puebla,Aetheorhiza_bulbosa,9,7,2,0.36894192224655836
+Pinar Puebla,Aetheorhiza_bulbosa,9,8,2,0.6491461658035086
+Pinar Puebla,Aetheorhiza_bulbosa,9,10,2,0.7626211730191592
+Pinar Puebla,Aetheorhiza_bulbosa,10,1,2,0.5664433521683403
+Pinar Puebla,Aetheorhiza_bulbosa,10,2,2,0.6275498564244725
+Pinar Puebla,Aetheorhiza_bulbosa,10,3,2,0.6912301789082642
+Pinar Puebla,Aetheorhiza_bulbosa,10,4,2,0.7184099425181387
+Pinar Puebla,Aetheorhiza_bulbosa,10,5,2,0.720295738320202
+Pinar Puebla,Aetheorhiza_bulbosa,10,6,2,0.7004828615007435
+Pinar Puebla,Aetheorhiza_bulbosa,10,7,2,0.643906365327153
+Pinar Puebla,Aetheorhiza_bulbosa,10,8,2,0.08095819951169111
+Pinar Puebla,Aetheorhiza_bulbosa,10,9,2,0.07229178786876822
+Pinar Puebla,Aetheorhiza_bulbosa,10,10,2,0.14745133098533827
+Pinar Puebla,Andryala_arenaria,1,6,3,2.47026167902637e-4
+Pinar Puebla,Andryala_arenaria,2,7,3,2.47026167902637e-4
+Pinar Puebla,Andryala_arenaria,2,8,3,2.47026167902637e-4
+Pinar Puebla,Andryala_arenaria,2,9,3,2.47026167902637e-4
+Pinar Puebla,Andryala_arenaria,3,7,3,2.47026167902637e-4
+Pinar Puebla,Andryala_arenaria,3,8,3,2.47026167902637e-4
+Pinar Puebla,Andryala_arenaria,7,2,3,2.47026167902637e-4
+Pinar Puebla,Andryala_arenaria,7,3,3,2.47026167902637e-4
+Pinar Puebla,Andryala_arenaria,7,4,3,2.47026167902637e-4
+Pinar Puebla,Andryala_arenaria,8,2,3,2.47026167902637e-4
+Pinar Puebla,Andryala_arenaria,8,3,3,2.47026167902637e-4
+Pinar Puebla,Andryala_arenaria,8,4,3,2.47026167902637e-4
+Pinar Puebla,Andryala_arenaria,9,2,3,2.47026167902637e-4
+Pinar Puebla,Anemone_palmata,1,4,1,3.1120931531089884e-21
+Pinar Puebla,Anemone_palmata,2,5,1,9.39311420471615e-21
+Pinar Puebla,Anemone_palmata,2,7,1,3.1120931529701172e-21
+Pinar Puebla,Anemone_palmata,2,9,1,7.54720238295078e-18
+Pinar Puebla,Anemone_palmata,2,10,1,5.484520557218949e-5
+Pinar Puebla,Anemone_palmata,3,2,1,7.09330665506429e-17
+Pinar Puebla,Anemone_palmata,3,3,1,0.00993039213217044
+Pinar Puebla,Anemone_palmata,3,5,1,3.1207178497443827e-21
+Pinar Puebla,Anemone_palmata,3,9,1,6.224186308877968e-21
+Pinar Puebla,Anemone_palmata,3,10,1,NA
+Pinar Puebla,Anemone_palmata,4,1,1,0.011633532350700875
+Pinar Puebla,Anemone_palmata,4,2,1,0.034883665326632035
+Pinar Puebla,Anemone_palmata,4,3,1,3.1120931529701172e-21
+Pinar Puebla,Anemone_palmata,4,10,1,3.1120931529701277e-21
+Pinar Puebla,Anemone_palmata,5,2,1,7.09330665506429e-17
+Pinar Puebla,Anemone_palmata,5,4,1,5.308689472168711e-14
+Pinar Puebla,Anemone_palmata,5,8,1,3.1120931529741067e-21
+Pinar Puebla,Anemone_palmata,6,4,1,4.840580806207574e-18
+Pinar Puebla,Anemone_palmata,6,5,1,6.2242532620029575e-21
+Pinar Puebla,Anemone_palmata,6,7,1,7.012422743611055e-16
+Pinar Puebla,Anemone_palmata,6,8,1,9.3497193100082e-21
+Pinar Puebla,Anemone_palmata,6,9,1,3.1120931649864967e-21
+Pinar Puebla,Anemone_palmata,6,10,1,3.112093164998531e-21
+Pinar Puebla,Anemone_palmata,7,9,1,3.1121021584623837e-21
+Pinar Puebla,Anemone_palmata,7,10,1,6.224195299436099e-21
+Pinar Puebla,Anemone_palmata,8,1,1,3.7867667323979e-18
+Pinar Puebla,Anemone_palmata,8,2,1,3.112093152986156e-21
+Pinar Puebla,Anemone_palmata,8,3,1,3.1121021315319056e-21
+Pinar Puebla,Anemone_palmata,8,5,1,1.2448372612010543e-20
+Pinar Puebla,Anemone_palmata,8,7,1,6.2241863059402344e-21
+Pinar Puebla,Anemone_palmata,9,1,1,6.224186308877968e-21
+Pinar Puebla,Anemone_palmata,9,2,1,0.021496290770768433
+Pinar Puebla,Anemone_palmata,9,3,1,NA
+Pinar Puebla,Anemone_palmata,9,8,1,1.7477848327927812e-20
+Pinar Puebla,Anemone_palmata,9,9,1,3.112093153002174e-21
+Pinar Puebla,Anemone_palmata,10,9,1,6.224195284550098e-21
+Pinar Puebla,Anemone_palmata,10,10,1,9.336299614754494e-21
+Pinar Puebla,Cistus_crispus,9,7,2,0.9999643834236601
+Pinar Puebla,Cistus_crispus,9,7,3,NA
+Pinar Puebla,Cistus_salviifolius,1,1,1,0.318730936893112
+Pinar Puebla,Cistus_salviifolius,1,2,1,0.3540137029702455
+Pinar Puebla,Cistus_salviifolius,1,2,2,NA
+Pinar Puebla,Cistus_salviifolius,1,7,1,0.3992644864946077
+Pinar Puebla,Cistus_salviifolius,1,7,2,NA
+Pinar Puebla,Cistus_salviifolius,1,8,1,0.34266743549414774
+Pinar Puebla,Cistus_salviifolius,2,1,1,0.3809103877022106
+Pinar Puebla,Cistus_salviifolius,2,4,1,0.535639124413995
+Pinar Puebla,Cistus_salviifolius,2,10,1,0.14080862751583065
+Pinar Puebla,Cistus_salviifolius,2,10,2,NA
+Pinar Puebla,Cistus_salviifolius,3,1,1,0.4455694744033047
+Pinar Puebla,Cistus_salviifolius,3,4,2,NA
+Pinar Puebla,Cistus_salviifolius,3,6,1,0.5450708738941664
+Pinar Puebla,Cistus_salviifolius,3,6,2,NA
+Pinar Puebla,Cistus_salviifolius,3,10,1,0.19166102265954765
+Pinar Puebla,Cistus_salviifolius,4,1,1,0.3686538139119636
+Pinar Puebla,Cistus_salviifolius,4,1,2,NA
+Pinar Puebla,Cistus_salviifolius,4,2,1,0.3971447079560649
+Pinar Puebla,Cistus_salviifolius,4,2,2,NA
+Pinar Puebla,Cistus_salviifolius,4,3,1,0.3822891700477408
+Pinar Puebla,Cistus_salviifolius,4,6,1,0.5433699245941719
+Pinar Puebla,Cistus_salviifolius,4,6,2,NA
+Pinar Puebla,Cistus_salviifolius,4,8,1,0.44492889712302736
+Pinar Puebla,Cistus_salviifolius,4,9,1,0.3720773828146814
+Pinar Puebla,Cistus_salviifolius,5,1,2,NA
+Pinar Puebla,Cistus_salviifolius,5,4,2,NA
+Pinar Puebla,Cistus_salviifolius,5,5,1,0.5959613086009548
+Pinar Puebla,Cistus_salviifolius,5,7,1,0.476939919117846
+Pinar Puebla,Cistus_salviifolius,5,7,2,NA
+Pinar Puebla,Cistus_salviifolius,6,1,1,0.4853287934091631
+Pinar Puebla,Cistus_salviifolius,6,1,2,NA
+Pinar Puebla,Cistus_salviifolius,6,2,1,0.5154093849562231
+Pinar Puebla,Cistus_salviifolius,7,1,1,0.4704758687414578
+Pinar Puebla,Cistus_salviifolius,7,7,1,0.4582369878135383
+Pinar Puebla,Cistus_salviifolius,8,10,1,0.24753009503471682
+Pinar Puebla,Cistus_salviifolius,9,2,1,0.2174840572571332
+Pinar Puebla,Cistus_salviifolius,9,2,2,NA
+Pinar Puebla,Cistus_salviifolius,9,4,1,0.3242332012280613
+Pinar Puebla,Cistus_salviifolius,9,4,2,NA
+Pinar Puebla,Cistus_salviifolius,9,10,1,0.21085645157668909
+Pinar Puebla,Galactites_tomentosus,4,2,2,NA
+Pinar Puebla,Lavandula_stoechas,2,10,1,0.361372731224959
+Pinar Puebla,Lavandula_stoechas,3,10,1,0.46360281332578024
+Pinar Puebla,Lavandula_stoechas,3,10,2,NA
+Pinar Puebla,Lavandula_stoechas,4,7,1,0.9670526961164313
+Pinar Puebla,Lavandula_stoechas,4,7,2,NA
+Pinar Puebla,Lavandula_stoechas,4,8,1,0.638757761931124
+Pinar Puebla,Lavandula_stoechas,4,8,2,NA
+Pinar Puebla,Lavandula_stoechas,4,8,3,NA
+Pinar Puebla,Lavandula_stoechas,4,9,2,NA
+Pinar Puebla,Lavandula_stoechas,6,6,1,0.8726091649936188
+Pinar Puebla,Lavandula_stoechas,6,6,2,1
+Pinar Puebla,Lavandula_stoechas,6,6,3,NA
+Pinar Puebla,Lavandula_stoechas,7,1,1,0.8362726360659365
+Pinar Puebla,Lavandula_stoechas,7,1,2,NA
+Pinar Puebla,Lavandula_stoechas,7,4,1,0.8782610944865173
+Pinar Puebla,Lavandula_stoechas,7,4,2,NA
+Pinar Puebla,Lavandula_stoechas,7,4,3,NA
+Pinar Puebla,Lavandula_stoechas,7,6,1,0.7606926747472327
+Pinar Puebla,Lavandula_stoechas,7,6,2,NA
+Pinar Puebla,Lavandula_stoechas,7,8,1,0.9715566018454612
+Pinar Puebla,Lavandula_stoechas,7,8,2,NA
+Pinar Puebla,Lavandula_stoechas,9,3,1,0.6138668341007557
+Pinar Puebla,Lavandula_stoechas,9,3,2,NA
+Pinar Puebla,Lavandula_stoechas,9,3,3,NA
+Pinar Puebla,Lavandula_stoechas,9,5,1,0.9244548650440444
+Pinar Puebla,Lavandula_stoechas,9,5,2,NA
+Pinar Puebla,Lavandula_stoechas,9,5,3,NA
+Pinar Puebla,Lavandula_stoechas,9,6,1,0.6806420141386739
+Pinar Puebla,Lavandula_stoechas,9,6,2,NA
+Pinar Puebla,Leontodon_longirostris,1,1,2,0.445400960021735
+Pinar Puebla,Leontodon_longirostris,1,2,2,0.39725783033418
+Pinar Puebla,Leontodon_longirostris,1,3,2,0.42950003620245225
+Pinar Puebla,Leontodon_longirostris,1,4,2,0.4589250788556394
+Pinar Puebla,Leontodon_longirostris,1,5,2,0.5808711258661686
+Pinar Puebla,Leontodon_longirostris,1,6,2,0.5742164501158575
+Pinar Puebla,Leontodon_longirostris,1,7,2,0.5471789719726676
+Pinar Puebla,Leontodon_longirostris,1,8,2,0.6193042206456366
+Pinar Puebla,Leontodon_longirostris,1,9,2,0.42191376016558707
+Pinar Puebla,Leontodon_longirostris,1,10,2,0.3316752422150228
+Pinar Puebla,Leontodon_longirostris,2,1,2,0.5329222023934079
+Pinar Puebla,Leontodon_longirostris,2,2,2,0.5886256272338138
+Pinar Puebla,Leontodon_longirostris,2,3,2,0.6649580139463465
+Pinar Puebla,Leontodon_longirostris,2,4,2,0.5467710258685917
+Pinar Puebla,Leontodon_longirostris,2,5,2,0.45882854968101183
+Pinar Puebla,Leontodon_longirostris,2,6,2,0.560184276230876
+Pinar Puebla,Leontodon_longirostris,2,7,2,0.42302884638345867
+Pinar Puebla,Leontodon_longirostris,2,8,2,0.5971918030504569
+Pinar Puebla,Leontodon_longirostris,2,9,2,0.5129811323582188
+Pinar Puebla,Leontodon_longirostris,2,10,2,0.4102426515129347
+Pinar Puebla,Leontodon_longirostris,3,1,2,0.6699296581034139
+Pinar Puebla,Leontodon_longirostris,3,2,2,0.6556079919890602
+Pinar Puebla,Leontodon_longirostris,3,3,2,0.7401695973567639
+Pinar Puebla,Leontodon_longirostris,3,4,2,0.6837574048544838
+Pinar Puebla,Leontodon_longirostris,3,5,2,0.8422849167398645
+Pinar Puebla,Leontodon_longirostris,3,7,2,0.6168252287874497
+Pinar Puebla,Leontodon_longirostris,3,8,2,0.6933896698577747
+Pinar Puebla,Leontodon_longirostris,3,9,2,0.5901940336913827
+Pinar Puebla,Leontodon_longirostris,3,10,2,0.4025550750557979
+Pinar Puebla,Leontodon_longirostris,4,1,2,0.622881635283891
+Pinar Puebla,Leontodon_longirostris,4,2,2,0.5361141760561559
+Pinar Puebla,Leontodon_longirostris,4,3,2,0.7970870635424581
+Pinar Puebla,Leontodon_longirostris,4,4,2,0.8772136147311812
+Pinar Puebla,Leontodon_longirostris,4,5,2,0.9180368855186298
+Pinar Puebla,Leontodon_longirostris,4,6,2,0.7841143190818425
+Pinar Puebla,Leontodon_longirostris,4,7,2,0.7834049723396503
+Pinar Puebla,Leontodon_longirostris,4,9,2,0.6104383304276026
+Pinar Puebla,Leontodon_longirostris,4,10,2,0.5095767392769999
+Pinar Puebla,Leontodon_longirostris,5,1,2,0.5737644725566914
+Pinar Puebla,Leontodon_longirostris,5,2,2,0.7351064066375634
+Pinar Puebla,Leontodon_longirostris,5,3,2,0.8405337913423285
+Pinar Puebla,Leontodon_longirostris,5,4,2,0.8117479293265194
+Pinar Puebla,Leontodon_longirostris,5,5,2,0.9572900647620763
+Pinar Puebla,Leontodon_longirostris,5,6,2,0.9538482915973302
+Pinar Puebla,Leontodon_longirostris,5,7,2,0.8965041666468723
+Pinar Puebla,Leontodon_longirostris,5,8,2,0.7701770827205464
+Pinar Puebla,Leontodon_longirostris,5,9,2,0.6160140994300222
+Pinar Puebla,Leontodon_longirostris,5,10,2,0.5096108129860386
+Pinar Puebla,Leontodon_longirostris,6,3,2,0.8446890625012535
+Pinar Puebla,Leontodon_longirostris,6,4,2,0.9159876590979772
+Pinar Puebla,Leontodon_longirostris,6,5,2,0.990063321033718
+Pinar Puebla,Leontodon_longirostris,6,6,2,0.9321776497485195
+Pinar Puebla,Leontodon_longirostris,6,7,2,0.8847624189515991
+Pinar Puebla,Leontodon_longirostris,6,8,2,0.7533132655543106
+Pinar Puebla,Leontodon_longirostris,6,9,2,0.5960638414860677
+Pinar Puebla,Leontodon_longirostris,6,10,2,0.5950324747747402
+Pinar Puebla,Leontodon_longirostris,7,1,2,0.5810898413279949
+Pinar Puebla,Leontodon_longirostris,7,2,2,0.7390419729000108
+Pinar Puebla,Leontodon_longirostris,7,3,2,0.8266212054002439
+Pinar Puebla,Leontodon_longirostris,7,4,2,0.9819476641028835
+Pinar Puebla,Leontodon_longirostris,7,5,2,0.8951010454102443
+Pinar Puebla,Leontodon_longirostris,7,7,2,0.8057194731657537
+Pinar Puebla,Leontodon_longirostris,7,8,2,0.8188594754975872
+Pinar Puebla,Leontodon_longirostris,7,9,2,0.5644237917164842
+Pinar Puebla,Leontodon_longirostris,7,10,2,0.5707249296240356
+Pinar Puebla,Leontodon_longirostris,8,1,2,0.3950427881002494
+Pinar Puebla,Leontodon_longirostris,8,2,2,0.6433217024178118
+Pinar Puebla,Leontodon_longirostris,8,3,2,0.7384353176600897
+Pinar Puebla,Leontodon_longirostris,8,4,2,0.7654238342370012
+Pinar Puebla,Leontodon_longirostris,8,5,2,0.7810497587889542
+Pinar Puebla,Leontodon_longirostris,8,6,2,0.7774461127048087
+Pinar Puebla,Leontodon_longirostris,8,7,2,0.7380118583747364
+Pinar Puebla,Leontodon_longirostris,8,8,2,0.6498417235814014
+Pinar Puebla,Leontodon_longirostris,8,9,2,0.5260452464270273
+Pinar Puebla,Leontodon_longirostris,8,10,2,0.4437361089854927
+Pinar Puebla,Leontodon_longirostris,9,1,2,0.42732949886290833
+Pinar Puebla,Leontodon_longirostris,9,5,2,0.776186540638023
+Pinar Puebla,Leontodon_longirostris,9,7,2,0.521971586460571
+Pinar Puebla,Leontodon_longirostris,9,8,2,0.5732353827949748
+Pinar Puebla,Leontodon_longirostris,9,9,2,0.37061396975312644
+Pinar Puebla,Leontodon_longirostris,10,1,2,0.3534592360421399
+Pinar Puebla,Leontodon_longirostris,10,2,2,0.41857447524372265
+Pinar Puebla,Leontodon_longirostris,10,3,2,0.4957207952216786
+Pinar Puebla,Leontodon_longirostris,10,4,2,0.5611518422575336
+Pinar Puebla,Leontodon_longirostris,10,5,2,0.5931083482780715
+Pinar Puebla,Leontodon_longirostris,10,6,2,0.5999503095817239
+Pinar Puebla,Leontodon_longirostris,10,7,2,0.5616259955312459
+Pinar Puebla,Leontodon_longirostris,10,8,2,0.2511825927490945
+Pinar Puebla,Leontodon_longirostris,10,9,2,0.22609124536154795
+Pinar Puebla,Leontodon_longirostris,10,10,2,0.2662578514063132
+Pinar Puebla,Rosmarinus_officinalis,6,3,1,NA
+Pinar Puebla,Rosmarinus_officinalis,7,4,1,NA
+Pinar Puebla,Silene_colorata,9,9,2,NA
+Pinar Puebla,Silene_colorata,10,8,2,NA
+Pinar Puebla,Silene_colorata,10,9,2,NA
+Pinar Puebla,Tolpis_barbata,2,5,2,0.051509856380909616
+Pinar Puebla,Tolpis_barbata,2,7,2,0.3727059652779563
+Pinar Puebla,Tolpis_barbata,8,1,2,0.9919085530631614
+Pinar Puebla,Tolpis_barbata,9,9,2,0.1030196641742776
+Pinar Puebla,Tolpis_barbata,10,8,2,0.2656406073718387
+Pinar Puebla,Tolpis_barbata,10,9,2,0.8727059630766845
+Pinar Puebla,Tolpis_barbata,10,10,2,0.43670378899291235
+Pinar Puebla,Tuberaria_guttata,1,3,2,NA
+Pinar Puebla,Tuberaria_guttata,1,4,2,NA
+Pinar Puebla,Tuberaria_guttata,2,4,2,NA
+Pinar Puebla,Tuberaria_guttata,2,5,2,NA
+Pinar Puebla,Tuberaria_guttata,2,6,2,NA
+Pinar Puebla,Tuberaria_guttata,2,7,2,NA
+Pinar Puebla,Tuberaria_guttata,3,7,2,NA
+Pinar Villamanrique Este (Chaparral),Andryala_integrifolia,2,5,3,0.9999801815963713
+Pinar Villamanrique Este (Chaparral),Andryala_integrifolia,3,4,3,0.9957769094939436
+Pinar Villamanrique Este (Chaparral),Andryala_integrifolia,3,5,3,0.9999998862329723
+Pinar Villamanrique Este (Chaparral),Andryala_integrifolia,3,6,3,0.9999982292579721
+Pinar Villamanrique Este (Chaparral),Andryala_integrifolia,3,7,3,0.99931360923960455
+Pinar Villamanrique Este (Chaparral),Andryala_integrifolia,4,6,3,0.999768752899815
+Pinar Villamanrique Este (Chaparral),Anemone_palmata,4,8,1,0.942890094031503
+Pinar Villamanrique Este (Chaparral),Anemone_palmata,5,1,1,0.9428900940314998
+Pinar Villamanrique Este (Chaparral),Anemone_palmata,5,4,1,0.9428900686921352
+Pinar Villamanrique Este (Chaparral),Anemone_palmata,6,4,1,0.9428900433792075
+Pinar Villamanrique Este (Chaparral),Anemone_palmata,6,5,1,0.9428900433792058
+Pinar Villamanrique Este (Chaparral),Anemone_palmata,6,7,1,0.9428900940315014
+Pinar Villamanrique Este (Chaparral),Anemone_palmata,7,1,1,0.8857801374371489
+Pinar Villamanrique Este (Chaparral),Anemone_palmata,7,5,1,0.9428900686392552
+Pinar Villamanrique Este (Chaparral),Anemone_palmata,8,1,1,0.88578013743715045
+Pinar Villamanrique Este (Chaparral),Anemone_palmata,8,6,1,0.8857801626971983
+Pinar Villamanrique Este (Chaparral),Anemone_palmata,9,6,1,0.9428900180927197
+Pinar Villamanrique Este (Chaparral),Anemone_palmata,9,7,1,0.9428900686656952
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,2,2,0.7212148070583473
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,2,3,0.9998469350352295
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,3,2,0.5701215420587076
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,3,3,0.9999999575683555
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,4,2,0.7857372674865772
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,4,3,0.9991716078947745
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,7,2,0.9661181521304061
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,1,7,3,0.9999722419901405
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,2,1,3,0.9252018700149062
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,2,3,2,0.6013006422483034
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,2,3,3,0.9999921692131108
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,2,5,2,0.7461542266618842
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,2,5,3,0.99611174437068
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,3,1,2,0.9637262216181904
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,3,1,3,0.9834913862373025
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,3,2,2,0.8544217249669466
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,3,3,3,0.9180492616812836
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,3,4,2,0.6422525709851621
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,3,4,3,0.8082771451001061
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,4,1,2,0.4769130522051678
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,4,1,3,0.9755200355329946
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,4,2,2,0.8950083136371529
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,4,4,3,0.9425920405806941
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,4,5,2,0.43204632721658687
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,4,5,3,0.9412863701690602
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,4,7,2,0.7742330464581796
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,4,7,3,0.9372532391426449
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,5,1,2,0.496915902441686
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,5,2,3,0.9325612845819571
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,5,4,2,0.9484945364647833
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,5,4,3,0.9999948960447157
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,5,5,2,0.6817807181017713
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,5,5,3,0.9998406885123027
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,6,1,2,0.7591769254846725
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,6,1,3,0.9544125346419529
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,6,4,2,0.935746230137956
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,6,4,3,0.9999513456745087
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,6,5,2,0.5390999757529473
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,6,6,2,0.9999111121423992
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,7,1,2,0.9466712928948108
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,7,1,3,0.9999930831097242
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,9,5,2,0.808967429901
+Pinar Villamanrique Este (Chaparral),Cistus_crispus,9,5,3,0.9790056691271201
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,3,9,1,0.946384098863352
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,4,5,1,0.8981258395040868
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,4,5,2,0.8181817959659842
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,4,10,1,0.8831516041171715
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,5,1,1,0.5562845114073147
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,5,1,2,0.818181795614687
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,5,2,2,0.8181815239976753
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,5,10,1,0.9648408313924532
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,6,2,1,0.9523601614946301
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,6,5,2,0.8181817961784681
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,6,10,1,0.9743793329077931
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,7,9,1,0.9371624381245935
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,7,9,2,0.9999999559932964
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,7,10,1,0.9804939631997137
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,7,10,2,0.8181817961751997
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,8,3,1,0.804313970678912
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,9,7,2,0.8181817751427265
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,2,1,0.8847700600375359
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,6,1,0.9901382913235642
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,8,1,0.9925868723641906
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,8,2,0.8181817739162949
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,9,1,0.9893843016313629
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,9,2,0.818181796147974
+Pinar Villamanrique Este (Chaparral),Cistus_ladanifer,10,10,1,0.9779250941202328
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,1,2,0.9999999999973016
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,2,2,0.9999997904580177
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,3,1,0.8503327191739976
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,3,2,0.9999999716568432
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,7,2,0.9999999913384549
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,8,1,0.9249340367922825
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,8,2,0.9999999999979768
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,9,1,0.9043694969639368
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,9,2,0.9999999993771814
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,1,10,2,0.9999999998630883
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,2,1,1,0.8988562883709892
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,2,1,2,0.9999999999980808
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,2,3,2,0.9999999720653022
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,2,4,2,0.9999999999979282
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,2,6,2,0.9999999999979725
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,2,8,2,0.9999999962414376
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,1,2,0.9999999999539478
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,2,1,0.8662180878235387
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,2,2,0.9999999993219556
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,3,2,0.9999999999991186
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,4,2,0.9999999785526977
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,7,2,0.9999999961310142
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,8,1,0.9054780108613179
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,8,2,0.9999999999989877
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,9,2,0.999999999923855
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,3,10,2,0.9999999999989426
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,4,1,2,0.9999999966751215
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,4,2,2,0.9999999999730381
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,4,3,2,0.9999999999993165
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,4,5,1,0.9255444803267497
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,4,5,2,0.9997492389608054
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,4,6,2,0.9999999999972371
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,4,9,2,0.9999999999978831
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,4,10,2,0.9999999999992517
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,5,4,2,0.9999999997344158
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,5,5,1,0.8636632838361088
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,5,5,2,0.9999989346801704
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,5,6,2,0.9999999999941107
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,5,7,2,0.9999999996916242
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,5,8,1,0.45230721793144224
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,5,8,2,0.9999999999993207
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,5,9,2,0.9999999996251433
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,6,4,2,0.9999999989020576
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,6,5,1,0.9585191295946144
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,6,5,2,0.991944366396963
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,6,6,1,0.7670037344189073
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,6,6,2,0.999999999997917
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,6,7,2,0.9999996241047158
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,6,8,1,0.7994204170919793
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,6,8,2,0.9999994960129117
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,6,9,2,0.999999981363238
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,1,2,0.9999999999975079
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,5,2,0.9999999995247727
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,6,2,0.9999999955938897
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,7,2,0.9999978959505333
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,8,1,0.8582225809902676
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,8,2,0.9999999999983143
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,9,1,0.5741739537096369
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,7,9,2,0.999999979944217
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,8,3,1,0.9479178032006511
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,8,3,2,0.9999999999979763
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,8,6,2,0.9999999864533541
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,8,7,2,0.9999996391093565
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,9,6,1,0.9623380790375764
+Pinar Villamanrique Este (Chaparral),Cistus_salviifolius,9,6,2,0.9999999998892778
+Pinar Villamanrique Este (Chaparral),Leontodon_longirostris,1,6,3,NA
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,3,10,1,0.999987656577055
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,3,10,2,0.9613954142532151
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,4,6,1,0.9999667250143298
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,4,6,2,0.9354346714831846
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,4,10,1,0.9994652207326603
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,6,9,1,0.9999896605679702
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,6,9,2,0.9264854801986838
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,8,1,1,0.9953310918877847
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,8,1,2,0.9172087752231775
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,8,5,1,0.9999983066763155
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,9,3,1,0.9999265480568987
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,9,3,2,0.9537505724852507
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,9,4,1,0.999882020496042
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,9,5,1,0.9999996435852492
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,9,5,2,0.7618939583157275
+Pinar Villamanrique Este (Chaparral),Rosmarinus_officinalis,10,1,1,0.999112281983393
+Pinar Villamanrique Sur,Anemone_palmata,4,9,1,0.6849485909589749
+Pinar Villamanrique Sur,Anemone_palmata,5,7,1,0.7499975986705103
+Pinar Villamanrique Sur,Anemone_palmata,5,9,1,0.5599475812011941
+Pinar Villamanrique Sur,Anemone_palmata,6,9,1,0.6849485909549514
+Pinar Villamanrique Sur,Anemone_palmata,9,9,1,0.8729396580777937
+Pinar Villamanrique Sur,Anemone_palmata,10,10,1,0.8729396580818173
+Pinar Villamanrique Sur,Cistus_crispus,3,5,2,0.999987811008857
+Pinar Villamanrique Sur,Cistus_crispus,3,5,3,0.8320301397662464
+Pinar Villamanrique Sur,Cistus_crispus,3,6,2,0.9999877172025677
+Pinar Villamanrique Sur,Cistus_crispus,3,6,3,0.8646498855576015
+Pinar Villamanrique Sur,Cistus_crispus,4,6,2,0.9999874208812117
+Pinar Villamanrique Sur,Cistus_crispus,4,6,3,0.8484346923562055
+Pinar Villamanrique Sur,Cistus_crispus,5,4,2,0.9999886328364354
+Pinar Villamanrique Sur,Cistus_crispus,5,4,3,0.9999993715994346
+Pinar Villamanrique Sur,Cistus_crispus,6,6,2,0.9999872626869325
+Pinar Villamanrique Sur,Cistus_crispus,6,6,3,0.9999217407523953
+Pinar Villamanrique Sur,Cistus_crispus,7,9,2,0.999950657595628
+Pinar Villamanrique Sur,Cistus_crispus,7,10,2,0.9999877344643542
+Pinar Villamanrique Sur,Cistus_crispus,7,10,3,0.8103106070383727
+Pinar Villamanrique Sur,Cistus_crispus,8,8,2,0.9999890859934548
+Pinar Villamanrique Sur,Cistus_crispus,8,8,3,0.9992655808423606
+Pinar Villamanrique Sur,Cistus_crispus,8,9,2,0.9999876354177762
+Pinar Villamanrique Sur,Cistus_crispus,8,9,3,0.895651367551827
+Pinar Villamanrique Sur,Cistus_crispus,8,10,2,0.9999880767236966
+Pinar Villamanrique Sur,Cistus_crispus,8,10,3,0.9420280200965966
+Pinar Villamanrique Sur,Cistus_crispus,9,2,2,0.9999578911930186
+Pinar Villamanrique Sur,Cistus_crispus,9,2,3,0.8193425816083237
+Pinar Villamanrique Sur,Cistus_crispus,9,7,2,0.9999530261163417
+Pinar Villamanrique Sur,Cistus_crispus,9,7,3,0.9123825117347898
+Pinar Villamanrique Sur,Cistus_crispus,10,8,2,0.9999880382811227
+Pinar Villamanrique Sur,Cistus_crispus,10,8,3,0.8176434883942691
+Pinar Villamanrique Sur,Cistus_salviifolius,1,1,1,0.3415656144875737
+Pinar Villamanrique Sur,Cistus_salviifolius,1,1,2,0.46731734170434175
+Pinar Villamanrique Sur,Cistus_salviifolius,1,2,1,0.39172890560924795
+Pinar Villamanrique Sur,Cistus_salviifolius,1,2,2,0.8903719065903064
+Pinar Villamanrique Sur,Cistus_salviifolius,1,3,1,0.4378861425712201
+Pinar Villamanrique Sur,Cistus_salviifolius,1,3,2,0.9275953574974609
+Pinar Villamanrique Sur,Cistus_salviifolius,1,6,1,0.5339004497144505
+Pinar Villamanrique Sur,Cistus_salviifolius,1,6,2,0.9375316025503122
+Pinar Villamanrique Sur,Cistus_salviifolius,1,10,1,0.3353438387679272
+Pinar Villamanrique Sur,Cistus_salviifolius,1,10,2,0.8029117768017555
+Pinar Villamanrique Sur,Cistus_salviifolius,2,2,1,0.4178871000114606
+Pinar Villamanrique Sur,Cistus_salviifolius,2,2,2,0.9169740563721855
+Pinar Villamanrique Sur,Cistus_salviifolius,2,3,1,0.47584534688208024
+Pinar Villamanrique Sur,Cistus_salviifolius,2,3,2,0.9497389387433891
+Pinar Villamanrique Sur,Cistus_salviifolius,2,5,1,0.573714772246884
+Pinar Villamanrique Sur,Cistus_salviifolius,2,5,2,0.9694160105912107
+Pinar Villamanrique Sur,Cistus_salviifolius,2,6,1,0.5868249656339584
+Pinar Villamanrique Sur,Cistus_salviifolius,2,6,2,0.9665721393179316
+Pinar Villamanrique Sur,Cistus_salviifolius,2,9,1,0.4242398999662047
+Pinar Villamanrique Sur,Cistus_salviifolius,2,9,2,0.8969541697381926
+Pinar Villamanrique Sur,Cistus_salviifolius,2,10,1,0.3669309864627293
+Pinar Villamanrique Sur,Cistus_salviifolius,2,10,2,0.8386998461759512
+Pinar Villamanrique Sur,Cistus_salviifolius,3,1,2,0.5770400310598137
+Pinar Villamanrique Sur,Cistus_salviifolius,3,4,1,0.5562190160940375
+Pinar Villamanrique Sur,Cistus_salviifolius,3,4,2,0.9767086493073145
+Pinar Villamanrique Sur,Cistus_salviifolius,3,7,1,0.5774225816112567
+Pinar Villamanrique Sur,Cistus_salviifolius,3,7,2,0.9740720618116253
+Pinar Villamanrique Sur,Cistus_salviifolius,3,9,1,0.4518198395255871
+Pinar Villamanrique Sur,Cistus_salviifolius,3,9,2,0.9226875829479896
+Pinar Villamanrique Sur,Cistus_salviifolius,3,10,1,0.3906728214077885
+Pinar Villamanrique Sur,Cistus_salviifolius,3,10,2,0.8636783174070053
+Pinar Villamanrique Sur,Cistus_salviifolius,4,2,2,0.9269271289631066
+Pinar Villamanrique Sur,Cistus_salviifolius,4,3,1,0.4976474729149684
+Pinar Villamanrique Sur,Cistus_salviifolius,4,3,2,0.7493879792607311
+Pinar Villamanrique Sur,Cistus_salviifolius,4,8,1,0.5321788121108795
+Pinar Villamanrique Sur,Cistus_salviifolius,4,8,2,0.9672994892529174
+Pinar Villamanrique Sur,Cistus_salviifolius,4,9,1,0.28351272318368226
+Pinar Villamanrique Sur,Cistus_salviifolius,4,9,2,0.9344640966076935
+Pinar Villamanrique Sur,Cistus_salviifolius,5,1,1,0.3592361617736047
+Pinar Villamanrique Sur,Cistus_salviifolius,5,1,2,0.6021177495708081
+Pinar Villamanrique Sur,Cistus_salviifolius,5,2,1,0.20185374469125428
+Pinar Villamanrique Sur,Cistus_salviifolius,5,2,2,0.6738840252022623
+Pinar Villamanrique Sur,Cistus_salviifolius,5,8,1,0.5242642933832914
+Pinar Villamanrique Sur,Cistus_salviifolius,5,8,2,0.9695528667903964
+Pinar Villamanrique Sur,Cistus_salviifolius,6,3,1,0.18973802335230258
+Pinar Villamanrique Sur,Cistus_salviifolius,6,3,2,0.9442969172393634
+Pinar Villamanrique Sur,Cistus_salviifolius,7,9,1,0.39011256709729986
+Pinar Villamanrique Sur,Cistus_salviifolius,7,9,2,0.5232348637738333
+Pinar Villamanrique Sur,Cistus_salviifolius,8,2,1,0.25226033751897664
+Pinar Villamanrique Sur,Cistus_salviifolius,8,2,2,0.8210996890248826
+Pinar Villamanrique Sur,Cistus_salviifolius,8,3,1,0.2836483944021428
+Pinar Villamanrique Sur,Cistus_salviifolius,8,3,2,0.8753500845269746
+Pinar Villamanrique Sur,Cistus_salviifolius,8,5,1,0.16930866748619366
+Pinar Villamanrique Sur,Cistus_salviifolius,8,5,2,0.9306827979771009
+Pinar Villamanrique Sur,Cistus_salviifolius,9,1,1,0.2119545049503605
+Pinar Villamanrique Sur,Cistus_salviifolius,9,1,2,0.6979398311983356
+Pinar Villamanrique Sur,Cistus_salviifolius,9,2,2,0.459451410287935
+Pinar Villamanrique Sur,Cistus_salviifolius,9,7,1,0.3074601658382914
+Pinar Villamanrique Sur,Cistus_salviifolius,9,7,2,0.47381972962049895
+Pinar Villamanrique Sur,Cistus_salviifolius,9,8,1,0.29074588539568297
+Pinar Villamanrique Sur,Cistus_salviifolius,9,8,2,0.4194983761177026
+Pinar Villamanrique Sur,Cistus_salviifolius,9,10,1,0.24097450608063317
+Pinar Villamanrique Sur,Cistus_salviifolius,9,10,2,0.723237701097879
+Pinar Villamanrique Sur,Cistus_salviifolius,10,1,1,0.19181570232873957
+Pinar Villamanrique Sur,Cistus_salviifolius,10,1,2,0.39116843494840187
+Pinar Villamanrique Sur,Genista_hirsuta,7,2,2,NA
+Pinar Villamanrique Sur,Genista_hirsuta,8,7,2,NA
+Pinar Villamanrique Sur,Halimium_halimifolium,1,9,2,NA
+Pinar Villamanrique Sur,Halimium_halimifolium,1,9,3,NA
+Pinar Villamanrique Sur,Halimium_halimifolium,3,1,2,NA
+Pinar Villamanrique Sur,Halimium_halimifolium,3,1,3,NA
+Pinar Villamanrique Sur,Lavandula_stoechas,3,8,1,0.9997385476793723
+Pinar Villamanrique Sur,Lavandula_stoechas,3,8,2,0.999979347955101
+Pinar Villamanrique Sur,Lavandula_stoechas,4,7,1,0.9999954856952793
+Pinar Villamanrique Sur,Lavandula_stoechas,4,7,2,0.9999997464538284
+Pinar Villamanrique Sur,Leontodon_longirostris,1,1,2,0.9999146485691007
+Pinar Villamanrique Sur,Leontodon_longirostris,4,1,2,0.9999377571652226
+Pinar Villamanrique Sur,Leontodon_longirostris,4,3,2,0.9998476760256529
+Pinar Villamanrique Sur,Leontodon_longirostris,5,1,2,0.9998337692663389
+Pinar Villamanrique Sur,Leontodon_longirostris,5,2,2,0.9998229557306648
+Pinar Villamanrique Sur,Leontodon_longirostris,5,3,2,0.9999230947608692
+Pinar Villamanrique Sur,Leontodon_longirostris,6,1,2,0.9999238491126379
+Pinar Villamanrique Sur,Leontodon_longirostris,6,2,2,0.9999173665313946
+Pinar Villamanrique Sur,Leontodon_longirostris,7,2,2,0.9997782072016108
+Pinar Villamanrique Sur,Leontodon_longirostris,7,3,2,0.9999108872493826
+Pinar Villamanrique Sur,Leontodon_longirostris,7,4,2,0.9999095491749735
+Pinar Villamanrique Sur,Leontodon_longirostris,7,5,2,0.9999170851728602
+Pinar Villamanrique Sur,Leontodon_longirostris,8,4,2,0.9999061703530547
+Pinar Villamanrique Sur,Leontodon_longirostris,9,3,2,0.9999107528193848
+Pinar Villamanrique Sur,Leontodon_longirostris,9,4,2,0.9999074749463205
+Pinar Villamanrique Sur,Leontodon_longirostris,9,5,2,0.9998012712695689
+Pinar Villamanrique Sur,Leontodon_longirostris,9,8,2,0.9998496930032696
+Pinar Villamanrique Sur,Leontodon_longirostris,9,9,2,0.9999398069198916
+Pinar Villamanrique Sur,Leontodon_longirostris,10,3,2,0.9999162418600792
+Pinar Villamanrique Sur,Leontodon_longirostris,10,4,2,0.9998069801247914
+Pinar Villamanrique Sur,Leontodon_longirostris,10,5,2,0.9998181080172325
+Pinar Villamanrique Sur,Leontodon_longirostris,10,9,2,0.9999415530826594
+Pinar Villamanrique Sur,Leontodon_longirostris,10,10,2,0.9999496510189526
+Pinar Villamanrique Sur,Serapias_lingua,8,5,1,NA
+Pinar Villamanrique Sur,Tolpis_barbata,9,5,2,NA
+Pinar Villamanrique Sur,Tolpis_barbata,9,6,2,NA
+Pinar Villamanrique Sur,Tolpis_barbata,10,1,2,NA
+Pinar Villamanrique Sur,Tolpis_barbata,10,2,2,NA
+Pinar Villamanrique Sur,Tolpis_barbata,10,4,2,NA
+Pinar Villamanrique Sur,Tolpis_barbata,10,5,2,NA
+Pinar Villamanrique Sur,Tolpis_barbata,10,6,2,NA
+Pinar Villamanrique Sur,Tuberaria_guttata,5,2,1,NA
+Pinar Villamanrique Sur,Tuberaria_guttata,5,3,1,NA
+Pinar Villamanrique Sur,Tuberaria_guttata,6,1,1,NA
+Pinar Villamanrique Sur,Tuberaria_guttata,6,2,1,NA
+Pinar Villamanrique Sur,Tuberaria_guttata,6,3,1,NA
+Pinar Villamanrique Sur,Tuberaria_guttata,7,1,1,NA
+Pinar Villamanrique Sur,Tuberaria_guttata,7,2,1,NA
+Pinar Villamanrique Sur,Tuberaria_guttata,8,4,1,NA
+Pinar Villamanrique Sur,Tuberaria_guttata,10,4,1,NA
+Pinar Villamanrique Sur,Tuberaria_guttata,10,5,1,NA
