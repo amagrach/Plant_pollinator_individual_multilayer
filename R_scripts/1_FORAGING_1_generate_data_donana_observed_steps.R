@@ -2,42 +2,41 @@
 library(tidyverse)
 library(lubridate)
 library(RColorBrewer)
-
-flights21 <- read_csv("results/gorbea/foraging_Gorbea_2021.csv")
-flights20 <- read_csv("results/gorbea/foraging_Gorbea_2020.csv")
-
-# codigo_vuelo resets each year. We create a codigo_vuelo list for 2020 and 2021
-max(flights20$Codigo_vuelo)
-min(flights21$Codigo_vuelo)
-
-flights21$Codigo_vuelo <- flights21$Codigo_vuelo+max(flights20$Codigo_vuelo)
-
-# new code for 2021 stats where it should: sanity check
-min(flights21$Codigo_vuelo)
+library(naniar)
 
 # For each path (codigo_vuelo), we add the point ids (nodes): 1-> 2 -> 3...
 
-flights_raw <- bind_rows(flights20,flights21)
-flights_raw$node <- 1
+flights_raw <- read_csv("results/donana/foraging_Donana_2021.csv") %>%
+  rename(node = Codigo_within_sequence)
 
-for (i in 2:nrow(flights_raw)) {
-  if(flights_raw$Codigo_vuelo[i-1] == flights_raw$Codigo_vuelo[i]){
-    flights_raw$node[i] <-  1 + flights_raw$node[i-1]
-  }
-}
+
+flights_raw$Periodo_hora %>% sort() %>% unique()
+flights_raw %>% select(Bosque,Week_ISO) %>% unique() %>% group_by(Bosque) %>% count()
+visits_per_plant <- flights_raw %>% group_by(Planta) %>% count()
+
+plant_subset_seeds <- c("Cistus_salviifolius","Cistus_crispus", 
+                        "Cistus_ladanifer", "Cistus_libanotis", "Halimium_halimifolium",
+                        "Halimium_calycinum","Lavandula_stoechas")
+
+plant_subset_seeds2 <- c("Cistus_salviifolius","Cistus_crispus", 
+                        "Cistus_ladanifer", "Cistus_libanotis", "Halimium_halimifolium",
+                        "Halimium_calycinum")
+
+100*sum(visits_per_plant$n[visits_per_plant$Planta %in% plant_subset_seeds])/sum(visits_per_plant$n)
+100*sum(visits_per_plant$n[visits_per_plant$Planta %in% plant_subset_seeds2])/sum(visits_per_plant$n)
+sum(visits_per_plant$n[visits_per_plant$Planta == "Lavandula_stoechas"])
+
+
+x <- flights_raw %>% group_by(Polinizador) %>% count()
+100*8876/sum(x$n)
+
+x <- flights_raw %>% group_by(Planta) %>% count()
+sum(x$n)
 
 # Change variables
-flights_raw$time_of_day <- NA
-flights_raw$time_of_day[flights_raw$Periodo_hora == 1] <- "10:00 - 12:39" 
-flights_raw$time_of_day[flights_raw$Periodo_hora == 2] <- "12:40 - 15:19" 
-flights_raw$time_of_day[flights_raw$Periodo_hora == 3] <- "15:20 - 18:05" 
-
-flights_raw$plot <- NA
-flights_raw$plot[flights_raw$Bosque == 1] <- "Plot 1" 
-flights_raw$plot[flights_raw$Bosque == 2] <- "Plot 2" 
-flights_raw$plot[flights_raw$Bosque == 3] <- "Plot 3" 
-flights_raw$plot[flights_raw$Bosque == 4] <- "Plot 4" 
-flights_raw$plot[flights_raw$Bosque == 5] <- "Plot 5" 
+flights_raw$time_of_day <- "10:00 - 11:59" 
+flights_raw$time_of_day[lubridate::hour(flights_raw$Periodo_hora) >= 12] <- "12:00 - 13:59" 
+flights_raw$time_of_day[lubridate::hour(flights_raw$Periodo_hora) >= 14] <- "14:00 - 16:05" 
 
 #-------------------------------------------------------------------
 # For a given path, we create steps. The following path (1-> 2 -> 3)
@@ -93,67 +92,12 @@ for (i in 1:nrow(steps)){
 #------------------------------------------------------------------------------
 # 
 
-steps_data <- steps %>% filter(Planta1 != "Ulex_europaeus",
-                               Planta2 != "Ulex_europaeus")
+steps_data <- steps
 
 steps_data %>% group_by(Polinizador) %>% count() %>% arrange(desc(n))
 
 # Visualization step statistics for main pollinators
-
-pollinator_i <- "Bombus_pascuorum"
-steps_pollinator_i <- steps_data %>% filter(Polinizador == pollinator_i)
-
-
-ggplot(steps_pollinator_i, aes(x=step_length, fill = as.factor(time_of_day)))+
-  geom_histogram(binwidth = 1)+
-  scale_fill_brewer(palette ="Paired")+
-  facet_grid(Year~plot)+
-  theme_bw()+
-  labs(x="Step length [m]", y = "Count",
-       title = gsub("_", " ", pollinator_i), fill = "Time of day")
-
-Year_i = 2020
-ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=step_length, fill = as.factor(change_plant_sp)))+
-  geom_histogram(binwidth = 1)+
-  scale_fill_brewer(palette ="Paired")+
-  facet_grid(plot~time_of_day)+
-  theme_bw()+
-  labs(x="Step length [m]", y = "Count", 
-       title = paste0(gsub("_", " ", pollinator_i)," (",Year_i,")"), fill = "Change plant sp.")
-Year_i = 2021
-ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=step_length, fill = as.factor(change_plant_sp)))+
-  geom_histogram(binwidth = 1)+
-  scale_fill_brewer(palette ="Paired")+
-  facet_grid(plot~time_of_day)+
-  theme_bw()+
-  labs(x="Step length [m]", y = "Count", 
-       title = paste0(gsub("_", " ", pollinator_i)," (",Year_i,")"), fill = "Change plant sp.")
-
-ggplot(steps_pollinator_i, aes(x=turning_angle, fill = as.factor(time_of_day)))+
-  geom_histogram()+
-  scale_fill_brewer(palette ="Paired")+
-  facet_grid(Year~plot)+
-  theme_bw()+
-  labs(x="Turning angle [degrees]", y = "Count",
-       title = gsub("_", " ", pollinator_i), fill = "Time of day")
-
-Year_i = 2020
-ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=turning_angle, fill = as.factor(change_plant_sp)))+
-  geom_histogram()+
-  scale_fill_brewer(palette ="Paired")+
-  facet_grid(plot~time_of_day)+
-  theme_bw()+
-  labs(x="Turning angle [degrees]", y = "Count", 
-       title = paste0(gsub("_", " ", pollinator_i)," (",Year_i,")"), fill = "Change plant sp.")
-
-Year_i = 2021
-ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=turning_angle, fill = as.factor(change_plant_sp)))+
-  geom_histogram(binwidth = 18)+
-  scale_fill_brewer(palette ="Paired")+
-  facet_grid(plot~time_of_day)+
-  theme_bw()+
-  labs(x="Turning angle [degrees]", y = "Count", 
-       title = paste0(gsub("_", " ", pollinator_i)," (",Year_i,")"), fill = "Change plant sp.")
+Year_i <- 2021
 
 
 pollinator_i <- "Apis_mellifera"
@@ -163,119 +107,83 @@ steps_pollinator_i <- steps_data %>% filter(Polinizador == pollinator_i)
 ggplot(steps_pollinator_i, aes(x=step_length, fill = as.factor(time_of_day)))+
   geom_histogram(binwidth = 1)+
   scale_fill_brewer(palette ="Paired")+
-  facet_grid(Year~plot)+
+  facet_grid(Year~Bosque)+
   theme_bw()+
-  labs(x="Step length [m]", y = "Count", 
+  labs(x="Step length [m]", y = "Count",
        title = gsub("_", " ", pollinator_i), fill = "Time of day")
 
-Year_i = 2020
 ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=step_length, fill = as.factor(change_plant_sp)))+
   geom_histogram(binwidth = 1)+
   scale_fill_brewer(palette ="Paired")+
-  facet_grid(plot~time_of_day)+
+  facet_grid(Bosque~time_of_day)+
   theme_bw()+
   labs(x="Step length [m]", y = "Count", 
        title = paste0(gsub("_", " ", pollinator_i)," (",Year_i,")"), fill = "Change plant sp.")
 
-Year_i = 2021
-ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=step_length, fill = as.factor(change_plant_sp)))+
-  geom_histogram(binwidth = 1)+
-  scale_fill_brewer(palette ="Paired")+
-  facet_grid(plot~time_of_day)+
-  theme_bw()+
-  labs(x="Step length [m]", y = "Count", 
-       title = paste0(gsub("_", " ", pollinator_i)," (",Year_i,")"), fill = "Change plant sp.")
-
-ggplot(steps_pollinator_i, aes(x=turning_angle, fill = as.factor(time_of_day)))+
-  geom_histogram()+
-  scale_fill_brewer(palette ="Paired")+
-  facet_grid(Year~plot)+
-  theme_bw()+
-  labs(x="Turning angle [degrees]", y = "Count", 
-       title = gsub("_", " ", pollinator_i), fill = "Time of day")
-
-Year_i = 2020
-ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=turning_angle, fill = as.factor(change_plant_sp)))+
-  geom_histogram()+
-  scale_fill_brewer(palette ="Paired")+
-  facet_grid(plot~time_of_day)+
-  theme_bw()+
-  labs(x="Turning angle [degrees]", y = "Count", 
-       title = paste0(gsub("_", " ", pollinator_i)," (",Year_i,")"), fill = "Change plant sp.")
-Year_i = 2021
 ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=turning_angle, fill = as.factor(change_plant_sp)))+
   geom_histogram(binwidth = 18)+
   scale_fill_brewer(palette ="Paired")+
-  facet_grid(plot~time_of_day)+
+  facet_grid(Bosque~time_of_day)+
   theme_bw()+
   labs(x="Turning angle [degrees]", y = "Count", 
        title = paste0(gsub("_", " ", pollinator_i)," (",Year_i,")"), fill = "Change plant sp.")
 
-pollinator_i <- "Sphaerophoria_scripta"
+
+pollinator_i <- "Bombus_terrestris"
 steps_pollinator_i <- steps_data %>% filter(Polinizador == pollinator_i)
 
 
 ggplot(steps_pollinator_i, aes(x=step_length, fill = as.factor(time_of_day)))+
   geom_histogram(binwidth = 1)+
   scale_fill_brewer(palette ="Paired")+
-  facet_grid(Year~plot)+
-  theme_bw()+
-  labs(x="Step length [m]", y = "Count", 
-       title = gsub("_", " ", pollinator_i), fill = "Time of day")
-
-Year_i = 2020
-ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=step_length, fill = as.factor(change_plant_sp)))+
-  geom_histogram(binwidth = 1)+
-  scale_fill_brewer(palette ="Paired")+
-  facet_grid(plot~time_of_day)+
-  theme_bw()+
-  labs(x="Step length [m]", y = "Count", 
-       title = paste0(gsub("_", " ", pollinator_i)," (",Year_i,")"), fill = "Change plant sp.")
-
-Year_i = 2021
-ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=step_length, fill = as.factor(change_plant_sp)))+
-  geom_histogram(binwidth = 1)+
-  scale_fill_brewer(palette ="Paired")+
-  facet_grid(plot~time_of_day)+
-  theme_bw()+
-  labs(x="Step length [m]", y = "Count", 
-       title = paste0(gsub("_", " ", pollinator_i)," (",Year_i,")"), fill = "Change plant sp.")
-
-ggplot(steps_pollinator_i, aes(x=turning_angle, fill = as.factor(time_of_day)))+
-  geom_histogram()+
-  scale_fill_brewer(palette ="Paired")+
   facet_grid(Year~Bosque)+
   theme_bw()+
-  labs(x="Turning angle [degrees]", y = "Count", 
+  labs(x="Step length [m]", y = "Count", 
        title = gsub("_", " ", pollinator_i), fill = "Time of day")
 
-Year_i = 2020
-ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=turning_angle, fill = as.factor(change_plant_sp)))+
-  geom_histogram()+
+ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=step_length, fill = as.factor(change_plant_sp)))+
+  geom_histogram(binwidth = 1)+
   scale_fill_brewer(palette ="Paired")+
   facet_grid(Bosque~time_of_day)+
   theme_bw()+
-  labs(x="Turning angle [degrees]", y = "Count", 
+  labs(x="Step length [m]", y = "Count", 
        title = paste0(gsub("_", " ", pollinator_i)," (",Year_i,")"), fill = "Change plant sp.")
-Year_i = 2021
-ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=turning_angle, fill = as.factor(change_plant_sp)))+
-  geom_histogram(binwidth = 18)+
+
+
+pollinator_i <- "Xylocopa_cantabrita"
+steps_pollinator_i <- steps_data %>% filter(Polinizador == pollinator_i)
+
+
+ggplot(steps_pollinator_i, aes(x=step_length, fill = as.factor(time_of_day)))+
+  geom_histogram(binwidth = 1)+
   scale_fill_brewer(palette ="Paired")+
-  facet_grid(plot~time_of_day)+
+  facet_grid(Year~Bosque)+
   theme_bw()+
-  labs(x="Turning angle [degrees]", y = "Count", 
+  labs(x="Step length [m]", y = "Count", 
+       title = gsub("_", " ", pollinator_i), fill = "Time of day")
+
+ggplot(steps_pollinator_i %>% filter(Year==Year_i), aes(x=step_length, fill = as.factor(change_plant_sp)))+
+  geom_histogram(binwidth = 1)+
+  scale_fill_brewer(palette ="Paired")+
+  facet_grid(Bosque~time_of_day)+
+  theme_bw()+
+  labs(x="Step length [m]", y = "Count", 
        title = paste0(gsub("_", " ", pollinator_i)," (",Year_i,")"), fill = "Change plant sp.")
+
 
 #------------------------------------------------
 # Processing flora data
 
-flora_census <- read_csv("results/gorbea/flora_census_20_21.csv")
+flora_census <- read_csv("results/donana/flora_census_21.csv")
+
+plant_subset_seeds <- c("Cistus_salviifolius","Cistus_crispus", 
+                        "Cistus_ladanifer", "Cistus_libanotis", "Halimium_halimifolium",
+                        "Halimium_calycinum","Lavandula_stoechas")
+
+flora_census %>% filter(Planta %in% plant_subset_seeds) %>% group_by(Planta,Periodo) %>% count(wt = Flores)
 
 flora_census %>% select(Year, Bosque, Periodo, Day_ISO, X, Y) %>%
   group_by(Year, Bosque, Periodo, Day_ISO, X, Y) %>% count() %>% filter(n>1)
-
-flora_census %>% filter(Year==2020, Bosque == 1, Periodo == 1, Day_ISO== 127,
-                        X==0, Y==20)
 
 day_ISO_sampling <- flora_census %>% select(Year, Bosque, Periodo, Day_ISO, Fecha) %>%
   group_by(Year, Bosque, Periodo, Day_ISO, Fecha) %>% count() %>% select(-n)
@@ -292,16 +200,13 @@ flowers_sp_censuses <- flora_census %>% select(X, Y, Planta, Flores, Year, Bosqu
   filter(flowers_sp > 0)
 
 #------------------------------------------------
-# Adding flora data
-
-# 2020 -> Periodo 1: day <= 149
-# 2021 -> Periodo 1: day <= 127
-# 2021 -> Periodo 3: day > 152
+# Adding flora data:
+# 2021 -> Periodo 1: March
+# 2021 -> Periodo 3: May
 
 steps_data$Periodo <- 1
-steps_data$Periodo[steps_data$Year==2020 & steps_data$Day_ISO > 149] <- 2
-steps_data$Periodo[steps_data$Year==2021 & steps_data$Day_ISO > 127] <- 2
-steps_data$Periodo[steps_data$Year==2021 & steps_data$Day_ISO > 152] <- 3
+steps_data$Periodo[steps_data$Day_ISO > 90] <- 2
+steps_data$Periodo[steps_data$Day_ISO > 123] <- 3
 
 steps_flora_data <- steps_data %>% 
   left_join(richness_censuses %>% rename(X1 = X, Y1 = Y, richness1 = richness),
@@ -325,13 +230,11 @@ steps_flora_data <- steps_data %>%
          delta_flowers_sp1 = flowers_sp1_XY2-flowers_sp1_XY1,
          delta_flowers_sp2 = flowers_sp2_XY2-flowers_sp2_XY1)
 
-library(naniar)
-vis_miss(steps_flora_data %>% select(Year, Bosque, Periodo, X1, Y1, X2, Y2, richness1, richness2,
+# Visualize NAs
+naniar::vis_miss(steps_flora_data %>% select(Year, Bosque, Periodo, X1, Y1, X2, Y2, richness1, richness2,
                                      total_number_flowers1, total_number_flowers2, flowers_sp1_XY1,
                                      flowers_sp1_XY2,flowers_sp2_XY1,flowers_sp2_XY2))
 
-steps_flora_data %>% filter(is.na(richness1)) %>% select(X1,Y1,Bosque,Year,Periodo)
-richness_censuses %>% filter(X==8,Y==6,Bosque==4,Year==2020,Periodo==2)
 #------------------------------------------------------------------------------
 # Save steps data
-write_csv(steps_flora_data,"results/gorbea/observed_steps_20_21.csv")
+write_csv(steps_flora_data,"results/donana/observed_steps_21.csv")

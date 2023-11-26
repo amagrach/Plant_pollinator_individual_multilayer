@@ -18,7 +18,7 @@ source("R_scripts/aux_functions/set_same_factor_levels_on_flower_data.R")
 number_random_steps <- 20
 
 data_path_file <- paste0("results/donana/total_pollinator_i_data_clogit_observations_",
-                         number_random_steps,"_rd_steps_UPDATED.csv")
+                         number_random_steps,"_rd_steps_UPDATED_RANDOM_FIDELITY.csv")
 
 total_pollinator_i_data_clogit <- read_csv(data_path_file) # %>% filter(Periodo<3)
 ranking_pollinators <- total_pollinator_i_data_clogit %>% group_by(Polinizador) %>% count() %>% arrange(desc(n))
@@ -58,7 +58,7 @@ for(pollinator_i in ranking_pollinators$Polinizador[c(1:5)]) {
                                 # time_of_day +
                                 # plot + 
                                 # Year + 
-                                # change_plant_sp +
+                                change_plant_sp +
                                 # step_length : Periodo +
                                 delta_richness +
                                 delta_total_flowers +
@@ -78,7 +78,14 @@ for(pollinator_i in ranking_pollinators$Polinizador[c(1:5)]) {
   
   print(summary(model_pollinator_i))
   
-  print(performance::check_collinearity(model_pollinator_i,component = "conditional"))
+  tryCatch({
+    # Código que puede generar una excepción
+    print(performance::check_collinearity(model_pollinator_i,component = "conditional"))
+  }, error = function(e) {
+    # Manejo de la excepción
+    cat("Error:", conditionMessage(e), "\n")
+  })
+  
   
   # cat("concordance: ",model_pollinator_i[["concordance"]][6],"\n")
   
@@ -100,7 +107,7 @@ for(pollinator_i in ranking_pollinators$Polinizador[c(1:5)]) {
 # Save model coefficients
 
 path_save_file <- paste0("results/donana/pollinator_floral_coef_observations_",
-                         number_random_steps,"_rd_steps_UPDATED.csv")
+                         number_random_steps,"_rd_steps_UPDATED_RANDOM_FIDELITY.csv")
 
 write_csv(main_pollinator_coef, path_save_file)
 

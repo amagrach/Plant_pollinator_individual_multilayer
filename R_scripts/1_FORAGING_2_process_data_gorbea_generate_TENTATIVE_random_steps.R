@@ -12,47 +12,43 @@ library(tidyverse)
 library(fitdistrplus)
 
 source("R_scripts/aux_functions/set_same_factor_levels_on_flower_data.R")
-source("R_scripts/aux_functions/generate_UPDATED_rd_steps.R")
+source("R_scripts/aux_functions/generate_rd_steps_XY5.R")
 
-# Load step data---------------
+# Load step data
 
 # When insects enter the plots, we have no info about the turning angle
 
-steps_21 <- read_csv("results/donana/observed_steps_21.csv") %>%
-  filter(!is.na(turning_angle)) %>%
+steps_20_21 <- read_csv("results/gorbea/observed_steps_20_21.csv") %>%
+  filter(!is.na(turning_angle)) %>% # We remove those rows without the corresponding turning_angle info
+  dplyr::select(-Codigo_captura) %>%
   mutate(delta_X = X2 - X1, delta_Y = Y2 - Y1,
          previous_angle = angle - turning_angle)
 
 # We found NAs in the flora info of several XY combinations. We set those fields
 # to zero
-steps_21[is.na(steps_21)] <- 0
-
-
-# Load clogit coeficients to update iSSF------------------
-
-number_random_steps <- 20
-
-path_observations <- paste0("results/donana/pollinator_floral_coef_observations_",
-                            number_random_steps,"_rd_steps.csv")
-coef_observations <- read_csv(path_observations)
+steps_20_21[is.na(steps_20_21)] <- 0
 
 # Load flora info to estimate the flora info for rd steps
-flora_census <- read_csv("results/donana/flora_census_21.csv")
+flora_census <- read_csv("results/gorbea/flora_census_20_21.csv")
 
+# Input data
+number_random_steps <- 20
 
 # Extract parameters for main floral visitors
 
-ranking_pollinators <- steps_21 %>% group_by(Polinizador) %>% count() %>% arrange(desc(n))
+ranking_pollinators <- steps_20_21 %>% group_by(Polinizador) %>% count() %>% arrange(desc(n))
+total_number_steps <- nrow(steps_20_21)
+percentage_steps_main_pollinators <- 100*nrow(steps_20_21%>% filter(Polinizador %in% ranking_pollinators$Polinizador[1:5]))/total_number_steps
 
 total_pollinator_i_data_clogit <-  NULL
 
 set.seed(1234)
 
-for(pollinator_i in ranking_pollinators$Polinizador) {
+for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
   
   print(pollinator_i)
   
-  steps_pollinator_i <- steps_21 %>% filter(Polinizador == pollinator_i, !is.na(turning_angle))
+  steps_pollinator_i <- steps_20_21 %>% filter(Polinizador == pollinator_i, !is.na(turning_angle))
   
   plants_visited_pollinator_i <- c(steps_pollinator_i$Planta1,
                                    steps_pollinator_i$Planta2) %>%
@@ -63,25 +59,18 @@ for(pollinator_i in ranking_pollinators$Polinizador) {
   pollinator_i_data_clogit <- NULL
   
   step_ID <- 1
-  
+
   steps_pollinator_i$control <- 1
   
-  tentative_shape_coef <- coef_observations$estimate[(coef_observations$term == "log_sl") & (coef_observations$pollinator == pollinator_i)]
-  
-  if(length(tentative_shape_coef)==0){tentative_shape_coef <- 0}
-  
-  tentative_rate_coef <- coef_observations$estimate[(coef_observations$term == "step_length") & (coef_observations$pollinator == pollinator_i)]
-  
-  if(length(tentative_rate_coef)==0){tentative_rate_coef <- 0}
   
   for (row.i in 1:nrow(steps_pollinator_i)) {
     
     steps_pollinator_i_row <- steps_pollinator_i[row.i,]
     
-    data_for_step_distribution <- steps_21 %>% filter(Polinizador == pollinator_i,
-                                                         Periodo ==  steps_pollinator_i_row$Periodo,
-                                                         time_of_day ==  steps_pollinator_i_row$time_of_day,
-                                                         Bosque == steps_pollinator_i_row$Bosque)
+    data_for_step_distribution <- steps_20_21 %>% filter(Polinizador == pollinator_i,
+                                                 Periodo ==  steps_pollinator_i_row$Periodo,
+                                                 time_of_day ==  steps_pollinator_i_row$time_of_day,
+                                                 Bosque == steps_pollinator_i_row$Bosque)
     
     number_observations_i <- data_for_step_distribution %>% nrow()
     
@@ -97,9 +86,8 @@ for(pollinator_i in ranking_pollinators$Polinizador) {
     # Create random steps for each observed step----------
     
     rd_steps_pollinator_i_year_plot_periodo_change_row <- 
-      generate_UPDATED_rd_steps(steps_pollinator_i_year_plot_periodo_change_row,
+      generate_rd_steps_XY5(steps_pollinator_i_year_plot_periodo_change_row,
                             number_random_steps, steps_length_data,
-                            tentative_shape_coef, tentative_rate_coef,
                             p_binomial)
     
     while(nrow(rd_steps_pollinator_i_year_plot_periodo_change_row) < number_random_steps) {
@@ -108,10 +96,9 @@ for(pollinator_i in ranking_pollinators$Polinizador) {
         nrow(rd_steps_pollinator_i_year_plot_periodo_change_row) 
       
       additional_rd_steps_pollinator_i_year_plot_periodo_change_row <-
-        generate_UPDATED_rd_steps(steps_pollinator_i_year_plot_periodo_change_row,
-                              additional_random_steps,
+        generate_rd_steps_XY5(steps_pollinator_i_year_plot_periodo_change_row,
+                              additional_random_steps, 
                               steps_length_data,
-                              tentative_shape_coef, tentative_rate_coef,
                               p_binomial)
       
       rd_steps_pollinator_i_year_plot_periodo_change_row <- 
@@ -190,21 +177,21 @@ for(pollinator_i in ranking_pollinators$Polinizador) {
   total_pollinator_i_data_clogit <- bind_rows(total_pollinator_i_data_clogit,
                                               pollinator_i_data_clogit)
   
-  path_save_file <- paste0("results/donana/total_pollinator_i_data_clogit_observations_",
-                           number_random_steps,"_rd_steps_UPDATED.csv")
+  path_save_file <- paste0("results/gorbea/total_pollinator_i_data_clogit_observations_",
+                           number_random_steps,"_rd_steps_NEW.csv")
   
   write_csv(total_pollinator_i_data_clogit, path_save_file)
   
 }
 
 
-records_used <- steps_21 %>% filter(Polinizador %in% c("Bombus_pascuorum","Apis_mellifera",
+records_used <- steps_20_21 %>% filter(Polinizador %in% c("Bombus_pascuorum","Apis_mellifera",
                                           "Sphaerophoria_scripta",
                                           "Bombus_lapidarius","Eristalis_sp")) %>%
   nrow()
 
-records_used / nrow(steps_21)
+records_used / nrow(steps_20_21)
 
 # # Identify steps with NAs due to the info in the floral inventories
-# steps_with_NAS <- steps_21 %>% filter(is.na(richness1)|is.na(richness2))
+# steps_with_NAS <- steps_20_21 %>% filter(is.na(richness1)|is.na(richness2))
 # write_csv(steps_with_NAS,"steps_with_NAS.csv")

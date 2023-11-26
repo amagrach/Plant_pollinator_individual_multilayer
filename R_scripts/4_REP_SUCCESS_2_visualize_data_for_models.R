@@ -1,123 +1,13 @@
 
 library(tidyverse)
 
-#---------------------------------------
-# Load fruitset data for Doñana 2021
-fruitset_census <- read_csv("results/donana/fruitset_census_21.csv") %>%
-  mutate(Subplot=paste0(X,"-",Y), fruitset = number_fruits/labelled_flowers)
-
-fruitset_census$Subplot_Plant_Label <- paste(fruitset_census$Subplot,fruitset_census$Planta,
-                                                           sep = " ")
-
-
-# Sanity check
-# Number of plants within a subplot that has been sampled multiple times
-fruitset_census %>% dplyr::select(Bosque,Planta,X,Y) %>% duplicated() %>% sum() # 224
-duplicated_indices_fruitset <- fruitset_census %>% dplyr::select(Bosque,Planta,X,Y) %>% duplicated()
-fruitset_census[duplicated_indices_fruitset,]
-
-# Number of plants within a subplot that has been sampled multiple times
-fruitset_census %>% dplyr::select(Bosque,Planta,X,Y, Fecha) %>% duplicated() %>% sum() # 30
-duplicated_indices_fruitset_by_date <- fruitset_census %>% 
-  dplyr::select(Bosque,Planta,X,Y,Fecha) %>% duplicated()
-fruitset_census[duplicated_indices_fruitset_by_date,]
-
-#---------------------------------------
-# Load motif data for Doñana 2021
-
-week_ISO_info <- read_csv("results/donana/foraging_Donana_2021.csv") %>%
-  dplyr::select(Week_ISO, Week) %>% unique() %>% arrange(Week)
-
-motifs_list_raw <- read_csv(paste0("results/donana/triplets_week/2021_donana_WEEK_SPECIES.csv")) %>%
-  left_join(week_ISO_info, by = "Week")
-
-
-motifs_aggregated <- motifs_list_raw %>%
-  dplyr::select(-Week,  -Year, -Polinizador) %>%
-  group_by(Bosque,Subplot_Plant_Label, Week_ISO) %>%
-  summarise_all(sum)
-    
-
-#---------------------------------------
-# Load conspecific prob data for Doñana 2021
-
-number_random_steps <- 20
-path_save_file <- paste0("results/donana/consp_step_probability_from_",
-                         number_random_steps,"_rd_steps.csv")
-
-consp_prob_step <- read_csv(path_save_file)
-
-
-#------------------------------------------------
-# Load flora data
-
-flora_census <- read_csv("results/donana/flora_census_21.csv")
-
-flora_census %>% dplyr::select(Year, Bosque, Periodo, Week_ISO, X, Y) %>%
-  group_by(Year, Bosque, Periodo, Week_ISO, X, Y) %>% count() %>% filter(n>1)
-
-plant_richness_censuses <- flora_census %>% dplyr::select(X, Y, Planta, Bosque, Periodo, Week_ISO) %>%
-  unique() %>% group_by(X, Y, Bosque, Periodo, Week_ISO) %>% count() %>% rename(plant_richness = n)
-
-total_flowers_censuses <- flora_census %>% dplyr::select(X, Y, Flores, Bosque, Periodo, Week_ISO) %>%
-  group_by(X, Y, Bosque, Periodo, Week_ISO) %>% count(wt = Flores) %>% rename(total_number_flowers = n) %>%
-  filter(total_number_flowers > 0)
-
-#------------------------------------------------
-# Load flora data
-
-flights_raw <- read_csv("results/donana/foraging_Donana_2021.csv") %>%
-  rename(node = Codigo_within_sequence)
-
-
-flights_raw$Periodo_hora %>% sort() %>% unique()
-
-
-# Change variables
-flights_raw$time_of_day <- "10:00 - 11:59" 
-flights_raw$time_of_day[lubridate::hour(flights_raw$Periodo_hora) >= 12] <- "12:00 - 13:59" 
-flights_raw$time_of_day[lubridate::hour(flights_raw$Periodo_hora) >= 14] <- "14:00 - 16:05" 
-
-flights_raw$Periodo <- 1
-flights_raw$Periodo[flights_raw$Day_ISO > 90] <- 2
-flights_raw$Periodo[flights_raw$Day_ISO > 123] <- 3
-
-pollinator_richness_censuses <- flights_raw %>% dplyr::select(X, Y, Planta, Polinizador, Bosque, Periodo,Week_ISO) %>%
-  unique() %>% group_by(X, Y, Bosque, Periodo, Planta,Week_ISO) %>% count() %>% rename(poll_richness = n)
-
-
-#---------------------------------------
-# Combine fruitset, motif and consp. prob. data for Doñana 2021
-data_model_aux <- fruitset_census %>% 
-  left_join(motifs_aggregated, 
-            by = c("Bosque","Subplot_Plant_Label","Week_ISO")) %>%
-  left_join(consp_prob_step, by = c("Bosque","Planta","X", "Y","Week_ISO","Periodo")) %>%
-  left_join(pollinator_richness_censuses, by = c("Bosque","Planta","X", "Y","Week_ISO","Periodo")) %>%
-  left_join(plant_richness_censuses, by = c("Bosque","X", "Y","Week_ISO","Periodo")) %>%
-  left_join(total_flowers_censuses, by = c("Bosque","X", "Y","Week_ISO","Periodo"))
-
-# Sanity check
-data_model_aux %>% filter(is.na(Visits_tot)) # 70 (179) missing values without (with) Week_ISO
-data_model_aux %>% filter(is.na(prob_consp_step)) # 114 missing values without (with) Week_ISO
-data_model_aux %>% filter(is.na(homo_motif)) # 179 missing values without (with) Week_ISO
-data_model_aux %>% filter(is.na(poll_richness)) # 195 missing values with Week_ISO
-data_model_aux %>% filter(is.na(plant_richness)) # 23 missing values with Week_ISO
-data_model_aux %>% filter(is.na(total_number_flowers)) # 24 missing values with Week_ISO
-
-
-# Update period value
-data_model_aux$Periodo <- as.character(data_model_aux$Periodo)
-data_model_aux$Periodo[data_model_aux$Periodo=="1"] <- "March"
-data_model_aux$Periodo[data_model_aux$Periodo=="2"] <- "April"
-data_model_aux$Periodo[data_model_aux$Periodo=="3"] <- "May"
-
-
 #-------------------------------------------------------------------------
-# Save data for models
-path_save_file <- paste0("results/donana/data for_fruitset_models_from_",
+# Load data for models
+number_random_steps <- 20
+path_load_file <- paste0("results/donana/NEW_data for_fruitset_models_from_",
                          number_random_steps,"_rd_steps.csv")
 
-write_csv(data_model_aux, path_save_file)
+data_model_aux <- read_csv(path_load_file)
 
 # Data visualization
 
@@ -127,7 +17,7 @@ png("figures/donana_fruitset_visits.png",
 
 fruitset_visits_plot <- 
   ggplot(data_model_aux %>% filter(!is.na(Planta)), 
-       aes(y = (fruitset), x = (Visits_tot), color = as.factor(Periodo)))+
+         aes(y = (fruitset), x = (Visits_tot), color = as.factor(Periodo)))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+
@@ -149,7 +39,7 @@ png("figures/donana_fruitset_visits_plant.png",
 
 fruitset_visits_plant_plot <- 
   ggplot(data_model_aux %>% filter(!is.na(Planta)), 
-       aes(y = (fruitset), x = (Visits_tot), color = Planta))+
+         aes(y = (fruitset), x = (Visits_tot), color = Planta))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+
@@ -171,7 +61,7 @@ png("figures/donana_fruitset_homomotifs.png",
 
 fruitset_homomotifs_plot <- 
   ggplot(data_model_aux %>% filter(!is.na(Planta)), 
-       aes(y = (fruitset), x = (homo_motif), color = as.factor(Periodo)))+
+         aes(y = (fruitset), x = (homo_motif), color = as.factor(Periodo)))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+
@@ -192,7 +82,7 @@ png("figures/donana_fruitset_homomotifs_plant.png",
 
 fruitset_homomotifs_plant_plot <- 
   ggplot(data_model_aux %>% filter(!is.na(Planta)), 
-       aes(y = (fruitset), x = (homo_motif), color = Planta))+
+         aes(y = (fruitset), x = (homo_motif), color = Planta))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+
@@ -214,7 +104,7 @@ png("figures/donana_fruitset_hetemotifs.png",
 
 fruitset_hetemotifs_plot <- 
   ggplot(data_model_aux  %>% filter(!is.na(Planta)), 
-       aes(y = (fruitset), x = (hete_motif), color = as.factor(Periodo)))+
+         aes(y = (fruitset), x = (hete_motif), color = as.factor(Periodo)))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+
@@ -236,7 +126,7 @@ png("figures/donana_fruitset_hetemotifs_plant.png",
 
 fruitset_hetemotifs_plant_plot <- 
   ggplot(data_model_aux  %>% filter(!is.na(Planta)), 
-       aes(y = (fruitset), x = (hete_motif), color = Planta))+
+         aes(y = (fruitset), x = (hete_motif), color = Planta))+
   geom_point(size = 3, alpha = 0.5)+
   geom_smooth(method = "lm")+
   facet_wrap(~Periodo)+

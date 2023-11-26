@@ -7,15 +7,12 @@
 # on the following variables: flowers_sp1_XY2,flowers_sp2_XY1,flowers_sp2_XY2
 # deltaflowers_sp1, deltaflowers_sp2
 
-# Pollinators' turning angle is ill-defined in Doñana database. 
-
 
 library(tidyverse)
-library(survival)
+library(fitdistrplus)
 
-source("R_scripts/aux_functions/pollinator_model_exp_coef.R")
-source("R_scripts/aux_functions/set_same_factor_levels_no_flower_data.R")
-source("R_scripts/aux_functions/generate_rd_steps_XY2.R")
+source("R_scripts/aux_functions/set_same_factor_levels_on_flower_data.R")
+source("R_scripts/aux_functions/generate_rd_steps_XY5.R")
 
 # Load step data
 
@@ -34,17 +31,20 @@ steps_21[is.na(steps_21)] <- 0
 flora_census <- read_csv("results/donana/flora_census_21.csv")
 
 # Input data
-number_random_steps <- 5
+number_random_steps <- 20
 
 # Extract parameters for main floral visitors
 
 ranking_pollinators <- steps_21 %>% group_by(Polinizador) %>% count() %>% arrange(desc(n))
+total_number_steps <- nrow(steps_21)
+percentage_steps_main_pollinators <- 100*nrow(steps_21%>% filter(Polinizador %in% ranking_pollinators$Polinizador[1:5]))/total_number_steps
+
 
 total_pollinator_i_data_clogit <-  NULL
 
 set.seed(1234)
 
-for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
+for(pollinator_i in ranking_pollinators$Polinizador) { #[1:5]) {
   
   print(pollinator_i)
   
@@ -60,39 +60,34 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
   
   step_ID <- 1
   
-  # Extract probabilities for lengths and turning angles
-  # Fit by randomizing all observed data----
-  
-  rows_with_turning_angle <- steps_pollinator_i %>%
-    filter(!is.na(turning_angle)) %>% nrow()
-  
-  steps_lenght_turning_table <- table(steps_pollinator_i$step_length, #steps_pollinator_i_year_plot_periodo_change$step_length,
-                                      steps_pollinator_i$turning_angle)  %>% #steps_pollinator_i_year_plot_periodo_change$turning_angle) %>% 
-    as.data.frame.table() %>% filter(Freq > 0) %>% rename(length = Var1,
-                                                          turning_angle = Var2)  %>% 
-    mutate(prob = Freq / rows_with_turning_angle)
-  
-  steps_lenght_turning_table$length <-
-    as.numeric(levels(steps_lenght_turning_table$length))[steps_lenght_turning_table$length]
-  
-  steps_lenght_turning_table$turning_angle <-
-    as.numeric(levels(steps_lenght_turning_table$turning_angle))[steps_lenght_turning_table$turning_angle]
-  
-  p_binomial <- sum(steps_pollinator_i$change_plant_sp)/nrow(steps_pollinator_i)
-  
   steps_pollinator_i$control <- 1
   
   
   for (row.i in 1:nrow(steps_pollinator_i)) {
     
+    steps_pollinator_i_row <- steps_pollinator_i[row.i,]
+    
+    data_for_step_distribution <- steps_21 %>% filter(Polinizador == pollinator_i,
+                                                         Periodo ==  steps_pollinator_i_row$Periodo,
+                                                         time_of_day ==  steps_pollinator_i_row$time_of_day,
+                                                         Bosque == steps_pollinator_i_row$Bosque)
+    
+    number_observations_i <- data_for_step_distribution %>% nrow()
+    
+    steps_length_data <- data_for_step_distribution$step_length
+    
+    p_binomial <- sum(data_for_step_distribution$change_plant_sp)/nrow(data_for_step_distribution)
+    
+    steps_pollinator_i_row$control <- 1
+    
     steps_pollinator_i_year_plot_periodo_change_row <- 
-      steps_pollinator_i[row.i,]
+      steps_pollinator_i_row
     
     # Create random steps for each observed step----------
     
     rd_steps_pollinator_i_year_plot_periodo_change_row <- 
-      generate_rd_steps_XY2(steps_pollinator_i_year_plot_periodo_change_row,
-                            number_random_steps, steps_lenght_turning_table,
+      generate_rd_steps_XY5(steps_pollinator_i_year_plot_periodo_change_row,
+                            number_random_steps, steps_length_data,
                             p_binomial)
     
     while(nrow(rd_steps_pollinator_i_year_plot_periodo_change_row) < number_random_steps) {
@@ -101,9 +96,9 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
         nrow(rd_steps_pollinator_i_year_plot_periodo_change_row) 
       
       additional_rd_steps_pollinator_i_year_plot_periodo_change_row <-
-        generate_rd_steps_XY2(steps_pollinator_i_year_plot_periodo_change_row,
+        generate_rd_steps_XY5(steps_pollinator_i_year_plot_periodo_change_row,
                               additional_random_steps, 
-                              steps_lenght_turning_table,
+                              steps_length_data,
                               p_binomial)
       
       rd_steps_pollinator_i_year_plot_periodo_change_row <- 
@@ -161,69 +156,16 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
       rd_steps_pollinator_i_year_plot_periodo_change_row$delta_total_flowers[i_rd_step] <- 
         rd_steps_pollinator_i_year_plot_periodo_change_row$total_number_flowers2[i_rd_step]-
         rd_steps_pollinator_i_year_plot_periodo_change_row$total_number_flowers1[i_rd_step]
-
       
-      # flowers_sp_censuses_rd_step_sp1_XY2 <- flora_data_rd_step_XY2 %>%
-      #   filter(Planta==
-      #            rd_steps_pollinator_i_year_plot_periodo_change_row$Planta1[i_rd_step]) %>%
-      #   group_by(X, Y, Year, Bosque, Periodo, Planta) %>% count(wt = Flores) %>% 
-      #   rename(flowers_sp = n) %>% ungroup() %>%
-      #   dplyr::select(flowers_sp) %>% pull()
-      # 
-      # if(length(flowers_sp_censuses_rd_step_sp1_XY2)==0){
-      #   rd_steps_pollinator_i_year_plot_periodo_change_row$flowers_sp1_XY2[i_rd_step] <-
-      #     0
-      # }else{
-      #   rd_steps_pollinator_i_year_plot_periodo_change_row$flowers_sp1_XY2[i_rd_step] <-
-      #     flowers_sp_censuses_rd_step_sp1_XY2
-      # }
-      # 
-      # 
-      # rd_steps_pollinator_i_year_plot_periodo_change_row$delta_flowers_sp1[i_rd_step] <-
-      #   rd_steps_pollinator_i_year_plot_periodo_change_row$flowers_sp1_XY2[i_rd_step]-
-      #   rd_steps_pollinator_i_year_plot_periodo_change_row$flowers_sp1_XY1[i_rd_step]
       
-    #   DATA Plant SP2
-    #  
-    #   if(rd_steps_pollinator_i_year_plot_periodo_change_row$change_plant_sp[i_rd_step] == T){
-    #   
-    #   
-    #   rd_steps_pollinator_i_year_plot_periodo_change_row$change_plant_sp[i_rd_step]
-    #   
-    #   
-    #   flowers_sp_censuses_rd_step <- flora_data_rd_step %>%
-    #     group_by(X, Y, Year, Bosque, Periodo, Planta) %>% count(wt = Flores) %>% 
-    #     rename(flowers_sp = n) %>% ungroup() %>%
-    #     dplyr::select(flowers_sp) %>% pull()
-    #   
-    #   flowers_sp2_XY2
-    #   
-    #   
-    #   Planta2
-    #   
-    #   
-    #   
-    #   flowers_sp2_XY1
-    #   
-    #   
-    # }else{
-    #   
-    #   flowers_sp_censuses_rd_step <- flora_data_rd_step %>%
-    #     group_by(X, Y, Year, Bosque, Periodo, Planta) %>% count(wt = Flores) %>% 
-    #     rename(flowers_sp = n) %>% ungroup() %>%
-    #     dplyr::select(flowers_sp) %>% pull()
-    #   
-    # }
+    }
     
+    steps_pollinator_i_year_plot_periodo_change_row$step_ID <- step_ID
+    rd_steps_pollinator_i_year_plot_periodo_change_row$step_ID <- step_ID
     
-  }
-  
-  steps_pollinator_i_year_plot_periodo_change_row$step_ID <- step_ID
-  rd_steps_pollinator_i_year_plot_periodo_change_row$step_ID <- step_ID
-  
-  pollinator_i_data_clogit <- bind_rows(pollinator_i_data_clogit,
-                                        steps_pollinator_i_year_plot_periodo_change_row,
-                                        rd_steps_pollinator_i_year_plot_periodo_change_row)
+    pollinator_i_data_clogit <- bind_rows(pollinator_i_data_clogit,
+                                          steps_pollinator_i_year_plot_periodo_change_row,
+                                          rd_steps_pollinator_i_year_plot_periodo_change_row)
     
     
     step_ID <- step_ID + 1
@@ -243,7 +185,9 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
 }
 
 
-records_used <- steps_21 %>% filter(Polinizador %in% pull(ranking_pollinators[1:5,1])) %>%
+records_used <- steps_21 %>% filter(Polinizador %in% c("Bombus_pascuorum","Apis_mellifera",
+                                          "Sphaerophoria_scripta",
+                                          "Bombus_lapidarius","Eristalis_sp")) %>%
   nrow()
 
 records_used / nrow(steps_21)

@@ -18,27 +18,33 @@ source("R_scripts/aux_functions/set_same_factor_levels_on_flower_data.R")
 number_random_steps <- 20
 
 data_path_file <- paste0("results/gorbea/total_pollinator_i_data_clogit_observations_",
-                         number_random_steps,"_rd_steps_UPDATED.csv")
+                         number_random_steps,"_rd_steps_NEW.csv")
 
 total_pollinator_i_data_clogit <- read_csv(data_path_file) # %>% filter(Periodo<3)
-ranking_pollinators <- total_pollinator_i_data_clogit %>% group_by(Polinizador) %>% count() %>% arrange(desc(n))
+
+################################################################################
+# Randomize fidelity in random steps
+total_pollinator_i_data_clogit$change_plant_sp[total_pollinator_i_data_clogit$control!=1] <- 
+  sample(c(TRUE, FALSE), size = length(total_pollinator_i_data_clogit$change_plant_sp[total_pollinator_i_data_clogit$control!=1]), replace = TRUE)
+
+################################################################################
+
+
+ranking_pollinators <- loyal_pollinator_i_data_clogit %>% group_by(Polinizador) %>% count() %>% arrange(desc(n))
 
 # Estimation of coeff.
 
 main_pollinator_coef <- NULL
 set.seed(1234)
 
-for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
+for(pollinator_i in ranking_pollinators$Polinizador) {
   
   print(pollinator_i)
   
-  pollinator_i_data_clogit <- total_pollinator_i_data_clogit %>% 
+  pollinator_i_data_clogit <- loyal_pollinator_i_data_clogit %>% 
     filter(Polinizador == pollinator_i)
   
   pollinator_i_data_clogit_within_field <- pollinator_i_data_clogit
-  
-  print(pollinator_i_data_clogit_within_field %>% 
-          group_by(control,change_plant_sp) %>% count())
   
   pollinator_i_data_clogit_mod <- set_same_factor_levels_on_flower_data(pollinator_i_data_clogit_within_field)
   
@@ -52,7 +58,7 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
   if(length(unique(pollinator_i_data_clogit_mod$Periodo))>1){
     
     model_pollinator_i <- clogit(control ~ step_length + #time_of_day +
-                                   # log_sl +
+                                   log_sl +
                                    # step_length : time_of_day +
                                    # step_length : plot +
                                    #step_length : Year +
@@ -78,7 +84,7 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
   }else{
     
     model_pollinator_i <- clogit(control ~ step_length + #time_of_day +
-                                # log_sl +
+                                log_sl +
                                  # step_length : time_of_day +
                                  # step_length : plot +
                                  #step_length : Year +
@@ -129,6 +135,6 @@ for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
 # Save model coefficients
 
 path_save_file <- paste0("results/gorbea/pollinator_floral_coef_observations_",
-                         number_random_steps,"_rd_steps_UPDATED.csv")
+                         number_random_steps,"_rd_steps_RANDOM_FIDELITY.csv")
 
 write_csv(main_pollinator_coef, path_save_file)

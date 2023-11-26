@@ -21,6 +21,15 @@ data_path_file <- paste0("results/donana/total_pollinator_i_data_clogit_observat
                          number_random_steps,"_rd_steps_NEW.csv")
 
 total_pollinator_i_data_clogit <- read_csv(data_path_file) # %>% filter(Periodo<3)
+
+################################################################################
+# Randomize fidelity in random steps
+total_pollinator_i_data_clogit$change_plant_sp[total_pollinator_i_data_clogit$control!=1] <- 
+  sample(c(TRUE, FALSE), size = length(total_pollinator_i_data_clogit$change_plant_sp[total_pollinator_i_data_clogit$control!=1]), replace = TRUE)
+
+################################################################################
+
+
 ranking_pollinators <- total_pollinator_i_data_clogit %>% group_by(Polinizador) %>% count() %>% arrange(desc(n))
 
 # Estimation of coeff.
@@ -28,7 +37,7 @@ ranking_pollinators <- total_pollinator_i_data_clogit %>% group_by(Polinizador) 
 main_pollinator_coef <- NULL
 set.seed(1234)
 
-for(pollinator_i in ranking_pollinators$Polinizador) {
+for(pollinator_i in ranking_pollinators$Polinizador[1:5]) {
   
   print(pollinator_i)
   
@@ -72,7 +81,14 @@ for(pollinator_i in ranking_pollinators$Polinizador) {
   
   print(summary(model_pollinator_i))
   
-  print(performance::check_collinearity(model_pollinator_i,component = "conditional"))
+  tryCatch({
+    # Código que puede generar una excepción
+    print(performance::check_collinearity(model_pollinator_i,component = "conditional"))
+  }, error = function(e) {
+    # Manejo de la excepción
+    cat("There was an error:", conditionMessage(e), "\n")
+  })
+
   
   # cat("concordance: ",model_pollinator_i[["concordance"]][6],"\n")
   
@@ -94,7 +110,7 @@ for(pollinator_i in ranking_pollinators$Polinizador) {
 # Save model coefficients
 
 path_save_file <- paste0("results/donana/pollinator_floral_coef_observations_",
-                         number_random_steps,"_rd_steps.csv")
+                         number_random_steps,"_rd_steps_RANDOM_FIDELITY.csv")
 
 write_csv(main_pollinator_coef, path_save_file)
 

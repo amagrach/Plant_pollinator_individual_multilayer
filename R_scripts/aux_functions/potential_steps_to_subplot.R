@@ -25,10 +25,12 @@ potential_steps_to_subplot <- function(X, Y, Plot, Plant_sp, Week_ISO_i,
            delta_total_flowers = total_number_flowers2-total_number_flowers1,
            step_length  = sqrt((X1-X2)^2+(Y1-Y2)^2))
   
+  return(potential_steps)
+  
 }
 
 
-potential_steps_to_subplot_period <- function(X, Y, Plot, Plant_sp, 
+potential_steps_to_subplot_period <- function(X, Y, Plot, Plant_sp, Year, 
                                        flora_census, period_i){
   
   
@@ -53,5 +55,7 @@ potential_steps_to_subplot_period <- function(X, Y, Plot, Plant_sp,
     mutate(delta_richness = richness2- richness1,
            delta_total_flowers = total_number_flowers2-total_number_flowers1,
            step_length  = sqrt((X1-X2)^2+(Y1-Y2)^2))
+  
+  return(potential_steps)
   
 }
