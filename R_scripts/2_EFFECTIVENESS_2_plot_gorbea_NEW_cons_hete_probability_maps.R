@@ -44,7 +44,7 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
   geom_tile()+
   facet_grid(Bosque~Periodo)+
   labs(title = gsub("_"," ",plant_sp_selected),x="X(m)",y="Y(m)",
-       fill= TeX('$log_{10}(Av. poll. eff.)$'))+
+       fill= TeX('$log_{10}(C.-L. eff.)$'))+
   scale_fill_gradientn(colors = rev(wes_palette("Zissou1", type = "continuous"))) +theme_bw()+
   theme(plot.title = element_text(face = "italic"))+
   theme(legend.position="bottom")+ 
@@ -56,7 +56,8 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
         axis.title = element_text( size = 16, face = "bold" ),
         strip.text = element_text(size = 15))+ 
   scale_x_continuous(breaks= pretty_breaks())+
-  scale_y_continuous(breaks= pretty_breaks())
+  scale_y_continuous(breaks= pretty_breaks())+
+  coord_fixed()
 
 dev.off()
 
@@ -72,7 +73,7 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
   geom_tile()+
   facet_grid(Bosque~Periodo)+
   labs(title = gsub("_"," ",plant_sp_selected),x="X(m)",y="Y(m)",
-       fill= TeX('$log_{10}(Av. poll. eff.)$'))+
+       fill= TeX('$log_{10}(C.-L. eff.)$'))+
   scale_fill_gradientn(colors = rev(wes_palette("Zissou1", type = "continuous"))) +theme_bw()+
   theme(plot.title = element_text(face = "italic"))+
   theme(legend.position="bottom")+ 
@@ -84,7 +85,8 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
         axis.title = element_text( size = 16, face = "bold" ),
         strip.text = element_text(size = 15))+ 
   scale_x_continuous(breaks= pretty_breaks())+
-  scale_y_continuous(breaks= pretty_breaks())
+  scale_y_continuous(breaks= pretty_breaks())+
+  coord_fixed()
 
 dev.off()
 
@@ -100,7 +102,7 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
   geom_tile()+
   facet_grid(Bosque~Periodo)+
   labs(title = "Ranunculus sp.",x="X(m)",y="Y(m)",
-       fill= TeX('$log_{10}(Av. poll. eff.)$'))+
+       fill= TeX('$log_{10}(C.-L. eff.)$'))+
   scale_fill_gradientn(colors = rev(wes_palette("Zissou1", type = "continuous"))) +theme_bw()+
   theme(plot.title = element_text(face = "italic"))+
   theme(legend.position="bottom")+ 
@@ -112,7 +114,8 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
         axis.title = element_text( size = 16, face = "bold" ),
         strip.text = element_text(size = 15))+ 
   scale_x_continuous(breaks= pretty_breaks())+
-  scale_y_continuous(breaks= pretty_breaks())
+  scale_y_continuous(breaks= pretty_breaks())+
+  coord_fixed()
 
 dev.off()
 
@@ -128,7 +131,7 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
   geom_tile()+
   facet_grid(Bosque~Periodo)+
   labs(title = gsub("_"," ",plant_sp_selected),x="X(m)",y="Y(m)",
-       fill= TeX('$log_{10}(Av. poll. eff.)$'))+
+       fill= TeX('$log_{10}(C.-L. eff.)$'))+
   scale_fill_gradientn(colors = rev(wes_palette("Zissou1", type = "continuous"))) +theme_bw()+
   theme(plot.title = element_text(face = "italic"))+
   theme(legend.position="bottom")+ 
@@ -140,7 +143,8 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
         axis.title = element_text( size = 16, face = "bold" ),
         strip.text = element_text(size = 15))+ 
   scale_x_continuous(breaks= pretty_breaks())+
-  scale_y_continuous(breaks= pretty_breaks())
+  scale_y_continuous(breaks= pretty_breaks())+
+  coord_fixed()
 
 dev.off()
 
@@ -156,7 +160,7 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
   geom_tile()+
   facet_grid(Bosque~Periodo)+
   labs(title = gsub("_"," ",plant_sp_selected),x="X(m)",y="Y(m)",
-       fill= TeX('$log_{10}(Av. poll. eff.)$'))+
+       fill= TeX('$log_{10}(C.-L. eff.)$'))+
   scale_fill_gradientn(colors = rev(wes_palette("Zissou1", type = "continuous"))) +theme_bw()+
   theme(plot.title = element_text(face = "italic"))+
   theme(legend.position="bottom")+ 
@@ -168,7 +172,8 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
         axis.title = element_text( size = 16, face = "bold" ),
         strip.text = element_text(size = 15))+ 
   scale_x_continuous(breaks= pretty_breaks())+
-  scale_y_continuous(breaks= pretty_breaks())
+  scale_y_continuous(breaks= pretty_breaks())+
+  coord_fixed()
 
 dev.off()
 
@@ -184,7 +189,7 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
   geom_tile()+
   facet_grid(Bosque~Periodo)+
   labs(title = gsub("_"," ",plant_sp_selected),x="X(m)",y="Y(m)",
-       fill= TeX('$log_{10}(Av. poll. eff.)$'))+
+       fill= TeX('$log_{10}(C.-L. eff.)$'))+
   scale_fill_gradientn(colors = rev(wes_palette("Zissou1", type = "continuous"))) +theme_bw()+
   theme(plot.title = element_text(face = "italic"))+
   theme(legend.position="bottom")+ 
@@ -196,7 +201,8 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
         axis.title = element_text( size = 16, face = "bold" ),
         strip.text = element_text(size = 15))+ 
   scale_x_continuous(breaks= pretty_breaks())+
-  scale_y_continuous(breaks= pretty_breaks())
+  scale_y_continuous(breaks= pretty_breaks())+
+  coord_fixed()
 
 dev.off()
 
@@ -212,7 +218,7 @@ ggplot(probability_info %>% filter(Bosque %in% c("Plot 1","Plot 3","Plot 4"),
   geom_tile()+
   facet_grid(Bosque~Periodo)+
   labs(title = gsub("_"," ",plant_sp_selected),x="X(m)",y="Y(m)",
-       fill= TeX('$log_{10}(Av. poll. eff.)$'))+
+       fill= TeX('$log_{10}(C.-L. eff.)$'))+
   scale_fill_gradientn(colors = rev(wes_palette("Zissou1", type = "continuous"))) +theme_bw()+
   theme(plot.title = element_text(face = "italic"))+
   theme(legend.position="bottom")+ 
@@ -224,7 +230,8 @@ ggplot(probability_info %>% filter(Bosque %in% c("Plot 1","Plot 3","Plot 4"),
         axis.title = element_text( size = 14, face = "bold" ),
         strip.text = element_text(size = 13))+ 
   scale_x_continuous(breaks= pretty_breaks())+
-  scale_y_continuous(breaks= pretty_breaks())
+  scale_y_continuous(breaks= pretty_breaks())+
+  coord_fixed()
 
 dev.off()
 
@@ -241,7 +248,7 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
   geom_tile()+
   facet_grid(Bosque~Periodo)+
   labs(title = gsub("_"," ",plant_sp_selected),x="X(m)",y="Y(m)",
-       fill= TeX('$log_{10}(Av. poll. eff.)$'))+
+       fill= TeX('$log_{10}(C.-L. eff.)$'))+
   scale_fill_gradientn(colors = rev(wes_palette("Zissou1", type = "continuous"))) +theme_bw()+
   theme(plot.title = element_text(face = "italic"))+
   theme(legend.position="bottom")+ 
@@ -253,7 +260,8 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
         axis.title = element_text( size = 16, face = "bold" ),
         strip.text = element_text(size = 15))+ 
   scale_x_continuous(breaks= pretty_breaks())+
-  scale_y_continuous(breaks= pretty_breaks())
+  scale_y_continuous(breaks= pretty_breaks())+
+  coord_fixed()
 
 
 dev.off()
@@ -270,7 +278,7 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
   geom_tile()+
   facet_grid(Bosque~Periodo)+
   labs(title = gsub("_"," ",plant_sp_selected),x="X(m)",y="Y(m)",
-       fill= TeX('$log_{10}(Av. poll. eff.)$'))+
+       fill= TeX('$log_{10}(C.-L. eff.)$'))+
   scale_fill_gradientn(colors = rev(wes_palette("Zissou1", type = "continuous"))) +theme_bw()+
   theme(plot.title = element_text(face = "italic"))+
   theme(legend.position="bottom")+ 
@@ -282,7 +290,8 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
         axis.title = element_text( size = 16, face = "bold" ),
         strip.text = element_text(size = 15))+ 
   scale_x_continuous(breaks= pretty_breaks())+
-  scale_y_continuous(breaks= pretty_breaks())
+  scale_y_continuous(breaks= pretty_breaks())+
+  coord_fixed()
 
 dev.off()
 
@@ -298,7 +307,7 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
   geom_tile()+
   facet_grid(Bosque~Periodo)+
   labs(title = gsub("_"," ",plant_sp_selected),x="X(m)",y="Y(m)",
-       fill= TeX('$log_{10}(Av. poll. eff.)$'))+
+       fill= TeX('$log_{10}(C.-L. eff.)$'))+
   scale_fill_gradientn(colors = rev(wes_palette("Zissou1", type = "continuous"))) +theme_bw()+
   theme(plot.title = element_text(face = "italic"))+
   theme(legend.position="bottom")+ 
@@ -310,7 +319,8 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
         axis.title = element_text( size = 16, face = "bold" ),
         strip.text = element_text(size = 15))+ 
   scale_x_continuous(breaks= pretty_breaks())+
-  scale_y_continuous(breaks= pretty_breaks())
+  scale_y_continuous(breaks= pretty_breaks())+
+  coord_fixed()
 
 dev.off()
 
@@ -326,7 +336,7 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
   geom_tile()+
   facet_grid(Bosque~Periodo)+
   labs(title = gsub("_"," ",plant_sp_selected),x="X(m)",y="Y(m)",
-       fill= TeX('$log_{10}(Av. poll. eff.)$'))+
+       fill= TeX('$log_{10}(C.-L. eff.)$'))+
   scale_fill_gradientn(colors = rev(wes_palette("Zissou1", type = "continuous"))) +theme_bw()+
   theme(plot.title = element_text(face = "italic"))+
   theme(legend.position="bottom")+ 
@@ -338,7 +348,8 @@ ggplot(probability_info %>% filter(#!is.na(prob_consp_step),
         axis.title = element_text( size = 16, face = "bold" ),
         strip.text = element_text(size = 15))+ 
   scale_x_continuous(breaks= pretty_breaks())+
-  scale_y_continuous(breaks= pretty_breaks())
+  scale_y_continuous(breaks= pretty_breaks())+
+  coord_fixed()
 
 dev.off()
 

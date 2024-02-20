@@ -67,6 +67,7 @@ library(multcomp)
 amod <- aov(Flores ~ condition, conditions_flora_census_filtered)
 amod_glht <- glht(amod, mcp(condition="Tukey"), vcov=vcovHC)
 summary_report <- summary(amod_glht)
+plot(summary_report)
 pvalues <- summary_report[["test"]][["pvalues"]]
 pvalues[pvalues<0.05]
 which(pvalues<0.05)

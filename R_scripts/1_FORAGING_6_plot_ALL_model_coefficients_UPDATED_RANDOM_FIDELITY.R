@@ -32,10 +32,10 @@ coefficient_names <- c(
   `step_length:Periodo2` = "step length:May-June",
   `step_length:Periodo3` = "step length:July",
   `delta_richness` = "Change in sp. richness",
-  `delta_total_flowers` = "Change in the total\n# flowers",
+  `delta_total_flowers` = "Change in the total\nnumber of flowers",
   `step_length:delta_richness` = "step length:change\nin sp. richness",
-  `step_length:delta_total_flowers` = "step length:change in\nthe total # flowers",
-  `delta_richness:delta_total_flowers` = "change in sp. richness:\nchange in the\ntotal # flowers",
+  `step_length:delta_total_flowers` = "step length:change in\nthe total number of flowers",
+  `delta_richness:delta_total_flowers` = "change in sp. richness:\nchange in the\ntotal number of flowers",
   `step_length:time_of_day12:00 - 13:59` = "time of day\n12:00 - 13:59",
   `step_length:time_of_day14:00 - 16:05` = "time of day\n14:00 - 16:05",
   `time_of_day15:20 - 18:05` = "time of day\n15:20 - 18:05",
@@ -49,7 +49,7 @@ coefficient_names <- c(
   `step_length:BosquePinar Villamanrique Sur` = "step length:Villamanrique Sur",
   change_plant_spTRUE = "Unloyal movement",
   `delta_richness:change_plant_spTRUE` = "change in sp. richness:unloyal\n(floral fidelity)",
-  `delta_total_flowers:change_plant_spTRUE` = "change in the total\n# flowers:unloyal (floral fidelity)",
+  `delta_total_flowers:change_plant_spTRUE` = "change in the total\nnumber of flowers:unloyal (floral fidelity)",
   `log_sl` = "Ln(step length)"
   
 )
@@ -98,9 +98,9 @@ coefficient_names <- c(
   `step_length:Periodo2` = "step length:May-June",
   `step_length:Periodo3` = "step length:July",
   `delta_richness` = "Change in sp. richness",
-  `delta_total_flowers` = "Change in the total\n# flowers",
+  `delta_total_flowers` = "Change in the total\nnumber of flowers",
   `step_length:delta_richness` = "step length:change\nin sp. richness",
-  `step_length:delta_total_flowers` = "step length:change in\nthe total # flowers",
+  `step_length:delta_total_flowers` = "step length:change in\nthe total number of flowers",
   `delta_richness:delta_total_flowers` = "change in sp. richness:\nchange in the\ntotal # flowers",
   `step_length:time_of_day12:00 - 13:59` = "time of day\n12:00 - 13:59",
   `step_length:time_of_day14:00 - 16:05` = "time of day\n14:00 - 16:05",
@@ -115,7 +115,7 @@ coefficient_names <- c(
   `step_length:BosquePinar Villamanrique Sur` = "step length:Villamanrique Sur",
   change_plant_spTRUE = "Unloyal movement",
   `delta_richness:change_plant_spTRUE` = "change in sp. richness:unloyal\n(floral fidelity)",
-  `delta_total_flowers:change_plant_spTRUE` = "change in the total\n# flowers:unloyal (floral fidelity)",
+  `delta_total_flowers:change_plant_spTRUE` = "change in the total\nnumber of flowers:unloyal (floral fidelity)",
   `log_sl` = "Ln(step length)"
   
 )
@@ -205,7 +205,7 @@ donana_loyal <- ggplot(coef_observations %>% filter(term=="change_plant_spTRUE")
 
 gorbeia_richness <- ggplot(coef_observations_gorbeia %>% filter(term=="delta_richness"), aes(y=pollinator))+
   geom_point(aes(x = estimate, y = pollinator, shape = shapes),size=5)+
-  scale_shape_manual(values = c(0,1,0))+
+  scale_shape_manual(values = c(1,0,0))+
   geom_errorbar(aes(xmin=estimate-1.96*std.error, xmax=estimate+1.96*std.error), width=.2)+
   geom_vline(xintercept = 0,linetype = "dashed")+
   facet_wrap(vars(term), ncol = 1, labeller = as_labeller(coefficient_names), scales = "free_x")+
@@ -247,7 +247,7 @@ donana_richness <- ggplot(coef_observations %>% filter(term=="delta_richness"), 
 
 gorbeia_abundance <- ggplot(coef_observations_gorbeia %>% filter(term=="delta_total_flowers"), aes(y=pollinator))+
   geom_point(aes(x = estimate, y = pollinator, shape = shapes),size=5)+
-  scale_shape_manual(values = c(2,0,1))+
+  scale_shape_manual(values = c(1,2,0))+
   geom_errorbar(aes(xmin=estimate-1.96*std.error, xmax=estimate+1.96*std.error), width=.2)+
   geom_vline(xintercept = 0,linetype = "dashed")+
   facet_wrap(vars(term), ncol = 1, labeller = as_labeller(coefficient_names), scales = "free_x")+
@@ -288,7 +288,7 @@ donana_abundance <- ggplot(coef_observations %>% filter(term=="delta_total_flowe
 
 gorbeia_step <- ggplot(coef_observations_gorbeia %>% filter(term=="step_length"), aes(y=pollinator))+
   geom_point(aes(x = estimate, y = pollinator, shape = shapes),size=5)+
-  scale_shape_manual(values = c(2,0,1))+
+  scale_shape_manual(values = c(1,2,0))+
   geom_errorbar(aes(xmin=estimate-1.96*std.error, xmax=estimate+1.96*std.error), width=.2)+
   geom_vline(xintercept = 0,linetype = "dashed")+
   facet_wrap(vars(term), ncol = 1, labeller = as_labeller(coefficient_names), scales = "free_x")+
@@ -332,6 +332,6 @@ png("figures/TOTAL_clogit_floral_coef_observed_distributions_UPDATED_RANDOM_FIDE
     width = 11.69*.55*2, # The width of the plot in inches
     height = 11.69*600/450, units = "in", res=300*2)
 
-(((gorbeia_loyal+donana_loyal)/(gorbeia_richness+donana_richness)/(gorbeia_abundance+donana_abundance)/(gorbeia_step+ donana_step)) & theme(legend.position = "bottom")) + plot_layout(guides = "collect")
+(((gorbeia_loyal+donana_loyal)/(gorbeia_richness+donana_richness)/(gorbeia_abundance+donana_abundance)/(gorbeia_step+ donana_step)) & theme(legend.position = "bottom",plot.tag = element_text(face = 'bold', size=20), plot.tag.position  = c(.3, .96))) + plot_layout(guides = "collect")+ plot_annotation(tag_levels = "a")
 
 dev.off()
